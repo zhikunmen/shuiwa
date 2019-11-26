@@ -1,0 +1,7 @@
+{"file":"sw_menu_sheet.png","frames":{
+"sw_btn_safe_png":{"x":0,"y":33,"w":123,"h":32,"offX":6,"offY":7,"sourceW":160,"sourceH":45},
+"sw_btn_return_png":{"x":0,"y":0,"w":149,"h":31,"offX":6,"offY":7,"sourceW":160,"sourceH":45},
+"sw_btn_help_png":{"x":151,"y":0,"w":93,"h":38,"offX":8,"offY":3,"sourceW":160,"sourceH":45},
+"sw_btn_set_png":{"x":125,"y":40,"w":97,"h":36,"offX":6,"offY":5,"sourceW":160,"sourceH":45},
+"sw_btn_bg_png":{"x":60,"y":67,"w":33,"h":33,"offX":0,"offY":0,"sourceW":33,"sourceH":33},
+"sw_btn_fold_png":{"x":0,"y":67,"w":58,"h":58,"offX":0,"offY":0,"sourceW":58,"sourceH":58}}}

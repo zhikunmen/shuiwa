@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_resultPanel" width="1007" height="622" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_panel_bg" scale9Grid="42,153,14,32" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="sw_panel_bg_png" top="0" left="0" right="0" bottom="0" width="478" locked="true"/>
+	<e:Image id="_panel_bg0" source="sw_panel_bg2_png" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="16,17,16,14" bottom="35" width="478" height="416.36" left="28" locked="true"/>
+	<e:Image id="_panel_spot_img" y="5" fillMode="repeat" anchorOffsetX="0" anchorOffsetY="0" height="72" scaleX="1" scaleY="1" left="19" right="15" source="sw_panel_spot_png" locked="true"/>
+	<e:Image id="_panel_bg2" source="sw_panel_bg2_png" anchorOffsetY="0" anchorOffsetX="0" scale9Grid="16,17,16,14" bottom="34" height="416.36" right="29" width="453.33" locked="true"/>
+	<e:Button id="_close_btn" label="" x="944.47" y="-30.3" enabled="true" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sw_panel_close_up_png" source.down="sw_panel_close_down_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_hide_chess_img" source="sw_chess_2_png" top="65" scaleX="0.44" scaleY="0.44" left="353" locked="true"/>
+	<e:Image source="sw_banker_icon_png" x="421" y="57.48" scaleX="1.28" scaleY="1.28" locked="true"/>
+	<e:Label id="_banker_point" text="+1234万" x="492" y="76.52" size="28" fontFamily="Microsoft YaHei" textAlign="left" bold="true" locked="true"/>
+	<e:Label id="_my_total_point" text="+1234万" x="228.55" y="537.32" size="28" fontFamily="Microsoft YaHei" textAlign="left" bold="true" locked="true"/>
+	<e:Image source="sw_result_panel_title_png" y="-24.5" horizontalCenter="0" locked="true"/>
+	<e:Image source="sw_result_panel_personal_score_title_png" x="40" y="119.68" locked="true"/>
+	<e:Image source="sw_result_panel_round_rank_title_png" x="549.5" y="119.68"/>
+	<e:Image source="sw_result_panel_personal_score_separater_png" x="46.39" y="516.69" height="3"/>
+	<e:Image source="sw_result_panel_total_icon_png" x="165.2" y="529.82"/>
+	<e:Image source="sw_chess_1_png" y="210.7" scaleX="0.44" scaleY="0.44" left="39"/>
+	<e:Image y="210.7" scaleX="0.44" scaleY="0.44" left="179" source="sw_chess_2_png"/>
+	<e:Image y="210.7" scaleX="0.44" scaleY="0.44" left="322" source="sw_chess_3_png"/>
+	<e:Image y="281.49" scaleX="0.44" scaleY="0.44" left="39" source="sw_chess_4_png"/>
+	<e:Image y="282.07" scaleX="0.44" scaleY="0.44" left="179" x="10" source="sw_chess_5_png"/>
+	<e:Image y="282.07" scaleX="0.44" scaleY="0.44" left="322" x="10" source="sw_chess_6_png"/>
+	<e:Image y="354.3" scaleX="0.44" scaleY="0.44" left="40" source="sw_chess_7_png"/>
+	<e:Image y="353.47" scaleX="0.44" scaleY="0.44" left="179" x="20" source="sw_chess_8_png"/>
+	<e:Image y="353.47" scaleX="0.44" scaleY="0.44" left="322" x="20" source="sw_chess_9_png"/>
+	<e:Image y="426.51" scaleX="0.44" scaleY="0.44" left="39" source="sw_chess_10_png"/>
+	<e:Image y="426.51" scaleX="0.44" scaleY="0.44" left="179" x="30" source="sw_chess_11_png"/>
+	<e:Image y="426.51" scaleX="0.44" scaleY="0.44" left="322" x="30" source="sw_chess_12_png"/>
+	<e:Label id="_point_1" text="+1011" x="92.81" y="221.23" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_4" text="+1011" x="94.54" y="293.35" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_7" text="+1011" x="94.54" y="365.16" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_10" text="+1011" x="94.54" y="437.04" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_2" text="+1011" x="231.66" y="221.23" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_5" text="+1011" x="233.39" y="293.35" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_8" text="+1011" x="233.39" y="365.16" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_11" text="+1011" x="233.39" y="437.04" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_3" text="+1011" x="377.98" y="221.23" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_6" text="+1011" x="379.71" y="293.35" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_9" text="+1011" x="379.71" y="365.16" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_12" text="+1011" x="379.71" y="437.04" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Scroller width="429.34" height="412" x="537" y="173.33" anchorOffsetY="0" anchorOffsetX="0" enabled="true" scrollPolicyH="off">
+		<e:DataGroup id="_rankDataGroup" x="-1.33">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object rank="a" nickName="测试" point="123456"/>
+					<e:Object rank="b" nickName="测试" point="32314"/>
+					<e:Object rank="c" nickName="测试" point="45656"/>
+					<e:Object rank="4" nickName="测试" point="-122"/>
+					<e:Object rank="5" nickName="测试" point="-123"/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout paddingTop="10" gap="6"/>
+			</e:layout>
+		</e:DataGroup>
+	</e:Scroller>
+</e:Skin>

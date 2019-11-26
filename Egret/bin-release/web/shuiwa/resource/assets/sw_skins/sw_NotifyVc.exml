@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_NotifyVc" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="_notify_group_main" width="1280" height="720" x="0" y="0" touchThrough="true">
+		<e:Image id="_bg" source="sw_notify_bg_1_png" verticalCenter="0" horizontalCenter="0" x="87" y="259" scaleX="1" scaleY="1"/>
+		<e:Group horizontalCenter="0" verticalCenter="0" x="478" y="243" scaleX="1" scaleY="1">
+			<e:Image id="_notify_begin_banker" source="sw_notify_begin_banker_png" scaleX="1" scaleY="1" left="0" verticalCenter="0" anchorOffsetX="0" anchorOffsetY="0" includeInLayout="false" visible="false"/>
+			<e:Image id="_notify_wait_next_round" source="sw_notify_wait_next_round_png" x="207" y="43" scaleX="1" scaleY="1" includeInLayout="false" visible="false"/>
+			<e:BitmapLabel id="_notify_timer_fnt" height="75" x="555" y="20" font="sw_notify_fnt" text="(100)" anchorOffsetX="0" includeInLayout="false" textAlign="center" visible="false"/>
+			<e:Image id="_notify_begin_bet" source="sw_notify_begin_bet_png" x="-330" y="277" scaleX="1" scaleY="1" includeInLayout="false" visible="false"/>
+			<e:Image id="_notify_end_bet" source="sw_notify_end_bet_png" x="775" y="495" includeInLayout="false" visible="false"/>
+			<e:Image id="_notify_hide_chess" source="sw_notify_hide_chess_png" x="371" y="524" includeInLayout="false" visible="false"/>
+			<e:Image id="_notify_restart_banker" source="sw_notify_restart_banker_png" x="376" y="513" includeInLayout="false" visible="false"/>
+			<e:Image id="_notify_free" source="sw_notify_free_png" x="50" y="300" scaleX="1" scaleY="1" includeInLayout="false" visible="false"/>
+			<e:Group x="313" y="-158" scaleX="1" scaleY="1">
+			<e:Image source="sw_notify_bg_2_png" scaleX="1" scaleY="1" x="0" top="-143"/>
+			</e:Group>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

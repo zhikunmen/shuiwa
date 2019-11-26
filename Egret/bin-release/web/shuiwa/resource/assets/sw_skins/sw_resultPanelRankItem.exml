@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_resultPanelRankItem" width="429.34" height="98" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="sw_result_panel_item_bg_png" scale9Grid="17,15,88,74" top="0" left="0" right="0" bottom="0"/>
+	<e:BitmapLabel id="_rankNum" width="85" height="50" x="21" anchorOffsetX="0" anchorOffsetY="0" font="sw_result_panel_rank_fnt" textAlign="center" verticalCenter="0" text="{data.rank}"/>
+	<e:Image id="_headImg_bg" source="seat_player_bg_png" x="108" anchorOffsetX="0" width="75" anchorOffsetY="0" height="71" y="14"/>
+	<e:Image id="_diamond_icon" source="sw_diamond_png" x="208" y="59"/>
+	<e:Image id="_golden_icon" source="sw_golden_icon_png" x="206" y="55"/>
+	<e:Label id="_nickName" text="{data.nickName}" x="247" y="21" size="25" fontFamily="Microsoft YaHei" textColor="0xbcc0ff" textAlign="left" anchorOffsetX="0" width="174" anchorOffsetY="0" height="29" rotation="0.04"/>
+	<e:Label id="_point" x="247" y="57" size="23" fontFamily="Microsoft YaHei" text="{data.point}" textAlign="left" textColor="0xffffff"/>
+</e:Skin>

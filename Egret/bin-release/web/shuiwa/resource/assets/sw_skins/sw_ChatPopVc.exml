@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_ChatPopVc" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="_pop_group_18" x="376.65" anchorOffsetX="0" anchorOffsetY="0" bottom="179">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="1" scaleY="1"/>
+		<e:Label id="_short_labal_18" text="聊天聊天聊" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_17" x="247.99" anchorOffsetX="0" anchorOffsetY="0" bottom="176">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="1" scaleY="1"/>
+		<e:Label id="_short_labal_17" text="聊天聊天聊" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_16" x="149.99" anchorOffsetX="0" anchorOffsetY="0" bottom="229">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="1" scaleY="1"/>
+		<e:Label id="_short_labal_16" text="聊天聊天聊" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_15" x="106.99" anchorOffsetX="0" anchorOffsetY="0" bottom="282">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="1" scaleY="1"/>
+		<e:Label id="_short_labal_15" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_14" x="107.99" anchorOffsetX="0" anchorOffsetY="0" bottom="384">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="1" scaleY="1"/>
+		<e:Label id="_short_labal_14" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_13" x="108.99" anchorOffsetX="0" anchorOffsetY="0" bottom="483">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="1" scaleY="1"/>
+		<e:Label id="_short_labal_13" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_12" x="194.99" anchorOffsetX="0" anchorOffsetY="0" top="139">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="1" scaleY="-1"/>
+		<e:Label id="_short_labal_12" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="15" right="8" bottom="10" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_11" x="276.99" anchorOffsetX="0" anchorOffsetY="0" top="108">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="1" scaleY="-1"/>
+		<e:Label id="_short_labal_11" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="15" right="8" bottom="10" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_10" x="436.99" anchorOffsetX="0" anchorOffsetY="0" top="47">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="1" scaleY="-1"/>
+		<e:Label id="_short_labal_10" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="15" right="8" bottom="10" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_9" anchorOffsetX="0" anchorOffsetY="0" top="47" right="437">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="-1" scaleY="-1"/>
+		<e:Label id="_short_labal_9" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="15" right="8" bottom="10" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_8" anchorOffsetX="0" anchorOffsetY="0" top="102" right="276">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="-1" scaleY="-1"/>
+		<e:Label id="_short_labal_8" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="15" right="8" bottom="10" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_7" anchorOffsetX="0" anchorOffsetY="0" top="138" right="196">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="-1" scaleY="-1"/>
+		<e:Label id="_short_labal_7" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="15" right="8" bottom="10" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_6" anchorOffsetX="0" anchorOffsetY="0" bottom="483" right="100">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="-1" scaleY="1"/>
+		<e:Label id="_short_labal_6" text="聊天聊天聊" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_5" anchorOffsetX="0" anchorOffsetY="0" bottom="386" right="100">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="-1" scaleY="1"/>
+		<e:Label id="_short_labal_5" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_4" anchorOffsetX="0" anchorOffsetY="0" bottom="275" y="10" right="100">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="-1" scaleY="1"/>
+		<e:Label id="_short_labal_4" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_3" anchorOffsetX="0" anchorOffsetY="0" bottom="232" right="159">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="-1" scaleY="1"/>
+		<e:Label id="_short_labal_3" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_2" anchorOffsetX="0" anchorOffsetY="0" bottom="181" right="249">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="-1" scaleY="1"/>
+		<e:Label id="_short_labal_2" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+	<e:Group id="_pop_group_1" anchorOffsetX="0" anchorOffsetY="0" bottom="179" right="371">
+		<e:Image source="sw_short_chat_bg_png" scale9Grid="8,9,44,15" anchorOffsetX="0" anchorOffsetY="0" top="0" right="0" left="0" bottom="0" x="-384" y="-319" scaleX="-1" scaleY="1"/>
+		<e:Label id="_short_labal_1" text="聊天聊天" size="18" fontFamily="Microsoft YaHei" maxWidth="90" left="10" top="10" right="8" bottom="15" wordWrap="true"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_EffectVc" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="_timer_group" width="74" height="85" x="138" y="287" name="_timer_group">
+		<e:Image id="_timerBg" source="sw_timer_bg_png" x="0" y="0" name="_timerBg"/>
+		<e:BitmapLabel id="_timerNum" font="sw_TimerFnt_fnt" text="99" horizontalCenter="0" verticalCenter="0" name="_timerNum"/>
+	</e:Group>
+	<e:Group id="_tips_msg_group" verticalCenter="0" width="1213" height="70" horizontalCenter="0">
+		<e:Image source="sw_tips_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="_tips_msg" text="需满5人开局，请等待其他玩家加入" size="35" fontFamily="Microsoft YaHei" horizontalCenter="0.5" verticalCenter="-2.5" verticalAlign="middle"/>
+	</e:Group>
+	<e:Label id="_status_txt" text="抢庄阶段" x="125" y="375" size="18" fontFamily="Microsoft YaHei" textColor="0xfffc00" width="100" textAlign="center"/>
+</e:Skin>

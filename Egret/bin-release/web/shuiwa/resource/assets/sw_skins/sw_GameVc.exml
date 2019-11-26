@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_GameVc" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:SWGAME="SWGAME.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" source="sw_bg_1_jpg" x="0" y="0"/>
+	<e:Group width="176" height="78" right="0" top="0">
+		<e:Image source="sw_room_info_bg_png" name="room_info_bg" width="176" height="78" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="_room_id_txt" text="房号：888888" y="4" fontFamily="Microsoft YaHei" size="20" left="17"/>
+		<e:Label id="_up_limit_txt" text="上限：1234" y="28.02" fontFamily="Microsoft YaHei" size="20" left="17"/>
+		<e:Label id="_bankerLeftRoundTxt" text="还剩0局" y="52" fontFamily="Microsoft YaHei" size="20" left="17"/>
+	</e:Group>
+	<e:Image source="sw_kantou_base_png" x="550" y="12" name="_kantou_base"/>
+	<e:Group id="_prev_hide_chess_group" width="392" height="74" x="444" y="545" anchorOffsetY="0" name="_prev_hide_chess_group">
+		<e:Image id="_prev_hide_chess_bg_png" source="sw_prev_hide_chess_bg_png" left="0" top="0" right="0" bottom="0" scale9Grid="37,9,26,58"/>
+		<e:Image id="_new_hide_chess" source="sw_new_hide_chess_png" x="314" top="-3" name="_new_hide_chess_frame"/>
+		<e:Image id="chess_1" source="sw_chess_1_png" x="316.34" width="63" top="7" bottom="4" y="-542" scaleX="1" scaleY="1" name="chess_1"/>
+		<e:Image id="chess_2" source="sw_chess_1_png" x="240.35" width="63" top="7" bottom="4" y="-542" scaleX="1" scaleY="1" name="chess_2"/>
+		<e:Image id="chess_3" source="sw_chess_1_png" x="165.68" width="63" top="7" bottom="4" y="-542" scaleX="1" scaleY="1" name="chess_3"/>
+		<e:Image id="chess_4" source="sw_chess_1_png" x="89.66" width="63" top="7" bottom="4" y="-542" scaleX="1" scaleY="1" name="chess_4"/>
+		<e:Image id="chess_5" source="sw_chess_1_png" x="13.67" width="63" top="7" bottom="4" y="-542" scaleX="1" scaleY="1" name="chess_5"/>
+	</e:Group>
+</e:Skin>

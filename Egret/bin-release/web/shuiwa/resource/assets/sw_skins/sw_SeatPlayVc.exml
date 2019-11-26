@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_SeatPlayVc" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:SWGAME="SWGAME.*" xmlns:w="http://ns.egret.com/wing">
+	<SWGAME:SeatPlayer id="seatPlayer_1" width="88" height="100" x="865" y="539" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" visible="true" skinName="sw_SeatPlayer" name="seatPlayer1" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_2" width="88" height="100" x="976.0000000000001" y="539" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" visible="true" skinName="sw_SeatPlayer" name="seatPlayer2" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_3" width="88" height="100" x="1085" y="488.00000000000006" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" visible="true" skinName="sw_SeatPlayer" name="seatPlayer3" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_4" width="88" height="100" x="1173" y="390.00000000000006" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" visible="true" skinName="sw_SeatPlayer" name="seatPlayer4" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_5" width="88" height="100" x="1173" y="286" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" visible="true" skinName="sw_SeatPlayer" name="seatPlayer5" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_6" width="88" height="100" x="1173" y="180.00000000000003" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" visible="true" skinName="sw_SeatPlayer" name="seatPlayer6" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_7" width="88" height="100" x="1085" y="81" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" visible="true" skinName="sw_SeatPlayer" name="seatPlayer7" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_8" width="88" height="100" x="960" y="18" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" visible="true" skinName="sw_SeatPlayer" name="seatPlayer8" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_9" width="88" height="100" x="844.0000000000001" y="18" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer9" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_10" width="88" height="100" x="349" y="18" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer10" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_11" width="88" height="100" x="234" y="18" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer11" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_12" width="88" height="100" x="107" y="78" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer12" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_13" width="88" height="100" x="19" y="180" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer13" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_14" width="88" height="100" x="19" y="282" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer14" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_15" width="88" height="100" x="19" y="388" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer15" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_16" width="88" height="100" x="107" y="488" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer16" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_17" width="88" height="100" x="222" y="539" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer17" scaleX="1" scaleY="1"/>
+	<SWGAME:SeatPlayer id="seatPlayer_18" width="88" height="100" x="333" y="539" anchorOffsetX="0" anchorOffsetY="0" rotation="0.4" enabled="true" skinName="sw_SeatPlayer" name="seatPlayer18" scaleX="1" scaleY="1"/>
+</e:Skin>
