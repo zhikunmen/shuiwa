@@ -1,0 +1,23 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/uniLib/uniLib.js",
+		"libs/modules/protoandtable/protoandtable.js"
+	],
+	"game": [
+		"bin-debug/ConfirmConsts.js",
+		"bin-debug/ConfirmPanel.js",
+		"bin-debug/ReWardDataVo.js",
+		"bin-debug/RewardItem.js",
+		"bin-debug/RewardPanel.js",
+		"bin-debug/component/ArmatureComponent.js",
+		"bin-debug/component/WxButton.js"
+	]
+}

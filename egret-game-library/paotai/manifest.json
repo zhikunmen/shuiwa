@@ -1,0 +1,26 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/uniLib/uniLib.js",
+		"libs/modules/protoandtable/protoandtable.js",
+		"libs/modules/confirm/confirm.js",
+		"libs/modules/wxgamelib/wxgamelib.js",
+		"libs/modules/share/share.js",
+		"libs/modules/match/match.js"
+	],
+	"game": [
+		"bin-debug/PaoTaiConsts.js",
+		"bin-debug/PaoTaiItem.js",
+		"bin-debug/PaoTaiPanel.js",
+		"bin-debug/TakePhonePanel.js",
+		"bin-debug/msg/CmdConstant.js",
+		"bin-debug/msg/PaoTaiReciveMgr.js"
+	]
+}

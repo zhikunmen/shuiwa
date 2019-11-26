@@ -1,0 +1,26 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/promise/promise.js",
+		"libs/modules/confirm/confirm.js",
+		"libs/modules/protoandtable/protoandtable.js",
+		"libs/modules/uniLib/uniLib.js",
+		"libs/modules/match/match.js",
+		"libs/modules/wxgamelib/wxgamelib.js"
+	],
+	"game": [
+		"bin-debug/ListItem.js",
+		"bin-debug/ListVC.js",
+		"bin-debug/RankConst.js",
+		"bin-debug/RankItem.js",
+		"bin-debug/RankVC.js",
+		"bin-debug/WxSubscribe.js"
+	]
+}

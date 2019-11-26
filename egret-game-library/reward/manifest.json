@@ -1,0 +1,38 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/uniLib/uniLib.js",
+		"libs/modules/protoandtable/protoandtable.js",
+		"libs/modules/confirm/confirm.js",
+		"libs/modules/commonpanel/commonpanel.js",
+		"libs/modules/shop/shop.js",
+		"libs/modules/wxgamelib/wxgamelib.js",
+		"libs/modules/share/share.js"
+	],
+	"game": [
+		"bin-debug/TaskView.js",
+		"bin-debug/DiamondsPanel.js",
+		"bin-debug/FuLiPanel.js",
+		"bin-debug/ReceiveDiamondsItem.js",
+		"bin-debug/RewardConsts.js",
+		"bin-debug/SignItem.js",
+		"bin-debug/SignView.js",
+		"bin-debug/TaskItem.js",
+		"bin-debug/DiamondsReceivePanel.js",
+		"bin-debug/WxContain.js",
+		"bin-debug/buyu/ActiveBoxPanel.js",
+		"bin-debug/buyu/EnergyView.js",
+		"bin-debug/buyu/NewFuLiPanel.js",
+		"bin-debug/buyu/TaskItem2.js",
+		"bin-debug/buyu/TaskView2.js",
+		"bin-debug/msg/CmdConstant.js",
+		"bin-debug/msg/RewardReciveMgr.js"
+	]
+}

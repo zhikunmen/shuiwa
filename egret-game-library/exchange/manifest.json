@@ -1,0 +1,28 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/promise/promise.js",
+		"libs/modules/uniLib/uniLib.js",
+		"libs/modules/wxgamelib/wxgamelib.js",
+		"libs/modules/protoandtable/protoandtable.js",
+		"libs/modules/commonpanel/commonpanel.js",
+		"libs/modules/shop/shop.js",
+		"libs/modules/match/match.js",
+		"libs/modules/myInfo/myInfo.js",
+		"libs/modules/confirm/confirm.js",
+		"libs/modules/reward/reward.js"
+	],
+	"game": [
+		"bin-debug/ExchangeConst.js",
+		"bin-debug/ExchangeItem.js",
+		"bin-debug/ExchangeVC.js",
+		"bin-debug/msg/ExchangeHandle.js"
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/uniLib/uniLib.js",
+		"libs/modules/protoandtable/protoandtable.js",
+		"libs/modules/confirm/confirm.js",
+		"libs/modules/wxgamelib/wxgamelib.js",
+		"libs/modules/commonpanel/commonpanel.js"
+	],
+	"game": [
+		"bin-debug/ShopDFInfo.js",
+		"bin-debug/FirstRecharge.js",
+		"bin-debug/MonthlyCard.js",
+		"bin-debug/MonthlyCardRecv.js",
+		"bin-debug/RechargeGiftDailyPanel.js",
+		"bin-debug/ShopConsts.js",
+		"bin-debug/ShopControl.js",
+		"bin-debug/FirstRechargeBuYu.js",
+		"bin-debug/ShopDFTips.js",
+		"bin-debug/ShopItem.js",
+		"bin-debug/ShopPanel.js",
+		"bin-debug/ShopReciveMgr.js",
+		"bin-debug/ThreeRMBPanel.js",
+		"bin-debug/WxGroup.js"
+	]
+}

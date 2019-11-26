@@ -1,0 +1,30 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/promise/promise.js",
+		"libs/modules/uniLib/uniLib.js",
+		"libs/modules/wxgamelib/wxgamelib.js",
+		"libs/modules/loading/loading.js",
+		"libs/modules/protoandtable/protoandtable.js",
+		"libs/modules/confirm/confirm.js",
+		"libs/modules/commonpanel/commonpanel.js",
+		"libs/modules/lobbysign/lobbysign.js"
+	],
+	"game": [
+		"bin-debug/TurnTable.js",
+		"bin-debug/TurnTableRecordItemPanel.js",
+		"bin-debug/TurnTableTaskItemPanel.js",
+		"bin-debug/handler/TurntableConst.js",
+		"bin-debug/handler/TurntableData.js",
+		"bin-debug/handler/TurntableHandle.js",
+		"bin-debug/handler/TurntableModuleMgr.js",
+		"bin-debug/handler/TurntableSendMgr.js"
+	]
+}

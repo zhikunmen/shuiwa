@@ -1,0 +1,24 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/promise/promise.js",
+		"libs/modules/uniLib/uniLib.js",
+		"protoandtable/protoandtable.js",
+		"libs/modules/confirm/confirm.js"
+	],
+	"game": [
+		"bin-debug/ChatItem_fangka.js",
+		"bin-debug/ChatItem_jinbi.js",
+		"bin-debug/ChatPanel.js",
+		"bin-debug/FaceItem.js",
+		"bin-debug/pokerchatConst.js",
+		"bin-debug/pokerchatMsg.js"
+	]
+}

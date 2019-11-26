@@ -1,0 +1,33 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/uniLib/uniLib.js",
+		"libs/modules/protoandtable/protoandtable.js",
+		"libs/modules/confirm/confirm.js",
+		"libs/modules/wxgamelib/wxgamelib.js",
+		"libs/modules/share/share.js",
+		"libs/modules/match/match.js"
+	],
+	"game": [
+		"bin-debug/PaoBeiPanel.js",
+		"bin-debug/FishPerComponent.js",
+		"bin-debug/GameInTaskPanel.js",
+		"bin-debug/GameInTurnTable.js",
+		"bin-debug/NoviceRedPackageBtn.js",
+		"bin-debug/PaoBeiItem.js",
+		"bin-debug/GameInTaskItem.js",
+		"bin-debug/PaopgradeConsts.js",
+		"bin-debug/PaoTaiUpgrade.js",
+		"bin-debug/TakeRedPack.js",
+		"bin-debug/UpgradeOtherAward.js",
+		"bin-debug/msg/CmdConstant.js",
+		"bin-debug/msg/PaoUpgradeReciveMgr.js"
+	]
+}
