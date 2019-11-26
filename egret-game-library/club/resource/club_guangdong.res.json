@@ -1,0 +1,19 @@
+{
+	"groups":[{
+			"keys":"club_desk_bg_jpg,club_json",
+			"name":"pub_club"
+		}],
+	"resources":[
+		{
+			"name":"club_desk_bg_jpg",
+			"type":"image",
+			"url":"club/guangdong/club_desk_bg.jpg"
+		},
+		{
+			"name":"club_json",
+			"subkeys":"blackWord,club_active_bg,club_administrators_png,club_applylist1,club_bigtitle,club_close1,club_close2,club_create_line_png,club_createroom1,club_desk,club_deskcreate1,club_deskseat_bg,club_deskseat_head,club_groupowner_png,club_ingame,club_line,club_manage1,club_memberlist1,club_notice1,club_notice_title,club_numlist_bg,club_person_head,club_queryfighting1,club_roomdetail_headbg,club_samlltitle,club_share1,club_switch1,club_tishi_title_png,club_waiting,matchid,matchmemeber2,matchmemeber6,mjl_club_choicetitle_png,mjl_club_list_title_png,mjl_club_my_png,mjl_club_roomdetail_title,mjl_club_title_png,mjl_club_txt_png,mjl_record_userbg_png,mjl_scratch_btn1_png,mjl_scratch_btn_png,mjl_userlist_userbg,pph_bigwinner_word,pph_chengyuan,pph_chengyuan1,pph_fangjian,pph_fangjian1,pph_fright_titilebg_png,pph_list_bg,pph_winlose1,pph_winlose2,pph_winlose3,pph_winlose_bg,pph_winlose_pull,pph_xiaoxi,pph_xiaoxi1,pph_yelloList,pph_yelloList1,pph_zhankuang,pph_zhankuang1,redDot,whiteWord",
+			"type":"sheet",
+			"url":"club/guangdong/club.json"
+		}
+	]
+}

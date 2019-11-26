@@ -1,0 +1,105 @@
+{
+    "frames": {
+        "1": {
+            "offY": 0, 
+            "offX": 3, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 22, 
+            "h": 32, 
+            "y": 68, 
+            "x": 29
+        }, 
+        "0": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 28, 
+            "h": 32, 
+            "y": 34, 
+            "x": 90
+        }, 
+        "3": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 28, 
+            "h": 32, 
+            "y": 34, 
+            "x": 30
+        }, 
+        "2": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 29, 
+            "h": 32, 
+            "y": 0, 
+            "x": 93
+        }, 
+        "5": {
+            "offY": 0, 
+            "offX": 1, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 27, 
+            "h": 32, 
+            "y": 68, 
+            "x": 0
+        }, 
+        "4": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 29, 
+            "h": 32, 
+            "y": 0, 
+            "x": 62
+        }, 
+        "7": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 28, 
+            "h": 32, 
+            "y": 34, 
+            "x": 60
+        }, 
+        "6": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 29, 
+            "h": 32, 
+            "y": 0, 
+            "x": 31
+        }, 
+        "9": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 29, 
+            "h": 32, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "8": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 32, 
+            "sourceW": 29, 
+            "w": 28, 
+            "h": 32, 
+            "y": 34, 
+            "x": 0
+        }
+    }, 
+    "file": "sz_clock_3f8a66e7.png"
+}

@@ -1,0 +1,14 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/FirstGuidePanelSkin.exml",
+		"resource/skin/GuideFishGameSkin.exml",
+		"resource/skin/GuideGuideCheckSkin.exml",
+		"resource/skin/GuideGuideGameSkin.exml",
+		"resource/skin/GuideItemSkin.exml",
+		"resource/skin/GuideTaskBtnSkin.exml",
+		"resource/skin/GuideTaskItemSkin.exml",
+		"resource/skin/GuideTaskPanelSkin.exml"
+	],
+	"path": "resource/guide.thm.json"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeVCSkin" width="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:eui="eui.*" xmlns:ns1="*" xmlns:match="match.*" height="720">
+        <e:Image id="bg_img"  source="lb_bg_jpg" horizontalCenter="0"/>
+	<e:Group width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Scroller x="339" y="118" anchorOffsetX="0" anchorOffsetY="0" height="530" scaleX="1" scaleY="1" width="853">
+		<e:List id="exchange_lst" width="100%" height="100%" itemRendererSkinName="ExchangeItemSkin" anchorOffsetX="0">
+			<e:layout>
+			<e:TileLayout requestedColumnCount="3" horizontalGap="50"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+		<e:Label id="tips_lbl" text="（兑换可能有几分钟延时，请耐心等待。如未到账，请联系客服）" size="24" y="651" fontFamily="Microsoft YaHei" textColor="0xffffff" scaleX="1" scaleY="1" horizontalCenter="121"/>
+	</e:Group>
+        <eui:WxButton id="_closeBtn" label="" x="26" y="31" locked="true">
+                <e:skinName>
+                        <e:Skin states="up,down,disabled">
+                                <e:Image width="100%" height="100%" source="exchange_btn_exit" />
+                                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                        </e:Skin>
+                </e:skinName>
+        </eui:WxButton>
+	<e:Image source="exchange_title_bg" x="25" y="102" scale9Grid="27,27,64,50" width="229" height="589" scaleX="1" scaleY="1" locked="true"/>
+	<e:RadioButton id="package_rbtn" label="" x="15" y="265" value="2" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="exchange_game_res_1_json.dh_anniu5_png" source.down="exchange_game_res_1_json.dh_anniu6_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="ticket_rbtn" label="" x="15" y="265" value="2" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="exchange_game_res_1_json.dh_anniu1_png" source.down="exchange_game_res_1_json.dh_anniu2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="diamond_rbtn" label="" x="15" y="142" value="1" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dh_anniu3_png" source.down="dh_anniu4_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<match:WxTopOpBtn x="248" y="38" locked="true"/>
+</e:Skin>

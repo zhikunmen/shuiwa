@@ -1,0 +1,5 @@
+{"file":"game_chat.png","frames":{
+"chat_bg":{"x":123,"y":86,"w":40,"h":40,"offX":0,"offY":0,"sourceW":40,"sourceH":40},
+"chat_horn":{"x":167,"y":86,"w":34,"h":34,"offX":0,"offY":0,"sourceW":34,"sourceH":34},
+"chat_send":{"x":0,"y":0,"w":229,"h":82,"offX":0,"offY":0,"sourceW":229,"sourceH":82},
+"chat_title":{"x":0,"y":86,"w":119,"h":48,"offX":0,"offY":0,"sourceW":119,"sourceH":48}}}

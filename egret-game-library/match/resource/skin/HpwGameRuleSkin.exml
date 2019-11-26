@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwGameRuleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="BSXQ2-bj_png" scale9Grid="29,198,13,15" width="723" height="354"/>
+	<e:Label text="比赛规则" y="22" fontFamily="Microsoft YaHei" size="32" bold="true" horizontalCenter="0"/>
+	<e:Label text="比赛规则：" y="100" fontFamily="Microsoft YaHei" size="24" bold="true" x="72"/>
+	<e:Label text="每人打三局，三局之后根据得分进行排名。如果积分相同，则根据出牌总时间排名，用时越少排名越高。" y="154" fontFamily="Microsoft YaHei" size="20" x="199" anchorOffsetX="0" width="464" lineSpacing="5"/>
+	<e:Label text="16张牌、显示牌、黑桃三先出   能管必管、炸弹可拆、可四带二、最后三带、飞机少带不能出完、炸弹没有额外分" y="224" fontFamily="Microsoft YaHei" size="20" x="199" anchorOffsetX="0" width="459" lineSpacing="5"/>
+	<e:Label text="排名规则：" y="152" fontFamily="Microsoft YaHei" size="24" bold="true" x="72"/>
+	<e:Label text="游戏规则：" y="224" fontFamily="Microsoft YaHei" size="24" bold="true" x="72"/>
+	<e:Label id="rule_lbl" text="满6人" y="105" fontFamily="Microsoft YaHei" size="20" x="199"/>
+</e:Skin>

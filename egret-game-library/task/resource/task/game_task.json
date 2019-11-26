@@ -1,0 +1,45 @@
+{
+  "file": "game_task.png",
+  "frames": {
+    "renwu_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 27,
+      "h": 136,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 27,
+      "sourceH": 136
+    },
+    "renwu_jinbi": {
+      "x": 37,
+      "y": 0,
+      "w": 23,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 24
+    },
+    "renwu_line": {
+      "x": 37,
+      "y": 34,
+      "w": 13,
+      "h": 1,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 13,
+      "sourceH": 1
+    },
+    "renwu_zuanshi": {
+      "x": 70,
+      "y": 0,
+      "w": 23,
+      "h": 20,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 23,
+      "sourceH": 24
+    }
+  }
+}

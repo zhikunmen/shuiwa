@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankVCSkin" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:eui="eui.*" xmlns:tween="egret.tween.*">
+    <e:Image x="10" y="20" width="648" height="680" source="rank_bg_4" scale9Grid="32,27,58,42" />
+    <e:Image x="93" y="150" width="556" height="542" source="rank_bg_1" scale9Grid="21,24,24,19" />
+    <e:Image x="93" y="605" anchorOffsetX="0"  source="rank_game_res_1_json.paihang_bg2" scale9Grid="189,35,6,9" width="554"/>
+    <e:Image source="rank_title_game" y="29" x="204" />
+    <e:Group id="goldPig_btn" x="22" y="150" touchChildren="false" touchEnabled="true">
+        <e:Image source="rank_title_bg_2" id="_friendBg" />
+        <e:Image id="_friendBtn" x="15" y="27" source="rank_game_res_1_json.paihang_jinzhubang" />
+    </e:Group>
+    <e:Group id="silverPig_btn" x="22" y="300" touchChildren="false" touchEnabled="true">
+        <e:Image source="rank_title_bg_1" id="_groupBg" />
+        <e:Image x="15" y="27" source="rank_game_res_1_json.paihang_yinzhubang" />
+    </e:Group>
+    <eui:WxButton id="_closeBtn" label="" x="655" y="286">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="rank_btn_exit" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </eui:WxButton>
+    <e:Group anchorOffsetX="0" width="652" touchChildren="false" touchEnabled="false">
+        <e:Image id="rank_img" source="rank_norank" x="160" y="650" anchorOffsetX="36" anchorOffsetY="12" />
+        <e:Image id="head_img" source="" width="73" height="73" x="215.5" y="613.5" />
+        <e:Image id="type_img" x="476" y="619.5"  source="rank_game_res_1_json.paihang_jinzhu"/>
+        <e:BitmapLabel id="rank_blbl" text="" x="104" y="617.5" font="rank_big_num_fnt" verticalAlign="middle"
+                       textAlign="center"  anchorOffsetX="0" width="100" height="60"/>
+        <e:Label id="nickName_lbl" text="--" size="24" textColor="0xffffff" x="300" y="638"  fontFamily="Microsoft YaHei"/>
+        <e:Label id="num_lbl" text="0" size="24" textColor="0xffffff" x="550" y="638"  fontFamily="Microsoft YaHei"/>
+
+    </e:Group>
+    <e:Scroller width="540" height="445" x="101" y="158" scrollPolicyH="off" anchorOffsetY="0" scrollPolicyV="on">
+        <e:List id="_rankList" itemRendererSkinName="RankItemSkin">
+            <e:ArrayCollection>
+                <e:Array>
+                    <e:Object/>
+                    <e:Object dsf="null" />
+                </e:Array>
+            </e:ArrayCollection>
+            <e:layout>
+                <e:VerticalLayout gap="10" />
+            </e:layout>
+        </e:List>
+    </e:Scroller>
+	<e:Label text="排行榜每15分钟刷新一次" y="120" fontFamily="Microsoft YaHei" size="18" x="236"/>
+</e:Skin>

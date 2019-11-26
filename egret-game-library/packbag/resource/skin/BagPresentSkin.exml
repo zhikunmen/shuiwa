@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagPresentSkin" width="775" height="444" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Image x="0" y="-1" width="100%" height="100%"  source="packbag_json.bag_bg_1" scale9Grid="41,81,39,340"/>
+	<e:Image x="188.99" y="-5"  source="packbag_json.bag_common_bg"/>
+	<e:Image scaleX="-1" x="585.99" y="-5"  source="packbag_json.bag_common_bg"/>
+	<e:Image y="14.33" horizontalCenter="0" source="bagpresent_json.bag_zengsong"/>
+
+
+	<eui:WxButton id="_closeBtn" label="" y="5.66" right="8">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="packbag_json.bag_btn_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+	<e:Image width="180" height="206" x="30" y="102" source="bagpresent_json.bag_goodBG" scale9Grid="13,51,4,144"/>
+	<e:Label id="daoju_name" text="金猪" x="125" y="110" fontFamily="Microsoft YaHei" textColor="0xa46359"/>
+	<e:Image id="daoju_icon" x="55" y="159" source="packbag_json.bag_daoju_329" width="130" height="130"/>
+	<e:Label text="赠送数量：" x="273" y="150" fontFamily="Microsoft YaHei" textColor="0xa46359"/>
+	<e:Label text="对方ID：" x="270" y="242" fontFamily="Microsoft YaHei" textColor="0xA46359"/>
+	<eui:WxButton id="_reduceBtn" label="" y="139.5" x="435">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bagpresent_json.bag_jian"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_addBtn" label="" y="138" x="648">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bagpresent_json.bag_jia"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image width="126" height="42" x="507" y="145" source="bagpresent_json.bag_white_bg" scale9Grid="21,16,11,16" anchorOffsetX="0"/>
+	<e:Image width="290" height="42" x="400" y="236" source="bagpresent_json.bag_white_bg" scale9Grid="21,16,11,16" anchorOffsetX="0"/>
+	<e:EditableText id="num_tex" width="105" height="28" text="0" x="516" y="152" anchorOffsetY="0" verticalAlign="middle" fontFamily="Microsoft YaHei" size="26" textColor="0xa46359" restrict="0-9" anchorOffsetX="0" textAlign="center"/>
+	<e:EditableText id="friend_id" width="280" height="30" text="" x="406" y="242" anchorOffsetY="0" verticalAlign="middle" fontFamily="Microsoft YaHei" size="26" textColor="0xA46359" restrict="0-9" anchorOffsetX="0" promptColor="0xd9d1c1" prompt="请输入对方ID"/>
+	<e:Image width="752" height="100" y="327" source="bagpresent_json.bag_white_bg" scale9Grid="21,16,11,16" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+	<eui:WxButton id="_confirmBtn" label="" y="340" horizontalCenter="0.5">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bagpresent_json.bag_queren"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+
+
+
+
+
+
+</e:Skin>

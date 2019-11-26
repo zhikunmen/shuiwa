@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BindPhoneVCSkin" width="775" height="445" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image x="0" y="0" width="775" height="445"  source="myInfo_game_res_1_json.lb_geren_bg" scale9Grid="34,203,11,25"/>
+	<e:Image x="0" y="-6"  source="myInfo_game_res_1_json.lb_geren_titlelight1"/>
+
+
+	<e:Image source="myInfo_titile_bind" horizontalCenter="0" y="-5" />
+	<eui:WxButton id="_sendCaptcha" label="" x="478" y="228">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="myInfo_btn_send_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="26" fontFamily="funderFont" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_confirm" label="" x="263" y="340">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="myInfo_btn_bind_1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_relieve" label="" x="263" y="340" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="myInfo_btn_noBind_1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_back" label="" x="709" y="8">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="myInfo_game_res_1_json.lb_geren_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+	<e:Label text="手机号 :" x="132.5" y="145.5" fontFamily="Microsoft YaHei" size="30" textColor="0xa46359" />
+	<e:Label text="13750062485" id="_phoneTxt" x="266" y="150" fontFamily="Microsoft YaHei" size="26" textColor="0xa46359"  visible="false"/>
+	<e:Label text="验证码 :" x="132.5" y="239.5" fontFamily="Microsoft YaHei" size="30" textColor="0xa46359" />
+	<e:Image x="250" y="231.5" source="myInfo_enter_bg" scale9Grid="15,14,26,17" width="214" height="46" />
+	<e:Image id="_phone_bg" x="250" y="137.5" source="myInfo_enter_bg" scale9Grid="15,14,26,17" width="363" height="46" />
+	<!--<e:Label id="_phoneNumWarn" text="输入11位手机号" x="712.15" y="195.63" size="24" fontFamily="Microsoft YaHei"
+	             textColor="0xf6ff00" locked="true" />
+	<e:Label id="_captchaWarn" text="请输入验证码" x="295.17" y="496.63" size="24" fontFamily="Microsoft YaHei"
+	         textColor="0xf6ff00" visible="false" />
+	-->
+	<e:EditableText id="_phoneNum" width="332" text="" x="265" y="147.5" anchorOffsetX="0" anchorOffsetY="0" size="26"
+	                verticalAlign="left" fontFamily="Microsoft YaHei" textColor="0xa46359" maxChars="11" inputType="tel"
+	                 restrict="0-9"/>
+	<e:EditableText id="_captcha" width="194" text="" x="265" y="239.5" anchorOffsetX="0" anchorOffsetY="0" size="26"
+	                verticalAlign="left" fontFamily="Microsoft YaHei" maxChars="6" textColor="0xd9d1c1" inputType="tel"
+	                restrict="0-9"/>
+	<e:Label id="_count" text="验证码已发送(59)" x="477.68" y="228.83" anchorOffsetY="0" height="51.34" anchorOffsetX="0"
+	         width="212.67" verticalAlign="middle" size="24" textAlign="center" fontFamily="Microsoft YaHei"
+	         textColor="0xa46359"  visible="false"/>
+</e:Skin>

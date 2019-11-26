@@ -1,0 +1,115 @@
+{
+  "file": "game_in_task.png",
+  "frames": {
+    "game_task_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 266,
+      "h": 74,
+      "offX": 3,
+      "offY": 0,
+      "sourceW": 269,
+      "sourceH": 74
+    },
+    "game_task_left": {
+      "x": 98,
+      "y": 149,
+      "w": 18,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 18,
+      "sourceH": 19
+    },
+    "game_task_progress_bar": {
+      "x": 73,
+      "y": 149,
+      "w": 23,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 20
+    },
+    "game_task_progress_bg": {
+      "x": 73,
+      "y": 171,
+      "w": 23,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 20
+    },
+    "game_task_reward_bg": {
+      "x": 0,
+      "y": 76,
+      "w": 65,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 65,
+      "sourceH": 65
+    },
+    "game_task_reward_tbg": {
+      "x": 73,
+      "y": 128,
+      "w": 63,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 63,
+      "sourceH": 19
+    },
+    "game_task_right": {
+      "x": 140,
+      "y": 124,
+      "w": 18,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 18,
+      "sourceH": 19
+    },
+    "gamein_arrow_btm1": {
+      "x": 0,
+      "y": 143,
+      "w": 71,
+      "h": 50,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 73,
+      "sourceH": 50
+    },
+    "gamein_arrow_btm2": {
+      "x": 0,
+      "y": 195,
+      "w": 71,
+      "h": 46,
+      "offX": 1,
+      "offY": 4,
+      "sourceW": 73,
+      "sourceH": 50
+    },
+    "gamein_arrow_top1": {
+      "x": 67,
+      "y": 76,
+      "w": 71,
+      "h": 50,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 73,
+      "sourceH": 50
+    },
+    "gamein_arrow_top2": {
+      "x": 140,
+      "y": 76,
+      "w": 71,
+      "h": 46,
+      "offX": 1,
+      "offY": 4,
+      "sourceW": 73,
+      "sourceH": 50
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+    "frames": {
+        "hbgame_face16": {
+            "offY": 6, 
+            "offX": 3, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 91, 
+            "h": 93, 
+            "y": 92, 
+            "x": 0
+        }, 
+        "hbgame_face17": {
+            "offY": 5, 
+            "offX": 5, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 89, 
+            "h": 91, 
+            "y": 187, 
+            "x": 0
+        }, 
+        "hbgame_face14": {
+            "offY": 1, 
+            "offX": 4, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 89, 
+            "h": 93, 
+            "y": 95, 
+            "x": 382
+        }, 
+        "hbgame_face15": {
+            "offY": 6, 
+            "offX": 3, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 92, 
+            "h": 93, 
+            "y": 0, 
+            "x": 382
+        }, 
+        "hbgame_face12": {
+            "offY": 5, 
+            "offX": 0, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 100, 
+            "h": 90, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "hbgame_face13": {
+            "offY": 4, 
+            "offX": 4, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 91, 
+            "h": 91, 
+            "y": 95, 
+            "x": 93
+        }, 
+        "hbgame_face10": {
+            "offY": 4, 
+            "offX": 6, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 87, 
+            "h": 91, 
+            "y": 280, 
+            "x": 0
+        }, 
+        "hbgame_face11": {
+            "offY": 9, 
+            "offX": 9, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 81, 
+            "h": 81, 
+            "y": 281, 
+            "x": 89
+        }, 
+        "hbgame_face6": {
+            "offY": 3, 
+            "offX": 3, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 92, 
+            "h": 95, 
+            "y": 0, 
+            "x": 199
+        }, 
+        "hbgame_face3": {
+            "offY": 6, 
+            "offX": 8, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 86, 
+            "h": 93, 
+            "y": 193, 
+            "x": 272
+        }, 
+        "hbgame_face8": {
+            "offY": 3, 
+            "offX": 2, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 95, 
+            "h": 93, 
+            "y": 0, 
+            "x": 102
+        }, 
+        "hbgame_face4": {
+            "offY": 5, 
+            "offX": 4, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 90, 
+            "h": 90, 
+            "y": 101, 
+            "x": 280
+        }, 
+        "hbgame_face18": {
+            "offY": 6, 
+            "offX": 7, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 88, 
+            "h": 92, 
+            "y": 188, 
+            "x": 182
+        }, 
+        "hbgame_face9": {
+            "offY": 0, 
+            "offX": 6, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 87, 
+            "h": 99, 
+            "y": 0, 
+            "x": 293
+        }, 
+        "hbgame_face7": {
+            "offY": 4, 
+            "offX": 6, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 87, 
+            "h": 91, 
+            "y": 273, 
+            "x": 360
+        }, 
+        "hbgame_face5": {
+            "offY": 7, 
+            "offX": 3, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 92, 
+            "h": 89, 
+            "y": 97, 
+            "x": 186
+        }, 
+        "hbgame_face2": {
+            "offY": 9, 
+            "offX": 0, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 99, 
+            "h": 81, 
+            "y": 190, 
+            "x": 372
+        }, 
+        "hbgame_face1": {
+            "offY": 4, 
+            "offX": 6, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 89, 
+            "h": 91, 
+            "y": 188, 
+            "x": 91
+        }
+    }, 
+    "file": "hbgame_chat_imoj_e0cbe7eb.png"
+}

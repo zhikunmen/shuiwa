@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PaoBeiItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*"
+        width="220" height="289">
+		<e:Image  source="paobei_json.paobei_item_bg" scale9Grid="11,17,4,101" width="100%" height="100%"/>
+		<e:Label id="pao_text" text="800倍" y="11" fontFamily="Microsoft YaHei" horizontalCenter="0"
+		         bold="true"  size="24" textColor="0x8e2a0c"/>
+	<e:Image source="paobei_json.paobei_item_fu" y="17" horizontalCenter="0"/>
+	<e:Image source="paobei_json.paobei_gun" y="42" horizontalCenter="0"/>
+	<e:Image source="paobei_json.paobei_in_bg" y="147" scale9Grid="10,9,2,3" width="178" height="69" horizontalCenter="0"/>
+	<e:Image source="paobei_json.paobei_send" x="2" y="124"/>
+	<e:Image width="30" height="34" x="54" y="165" anchorOffsetX="0" anchorOffsetY="0" source="lb_jinbi_jinbi_png"/>
+	<e:Label id="reward_num" text="x200000" x="91" y="169" fontFamily="Microsoft YaHei" size="24" textColor="0xff001e"/>
+	<e:Label text="升级需" x="29" y="241" fontFamily="Microsoft YaHei" size="22" textColor="0xffffff" stroke="2" strokeColor="0xd2620c"/>
+	<e:Label id="need_num" text="x90" x="140" y="241" fontFamily="Microsoft YaHei" size="24" anchorOffsetX="0" anchorOffsetY="0" height="21" textColor="0xfb4947" bold="true"/>
+	<e:Image id="need_icon" source="paobei_json.pao_energy_big" x="101" y="226"/>
+
+
+
+
+
+
+
+
+</e:Skin>

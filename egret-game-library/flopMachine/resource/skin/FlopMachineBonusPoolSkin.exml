@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FlopMachineBonusPoolSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" xmlns:tween="egret.tween.*" xmlns:match="match.*" width="1280" height="720">
+	<w:Declarations>
+		<tween:TweenGroup id="open">
+			<tween:TweenItem target="{one_btn}">
+				<tween:To duration="400" ease="backOut">
+					<tween:props>
+						<e:Object alpha="{1}" y="{225}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="850"/>
+				<tween:Set/>
+			</tween:TweenItem>
+			<tween:TweenItem target="{two_btn}">
+				<tween:To duration="500" ease="backOut">
+					<tween:props>
+						<e:Object alpha="{1}" x="{801}" y="{252}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="750"/>
+				<tween:Set/>
+			</tween:TweenItem>
+			<tween:TweenItem target="{three_btn}">
+				<tween:To duration="500" ease="backOut">
+					<tween:props>
+						<e:Object alpha="{1}" x="{478}" y="{252}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="750"/>
+				<tween:Set/>
+			</tween:TweenItem>
+			<tween:TweenItem target="{four_btn}">
+				<tween:To duration="650" ease="backOut">
+					<tween:props>
+						<e:Object alpha="{1}" x="{958}" y="{298}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="600"/>
+				<tween:Set/>
+			</tween:TweenItem>
+			<tween:TweenItem target="{five_btn}">
+				<tween:To duration="650" ease="backOut">
+					<tween:props>
+						<e:Object alpha="{1}" y="{298}" x="{320}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="600"/>
+				<tween:Set/>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Group id="btn_grp" width="1280" height="720">
+		<e:Button id="one_btn" label="" y="625" anchorOffsetX="67" x="642" anchorOffsetY="88" name="0" alpha="0" enabled="false" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image id="img" source.disabled="flopMachine_json.fpj_caijin_card" source="flopMachine_json.fpj_caijin_card_1"/>
+				<e:Image id="max" source="flopMachine_json.fpj_caijin_max" x="19" y="19" visible="false"/>
+				<e:Image id="kuang" source="flopMachine_json.fpj_caijin_xzk" scale9Grid="17,17,2,3" width="130" height="177" visible="false"/>
+				<e:BitmapLabel id="labelDisplay" font="flopMachineBonusPoolFont_fnt" visible.disabled="true" visible="false" y="116" horizontalCenter="0.5"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="two_btn" label="" y="627" x="734" anchorOffsetX="65" rotation="10" alpha="0" anchorOffsetY="88" name="1" enabled="false" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image id="img" width="100%" height="100%" source.disabled="flopMachine_json.fpj_caijin_card" source="flopMachine_json.fpj_caijin_card_1"/>
+				<e:Image id="max" source="flopMachine_json.fpj_caijin_max" x="19" y="19" visible="false"/>
+				<e:Image id="kuang" source="flopMachine_json.fpj_caijin_xzk" scale9Grid="17,17,2,3" width="130" height="177" visible="false"/>
+				<e:BitmapLabel id="labelDisplay" font="flopMachineBonusPoolFont_fnt" visible.disabled="true" visible="false" y="116" horizontalCenter="0.5"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="three_btn" label="" y="627" x="537" anchorOffsetX="65" rotation="-10" alpha="0" anchorOffsetY="88" name="2" enabled="false" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image id="img" width="100%" height="100%" source.disabled="flopMachine_json.fpj_caijin_card" source="flopMachine_json.fpj_caijin_card_1"/>
+				<e:Image id="max" source="flopMachine_json.fpj_caijin_max" x="19" y="19" visible="false"/>
+				<e:Image id="kuang" source="flopMachine_json.fpj_caijin_xzk" scale9Grid="17,17,2,3" width="130" height="177" visible="false"/>
+				<e:BitmapLabel id="labelDisplay" font="flopMachineBonusPoolFont_fnt" visible.disabled="true" visible="false" y="116" horizontalCenter="0.5" text=""/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="four_btn" label="" y="635" x="809" anchorOffsetX="65" rotation="20" alpha="0" anchorOffsetY="88" name="3" enabled="false" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image id="img" width="100%" height="100%" source.disabled="flopMachine_json.fpj_caijin_card" source="flopMachine_json.fpj_caijin_card_1"/>
+				<e:Image id="max" source="flopMachine_json.fpj_caijin_max" x="19" y="19" visible="false"/>
+				<e:Image id="kuang" source="flopMachine_json.fpj_caijin_xzk" scale9Grid="17,17,2,3" width="130" height="177" visible="false"/>
+				<e:BitmapLabel id="labelDisplay" font="flopMachineBonusPoolFont_fnt" visible.disabled="true" visible="false" y="116" horizontalCenter="0.5" text=""/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="five_btn" label="" y="635" anchorOffsetY="88" x="449" rotation="-20" alpha="0" anchorOffsetX="65" name="4" enabled="false" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image id="img" width="100%" height="100%" source.disabled="flopMachine_json.fpj_caijin_card" source="flopMachine_json.fpj_caijin_card_1"/>
+				<e:Image id="max" source="flopMachine_json.fpj_caijin_max" x="19" y="19" visible="false"/>
+				<e:Image id="kuang" source="flopMachine_json.fpj_caijin_xzk" scale9Grid="17,17,2,3" width="130" height="177" visible="false"/>
+				<e:BitmapLabel id="labelDisplay" font="flopMachineBonusPoolFont_fnt" visible.disabled="true" visible="false" y="116" horizontalCenter="0.5" text=""/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

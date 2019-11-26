@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreateMatchSetSkin" width="920" height="580" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image x="0" y="0" anchorOffsetX="0" width="920" anchorOffsetY="0" height="578" source="club_scale9_json.club_bg1" scale9Grid="2,3,2,1"/>
+	<e:Image y="0" anchorOffsetX="0" height="69" source="club_scale9_json.club_btnbg6" scale9Grid="2,9,2,61" right="77" left="0"/>
+	<e:Label text="老友圈设置" y="17" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xFFFEFE" size="38" bold="true"/>
+	<eui:WxButton id="closeBtn" label="" y="0" right="0">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_manage_closebtn3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Label text="老友圈名称" x="269.33" y="158.33" fontFamily="Microsoft YaHei" size="32" textColor="0xc0c4fe"/>
+	<e:Label text="副房主账号" x="269.33" y="251.33" fontFamily="Microsoft YaHei" size="32" textColor="0xc0c4fe"/>
+	<e:Label id="_permissionLabel" text="房主授权进入" x="415" y="402.65" fontFamily="Microsoft YaHei" size="28" textColor="0xc0c4fe"/>
+	<e:Image source="club_scale9_json.club_bg2" x="432.5" y="153.83" width="266" height="49" scale9Grid="1,1,6,5"/>
+	<e:Image source="club_scale9_json.club_bg2" x="432.5" width="266" height="49" scale9Grid="1,1,6,5" y="244"/>
+	<e:EditableText id="_clubNameInput"  text="" x="440" y="159.83" prompt="输入老友圈名称" promptColor="0xffffff"  width="237" size="32" fontFamily="Microsoft YaHei" height="32" textAlign="center" textColor="0xffffff"/>
+	<e:EditableText id="_userIdInput" text="" x="440" y="251.33" prompt="输入玩家账号" promptColor="0xffffff"  width="237" size="32" fontFamily="Microsoft YaHei" height="32" textAlign="center" maxChars="9" restrict="0-9" textColor="0xffffff"/>
+	<eui:WxButton id="_creatBtn" label="创建老友圈" y="457" x="348" width="200">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg2" scale9Grid="1,7,6,42"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="28" fontFamily="Microsoft YaHei" bold="true" textColor="0x894215"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_sureSetBtn" label="确 定" y="457" x="348" width="200">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg2" scale9Grid="1,7,6,42"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x894215" size="28" fontFamily="Microsoft YaHei" bold="true"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:RadioButton id="_permissionCheck" label="" x="365" y="394">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_manage_chose1" source.down="club_json.club_manage_chose2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+</e:Skin>

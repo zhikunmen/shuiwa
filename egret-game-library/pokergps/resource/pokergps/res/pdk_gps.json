@@ -1,0 +1,8 @@
+{"file":"pdk_gps.png","frames":{
+"pdk_default_head":{"x":368,"y":369,"w":109,"h":109,"offX":9,"offY":8,"sourceW":126,"sourceH":126},
+"pdk_gps_3line":{"x":0,"y":0,"w":647,"h":261,"offX":0,"offY":0,"sourceW":647,"sourceH":261},
+"pdk_gps_green":{"x":473,"y":480,"w":103,"h":26,"offX":0,"offY":0,"sourceW":103,"sourceH":26},
+"pdk_gps_normal":{"x":0,"y":369,"w":366,"h":66,"offX":0,"offY":0,"sourceW":366,"sourceH":66},
+"pdk_gps_red":{"x":368,"y":480,"w":103,"h":26,"offX":0,"offY":0,"sourceW":103,"sourceH":26},
+"pdk_gps_title":{"x":0,"y":263,"w":415,"h":104,"offX":0,"offY":0,"sourceW":415,"sourceH":104},
+"pdk_gps_warn":{"x":0,"y":437,"w":366,"h":66,"offX":0,"offY":0,"sourceW":366,"sourceH":66}}}

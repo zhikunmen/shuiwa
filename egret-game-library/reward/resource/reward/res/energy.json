@@ -1,0 +1,115 @@
+{
+  "file": "energy.png",
+  "frames": {
+    "energy_bg": {
+      "x": 0,
+      "y": 132,
+      "w": 30,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 30
+    },
+    "energy_progress_bar": {
+      "x": 0,
+      "y": 88,
+      "w": 21,
+      "h": 16,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 21,
+      "sourceH": 16
+    },
+    "energy_progress_bg": {
+      "x": 23,
+      "y": 88,
+      "w": 21,
+      "h": 16,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 21,
+      "sourceH": 16
+    },
+    "energy_today_icon": {
+      "x": 0,
+      "y": 0,
+      "w": 71,
+      "h": 86,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 75,
+      "sourceH": 89
+    },
+    "energy_today_txt": {
+      "x": 0,
+      "y": 110,
+      "w": 97,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 97,
+      "sourceH": 20
+    },
+    "gift_1": {
+      "x": 73,
+      "y": 0,
+      "w": 54,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 53
+    },
+    "gift_2": {
+      "x": 129,
+      "y": 0,
+      "w": 54,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 53
+    },
+    "gift_3": {
+      "x": 129,
+      "y": 55,
+      "w": 54,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 53
+    },
+    "gift_4": {
+      "x": 185,
+      "y": 0,
+      "w": 54,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 53
+    },
+    "gift_5": {
+      "x": 185,
+      "y": 55,
+      "w": 54,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 53
+    },
+    "gift_100": {
+      "x": 73,
+      "y": 55,
+      "w": 54,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 53
+    }
+  }
+}

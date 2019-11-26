@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DiamondsPanelSkin" width="775" height="450" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image width="775" source="reward_json.reward_all_bg_png" scale9Grid="26,99,6,303"/>
+	<e:Image  horizontalCenter="0" y="-5" source="reward_diamond_title_png"/>
+	<e:Image y="-5.33" x="5.33" source="reward_json.reward_light_zuoshang_png"/>
+	<e:Image y="432" x="550" source="reward_json.reward_light_youxia_png"/>
+	<e:Group y="149" x="24">
+		<e:Group id="itme1" x="0" y="0" scaleX="1" scaleY="1">
+			<eui:WxButton >
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="reward_iconbg_png"/>
+					<e:Image horizontalCenter="0" verticalCenter="11" source="reward_json.reward_icon5_png"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+			
+			<eui:WxButton label="" y="187" x="6">
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="reward_json.reward_btn5_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+
+
+		</e:Group>
+		<e:Group id="itme2" x="182" y="0" scaleX="1" scaleY="1">
+			<eui:WxButton >
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="reward_iconbg_png"/>
+					<e:Image source="reward_icon2_png" horizontalCenter="0" verticalCenter="11"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+			<eui:WxButton label="" y="187" x="7">
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="reward_btn2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+
+
+		</e:Group>
+		<e:Group id="itme3" x="364" y="0" scaleX="1" scaleY="1">
+			<eui:WxButton >
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="reward_iconbg_png"/>
+					<e:Image source="reward_icon3_png" horizontalCenter="0" verticalCenter="11"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+			<eui:WxButton label="" y="187">
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="reward_btn3_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+
+
+		</e:Group>
+
+		<e:Group id="itme4" x="554" y="0" scaleX="1" scaleY="1">
+			<eui:WxButton >
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="reward_iconbg_png"/>
+					<e:Image source="reward_icon4_png" horizontalCenter="0" verticalCenter="11"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+			<eui:WxButton label="" y="187" x="6">
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="reward_btn4_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+
+
+		</e:Group>
+
+	</e:Group>
+	<e:Label id="desc" text="钻石不足，请通过以下途径获得钻石" y="92" horizontalCenter="0" fontFamily="Microsoft YaHei" size="26" textColor="0xcb9158"/>
+	<eui:WxButton id="_closeBtn" label="" x="700" y="6">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="reward_close_png" source.down="reward_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+</e:Skin>

@@ -1,0 +1,11 @@
+{"file":"goldLand.png","frames":{
+"0":{"x":0,"y":30,"w":19,"h":29,"offX":1,"offY":0,"sourceW":20,"sourceH":29},
+"1":{"x":42,"y":31,"w":18,"h":28,"offX":2,"offY":0,"sourceW":20,"sourceH":29},
+"2":{"x":42,"y":61,"w":18,"h":28,"offX":1,"offY":0,"sourceW":20,"sourceH":29},
+"3":{"x":0,"y":91,"w":17,"h":29,"offX":2,"offY":0,"sourceW":20,"sourceH":29},
+"4":{"x":0,"y":0,"w":20,"h":28,"offX":0,"offY":0,"sourceW":20,"sourceH":29},
+"5":{"x":21,"y":62,"w":17,"h":29,"offX":2,"offY":0,"sourceW":20,"sourceH":29},
+"6":{"x":22,"y":0,"w":19,"h":29,"offX":1,"offY":0,"sourceW":20,"sourceH":29},
+"7":{"x":0,"y":61,"w":19,"h":28,"offX":1,"offY":0,"sourceW":20,"sourceH":29},
+"8":{"x":21,"y":31,"w":19,"h":29,"offX":1,"offY":0,"sourceW":20,"sourceH":29},
+"9":{"x":43,"y":0,"w":19,"h":29,"offX":1,"offY":0,"sourceW":20,"sourceH":29}}}

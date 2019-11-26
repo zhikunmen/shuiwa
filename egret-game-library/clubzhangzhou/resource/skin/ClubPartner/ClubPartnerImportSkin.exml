@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPartnerImportSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" width="1244" height="680" anchorOffsetY="0" anchorOffsetX="0" y="26.66" horizontalCenter="2" locked="true"/>
+	<e:Image source="mjl_common_title_png" y="0" x="405" locked="true"/>
+	<e:Image source="club_new_menage_json.club_memberimport_title" y="11.7" x="547" locked="true"/>
+	<e:Image source="mjl_common_bg1_png" y="146.47" scale9Grid="9,9,21,19" anchorOffsetX="0" width="1167.15" anchorOffsetY="0" height="422.49" horizontalCenter="-0.5" locked="true"/>
+	<e:Button id="_closeBtn" label="" x="-3.04" y="-1.52">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="1134.85" height="400" x="71" y="158.85" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="_list" itemRendererSkinName="ClubPartnerImportItemSkin" height="410.61" anchorOffsetY="0" useVirtualLayout="false">
+			<e:layout>
+				<e:TileLayout horizontalGap="14"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="_sureBtn" label="提交申请" y="585.17" x="526">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x216300" size="38"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_allBtn" label="" x="71.36" y="602.91">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="club_new_menage_json.club_import_frame"/>
+	<e:Image source="club_new_menage_json.club_import_on2" y="2" includeIn="down"/>
+			<e:Label y="6.84" x="56.92" text="全选" fontFamily="Microsoft YaHei" textColor="0x8b5500"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_choseClubBtn" label="" x="67.5" y="78.96">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="204" height="52" source="mjl_common_bg1_png" scale9Grid="5,5,30,30"/>
+			<e:Label id="_matchIdText" horizontalCenter="-7" verticalCenter="0" text="343434" fontFamily="Microsoft YaHei" textColor="0xe73500" bold="true"/>
+			<e:Image source="club_new_menage_json.club_matchlist_up" x="171" y="2" includeIn="up"/>
+			<e:Image source="club_new_menage_json.club_matchlist_down" x="171" y="2" includeIn="down"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_matchGroup" width="204" x="66" y="129.58" height="464" visible="false">
+		<e:Rect id="_choseRect" width="1280" height="720" fillColor="0xFFFFFF" x="-66" y="-135.66" alpha="0"/>
+		<e:Image id="_choseClubBg" source="club_new_menage_json.club_matchlist_bg" width="204" scale9Grid="1,1,8,8" height="456"/>
+		<e:Scroller id="_matchScroller" height="454" anchorOffsetY="0" anchorOffsetX="0" width="204" scaleX="1" scaleY="1" x="1.5" y="1">
+		<e:List id="matchList" itemRendererSkinName="MatchRadioButtonSkin" x="-1" y="-1.52" anchorOffsetY="0" width="203" useVirtualLayout="false">
+			<e:layout>
+			<e:VerticalLayout gap="0"/>
+			</e:layout>
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

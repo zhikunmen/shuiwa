@@ -1,0 +1,16 @@
+{"file":"packbag.png","frames":{
+"bag_bg_1":{"x":340,"y":0,"w":117,"h":449,"offX":0,"offY":0,"sourceW":118,"sourceH":450},
+"bag_common_bg":{"x":136,"y":469,"w":192,"h":66,"offX":7,"offY":5,"sourceW":199,"sourceH":74},
+"bag_botton_shiyong":{"x":298,"y":661,"w":147,"h":72,"offX":0,"offY":0,"sourceW":148,"sourceH":72},
+"bag_send":{"x":149,"y":661,"w":147,"h":72,"offX":0,"offY":0,"sourceW":148,"sourceH":72},
+"bag_title":{"x":149,"y":611,"w":64,"h":30,"offX":0,"offY":0,"sourceW":64,"sourceH":30},
+"bag_bg_2":{"x":459,"y":0,"w":37,"h":37,"offX":0,"offY":0,"sourceW":37,"sourceH":37},
+"bag_botton_hechen":{"x":0,"y":611,"w":147,"h":72,"offX":0,"offY":0,"sourceW":148,"sourceH":72},
+"bag_botton_buy":{"x":286,"y":587,"w":147,"h":72,"offX":0,"offY":0,"sourceW":148,"sourceH":72},
+"bag_send1":{"x":149,"y":735,"w":147,"h":72,"offX":0,"offY":0,"sourceW":148,"sourceH":72},
+"bag_btn_close":{"x":435,"y":587,"w":58,"h":58,"offX":0,"offY":0,"sourceW":58,"sourceH":58},
+"bag_xuanzhong":{"x":340,"y":451,"w":134,"h":134,"offX":0,"offY":0,"sourceW":134,"sourceH":134},
+"bag_botton_shiyong1":{"x":0,"y":685,"w":147,"h":72,"offX":0,"offY":0,"sourceW":148,"sourceH":72},
+"bag_bg_3":{"x":0,"y":0,"w":338,"h":467,"offX":0,"offY":0,"sourceW":338,"sourceH":467},
+"bag_weixuan":{"x":0,"y":469,"w":134,"h":134,"offX":0,"offY":0,"sourceW":134,"sourceH":134},
+"bag_btn_sell":{"x":136,"y":537,"w":148,"h":72,"offX":0,"offY":0,"sourceW":148,"sourceH":72}}}

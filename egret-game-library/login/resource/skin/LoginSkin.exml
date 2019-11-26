@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:login="login.*">
+	<e:Image id="bg_img" source="mjf_loadingbg_jpg" top="0" bottom="0"/>
+	<e:Label id="_versionTxt" text="Label" right="2" bottom="2" textColor="0x8d8c91" size="20" fontFamily="Microsoft YaHei"/>
+	<login:LoginPhone id="phone_login" skinName="LoginPhoneSkin" horizontalCenter="0.5" y="373.36" visible="false"/>
+	<e:Group id="_btnContain"  bottom="93" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:Button id="_youkeLogin">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ykLogin1_png" source.down="ykLogin2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Button id="wx_btn" >
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_login_wx1_png" source.down="mjl_login_wx2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_accountLogin">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login1_png" source.down="login2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:layout>
+			<e:HorizontalLayout gap="20"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

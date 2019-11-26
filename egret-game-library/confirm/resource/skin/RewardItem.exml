@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RewardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15f38edd073" ></w:Config>
+	<e:Image source="reward_itemBg_png"/>
+	<e:Image id="giftIcon_img" horizontalCenter="0" y="21"/>
+	<e:Image y="142.32" source="reward_numbg_png"/>
+	<e:Label id="giftName_lb" text="" horizontalCenter="1" size="26" fontFamily="Microsoft YaHei" textAlign="center" bottom="7" textColor="0xffffff"/>
+</e:Skin>

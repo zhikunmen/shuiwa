@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubNewBoxItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Group anchorOffsetX="0" width="481" anchorOffsetY="0" height="116">
+		<e:Image scaleX="1" scaleY="1" y="7.37" width="481" height="106" x="0" source="club_scale9_json.clubbox_itembg" scale9Grid="10,10,3,3"/>
+		<eui:WxButton id="_closeBtn" label="" x="444" y="1" width="41" height="41">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.clubbox_close1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="_createBtn" label="+" x="356" y="40" height="48" visible="false">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" size="40" textColor="0xfffefe" bold="true" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="_switchBtn" label="切换" x="251.5" y="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0xfffefe" fontFamily="Microsoft YaHei" size="28" bold="true"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="_setBtn" label="设置" x="356" y="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="28" textColor="0xfffefe" fontFamily="Microsoft YaHei" bold="true"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="_detailsBtn" label="详情" x="356" y="40" visible="false">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0xfffefe" size="28" fontFamily="Microsoft YaHei" bold="true"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<e:Label id="_msgTxt" text="该包间暂无玩法" x="23" y="43" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Label id="_gameTypeTxt" text="斗地主" x="100" y="30" fontFamily="Microsoft YaHei"/>
+		<e:Label id="_personNumTxt" text="16人" x="100" y="70" fontFamily="Microsoft YaHei" textColor="0xffff00" size="24"/>
+		<e:Label id="_gameNumTxt" text="16局" x="165" y="70" fontFamily="Microsoft YaHei" textColor="0xFFFF00" size="24"/>
+		<e:Image id="_gameIconImg" x="10" y="22" anchorOffsetX="0" width="72.89" anchorOffsetY="0" height="74" source=""/>
+	</e:Group>
+</e:Skin>

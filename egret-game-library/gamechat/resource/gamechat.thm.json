@@ -1,0 +1,9 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/ChatRadioButtonSkin.exml",
+		"resource/skin/ChatSkin.exml",
+		"resource/skin/FaceButtonSkin.exml"
+	],
+	"path": "resource/gamechat.thm.json"
+}

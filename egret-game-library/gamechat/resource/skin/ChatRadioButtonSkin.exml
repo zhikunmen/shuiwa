@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatRadioButtonSkin" width="375" height="43" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="labelDisplay" text="不好意思，我有事先走一步" x="5" size="22" width="365" fontFamily="Microsoft YaHei" anchorOffsetX="0" rotation="359.99" anchorOffsetY="0" height="28" verticalCenter="0" textColor="0x73491b"/>
+</e:Skin>

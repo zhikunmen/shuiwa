@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskView1Skin" width="772" height="490" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:reward="reward.*">
+
+
+	<e:Scroller id="scroll" width="771" height="358" y="115" x="1" anchorOffsetY="0">
+		<e:List id="task_lst" y="-11" itemRendererSkinName="TaskItemlSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<reward:EnergyView x="0" y="0" skinName="EnergyViewSkin"/>
+</e:Skin>

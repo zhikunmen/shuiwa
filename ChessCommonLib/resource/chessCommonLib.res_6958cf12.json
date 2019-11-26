@@ -1,0 +1,343 @@
+{
+    "resources": [
+        {
+            "url": "hc_assets/head/default_avar_fae6eb8c.png", 
+            "type": "image", 
+            "name": "default_avar_png"
+        }, 
+        {
+            "url": "hc_assets/head/default_avar_man_b3ab46c1.png", 
+            "type": "image", 
+            "name": "default_avar_man_png"
+        }, 
+        {
+            "url": "hc_assets/head/default_avar_woman_8903bd42.png", 
+            "type": "image", 
+            "name": "default_avar_woman_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon0_73e4c89f.png", 
+            "type": "image", 
+            "name": "vip_icon0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon1_be2a4001.png", 
+            "type": "image", 
+            "name": "vip_icon1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon2_7fbd3bc7.png", 
+            "type": "image", 
+            "name": "vip_icon2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon3_5e106c20.png", 
+            "type": "image", 
+            "name": "vip_icon3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon4_37480feb.png", 
+            "type": "image", 
+            "name": "vip_icon4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon5_cb54b337.png", 
+            "type": "image", 
+            "name": "vip_icon5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon6_909ad35e.png", 
+            "type": "image", 
+            "name": "vip_icon6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon7_afe49475.png", 
+            "type": "image", 
+            "name": "vip_icon7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon8_337a18ee.png", 
+            "type": "image", 
+            "name": "vip_icon8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon9_58d9aa74.png", 
+            "type": "image", 
+            "name": "vip_icon9_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big0_36373c85.png", 
+            "type": "image", 
+            "name": "vip_big0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big1_fb0544ff.png", 
+            "type": "image", 
+            "name": "vip_big1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big2_30072571.png", 
+            "type": "image", 
+            "name": "vip_big2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big3_e7067e51.png", 
+            "type": "image", 
+            "name": "vip_big3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big4_bffd8d1a.png", 
+            "type": "image", 
+            "name": "vip_big4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big5_cb54f92f.png", 
+            "type": "image", 
+            "name": "vip_big5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big6_f01c6266.png", 
+            "type": "image", 
+            "name": "vip_big6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big7_29ecc30e.png", 
+            "type": "image", 
+            "name": "vip_big7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big8_9efaab27.png", 
+            "type": "image", 
+            "name": "vip_big8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big9_bb3f4af9.png", 
+            "type": "image", 
+            "name": "vip_big9_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small0_ee061e.png", 
+            "type": "image", 
+            "name": "vip_small0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small1_257eabb4.png", 
+            "type": "image", 
+            "name": "vip_small1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small2_6295d9f2.png", 
+            "type": "image", 
+            "name": "vip_small2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small3_74dfec2b.png", 
+            "type": "image", 
+            "name": "vip_small3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small4_b58c4126.png", 
+            "type": "image", 
+            "name": "vip_small4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small5_56666b9a.png", 
+            "type": "image", 
+            "name": "vip_small5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small6_21015c84.png", 
+            "type": "image", 
+            "name": "vip_small6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small7_cc4eb516.png", 
+            "type": "image", 
+            "name": "vip_small7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small8_3c1a764e.png", 
+            "type": "image", 
+            "name": "vip_small8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small9_494202b7.png", 
+            "type": "image", 
+            "name": "vip_small9_png"
+        }, 
+        {
+            "url": "hc_assets/table/gameList_934f0271.json", 
+            "type": "json", 
+            "name": "gameList_json"
+        }, 
+        {
+            "url": "hc_assets/table/GameTaskConfig_bde7bc5c.json", 
+            "type": "json", 
+            "name": "GameTaskConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/giftChange_de7e60a7.json", 
+            "type": "json", 
+            "name": "giftChange_json"
+        }, 
+        {
+            "url": "hc_assets/table/LobbyTaskConfig_d282b5dd.json", 
+            "type": "json", 
+            "name": "LobbyTaskConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/QuickShop_f2d9c6ca.json", 
+            "type": "json", 
+            "name": "QuickShop_json"
+        }, 
+        {
+            "url": "hc_assets/table/RedEnvelopeConfig_e045ffe8.json", 
+            "type": "json", 
+            "name": "RedEnvelopeConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/RedEnvelopeNumberConfig_22c550e.json", 
+            "type": "json", 
+            "name": "RedEnvelopeNumberConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableCoinHundredConfig_bb45d352.json", 
+            "type": "json", 
+            "name": "TableCoinHundredConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableCoreResources_702d03ae.json", 
+            "type": "json", 
+            "name": "TableCoreResources_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableCreateConfigList_5249eba2.json", 
+            "type": "json", 
+            "name": "TableCreateConfigList_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableEventConfig_407d26fa.json", 
+            "type": "json", 
+            "name": "TableEventConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableGameTaskConfig_adb46915.json", 
+            "type": "json", 
+            "name": "TableGameTaskConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableGift_haocai_32e12ed9.json", 
+            "type": "json", 
+            "name": "TableGift_haocai_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableGift_lobby_452eca82.json", 
+            "type": "json", 
+            "name": "TableGift_lobby_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableGoodsConfig_c67f7b9a.json", 
+            "type": "json", 
+            "name": "TableGoodsConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/Tablehaocaivip_fed484ca.json", 
+            "type": "json", 
+            "name": "Tablehaocaivip_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableLimitOfferConfig_bf0fc820.json", 
+            "type": "json", 
+            "name": "TableLimitOfferConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableLobbyGameList_84b11a80.json", 
+            "type": "json", 
+            "name": "TableLobbyGameList_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableluckGift_704ba5ee.json", 
+            "type": "json", 
+            "name": "TableluckGift_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableMahjongVipConfig_5f7f9986.json", 
+            "type": "json", 
+            "name": "TableMahjongVipConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableMatchTypeList_a3cbdb68.json", 
+            "type": "json", 
+            "name": "TableMatchTypeList_json"
+        }, 
+        {
+            "url": "hc_assets/table/TablePlayTypeList_a381e9b6.json", 
+            "type": "json", 
+            "name": "TablePlayTypeList_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableRoomCostConfig_13f2e318.json", 
+            "type": "json", 
+            "name": "TableRoomCostConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableShake_309b419a.json", 
+            "type": "json", 
+            "name": "TableShake_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableShopConfig_938a79b8.json", 
+            "type": "json", 
+            "name": "TableShopConfig_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableSignIn_bfd6a8f5.json", 
+            "type": "json", 
+            "name": "TableSignIn_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableTurn_8e305be2.json", 
+            "type": "json", 
+            "name": "TableTurn_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableTurnCumulative_434daef4.json", 
+            "type": "json", 
+            "name": "TableTurnCumulative_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableVIPPoint_dd8313ca.json", 
+            "type": "json", 
+            "name": "TableVIPPoint_json"
+        }, 
+        {
+            "url": "hc_assets/table/TableWuzhousafe_eb4c23e8.json", 
+            "type": "json", 
+            "name": "TableWuzhousafe_json"
+        }, 
+        {
+            "url": "hc_assets/head/name_bg_mask_4d1fee66.png", 
+            "type": "image", 
+            "name": "name_bg_mask_png"
+        }, 
+        {
+            "url": "hc_assets/table/TableVip_136a11be.json", 
+            "type": "json", 
+            "name": "TableVip_json"
+        }
+    ], 
+    "groups": [
+        {
+            "keys": "default_avar_png,default_avar_man_png,default_avar_woman_png,name_bg_mask_png", 
+            "name": "chess_common_head"
+        }, 
+        {
+            "keys": "vip_icon0_png,vip_icon1_png,vip_icon2_png,vip_icon3_png,vip_icon4_png,vip_icon5_png,vip_icon6_png,vip_icon7_png,vip_icon8_png,vip_icon9_png,vip_big0_png,vip_big1_png,vip_big2_png,vip_big3_png,vip_big4_png,vip_big5_png,vip_big6_png,vip_big7_png,vip_big8_png,vip_big9_png,vip_small0_png,vip_small1_png,vip_small2_png,vip_small3_png,vip_small4_png,vip_small5_png,vip_small6_png,vip_small7_png,vip_small8_png,vip_small9_png", 
+            "name": "chess_common_vip"
+        }, 
+        {
+            "keys": "gameList_json,GameTaskConfig_json,giftChange_json,LobbyTaskConfig_json,QuickShop_json,RedEnvelopeConfig_json,RedEnvelopeNumberConfig_json,TableCoinHundredConfig_json,TableCoreResources_json,TableCreateConfigList_json,TableEventConfig_json,TableGameTaskConfig_json,TableGift_haocai_json,TableGift_lobby_json,TableGoodsConfig_json,Tablehaocaivip_json,TableLimitOfferConfig_json,TableLobbyGameList_json,TableluckGift_json,TableMahjongVipConfig_json,TableMatchTypeList_json,TablePlayTypeList_json,TableRoomCostConfig_json,TableShake_json,TableShopConfig_json,TableSignIn_json,TableTurn_json,TableTurnCumulative_json,TableVIPPoint_json,TableWuzhousafe_json,TableVip_json", 
+            "name": "chess_common_test"
+        }
+    ]
+}

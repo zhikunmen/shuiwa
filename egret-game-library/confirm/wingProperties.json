@@ -1,0 +1,11 @@
+{
+	"resourcePlugin": {
+		"configs": [
+			{
+				"configPath": "resource/confirm.res.json",
+				"relativePath": "resource/"
+			}
+		]
+	},
+	"theme": "resource/confirm.thm.json"
+}

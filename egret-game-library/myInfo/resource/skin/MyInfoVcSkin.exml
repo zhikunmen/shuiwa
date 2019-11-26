@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MyInfoVCSkin" width="1031" height="563" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+    <e:Image x="0" y="0" width="100%" height="100%"  source="myInfo_game_res_1_json.lb_geren_bg" scale9Grid="27,233,15,15" locked="true"/>
+    <e:Image x="0" y="-6"  source="myInfo_game_res_1_json.lb_geren_titlelight1" locked="true"/>
+    <e:Image y="273"  source="myInfo_game_res_1_json.lb_geren_cjbg" width="974" height="262" x="29" scale9Grid="20,19,1,2" anchorOffsetY="0" locked="true"/>
+	<e:Image source="myInfo_game_res_1_json.lb_geren_shengya" y="277" scale9Grid="36,7,3,2" width="250" horizontalCenter="0.5" locked="true"/>
+	<e:Image y="-5" source="myInfo_game_res_1_json.lb_geren_titlebg" scaleX="-1" x="719" locked="true"/>
+	<e:Image source="myInfo_game_res_1_json.lb_geren_titlebg" y="-5" x="323" locked="true"/>
+	<e:Image y="13" source="myInfo_game_res_1_json.lb_geren_title" horizontalCenter="0" locked="true"/>
+	<e:RadioButton id="girl_rbtn" label="" x="384" y="142" selected="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="myInfo_game_res_1_json.lb_geren_unselected"/>
+			<e:Image source.down="myInfo_game_res_1_json.lb_geren_select"/>
+			<e:Image source="myInfo_game_res_1_json.lb_geren_woman" x="55" y="2"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="boy_rbtn" label="" x="247" y="142" selected="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="myInfo_game_res_1_json.lb_geren_unselected"/>
+			<e:Image source.down="myInfo_game_res_1_json.lb_geren_select"/>
+			<e:Image source="myInfo_game_res_1_json.lb_geren_man" x="55" y="3"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<eui:WxButton id="phone_btn" label="" x="734" y="123.5" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="myInfo_btn_inBind_1"/>
+		</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="close_btn" label="" x="955" y="7">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="myInfo_game_res_1_json.lb_geren_close"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Group id="gift_grp" x="590" y="131">
+		<e:Image source="myInfo_game_res_1_json.pdk_gift_item_bg" scale9Grid="17,36,4,5" width="87"/>
+		<e:Image source="myInfo_game_res_1_json.pdk_gift_item_bg" x="99" scale9Grid="17,36,4,5" width="87"/>
+		<e:Image source="myInfo_game_res_1_json.pdk_gift_item_bg" x="198" scale9Grid="17,36,4,5" width="87"/>
+		<e:Image source="myInfo_game_res_1_json.pdk_gift_item_bg" x="297" scale9Grid="17,36,4,5" width="87"/>
+		<e:Image source="myInfo_game_res_1_json.userInfo_gift3" x="7" y="5"/>
+		<e:Image source="myInfo_game_res_1_json.userInfo_gift4" x="112" y="6"/>
+		<e:Image source="myInfo_game_res_1_json.userInfo_gift5" x="214" y="0"/>
+		<e:Image source="myInfo_game_res_1_json.userInfo_gift6" x="302" y="3"/>
+	</e:Group>
+
+	<e:Group y="379" x="88">
+		<e:Button id="rank_btn" label="--" x="20.5" y="-1" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="myInfo_game_res_1_json.lb_geren_cj1"/>
+			<e:Image source="myInfo_game_res_1_json.lb_geren_cjnumber" y="117" scale9Grid="13,12,1,3" width="112" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" size="22" textColor="0xf62100" text="" y="119" horizontalCenter="0.5"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="eliminate_btn" label="--" x="233" y="9" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="myInfo_game_res_1_json.lb_geren_cg2"/>
+			<e:Image source="myInfo_game_res_1_json.lb_geren_cjnumber" y="117" scale9Grid="13,12,1,3" width="112" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" size="22" textColor="0xf62100" text="" y="119" horizontalCenter="0.5"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="reward_btn" label="--" x="449.5" y="9" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="myInfo_game_res_1_json.lb_geren_cg3"/>
+			<e:Image source="myInfo_game_res_1_json.lb_geren_cjnumber" y="117" scale9Grid="13,12,1,3" width="112" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" size="22" textColor="0xf62100" text="" y="119" horizontalCenter="0.5"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="rushNum_btn" label="--" x="683" y="9" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="myInfo_game_res_1_json.lb_geren_cg4"/>
+			<e:Image source="myInfo_game_res_1_json.lb_geren_cjnumber" y="117" scale9Grid="13,12,1,3" width="112" horizontalCenter="0"/>
+			<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" size="22" textColor="0xf62100" text="" y="119" horizontalCenter="0.5"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:layout>
+		<e:HorizontalLayout gap="128"/>
+		</e:layout>
+	</e:Group>
+	<eui:WxButton id="sign_btn" label="" touchEnabled="false" scaleX="1" scaleY="1" right="433" y="232">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="myInfo_game_res_1_json.lb_geren_xiugai"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image id="_phone_bg" x="138" y="222.5" source="myInfo_enter_bg" scale9Grid="15,14,26,17" width="425" height="46" anchorOffsetX="0"/>
+	<e:Rect width="921" height="2" y="372" fillColor="0xe8c98c" horizontalCenter="0" locked="true"/>
+    <e:Image id="head_img" source="" x="69" y="101.5" width="70" height="70"  anchorOffsetX="0" anchorOffsetY="0"/>
+    <e:Image x="65" y="96.5"  source="myInfo_game_res_1_json.lb_geren_txk"/>
+    <e:Label id="nickName_lbl" text="昵称：" size="26" fontFamily="Microsoft YaHei" x="160" y="99"
+              textColor="0x8e2a0c" width="235" height="26"/>
+	<e:Label id="position_lbl" text="位置：" size="26" fontFamily="Microsoft YaHei" x="67.5" y="189" textColor="0x8E2A0C"/>
+	<e:Label text="签名：" size="26" fontFamily="Microsoft YaHei" x="67.5" y="231" textColor="0x8E2A0C"/>
+	<e:Label text="个人生涯" size="26" fontFamily="Microsoft YaHei" y="284" textColor="0x8E2A0C" horizontalCenter="0.5"/>
+
+    <e:Label id="account_lbl" text="账号：--" size="26" fontFamily="Microsoft YaHei" x="410" y="99"
+              textColor="0x8e2a0c"/>
+    <e:Label text="性别：" size="26" fontFamily="Microsoft YaHei" x="160" y="145.5"  textColor="0x8e2a0c" locked="true"/>
+    <e:Label id="tips_lbl" text="（绑定后可兑换红包）" size="26" fontFamily="Microsoft YaHei" x="728" y="204" textColor="0xd6461b" visible="false"/>
+	<e:Label id="allNum_lbl" text="总对局：--" size="26" fontFamily="Microsoft YaHei" x="89" y="337" textColor="0xff4e00"/>
+	<e:Label id="rate_lbl" text="胜率：--" size="26" fontFamily="Microsoft YaHei" x="307.5" y="337" textColor="0xFF4E00"/>
+	<e:Label id="winStreak_lbl" text="最高连胜数：--" size="26" fontFamily="Microsoft YaHei" x="531" y="337" textColor="0xFF4E00"/>
+	<e:Label id="todayWin_lbl" text="今日胜场：--" size="26" fontFamily="Microsoft YaHei" x="790.5" y="337" textColor="0xFF4E00"/>
+	<e:EditableText id="sign_etxt" text="暂未设置签名" size="26" fontFamily="Microsoft YaHei" textColor="0x8E2A0C" maxChars="15" multiline="false" x="147" y="232" anchorOffsetX="0" width="459"/>
+
+
+
+</e:Skin>

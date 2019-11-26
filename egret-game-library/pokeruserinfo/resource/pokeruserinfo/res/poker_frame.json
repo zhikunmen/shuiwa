@@ -1,0 +1,4 @@
+{"file":"poker_frame.png","frames":{
+"pdk_close":{"x":404,"y":0,"w":91,"h":89,"offX":2,"offY":2,"sourceW":96,"sourceH":95},
+"pdk_face_bg":{"x":305,"y":0,"w":95,"h":95,"offX":0,"offY":0,"sourceW":95,"sourceH":95},
+"pdk_set_bg1":{"x":0,"y":0,"w":301,"h":82,"offX":0,"offY":0,"sourceW":301,"sourceH":82}}}

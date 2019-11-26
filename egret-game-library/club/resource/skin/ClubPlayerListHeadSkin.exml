@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPlayerListHeadSkin" width="165" height="162" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="nameTxt" text="玩家昵称..." y="130" horizontalCenter="0.5" size="25" fontFamily="Microsoft YaHei" textColor="0x624a33"/>
+	<e:Image id="headImg" source="club_deskseat_head" y="8.23"  width="108.8"  height="108.55" horizontalCenter="0"/>
+	<e:Image y="3" source="club_numlist_bg" x="22"  width="120.96"  height="122.23" rotation="360"/>
+	<e:Image id="ownerImg" source="club_groupowner_png" x="28" y="8.23"/>
+	<e:Image id="adminImg" source="club_administrators_png" x="28" y="8.23"/>
+</e:Skin>

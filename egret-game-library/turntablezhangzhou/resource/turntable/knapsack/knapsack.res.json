@@ -1,0 +1,12 @@
+{
+	"groups":[{
+			"keys":"mjl_knapsack_json",
+			"name":"pub_knapsack"
+		}],
+	"resources":[{
+			"name":"mjl_knapsack_json",
+			"subkeys":"mjl_knapsack_341,mjl_knapsack_342,mjl_knapsack_343,mjl_knapsack_add,mjl_knapsack_gold,mjl_knapsack_input,mjl_knapsack_itembg,mjl_knapsack_reduce,mjl_knapsack_select,mjl_knapsack_title",
+			"type":"sheet",
+			"url":"knapsack/mjl_knapsack.json"
+		}]
+}

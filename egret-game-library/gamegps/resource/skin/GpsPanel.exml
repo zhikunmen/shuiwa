@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GpsPanel" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Group x="0" y="0" width="1009" height="622" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Group id="_twoPeople" x="150" y="166" visible="false">
+			<e:Image id="_line_2" source="chaguan_gps_panel_json.chaguan_gps_line2_png" x="69.5" y="43" />
+			<e:Group id="_distance_group_2_1" x="302" y="28.5">
+				<e:Image id="_distance_bg_2_1" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_2_1" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+			<e:Group id="_user_group_2_2" y="0" x="598.44" anchorOffsetX="0" width="138.12">
+				<e:Image id="_user_headImg_2_2" source="chaguan_gps_panel_json.chaguan_gps_head_bg_png" top="4"
+				         horizontalCenter="0.5" width="77" height="77" />
+				<e:Image source="chaguan_gps_panel_json.chaguan_gps_head_frame_png" horizontalCenter="0" top="0" />
+				<e:Label id="_user_name_2_2" text="【深圳】用户名称" y="97" size="22" fontFamily="Microsoft YaHei" textColor="0x8C482D"
+				         horizontalCenter="0" />
+			</e:Group>
+			<e:Group id="_user_group_2_1" y="0" x="0">
+				<e:Image id="_user_headImg_2_1" source="chaguan_gps_panel_json.chaguan_gps_head_bg_png" top="4"
+				         horizontalCenter="0.5" width="77" height="77" />
+				<e:Image source="chaguan_gps_panel_json.chaguan_gps_head_frame_png" horizontalCenter="0" top="0" />
+				<e:Label id="_user_name_2_1" text="【深圳】用户名称" y="97" size="22" fontFamily="Microsoft YaHei" textColor="0x8C482D"
+				         horizontalCenter="0" />
+			</e:Group>
+		</e:Group>
+		<e:Group id="_threePeple" x="78" y="105.5" visible="false">
+			<e:Image id="_line_3" source="chaguan_gps_panel_json.chaguan_gps_line3_png" x="112" y="14.5" />
+			<e:Group id="_distance_group_3_1" x="370" y="1.5">
+				<e:Image id="_distance_bg_3_1" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_3_1" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+			<e:Group id="_distance_group_3_2" x="216" y="145">
+				<e:Image id="_distance_bg_3_2" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_3_2" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+			<e:Group id="_distance_group_3_3" x="532" y="145">
+				<e:Image id="_distance_bg_3_3" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_3_3" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+			<e:Group id="_user_group_3_1" y="0.5" x="0" width="240" height="130">
+				<e:Image id="_user_headImg_3_1" source="chaguan_gps_panel_json.chaguan_gps_head_bg_png" top="5"
+				         horizontalCenter="0.5" width="77" height="77" />
+				<e:Image source="chaguan_gps_panel_json.chaguan_gps_head_frame_png" horizontalCenter="0" top="0" />
+				<e:Label id="_user_name_3_1" text="【深圳】用户名称" y="108" size="22" fontFamily="Microsoft YaHei" textColor="0x8C482D"
+				         right="64" />
+			</e:Group>
+			<e:Group id="_user_group_3_2" y="0" x="635" width="224" height="126">
+				<e:Image id="_user_headImg_3_2" source="chaguan_gps_panel_json.chaguan_gps_head_bg_png" top="5"
+				         horizontalCenter="0.5" width="77" height="77" />
+				<e:Image source="chaguan_gps_panel_json.chaguan_gps_head_frame_png" horizontalCenter="0" top="0" />
+				<e:Label id="_user_name_3_2" text="【深圳】用户名称" y="104" size="22" fontFamily="Microsoft YaHei" textColor="0x8C482D"
+				         left="48" />
+			</e:Group>
+			<e:Group id="_user_group_3_3" y="201.5" x="212" width="443" height="86">
+				<e:Image id="_user_headImg_3_3" source="chaguan_gps_panel_json.chaguan_gps_head_bg_png" top="5"
+				         horizontalCenter="0.5" width="77" height="77" />
+				<e:Image source="chaguan_gps_panel_json.chaguan_gps_head_frame_png" horizontalCenter="0" top="0" />
+				<e:Label id="_user_name_3_3" text="【深圳】用户名称" y="52" size="22" fontFamily="Microsoft YaHei" textColor="0x8C482D"
+				         left="267" />
+			</e:Group>
+		</e:Group>
+		<e:Group id="_fourPeople" x="86" y="87" visible="false">
+			<e:Image id="_line_4" source="chaguan_gps_panel_json.chaguan_gps_line4_png" x="86.5" y="36.5" />
+			<e:Group id="_user_group_4_1" y="8" x="0" width="240" height="130">
+				<e:Image id="_user_headImg_4_1" source="chaguan_gps_panel_json.chaguan_gps_head_bg_png" top="5"
+				         horizontalCenter="0.5" width="77" height="77" />
+				<e:Image source="chaguan_gps_panel_json.chaguan_gps_head_frame_png" horizontalCenter="0" top="0" />
+				<e:Label id="_user_name_4_1" text="【深圳】用户名称" y="100" size="22" fontFamily="Microsoft YaHei" textColor="0x8C482D"
+				         right="107" />
+			</e:Group>
+			<e:Group id="_user_group_4_2" y="0" x="502" width="240" height="130">
+				<e:Image id="_user_headImg_4_2" source="chaguan_gps_panel_json.chaguan_gps_head_bg_png" top="5"
+				         horizontalCenter="0.5" width="77" height="77" />
+				<e:Image source="chaguan_gps_panel_json.chaguan_gps_head_frame_png" horizontalCenter="0" top="0" />
+				<e:Label id="_user_name_4_2" text="【深圳】用户名称" y="51.5" size="22" fontFamily="Microsoft YaHei" width="176" left="170"
+				         textColor="0x8c482d" />
+			</e:Group>
+			<e:Group id="_user_group_4_3" y="194" x="611" width="240" height="130">
+				<e:Image id="_user_headImg_4_3" source="chaguan_gps_panel_json.chaguan_gps_head_bg_png" top="5"
+				         horizontalCenter="0.5" width="77" height="77" />
+				<e:Image source="chaguan_gps_panel_json.chaguan_gps_head_frame_png" horizontalCenter="0" top="0" />
+				<e:Label id="_user_name_4_3" text="【深圳】用户名称" y="97" size="22" fontFamily="Microsoft YaHei" horizontalCenter="4"
+				         textColor="0x8c482d" />
+			</e:Group>
+			<e:Group id="_user_group_4_4" y="198" x="120" width="240" height="130">
+				<e:Image id="_user_headImg_4_4" source="chaguan_gps_panel_json.chaguan_gps_head_bg_png" top="5"
+				         horizontalCenter="0.5" width="77" height="77" />
+				<e:Image source="chaguan_gps_panel_json.chaguan_gps_head_frame_png" horizontalCenter="0" top="0" />
+				<e:Label id="_user_name_4_4" text="【深圳】用户名称" y="97" size="22" fontFamily="Microsoft YaHei" textColor="0x8C482D"
+				         horizontalCenter="4" />
+			</e:Group>
+			<e:Group id="_distance_group_4_1" x="430.5" y="237">
+				<e:Image id="_distance_bg_4_1" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_4_1" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+			<e:Group id="_distance_group_4_2" x="332" y="23.5">
+				<e:Image id="_distance_bg_4_2" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_4_2" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+			<e:Group id="_distance_group_4_3" x="120" y="147">
+				<e:Image id="_distance_bg_4_3" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_4_3" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+			<e:Group id="_distance_group_4_4" x="647" y="125">
+				<e:Image id="_distance_bg_4_4" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_4_4" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+			<e:Group id="_distance_group_4_5" x="308.5" y="156">
+				<e:Image id="_distance_bg_4_5" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_4_5" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+			<e:Group id="_distance_group_4_6" x="501.5" y="157">
+				<e:Image id="_distance_bg_4_6" source="chaguan_gps_panel_json.chaguan_gps_distance_bg_green_png" x="0" y="0"
+				         scaleX="1" scaleY="1" />
+				<e:Label id="_distance_txt_4_6" text="99999公里" size="18" horizontalCenter="0" verticalCenter="0"
+				         fontFamily="Microsoft YaHei" />
+			</e:Group>
+		</e:Group>
+		<e:Group id="_tip_ok_group" y="442" anchorOffsetY="0" horizontalCenter="0" visible="false">
+			<e:Image source="chaguan_gps_panel_json.chaguan_gps_txt_bg_green_png" y="0" x="0" scaleX="1" scaleY="1" />
+		</e:Group>
+		<e:Group id="_tip_warn_group" y="443" anchorOffsetY="0" horizontalCenter="0.5" visible="false">
+			<e:Image y="0" x="0" scaleX="1" scaleY="1" source="chaguan_gps_panel_json.chaguan_gps_txt_bg_red_png" />
+		</e:Group>
+		<eui:WxButton id="_btn_continue" label="" x="698" enabled="true" y="443">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="chaguan_gps_panel_json.chaguan_gps_btn_continue_down_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="_btn_leave" label="" enabled="true" x="102.5" y="443">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="chaguan_gps_panel_json.chaguan_gps_btn_leave_down_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+	</e:Group>
+</e:Skin>

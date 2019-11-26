@@ -1,0 +1,14 @@
+{"file":"shop_time_font.png","frames":{
+"0":{"x":0,"y":0,"w":18,"h":25,"offX":0,"offY":0,"sourceW":18,"sourceH":29},
+"1":{"x":39,"y":0,"w":11,"h":24,"offX":0,"offY":1,"sourceW":11,"sourceH":29},
+"2":{"x":38,"y":26,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":29},
+"3":{"x":20,"y":26,"w":16,"h":25,"offX":0,"offY":0,"sourceW":16,"sourceH":29},
+"4":{"x":0,"y":27,"w":18,"h":25,"offX":0,"offY":0,"sourceW":18,"sourceH":29},
+"5":{"x":20,"y":0,"w":17,"h":24,"offX":0,"offY":1,"sourceW":17,"sourceH":29},
+"6":{"x":0,"y":81,"w":17,"h":25,"offX":0,"offY":0,"sourceW":17,"sourceH":29},
+"7":{"x":19,"y":81,"w":17,"h":24,"offX":0,"offY":1,"sourceW":17,"sourceH":29},
+"8":{"x":19,"y":54,"w":17,"h":25,"offX":0,"offY":0,"sourceW":17,"sourceH":29},
+"9":{"x":0,"y":54,"w":17,"h":25,"offX":0,"offY":0,"sourceW":17,"sourceH":29},
+"（":{"x":38,"y":53,"w":9,"h":29,"offX":0,"offY":0,"sourceW":9,"sourceH":29},
+"）":{"x":38,"y":84,"w":9,"h":29,"offX":0,"offY":0,"sourceW":9,"sourceH":29},
+"：":{"x":52,"y":0,"w":9,"h":19,"offX":0,"offY":6,"sourceW":9,"sourceH":29}}}

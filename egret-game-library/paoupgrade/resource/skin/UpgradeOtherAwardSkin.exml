@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="UpgradeOtherAwardSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image id="goodIcon" x="96" y="38"/>
+	<e:Image id="paopao" source="game_other_json.game_paopao" x="0" y="0"/>
+	<e:Rect width="20" height="20" x="86" y="53" fillColor="0x0a1d3f" cacheAsBitmap="true" ellipseWidth="20" ellipseHeight="20" strokeColor="0xfdf0c7" strokeWeight="0.7"/>
+	<e:Label id="goodNum1" text="10" y="57.5" fontFamily="Microsoft YaHei" size="14" bold="true" x="96" textColor="0xfdf0c7" stroke="1" strokeColor="0xb65022"/>
+	<e:Group id="goodGroup" x="146" y="0" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image source="game_other_json.game_desc_bg" x="0" y="0" scale9Grid="24,30,7,61" width="425" height="290" scaleX="1" scaleY="1"/>
+		<e:Image source="game_other_json.game_out_bg" x="34" y="31" scale9Grid="14,13,6,8" width="119" height="119" scaleX="1" scaleY="1"/>
+		<e:Image id="goodItem" x="91" y="85"/>
+		<e:Label id="goodName" text="宝箱" x="179" y="55" fontFamily="Microsoft YaHei" size="30" textColor="0xff2200" bold="true"/>
+		<e:Label id="goodNum" text="x100" x="179" y="102" fontFamily="Microsoft YaHei" size="30" textColor="0xFF2200" bold="true"/>
+		<e:Label id="goodDesc" text="描述" x="34" y="166" anchorOffsetX="0" width="358" anchorOffsetY="0" height="90" fontFamily="Microsoft YaHei" size="26" textColor="0x8e2a0c" lineSpacing="2"/>
+	</e:Group>
+
+
+
+
+</e:Skin>

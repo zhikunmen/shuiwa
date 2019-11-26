@@ -1,0 +1,7 @@
+[
+{"id":1,"originalPrice":"18元","presentPprice":"12元","commodity":256,"probability":60,"give":60000,"freeShake":[1,20],"goldShake":[20,100],"freeTimes":5,"purchase":1,"consume":2000,"startTime":"","endTime":"","actTime":2},
+{"id":2,"originalPrice":"19元","presentPprice":"12元","commodity":256,"probability":25,"give":70000,"freeShake":[],"goldShake":[],"freeTimes":0,"purchase":1,"consume":0,"startTime":"","endTime":"","actTime":2},
+{"id":3,"originalPrice":"20元","presentPprice":"12元","commodity":256,"probability":11,"give":80000,"freeShake":[],"goldShake":[],"freeTimes":0,"purchase":1,"consume":0,"startTime":"","endTime":"","actTime":2},
+{"id":4,"originalPrice":"21元","presentPprice":"12元","commodity":256,"probability":3,"give":90000,"freeShake":[],"goldShake":[],"freeTimes":0,"purchase":1,"consume":0,"startTime":"","endTime":"","actTime":2},
+{"id":5,"originalPrice":"24元","presentPprice":"12元","commodity":256,"probability":1,"give":120000,"freeShake":[],"goldShake":[],"freeTimes":0,"purchase":1,"consume":0,"startTime":"","endTime":"","actTime":2}
+]

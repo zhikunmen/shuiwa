@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubUserInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="27" anchorOffsetX="0" width="595.42" anchorOffsetY="0" height="368.88" source="mjl_common_bg_png" scale9Grid="29,83,15,144" locked="true"/>
+
+	<e:Label id="nameTxt" text="昵称昵称昵称昵称" x="264" y="117" fontFamily="Microsoft YaHei" textColor="0x773210" anchorOffsetX="0" width="187" anchorOffsetY="0" height="31"/>
+	<e:Label id="idTxt" text="账号：" x="264" y="169" size="25" fontFamily="Microsoft YaHei" textColor="0x773210"/>
+	<e:Button id="_closeBtn" label="" x="-30" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_common_closebtn1_png" source.down="mjl_panel_common_json.mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="headImg" x="114" y="104.2" anchorOffsetX="0" width="115" anchorOffsetY="0" height="115" source="club_new_menage_json.club_deskseat_head"/>
+	<e:Image x="110" y="99" source="club_new_menage_json.club_numlist_bg" anchorOffsetX="0" width="123.7" anchorOffsetY="0" height="125"/>
+	<e:Image source="mjl_common_bgline_png" y="281" width="550" horizontalCenter="-11"/>
+	<e:Button id="_kickBtn" label="确认踢出" horizontalCenter="-10.5" verticalCenter="133">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1" source.down="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x91481f" text=""/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

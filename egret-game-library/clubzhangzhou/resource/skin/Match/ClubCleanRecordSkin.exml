@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubCleanRecordSkin" width="958" height="557" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" y="35" anchorOffsetX="0" width="951.58" anchorOffsetY="0"
+	         height="522.58" locked="true" />
+	<e:Image source="mjl_common_bg1_png" y="87.48" anchorOffsetX="0" width="888.09" anchorOffsetY="0" height="438.48"
+	         scale9Grid="5,5,30,30" horizontalCenter="-4" locked="true" />
+	<e:Button id="_closeBtn" label="" x="-30" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="时间" x="124.52" y="101.92" textColor="0xb56b5d" fontFamily="Microsoft YaHei" size="22" />
+	<e:Label text="清除分数" x="431.42" y="101.92" textColor="0xB56B5D" fontFamily="Microsoft YaHei" size="22" />
+	<e:Label text="操作员" x="742.99" y="101.92" textColor="0xB56B5D" fontFamily="Microsoft YaHei" size="22" />
+	<e:Label id="_tishiText" text="暂时没有数据哦~" y="275.56" size="58" fontFamily="Microsoft YaHei" textColor="0xD39C50" horizontalCenter="0"/>
+	<e:Scroller width="861" height="382" y="135.24" horizontalCenter="-3.5">
+		<e:List id="_list" itemRendererSkinName="ClubCleanRecordItemSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPartnerMemberRecordItemSkin" width="1135" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="club_new_menage_json.club_list_bg" scale9Grid="13,19,85,29" width="1135" height="90" locked="true"/>
+	<e:Image id="_headImg" x="33.68" y="8.99" width="70" height="70" source="club_new_menage_json.club_deskitem_head"/>
+	<e:Label id="_nameText" text="撒大声地是的" x="121.68" y="16" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0x773210" size="24" width="147"/>
+	<e:Label id="_uidText" text="ID:34343434" x="121.68" y="49.34" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0x773210" size="24" width="172"/>
+	<e:Label id="_roomNumText" text="3232" x="319.68" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0x773210" size="24" width="83" verticalCenter="0" textAlign="center"/>
+	<e:Label id="_bigWinText" text="323" x="526.37" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0x773210" size="24" width="80" verticalCenter="0" textAlign="center"/>
+	<e:Label id="_recordText" text="434" x="731.7" anchorOffsetY="0" fontFamily="Microsoft YaHei" textColor="0x773210" size="24" width="76" verticalCenter="0" textAlign="center"/>
+	<e:Button id="_detailBtn" label="战绩详情" x="883.65" verticalCenter="-2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="mjl_panel_common_json.mjl_btn4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x135b17" size="30"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_deleteBtn" label="" x="1067.2" verticalCenter="0" width="42" height="42">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_new_menage_json.club_member_delete"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_removeImg" source="club_new_menage_json.club_member_delete2" x="1066.88" y="24.03"/>
+</e:Skin>

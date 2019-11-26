@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubUserInfoSkin" width="600" height="270" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="38" y="95" source="mjl_user_headbg"/>
+	<e:Label id="nameTxt" text="昵称" x="196" y="85" fontFamily="Microsoft YaHei" textColor="0x773210"/>
+	<e:Label text="性别：" x="196" y="135" size="25" fontFamily="Microsoft YaHei"  height="27" textColor="0x773210"/>
+	<e:Label id="ipTxt" text="地址：" x="196" y="212" size="25" fontFamily="Microsoft YaHei" textColor="0x773210"/>
+	<e:Label id="idTxt" text="账号：" x="196" y="174" size="25" fontFamily="Microsoft YaHei" textColor="0x773210"/>
+	<e:Image id="womanImg" x="280.21" y="130" source="mjl_user_sex0"/>
+	<e:Image id="manImg" x="280.21" y="130" source="mjl_user_sex1"/>
+	<e:Image id="headImg" x="46" y="103.2"  width="109.4"  height="108" source="club_json.club_deskseat_head"/>
+</e:Skin>

@@ -1,0 +1,85 @@
+{
+  "file": "first_buyu.png",
+  "frames": {
+    "first_1yuan_title": {
+      "x": 0,
+      "y": 518,
+      "w": 368,
+      "h": 133,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 369,
+      "sourceH": 136
+    },
+    "first_100bei_pao": {
+      "x": 0,
+      "y": 823,
+      "w": 141,
+      "h": 135,
+      "offX": 14,
+      "offY": 2,
+      "sourceW": 169,
+      "sourceH": 137
+    },
+    "first_charge_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 878,
+      "h": 516,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 878,
+      "sourceH": 516
+    },
+    "first_daifu_button": {
+      "x": 176,
+      "y": 710,
+      "w": 236,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 236,
+      "sourceH": 71
+    },
+    "first_desc_txt": {
+      "x": 176,
+      "y": 653,
+      "w": 306,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 306,
+      "sourceH": 55
+    },
+    "first_huiyuan_buy": {
+      "x": 370,
+      "y": 518,
+      "w": 236,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 236,
+      "sourceH": 71
+    },
+    "first_item_bg": {
+      "x": 0,
+      "y": 653,
+      "w": 174,
+      "h": 168,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 174,
+      "sourceH": 168
+    },
+    "first_yuan_dan": {
+      "x": 880,
+      "y": 0,
+      "w": 81,
+      "h": 73,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 84,
+      "sourceH": 75
+    }
+  }
+}

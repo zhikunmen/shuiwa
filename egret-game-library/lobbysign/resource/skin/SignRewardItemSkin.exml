@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SignRewardItemSkin" width="113" height="151" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="guang">
+			<tween:TweenItem target="{_guangImg}">
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="3000">
+					<tween:props>
+						<e:Object rotation="{359}"/>
+					</tween:props>
+				</tween:To>
+
+
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="_guangImg" anchorOffsetX="63.5" width="127" anchorOffsetY="63.5" height="127" horizontalCenter="0" verticalCenter="0" source="mjl_award_json.mjl_guang"/>
+	<e:Label id="dayTxt" text="累计5天" y="4" size="23" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0x73491b"/>
+	<e:Image id="bg" x="0" y="28" anchorOffsetX="0" width="112" anchorOffsetY="0" height="99" source="mjl_award_json.mjl_sign_rewards1"/>
+
+	<e:Label id="goldTxt" text="5000金币" y="124" size="20" fontFamily="Microsoft YaHei" horizontalCenter="1" textColor="0xd55f00"/>
+
+	<e:Image id="tick" x="46" y="57.5" source="lobbysign_json.mjl_sign_ok" visible="false"/>
+</e:Skin>

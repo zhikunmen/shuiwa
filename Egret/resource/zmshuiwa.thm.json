@@ -1,0 +1,21 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/assets/sw_skins/sw_BetChess.exml",
+    "resource/assets/sw_skins/sw_BetPanel.exml",
+    "resource/assets/sw_skins/sw_ChipReal.exml",
+    "resource/assets/sw_skins/sw_BetVc.exml",
+    "resource/assets/sw_skins/sw_ChatPopVc.exml",
+    "resource/assets/sw_skins/sw_EffectVc.exml",
+    "resource/assets/sw_skins/sw_GameVc.exml",
+    "resource/assets/sw_skins/sw_HideChessPanel.exml",
+    "resource/assets/sw_skins/sw_NotifyVc.exml",
+    "resource/assets/sw_skins/sw_OperateVc.exml",
+    "resource/assets/sw_skins/sw_RechageBtn.exml",
+    "resource/assets/sw_skins/sw_SeatPlayer.exml",
+    "resource/assets/sw_skins/sw_SeatPlayVc.exml",
+    "resource/assets/sw_skins/sw_resultPanel.exml",
+    "resource/assets/sw_skins/sw_resultPanelRankItem.exml"
+  ]
+}

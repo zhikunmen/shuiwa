@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/flopMachine.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/flopMachine.thm.json"
+}

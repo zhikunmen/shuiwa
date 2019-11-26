@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirstRechargeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*"
+        width="878" height="586">
+	<e:Image source="lb_huiyuan_bg_png" y="70" />
+	<e:Image source="reward_vip_json.lb_huiyuan_title_sc" x="266" />
+	<e:Image x="400" y="157" source="reward_vip_json.lb_huiyuan_word_sc" />
+	<eui:WxButton id="purchase_btn" label="" y="533" horizontalCenter="0">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="reward_vip_json.lb_huiyuan_buy" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+	<eui:WxButton id="pay_btn" label="" y="533" horizontalCenter="0" visible="false">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="reward_vip_json.daifu_button_haoyou" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="close_btn" label="" x="819" y="69">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="reward_vip_json.mjl_common_closebtn1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:reward="reward.*" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="time_btn" label="（00：00：00）" y="533" horizontalCenter="0" visible="false">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="reward_vip_json.lb_huiyuan_bt_bg"/>
+			<e:Image source="reward_vip_json.lb_huiyuan_bt_djs" x="13" verticalCenter="-3"/>
+			<e:BitmapLabel id="labelDisplay" x="98" font="shop_time_font_fnt" letterSpacing="-2" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Scroller y="242" height="230" horizontalCenter="0">
+		<e:List id="reward_lst" itemRendererSkinName="RechargeItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="30" paddingTop="22" paddingRight="18" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:BitmapLabel id="titlePrice_blbl" x="142" y="21" text="" width="210" textAlign="right"
+	               font="firstRecharge_font_fnt" />
+	<e:BitmapLabel id="price_blbl" x="106" y="97.5" text="" textAlign="right" font="shop_price_font_fnt"
+	               letterSpacing="-10" width="300" />
+	<e:Label id="desc_lbl" text="" y="498" size="18" fontFamily="Microsoft YaHei" textColor="0xFEE4AB" horizontalCenter="0.5"/>
+</e:Skin>

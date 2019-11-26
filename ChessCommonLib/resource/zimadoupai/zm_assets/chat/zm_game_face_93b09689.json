@@ -1,0 +1,185 @@
+{
+    "frames": {
+        "zmgame_face11": {
+            "offY": 9, 
+            "offX": 9, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 81, 
+            "h": 81, 
+            "y": 287, 
+            "x": 91
+        }, 
+        "zmgame_face10": {
+            "offY": 4, 
+            "offX": 6, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 87, 
+            "h": 91, 
+            "y": 286, 
+            "x": 0
+        }, 
+        "zmgame_face13": {
+            "offY": 4, 
+            "offX": 4, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 91, 
+            "h": 91, 
+            "y": 97, 
+            "x": 95
+        }, 
+        "zmgame_face12": {
+            "offY": 5, 
+            "offX": 0, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 100, 
+            "h": 90, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "zmgame_face15": {
+            "offY": 6, 
+            "offX": 3, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 92, 
+            "h": 93, 
+            "y": 0, 
+            "x": 390
+        }, 
+        "zmgame_face14": {
+            "offY": 1, 
+            "offX": 4, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 89, 
+            "h": 93, 
+            "y": 97, 
+            "x": 390
+        }, 
+        "zmgame_face17": {
+            "offY": 5, 
+            "offX": 5, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 89, 
+            "h": 91, 
+            "y": 191, 
+            "x": 0
+        }, 
+        "zmgame_face16": {
+            "offY": 6, 
+            "offX": 3, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 91, 
+            "h": 93, 
+            "y": 94, 
+            "x": 0
+        }, 
+        "zmgame_face18": {
+            "offY": 6, 
+            "offX": 7, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 88, 
+            "h": 92, 
+            "y": 192, 
+            "x": 186
+        }, 
+        "zmgame_face9": {
+            "offY": 0, 
+            "offX": 6, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 87, 
+            "h": 99, 
+            "y": 0, 
+            "x": 299
+        }, 
+        "zmgame_face8": {
+            "offY": 3, 
+            "offX": 2, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 95, 
+            "h": 93, 
+            "y": 0, 
+            "x": 104
+        }, 
+        "zmgame_face1": {
+            "offY": 4, 
+            "offX": 6, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 89, 
+            "h": 91, 
+            "y": 192, 
+            "x": 93
+        }, 
+        "zmgame_face3": {
+            "offY": 6, 
+            "offX": 8, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 86, 
+            "h": 93, 
+            "y": 197, 
+            "x": 278
+        }, 
+        "zmgame_face2": {
+            "offY": 9, 
+            "offX": 0, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 99, 
+            "h": 81, 
+            "y": 194, 
+            "x": 380
+        }, 
+        "zmgame_face5": {
+            "offY": 7, 
+            "offX": 3, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 92, 
+            "h": 89, 
+            "y": 99, 
+            "x": 190
+        }, 
+        "zmgame_face4": {
+            "offY": 5, 
+            "offX": 4, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 90, 
+            "h": 90, 
+            "y": 103, 
+            "x": 286
+        }, 
+        "zmgame_face7": {
+            "offY": 4, 
+            "offX": 6, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 87, 
+            "h": 91, 
+            "y": 279, 
+            "x": 368
+        }, 
+        "zmgame_face6": {
+            "offY": 3, 
+            "offX": 3, 
+            "sourceH": 99, 
+            "sourceW": 100, 
+            "w": 92, 
+            "h": 95, 
+            "y": 0, 
+            "x": 203
+        }
+    }, 
+    "file": "zm_game_face_93b09689.png"
+}

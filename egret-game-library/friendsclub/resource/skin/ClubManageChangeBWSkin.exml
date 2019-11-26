@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubManageChangeBWSkin" width="700" height="450" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="club_new_manage_json.club_manage_room_bbg" x="0" y="0" anchorOffsetX="0" width="700" anchorOffsetY="0" height="450" scale9Grid="5,5,30,30" locked="true"/>
+	<e:Image source="club_new_manage_json.club_manage_upbg" x="0" y="0" anchorOffsetX="0" width="689" height="69" locked="true"/>
+	<e:Image source="club_new_manage_json.club_manage_inputbg" x="101" y="258" locked="true"/>
+	<e:Image source="club_new_manage_json.club_manage_inputbg" y="144" horizontalCenter="0" locked="true"/>
+	<e:Button id="closeBtn" label="" x="619" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_new_manage_json.club_manage_closebtn3" source.down="club_new_manage_json.club_manage_closebtn4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="设置" y="17" size="36" bold="true" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+	<e:Label text="账号" x="125" y="105" fontFamily="Microsoft YaHei" textColor="0xc0c4fe"/>
+	<e:Label id="idTxt" text="343434343" x="125" y="155" fontFamily="Microsoft YaHei"/>
+	<e:Label id="nameTxt" text="账号账号账号" x="405" y="155" fontFamily="Microsoft YaHei"/>
+	<e:Label text="姓名" x="405" y="105" fontFamily="Microsoft YaHei" textColor="0xc0c4fe"/>
+	<e:Label text="状态" x="125" y="219" fontFamily="Microsoft YaHei" textColor="0xc0c4fe"/>
+	<e:Button id="sureBtn" label="" y="357" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_new_manage_json.club_manage_sure1" source.down="club_new_manage_json.club_manage_sure2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group x="113" y="264">
+		<e:RadioButton id="youkeBtn" label="" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_manage_json.club_manage_chose1" source.down="club_new_manage_json.club_manage_chose2"/>
+				<e:Label text="游客" x="50" fontFamily="Microsoft YaHei" y="4"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="blackBtn" label="" x="156" y="10">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_manage_json.club_manage_chose1" source.down="club_new_manage_json.club_manage_chose2"/>
+				<e:Label text="黑名单" x="50" fontFamily="Microsoft YaHei" y="4"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="whiteBtn" label="" x="20" y="20">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_manage_json.club_manage_chose1" source.down="club_new_manage_json.club_manage_chose2"/>
+				<e:Label text="白名单" x="50" fontFamily="Microsoft YaHei" y="4"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:layout>
+			<e:HorizontalLayout gap="42"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

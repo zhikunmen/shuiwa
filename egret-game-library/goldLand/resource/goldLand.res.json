@@ -1,0 +1,23 @@
+{
+	"groups":[{
+			"keys":"goldLand_bg_png,goldLand_fnt,goldLand_close_png",
+			"name":"pub_gold_land"
+		}],
+	"resources":[
+		{
+			"name":"goldLand_bg_png",
+			"type":"image",
+			"url":"goldLand/goldLand_bg.png"
+		},
+		{
+			"name":"goldLand_fnt",
+			"type":"font",
+			"url":"goldLand/goldLand.fnt"
+		},
+		{
+			"name":"goldLand_close_png",
+			"type":"image",
+			"url":"goldLand/goldLand_close.png"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"groups":[{
+			"keys":"mjl_help_json,rule_4083_txt",
+			"name":"pub_playlist"
+		}],
+	"resources":[
+		{
+			"name":"rule_4149_txt",
+			"type":"text",
+			"url":"playlist/quanzhou-zhongyou/helpTxt/rule_4149.txt"
+		},
+		{
+			"name":"rule_4207_txt",
+			"type":"text",
+			"url":"playlist/quanzhou-zhongyou/helpTxt/rule_4207.txt"
+		},
+		{
+			"name":"rule_4235_txt",
+			"type":"text",
+			"url":"playlist/quanzhou-zhongyou/helpTxt/rule_4235.txt"
+		},
+		{
+			"name":"mjl_help_json",
+			"subkeys":"mjl_help_ctbg_png,mjl_help_menu1_1_png,mjl_help_menu1_2_png,mjl_help_menu2_1_png,mjl_help_menu2_2_png,mjl_help_menu3_1_png,mjl_help_menu3_2_png,mjl_help_menu4_1_png,mjl_help_menu4_2_png,mjl_help_title_png",
+			"type":"sheet",
+			"url":"playlist/quanzhou-zhongyou/mjl_help.json"
+		},
+		{
+			"name":"rule_4083_txt",
+			"type":"text",
+			"url":"playlist/ningbo/helpTxt/rule_4083.txt"
+		}
+	]
+}

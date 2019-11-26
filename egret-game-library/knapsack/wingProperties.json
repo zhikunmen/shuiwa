@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/knapsack/lobby/lobby.res.json",
+                "relativePath": "resource/knapsack/lobby/"
+            },
+            {
+                "configPath": "resource/knapsack.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/knapsack.thm.json"
+}

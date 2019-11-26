@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="poker_SetPanelSkin" width="936" height="645" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+  <e:Group id="_mainGroup" width="935" height="643" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Image source="pdk_set_bg1" x="0" y="60"/>
+		<e:Image x="0" y="59.5" source="pdk_set_bg_png" scale9Grid="24,95,17,150" width="920" height="580"/>
+		<e:Image source="pdk_set_title" x="257" y="-1"/>
+		<e:Image source="pdk_set_line" x="575" y="135"/>
+		<e:Image source="pdk_set_line" y="125" rotation="269.97" height="785" horizontalCenter="0"/>
+		<e:Image source="pdk_set_music" x="634" y="167.5"/>
+		<e:Image source="pdk_set_sond" x="634" y="284.5"/>
+		<e:Image source="pdk_set_language" x="634" y="402.5"/>
+		<eui:WxButton id="rightBtn" label="" x="36" y="235">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_set_arrow_left1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="leftBtn" label="" x="509" y="235">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_set_arrow_right1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="closeBtn" label="" x="848" y="35">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<e:Image id="spot0" source="pdk_set_spot1" x="237.34" y="359"/>
+		<e:Image id="spot1" source="pdk_set_spot1" x="264" y="359"/>
+		<e:Image id="spot2" source="pdk_set_spot1" x="290" y="359"/>
+		<e:Image id="spot3" source="pdk_set_spot1" x="316.5" y="359"/>
+		<e:Image source="pdk_set_poker" x="258.99" y="397.81"/>
+		<e:Image source="pdk_set_poker1" x="256.17" y="395.13"/>
+		<e:ToggleSwitch id="musicBtn" label="" x="722" y="148" enabled="true" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_set_check2" source.down="pdk_set_check1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="soundBtn" label="" x="722" y="266" enabled="true" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_set_check2" source.down="pdk_set_check1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="languageBtn" label="" x="722" y="383" enabled="true" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_set_check1" source.down="pdk_set_check2" source.disabled="pdk_set_check2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:Group id="_imgGroup" width="420.33" height="201" x="79.5" y="148.5" scaleX="1" scaleY="1" anchorOffsetX="0">
+		</e:Group>
+		<eui:WxButton id="dissolveBtn" label="" x="466" y="555" anchorOffsetX="103" anchorOffsetY="35">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_green_btn"/>
+				<e:Label text="解散房间" width="100%" y="15" fontFamily="Microsoft YaHei" size="32" textAlign="center"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="leaveBtn" label="" x="466" y="555" anchorOffsetX="103" anchorOffsetY="35" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_green_btn"/>
+				<e:Label text="离开房间" width="100%" y="15" fontFamily="Microsoft YaHei" size="32" textAlign="center"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPartnerRemoveSkin" width="800" height="496" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+    <e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" width="750" height="450" x="25" y="27.56"  locked="true"/>
+    <e:Image source="mjl_common_title_png" x="165" y="0"  locked="true"/>
+	<e:Image source="mjl_common_tishi_png" x="341" y="12.16" locked="true"/>
+    <e:Button id="_closeBtn" label="" x="-2" y="0">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="mjl_common_closebtn1_png"
+                         source.down="mjl_common_closebtn2_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="_sureBtn" label="" x="294.3" y="354.24">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn5"/>
+				<e:Label id="_text" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x7c0013" text="确认移出"/>
+				</e:Skin>
+			</e:skinName>
+    </e:Button>
+	<e:Image id="_headImg" x="232.67" y="125.67" width="85" height="85" source="club_new_menage_json.club_deskitem_head"/>
+	<e:Label id="_nameText" text="是的是的所多" x="346" y="128.91" textColor="0x773210" size="34" fontFamily="Microsoft YaHei" height="34" width="249"/>
+	<e:Label id="_idText" text="ID:32323232" x="346" y="176.79" textColor="0x773210" size="34" fontFamily="Microsoft YaHei" width="208" height="34"/>
+	<e:Label id="_tipsText" text="确定把成员移出本合作老友圈？" y="255.55" size="28" fontFamily="Microsoft YaHei" width="636" height="34" textColor="0xb56b5d" anchorOffsetX="0" textAlign="center" horizontalCenter="0"/>
+</e:Skin>

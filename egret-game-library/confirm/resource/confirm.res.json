@@ -1,0 +1,24 @@
+{
+	"groups":[{
+			"keys":"reward_guangquan2_png,common_confirm_json,reward_guangquan_png",
+			"name":"pub_confirm"
+		}],
+	"resources":[
+		{
+			"name":"reward_guangquan2_png",
+			"type":"image",
+			"url":"confirm/res/reward_guangquan2.png"
+		},
+		{
+			"name":"common_confirm_json",
+			"subkeys":"confirm_bg_png,confirm_btn1_png,confirm_btn2_png,confirm_title_png,confirm_titlebg_png,mjl_match_fuka_png,mjl_match_huafei_png,mjl_match_jipai_png,mjl_match_points_png,mjl_sign_rewards3_png,mjl_sign_rewards4_png,reward_itemBg_png,reward_numbg_png,reward_title_png,sure1_png",
+			"type":"sheet",
+			"url":"confirm/res/common_confirm.json"
+		},
+		{
+			"name":"reward_guangquan_png",
+			"type":"image",
+			"url":"confirm/res/reward_guangquan.png"
+		}
+	]
+}

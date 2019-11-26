@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwGameListItemSkin" width="1026" height="127" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:match="match.*">
+	<e:Image source="BSLB-lb_png"/>
+	<e:Image source="BSLB-k2_png" x="612" verticalCenter="0"/>
+	<e:Image source="BSLB-k1_png" x="299" verticalCenter="0"/>
+	<e:Image source="BSLB-jpd_png" x="24" verticalCenter="0"/>
+	<e:Image source="BSLB-rw_png" x="164" y="79"/>
+	<e:Image id="iconType_img" source="BSLB-juan_png" x="36" verticalCenter="0"/>
+	<match:BaseButton id="signUp_btn" label="" x="826" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSLB-bmmf_png" source.down="BSLB-bmmf-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</match:BaseButton>
+	<e:Label id="gameType_lbl" text="--" x="132" y="25" fontFamily="Microsoft YaHei" size="28" width="170" textAlign="center" anchorOffsetX="0"/>
+	<e:Label id="time_lbl" text="--" x="615" y="27" fontFamily="Microsoft YaHei" size="24" anchorOffsetX="0" width="152" textAlign="center" textColor="0xffff00"/>
+	<e:Label id="condition_lbl" text="--" x="615" y="75" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" width="152" textAlign="center" textColor="0xffffff"/>
+	<e:Label id="explain_lbl" text="---" x="311" y="24" fontFamily="Microsoft YaHei" size="24" width="261" textAlign="center" height="76" verticalAlign="middle"/>
+	<e:Label id="num_lbl" text="--" x="188" y="79" fontFamily="Microsoft YaHei" size="24" textAlign="center" textColor="0x96c1f5"/>
+	<e:Label id="cost_lbl" text="x20" x="872" y="69" size="20" fontFamily="Microsoft YaHei" textColor="0x733414" width="100" textAlign="center"/>
+	<e:Image id="ticket_img" source="BSLB-juan_x_png" x="878" y="66"/>
+</e:Skin>

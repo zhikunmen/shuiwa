@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMessageItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" height="98.06" y="0" width="1136" anchorOffsetY="0"
+	         source="club_new_menage_json.club_deskitem_bg" scale9Grid="34,25,21,18" />
+	<e:Label id="_timeText" text="2019-22-22\n23:59:59" x="4.45" textColor="0x796965" size="23"
+	         fontFamily="Microsoft YaHei" anchorOffsetX="0" width="145.32" anchorOffsetY="0" textAlign="center"
+	         verticalCenter="0.5" />
+	<e:Button id="_agreeButton" label="同 意" horizontalCenter="481" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="132" height="100%" source="mjl_panel_common_json.mjl_btn4"
+				         source.down="mjl_panel_common_json.mjl_btn4" />
+				<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" size="28" stroke="2" strokeColor="0x135b17"
+				         horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_disAgreeButton" label="" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="330" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn3"
+				         source.down="mjl_panel_common_json.mjl_btn3" />
+				<e:Label horizontalCenter="0" fontFamily="Microsoft YaHei" size="28" stroke="2" strokeColor="0x793f20" text="拒 绝"
+				         verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_nameText" text="打发发发发的" x="246.06" y="19.94" size="24" textColor="0x773210" fontFamily="Microsoft YaHei"
+	         width="130" height="24" />
+	<e:Label id="_contenRemarksText" text="打发发发发地方鬼地方鬼地方鬼地方鬼地方" x="390.95" size="24" fontFamily="Microsoft YaHei"
+	         anchorOffsetX="0" width="227.58" anchorOffsetY="0" height="48" verticalCenter="0.5" textColor="0x773210" />
+	<e:Label id="_idText" text="Label" x="246.06" y="54.17" size="24" fontFamily="Microsoft YaHei" textColor="0x773210" />
+	<e:Image id="_headImg" x="166.56" width="73" height="73" verticalCenter="0"  source="club_new_menage_json.club_deskitem_head"/>
+	<e:Group id="_partnerGroup" x="633.26" y="13" visible="false">
+		<e:Label id="_partnerNameText" text="打发发发发的" x="79.5" y="6.94" size="24" textColor="0x773210"
+		         fontFamily="Microsoft YaHei" width="130" height="24" />
+		<e:Label id="_partnerIdText" text="Label" x="79.5" y="41.17" size="24" fontFamily="Microsoft YaHei"
+		         textColor="0x773210" />
+		<e:Image id="_partnerHeadImg" x="0" width="73" height="73" y="0"  source="club_new_menage_json.club_deskitem_head"/>
+	</e:Group>
+	<e:Label id="_nopartnerTips" text="————" x="670.88" textColor="0x773210" verticalCenter="0.5" />
+</e:Skin>

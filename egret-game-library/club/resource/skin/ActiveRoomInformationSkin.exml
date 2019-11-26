@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActiveRoom" width="720" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Label id="topTableNumber" text="房号：" horizontalCenter="0" verticalAlign="justify" fontFamily="SimHei" size="36" top="61" textColor="0x000000"/>
+	<e:Group id="playerGroup" width="584" height="200"  horizontalCenter="13" verticalCenter="16">
+		<e:Scroller width="605" height="198" y="2"  scrollPolicyH="off" scrollPolicyV="auto" touchEnabled="true" bounces="true"  horizontalCenter="0">
+			<e:Group id="itemList"/>
+		</e:Scroller>
+	</e:Group>
+	<eui:WxButton id="cancelBtn" label="取消" x="444" y="325" width="146" height="52">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+
+
+	</eui:WxButton>
+	<eui:WxButton id="dissolveBtn" label="解散房间" x="160.67" y="325" width="146" height="52">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+</e:Skin>

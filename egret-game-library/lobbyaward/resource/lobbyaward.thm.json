@@ -1,0 +1,7 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/LobbyGetAwardSkin.exml"
+	],
+	"path": "resource/lobbyaward.thm.json"
+}

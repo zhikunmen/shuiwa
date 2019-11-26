@@ -1,0 +1,12 @@
+{
+	"groups":[{
+			"keys":"myInfo_game_res_1_json",
+			"name":"pub_myInfo"
+		}],
+	"resources":[{
+			"name":"myInfo_game_res_1_json",
+			"subkeys":"lb_geren_bg,lb_geren_cg2,lb_geren_cg3,lb_geren_cg4,lb_geren_cj1,lb_geren_cjbg,lb_geren_cjnumber,lb_geren_close,lb_geren_man,lb_geren_select,lb_geren_shengya,lb_geren_title,lb_geren_titlebg,lb_geren_titlelight1,lb_geren_txk,lb_geren_unselected,lb_geren_woman,lb_geren_xiugai,myInfo_btn_bind_1,myInfo_btn_inBind_1,myInfo_btn_noBind_1,myInfo_btn_send_1,myInfo_enter_bg,myInfo_titile_bind,pdk_gift_item_bg,userInfo_gift3,userInfo_gift4,userInfo_gift5,userInfo_gift6",
+			"type":"sheet",
+			"url":"myInfo/res/myInfo_game_res_1.json"
+		}]
+}

@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/friendsclub.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/friendsclub.thm.json"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubInviteSkin" width="617" height="360.67" xmlns:e="http://ns.egret.com/eui" xmlns:eui="*" xmlns:w="http://ns.egret.com/wing" xmlns:eui1="eui.*">
+	<e:Image y="27.67" height="330.33" anchorOffsetY="0" source="mjl_common_bg_png" scale9Grid="29,62,15,183" anchorOffsetX="0" left="0" right="13" locked="true"/>
+	<e:Image source="mjl_common_bg1_png" y="89.84" scale9Grid="9,9,23,23" anchorOffsetX="0" anchorOffsetY="0" height="239" left="39" right="44" locked="true"/>
+	<e:Image source="mjl_common_title_png" y="1" horizontalCenter="0" locked="true"/>
+	<e:Image y="11" horizontalCenter="0" source="club_new_menage_json.club_invite_title" locked="true"/>
+	<e:Button id="_closeBtn" label="" y="0" anchorOffsetX="0" width="68" anchorOffsetY="0" height="68.81" right="555">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_wXinIcon" label="" x="93.5" y="114.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_new_menage_json.mjl_club_plat1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Label text="邀请微信好友" x="81.79" y="277" size="28" textColor="0x8b472d" fontFamily="Microsoft YaHei"/>
+
+	<e:Button id="_clubIcon" label="" x="364" y="111.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_new_menage_json.mjl_club_plat3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="邀请老友圈成员" x="341.37" y="277" size="28" textColor="0x8B472D" fontFamily="Microsoft YaHei"/>
+
+</e:Skin>

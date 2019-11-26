@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxGameDetailSkin" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*" xmlns:w="http://ns.egret.com/wing" xmlns:match="match.*" width="1031" height="567">
+	<e:Image scale9Grid="18,190,10,13" width="100%" height="100%" x="-1" y="1" source="mjl_common_bg_png"/>
+	<e:Image x="564.5" y="102" source="bs_baoming_huawen2_png"/>
+	<e:Image source="bs_baoming_huawen2_png" x="894" y="127" scaleX="-1" scaleY="-1"/>
+	<e:Image y="0" source="bs_unlock_title_png" horizontalCenter="0"/>
+	<e:Image source="bs_baoming_xiangqing_png" y="10" horizontalCenter="0.5"/>
+	<e:Image id="costType_img" source="wx_lb_res_json.lb_jinbi_jinbi_png" x="694" y="295"/>
+	<eui:WxButton id="sign_btn" label="" x="605.5" y="442">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bs_baoming_baoming_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="close_btn" label="" x="959" y="7">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:List id="reward_lst" width="333" height="407" x="32" y="122" itemRendererSkinName="WxGameDetailItemSkin" anchorOffsetY="0">
+	</e:List>
+	<e:Rect width="556" height="2" x="447" y="162" fillColor="0xdb9f9b"/>
+	<e:Rect width="333" height="2" x="33" y="117" fillColor="0xDB9F9B"/>
+	<e:Rect width="333" height="2" x="33" y="531" fillColor="0xDB9F9B"/>
+	<e:Rect width="2" height="458" x="407" y="83" fillColor="0xdb9f9b"/>
+	<e:Label id="title_lbl" text="2000福卡赛" x="610" y="92" fontFamily="Microsoft YaHei" size="38" textColor="0x8e2a0c" textAlign="center" bold="true" width="239" anchorOffsetX="0"/>
+	<e:Label id="num_lbl" text="--" x="716" y="221" fontFamily="Microsoft YaHei" size="30" textColor="0xFF4E00" textAlign="center"/>
+	<e:Label id="cost_lbl" text="--" x="753" y="301" fontFamily="Microsoft YaHei" size="30" textColor="0xFF4E00" textAlign="center"/>
+	<e:Label id="sign_lbl" text="--" x="716" y="373" fontFamily="Microsoft YaHei" size="30" textColor="0xFF4E00" textAlign="center"/>
+	<e:Label text="参赛人数：" x="550" y="221" fontFamily="Microsoft YaHei" size="30" textColor="0xA46359" textAlign="center"/>
+	<e:Label text="报名次数：" x="550" y="373" fontFamily="Microsoft YaHei" size="30" textColor="0xA46359" textAlign="center"/>
+	<e:Label text="报名费用：" x="550" y="299" fontFamily="Microsoft YaHei" size="30" textColor="0xA46359" textAlign="center"/>
+	<e:Label text="奖励详情" x="141" y="83" size="28" fontFamily="Microsoft YaHei" textColor="0x8e2a0c"/>
+</e:Skin>

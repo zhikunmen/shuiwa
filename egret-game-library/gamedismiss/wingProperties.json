@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/gamedismiss.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/gamedismiss.thm.json"
+}

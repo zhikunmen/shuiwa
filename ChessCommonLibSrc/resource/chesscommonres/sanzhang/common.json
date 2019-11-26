@@ -1,0 +1,35 @@
+{
+  "file": "common.png",
+  "frames": {
+    "sz_Gongxi": {
+      "x": 0,
+      "y": 125,
+      "w": 101,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 50
+    },
+    "sz_Lobby_help_close": {
+      "x": 127,
+      "y": 0,
+      "w": 111,
+      "h": 99,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 99
+    },
+    "sz_winFrame": {
+      "x": 0,
+      "y": 0,
+      "w": 125,
+      "h": 123,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 123
+    }
+  }
+}

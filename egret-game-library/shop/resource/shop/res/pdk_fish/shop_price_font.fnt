@@ -1,0 +1,12 @@
+{"file":"shop_price_font.png","frames":{
+"8":{"x":0,"y":0,"w":95,"h":124,"offX":1,"offY":0,"sourceW":97,"sourceH":125},
+"9":{"x":193,"y":0,"w":93,"h":123,"offX":0,"offY":1,"sourceW":93,"sourceH":125},
+"0":{"x":0,"y":126,"w":91,"h":124,"offX":1,"offY":0,"sourceW":93,"sourceH":125},
+"1":{"x":278,"y":251,"w":70,"h":124,"offX":0,"offY":0,"sourceW":70,"sourceH":125},
+"2":{"x":193,"y":125,"w":92,"h":124,"offX":0,"offY":0,"sourceW":92,"sourceH":125},
+"3":{"x":186,"y":251,"w":90,"h":124,"offX":1,"offY":0,"sourceW":92,"sourceH":125},
+"4":{"x":0,"y":252,"w":89,"h":124,"offX":0,"offY":0,"sourceW":89,"sourceH":125},
+"5":{"x":93,"y":126,"w":91,"h":124,"offX":1,"offY":0,"sourceW":93,"sourceH":125},
+"6":{"x":97,"y":0,"w":94,"h":124,"offX":0,"offY":0,"sourceW":95,"sourceH":125},
+"7":{"x":91,"y":252,"w":83,"h":124,"offX":0,"offY":0,"sourceW":85,"sourceH":125},
+"元":{"x":287,"y":125,"w":84,"h":75,"offX":0,"offY":43,"sourceW":84,"sourceH":125}}}

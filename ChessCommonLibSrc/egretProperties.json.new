@@ -1,0 +1,41 @@
+{
+  "engineVersion": "5.2.7",
+  "compilerVersion": "5.2.7",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "eui": {
+    "exmlPublishPolicy": "commonjs2"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "uniLib",
+      "path": "../libsrc/uniLib-dev"
+    }
+  ]
+}

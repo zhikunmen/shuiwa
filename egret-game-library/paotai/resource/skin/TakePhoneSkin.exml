@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TakePhoneSkin" width="972" height="625" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Image x="-1" y="50" width="972" height="575"  source="take_phonebill_json.take_phone_bg" scale9Grid="66,195,14,197"/>
+
+
+	<e:Image y="0" horizontalCenter="0" source="take_phonebill_json.take_phone_title"/>
+
+	<eui:WxButton id="closeBtn" label="" y="76" x="895">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="paotai_panel_json.paotai_btn_close" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Group y="141" anchorOffsetY="0" anchorOffsetX="0" x="56">
+		<e:RadioButton id="tabbtn1" label="普通抽奖" x="0" y="0" selected="true"  groupName="tab" value="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="take_phonebill_json.take_phone_tab1" source.down="take_phonebill_json.take_phone_tab2"/>
+				<e:Label id="labelDisplay" size="24" horizontalCenter="0" verticalCenter="0" textColor="0xfdfdfd" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0xa14f1c"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tabbtn2" label="青铜抽奖" x="145" y="0" groupName="tab" value="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="take_phonebill_json.take_phone_tab1" source.down="take_phonebill_json.take_phone_tab2"/>
+				<e:Label id="labelDisplay" size="24" horizontalCenter="0" verticalCenter="0" textColor="0xfdfdfd" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0xa14f1c"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tabbtn3" label="白银抽奖" x="290" y="0" groupName="tab" value="3">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="take_phonebill_json.take_phone_tab1" source.down="take_phonebill_json.take_phone_tab2"/>
+				<e:Label id="labelDisplay" size="24" horizontalCenter="0" verticalCenter="0" textColor="0xfdfdfd" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0xa14f1c"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tabbtn4" label="黄金抽奖" x="435" y="0" groupName="tab" value="4">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="take_phonebill_json.take_phone_tab1" source.down="take_phonebill_json.take_phone_tab2"/>
+				<e:Label id="labelDisplay" size="24" horizontalCenter="0" verticalCenter="0" textColor="0xfdfdfd" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0xa14f1c"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tabbtn5" label="水晶抽奖" x="580" y="0" groupName="tab" value="5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="take_phonebill_json.take_phone_tab1" source.down="take_phonebill_json.take_phone_tab2"/>
+				<e:Label id="labelDisplay" size="24" horizontalCenter="0" verticalCenter="0" textColor="0xfdfdfd" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0xa14f1c"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="tabbtn6" label="至尊抽奖" x="725" y="0" groupName="tab" value="6">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="take_phonebill_json.take_phone_tab1" source.down="take_phonebill_json.take_phone_tab2"/>
+				<e:Label id="labelDisplay" size="24" horizontalCenter="0" verticalCenter="0" textColor="0xfdfdfd" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0xa14f1c"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+	<e:Image source="take_phonebill_json.take_phone_light" x="28" y="186"/>
+	<e:Group id="rewardGroup" width="858" height="260" x="57" y="209" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect id="rewardMask" width="100%" height="100%" x="0" y="0" fillAlpha="0.6" cacheAsBitmap="true" visible="false"/>
+	</e:Group>
+	<e:Group width="907" height="105" y="510" anchorOffsetX="0" anchorOffsetY="0" x="33">
+		<e:Image source="take_phonebill_json.take_phone_jackbg" x="0.34" y="16" scale9Grid="26,23,12,24" width="281" height="68"/>
+		<e:Image source="take_phonebill_json.take_phone_jackpot" x="17.34" y="34"/>
+		<e:Image width="40" height="40" x="94.34" y="30" source="lb_jinbi_jinbi_png"/>
+		<e:BitmapLabel id="rewardPool" x="145" y="35" font="take_phone1_fnt" text="3000"/>
+		<e:Label id="rewardMore" size="30" textColor="0xFDFDFD" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0xA14F1C" text="你可以进行更高级别的抽奖" x="428" y="29.65" scaleX="1" scaleY="1" visible="false"/>
+
+
+
+
+		<e:Group id="chouGroup" width="597.33" height="84" x="308.33" y="7.34" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Label id="killFish" text="击杀奖金鱼可继续积累奖池！" x="40" y="8.32" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" textAlign="center"/>
+			<e:Label id="rewardNext" size="24" textColor="0xfdfdfd" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0xa14f1c" text="至尊抽奖" x="71" y="50" scaleX="1" scaleY="1"/>
+			<e:ProgressBar id="goldPro" width="150" height="20" x="176" y="52" skinName="ProgressSkin3" scaleX="1" scaleY="1" value="1"/>
+			<e:BitmapLabel id="goldText" x="238" y="55" font="take_phone1_fnt" text="1/5" scaleX="0.5" scaleY="0.5"/>
+			<e:Button id="luckBtn" label="" x="401" y="7">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="take_phonebill_json.take_phone_luck1" source.down="take_phonebill_json.take_phone_luck2" source.disabled="take_phonebill_json.take_phone_luck3"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="fishBtn" label="" x="401" y="7">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="take_phonebill_json.take_phone_fish1" source.down="take_phonebill_json.take_phone_fish2"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

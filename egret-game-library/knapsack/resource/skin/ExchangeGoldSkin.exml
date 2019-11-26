@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeGoldSkin" width="700" height="420" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:eui="eui.*">
+    <e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" x="4" y="19" anchorOffsetX="0" width="691"
+             anchorOffsetY="0" height="397" locked="true" />
+    <e:Image source="mjl_common_bg1_png" y="71" anchorOffsetX="0" width="644" anchorOffsetY="0" height="223"
+             scale9Grid="5,5,30,30" horizontalCenter="0"  locked="true"/>
+    <e:Button id="_closeBtn" label="" x="641" y="-11">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="mjl_common_closebtn1_png"
+                         source.down="mjl_common_closebtn2_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Image source="mjl_knapsack_json.mjl_knapsack_itembg" x="83" y="84" scaleX="0.65" scaleY="0.65" />
+    <e:Image source="mjl_knapsack_json.mjl_knapsack_itembg" x="498" y="87" scaleX="0.65" scaleY="0.65" />
+    <e:Label id="_couponText" text="代金券" x="114" y="211" textColor="0x5d1400" fontFamily="Microsoft YaHei" size="18" />
+    <e:Label text="代金券" x="113" y="235" textColor="0x5D1400" fontFamily="Microsoft YaHei" size="18" />
+    <e:Label id="_goldText" text="100" x="542" y="218" textColor="0x5D1400" fontFamily="Microsoft YaHei" size="18" />
+    <e:Label text="1代金券：100金币" y="264" textColor="0x5D1400" fontFamily="Microsoft YaHei" size="16" horizontalCenter="0" />
+	<e:Label text="兑换数量" y="189" fontFamily="Microsoft YaHei" size="20" horizontalCenter="0" textColor="0xc95a00"/>
+	<eui:WxButton id="_exchangeBtn" label="兑 换" y="303" horizontalCenter="0">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x91481f" size="38"/>
+				</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image id="_couponImg" source="mjl_knapsack_json.mjl_knapsack_341" x="86" y="100" scaleX="0.65" scaleY="0.65"/>
+	<e:Image source="mjl_knapsack_json.mjl_knapsack_gold" x="497" y="104" scaleX="0.65" scaleY="0.65"/>
+	<e:Image source="mjl_knapsack_json.mjl_knapsack_input" x="290" y="139" locked="true"/>
+	<eui:WxButton id="_reduceBtn" label="" x="241" y="135">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_knapsack_json.mjl_knapsack_reduce"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_addBtn" label="" x="404" y="135">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_knapsack_json.mjl_knapsack_add"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Label id="_numText" text="222244" x="294.5" y="145.5" textColor="0x73491b" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="107.5" textAlign="center" height="30"/>
+</e:Skin>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FlopMachinePanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" xmlns:tween="egret.tween.*" xmlns:match="match.*" width="1280" height="720">
+	<w:Declarations>
+		<tween:TweenGroup id="close_tween">
+			<tween:TweenItem target="{group}">
+				<tween:To duration="250" ease="quadOut">
+					<tween:props>
+						<e:Object y="{272}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="open_tween">
+			<tween:TweenItem target="{group}">
+				<tween:To duration="250" ease="quadOut">
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="sendcard_tween">
+			<tween:TweenItem target="{poker1}">
+				<tween:Wait duration="700"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="150"  ease="quadIn">
+					<tween:props>
+						<e:Object x="{244}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{poker2}">
+				<tween:Wait duration="550"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200"  ease="quadIn">
+					<tween:props>
+						<e:Object x="{400}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{poker3}">
+				<tween:Wait duration="400"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200"  ease="quadIn">
+					<tween:props>
+						<e:Object x="{556}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{poker4}">
+				<tween:Wait duration="200"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250"  ease="quadIn">
+					<tween:props>
+						<e:Object x="{712}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{poker5}">
+				<tween:To duration="250"  ease="quadIn">
+					<tween:props>
+						<e:Object x="{868}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="win_tween">
+			<tween:TweenItem target="{win_lbl}">
+				<tween:To duration="500" ease="sineOut">
+					<tween:props>
+						<e:Object alpha="{1}" y="{416}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="750" ease="sineOut">
+					<tween:props>
+						<e:Object alpha="{0}" y="{386}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="cardType_tween">
+			<tween:TweenItem target="{cardType_grp}">
+				<tween:To duration="500" ease="quadOut">
+					<tween:props>
+						<e:Object x="{320}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="bg_img" source="lb_bg_jpg" horizontalCenter="0"/>
+	<match:WxTopOpBtn id="top_skin" x="256" y="30"/>
+	<eui:WxButton id="rule_btn" label="" x="888" y="13">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="flopMachine_json.fpj_ruler"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="close_btn" label="" x="38.5" y="26">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="flopMachine_json.lb_back"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image source="flopMachine_json.fpj_bg" width="1210" height="596" y="125" horizontalCenter="0" scale9Grid="40,40,4,5"/>
+
+	<e:Group id="flop_grp" y="141" width="1159" height="550" horizontalCenter="-1.5" scrollEnabled="true">
+		<e:Image y="247" width="1159" height="213" source="flopMachine_json.fpj_bg_1" scale9Grid="6,6,1,2"/>
+		<e:Image width="412" height="141" x="95" anchorOffsetY="0" source="flopMachine_json.fpj_bg_1" scale9Grid="6,6,1,1"/>
+		<e:Image source="flopMachine_json.fpj_sekuai_caijin" x="95" y="143"/>
+		<e:Image source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,1,2" width="93" height="245"/>
+		<e:Image source="flopMachine_json.fpj_caijin" x="106" y="26"/>
+		<e:Image source="flopMachine_json.fpj_sekuai_paixing" x="509" width="324" scale9Grid="4,118,1,1"/>
+		<e:Image source="flopMachine_json.fpj_sekuai_paixing" scale9Grid="4,118,1,1" width="324" x="835"/>
+		<e:Group x="30" y="219" scrollEnabled="true" width="131" height="272">
+			<e:Group id="group" y="272">
+				<e:Image id="image" source="flopMachine_json.fpj_chouma_bg" scale9Grid="17,20,2,2" scaleX="1" scaleY="1" width="131" height="272" includeInLayout="false"/>
+				<eui:Button id="chip1_btn" label="10000" scaleX="1" scaleY="1" name="10000" y="234" x="-8">
+					<eui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image source="flopMachine_json.fpj_chouma_bg_1" source.down="flopMachine_json.fpj_chouma_bg_2"/>
+						<e:BitmapLabel id="labelDisplay" horizontalCenter="0" verticalCenter="0" verticalCenter.down="2" font="flopMachineCoinFont_fnt"/>
+					</e:Skin>
+					</eui:skinName>
+				</eui:Button>
+				<eui:Button id="chip2_btn" label="5000" scaleX="1" scaleY="1" y="234" name="5000" x="-8">
+					<eui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image source="flopMachine_json.fpj_chouma_bg_1" source.down="flopMachine_json.fpj_chouma_bg_2"/>
+						<e:BitmapLabel id="labelDisplay" verticalCenter="0" verticalCenter.down="2" font="flopMachineCoinFont_fnt" horizontalCenter="0" text="5000"/>
+					</e:Skin>
+					</eui:skinName>
+				</eui:Button>
+				<eui:Button id="chip3_btn" label="1000" scaleX="1" scaleY="1" y="234" name="1000" x="-8">
+					<eui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image source="flopMachine_json.fpj_chouma_bg_1" source.down="flopMachine_json.fpj_chouma_bg_2"/>
+						<e:BitmapLabel id="labelDisplay" verticalCenter="0" verticalCenter.down="2" font="flopMachineCoinFont_fnt" horizontalCenter="0" text="1000"/>
+					</e:Skin>
+					</eui:skinName>
+				</eui:Button>
+				<eui:Button id="chip4_btn" label="500" scaleX="1" scaleY="1" y="234" name="500" x="-8">
+					<eui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image source="flopMachine_json.fpj_chouma_bg_1" source.down="flopMachine_json.fpj_chouma_bg_2"/>
+						<e:BitmapLabel id="labelDisplay" verticalCenter="0" verticalCenter.down="2" font="flopMachineCoinFont_fnt" horizontalCenter="0" text="500"/>
+					</e:Skin>
+					</eui:skinName>
+				</eui:Button>
+				<eui:Button id="chip6_btn" label="100" scaleX="1" scaleY="1" y="234" name="100" x="-8">
+					<eui:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image source="flopMachine_json.fpj_chouma_bg_1" source.down="flopMachine_json.fpj_chouma_bg_2"/>
+						<e:BitmapLabel id="labelDisplay" verticalCenter="0" verticalCenter.down="2" font="flopMachineCoinFont_fnt" horizontalCenter="0" text="500"/>
+					</e:Skin>
+					</eui:skinName>
+				</eui:Button>
+				<e:layout>
+					<e:VerticalLayout gap="3"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		<eui:Button id="cancelHang_btn" label="" y="467" x="704" visible="false">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="flopMachine_json.fpj_quxiao" source.down="flopMachine_json.fpj_quxiao_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:Button>
+		<eui:Button id="begin_btn" label="" y="467" x="918">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="flopMachine_json.fpj_start" source.down="flopMachine_json.fpj_start_1" source.disabled="flopMachine_json.fpj_start_2"/>
+				<e:Image id="type" horizontalCenter="0" source="flopMachine_json.fpj_word_start" verticalCenter="-4" verticalCenter.down="0"/>
+				</e:Skin>
+			</eui:skinName>
+
+		</eui:Button>
+		<eui:Button id="hang_btn" label="" y="467" x="744">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="flopMachine_json.fpj_guaji" source.down="flopMachine_json.fpj_guaji_1" source.disabled="flopMachine_json.fpj_guaji_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+
+		</eui:Button>
+		<eui:Button id="guess_btn" label="" y="321.5" x="946">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="flopMachine_json.fpj_caidaxiao" source.down="flopMachine_json.fpj_caidaxiao_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:Button>
+		<eui:Button id="chip5_btn" label="500" x="30" y="494" name="500" enabled="true">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="flopMachine_json.fpj_chouma_bg_1" source.down="flopMachine_json.fpj_chouma_bg_2" source.disabled="flopMachine_json.fpj_chouma_bg_3"/>
+					<e:BitmapLabel id="labelDisplay" font="flopMachineCoinFont_fnt" text="500" x="25" horizontalCenter="0" verticalCenter="0" verticalCenter.down="2"/>
+				</e:Skin>
+			</eui:skinName>
+
+		</eui:Button>
+		<e:Image id="poker1" source="flopMachine_json.fpj_card_back" y="270" width="130" height="178" name="1" anchorOffsetX="65" x="-65"/>
+		<e:Image id="poker2" source="flopMachine_json.fpj_card_back" y="270" height="178" width="130" name="2" anchorOffsetX="65" x="-65"/>
+		<e:Image id="poker3" source="flopMachine_json.fpj_card_back" y="270" height="178" width="130" name="3" anchorOffsetX="65" x="-65"/>
+		<e:Image id="poker4" source="flopMachine_json.fpj_card_back" y="270" height="178" width="130" name="4" anchorOffsetX="65" x="-65"/>
+		<e:Image id="poker5" source="flopMachine_json.fpj_card_back" y="270" height="178" width="130" name="5" anchorOffsetX="65" x="-65"/>
+		<e:Image id="light1" source="flopMachine_json.fpj_card_light" x="177" y="266" scale9Grid="31,30,3,3" width="136" height="184"/>
+		<e:Image id="light2" source="flopMachine_json.fpj_card_light" x="333" y="266" scale9Grid="31,30,3,3" width="136" height="184"/>
+		<e:Image id="light3" source="flopMachine_json.fpj_card_light" x="489" y="266" scale9Grid="31,30,3,3" width="136" height="184"/>
+		<e:Image id="light4" source="flopMachine_json.fpj_card_light" x="645" y="266" scale9Grid="31,30,3,3" width="136" height="184"/>
+		<e:Image id="light5" source="flopMachine_json.fpj_card_light" x="801" y="266" scale9Grid="31,30,3,3" width="136" height="184"/>
+		<e:Image id="retain1" source="flopMachine_json.fpj_baoliu" x="221" y="270"/>
+		<e:Image id="retain2" source="flopMachine_json.fpj_baoliu" x="378" y="271"/>
+		<e:Image id="retain3" source="flopMachine_json.fpj_baoliu" x="534" y="271" visible="false"/>
+		<e:Image id="retain4" source="flopMachine_json.fpj_baoliu" x="690" y="271"/>
+		<e:Image id="retain5" source="flopMachine_json.fpj_baoliu" x="846" y="271"/>
+		<e:Group id="cardType_grp" y="308" x="1159">
+			<e:Image source="flopMachine_json.fpj_paixing_tishi"/>
+			<e:Label id="cardType_lbl" text="一对10以上" horizontalCenter="0" verticalCenter="0" size="60" fontFamily="Microsoft YaHei" textColor="0xffe9b5"/>
+		</e:Group>
+		<e:BitmapLabel id="coinPond_blbl" x="122" y="48" font="flopMachineFont_fnt" text="0000000000"/>
+		<e:Group id="lottery_grp" x="533" touchEnabled="false" touchChildren="false">
+			<e:Image id="lottery_img" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,1,2" width="324" height="48" scaleX="1" scaleY="1" includeInLayout="false" x="-24"/>
+			<e:Label text="五条                       750倍" fontFamily="Microsoft YaHei" size="24" y="-8" x="-27" height="48" width="324" verticalAlign="middle" name="type11"/>
+			<e:Label text="同花                           7倍" fontFamily="Microsoft YaHei" size="24" y="2" x="-17" verticalAlign="middle" name="type6"/>
+			<e:Label text="同花大顺                250倍" fontFamily="Microsoft YaHei" size="24" y="12" x="-7" verticalAlign="middle" name="type10"/>
+			<e:Label text="顺子                           5倍" fontFamily="Microsoft YaHei" size="24" y="22" x="3" verticalAlign="middle" name="type5"/>
+			<e:Label text="同花顺                   150倍" fontFamily="Microsoft YaHei" size="24" y="32" x="13" verticalAlign="middle" name="type9"/>
+			<e:Label text="三条                           3倍" fontFamily="Microsoft YaHei" size="24" y="42" x="23" verticalAlign="middle" name="type4"/>
+			<e:Label text="四条                         60倍" fontFamily="Microsoft YaHei" size="24" y="52" x="33" verticalAlign="middle" name="type8"/>
+			<e:Label text="两对                           2倍" fontFamily="Microsoft YaHei" size="24" y="62" x="43" verticalAlign="middle" name="type3"/>
+			<e:Label text="葫芦                         10倍" fontFamily="Microsoft YaHei" size="24" y="72" x="53" verticalAlign="middle" name="type7"/>
+			<e:Label text="一对10以上                1倍" fontFamily="Microsoft YaHei" size="24" y="82" x="63" verticalAlign="middle" name="type2"/>
+			<e:layout>
+				<e:TileLayout verticalGap="1" requestedRowCount="5" horizontalGap="2"/>
+			</e:layout>
+		</e:Group>
+		<e:Label text="以下牌型必得10-120倍彩金" x="139" y="154" fontFamily="Microsoft YaHei" size="26"/>
+		<e:Label text="五条" x="129" y="207" fontFamily="Microsoft YaHei" size="26"/>
+		<e:Label text="彩金" x="20.5" y="74" fontFamily="Microsoft YaHei" size="50" bold="true" textColor="0xfff6d5" anchorOffsetX="0" width="50"/>
+		<e:Label text="同花大顺" x="252" y="207" fontFamily="Microsoft YaHei" size="26"/>
+		<e:Label text="同花顺" x="405" y="207" fontFamily="Microsoft YaHei" size="26"/>
+		<e:Label id="chipsDesc_lbl" text="每次金币" x="52" y="467.5" fontFamily="Microsoft YaHei" size="20" textColor="0x000000" bold="true"/>
+		<e:Label id="win_lbl" text="0" x="918" y="446" fontFamily="Microsoft YaHei" size="30" bold="true" textColor="0x000000" alpha="0" width="209" textAlign="center"/>
+	</e:Group>
+</e:Skin>

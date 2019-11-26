@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FlopMachineRuleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="835" height="588">
+	<e:Image source="mjl_panel_common_json.mjl_common_bg_png" scale9Grid="18,190,10,13" width="100%" height="100%" locked="true"/>
+	<e:Image source="wx_lb_res_json.bs_unlock_title_png" horizontalCenter="0"/>
+	<e:Image y="13" horizontalCenter="0" source="flopMachine_json.fpj_ruler_title"/>
+	<eui:WxButton id="close_btn" label="" x="757" y="7">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="wx_lb_res_json.lb_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:RadioButton id="lhp_rbtn" label="翻牌机说明" x="167" y="90" value="1" selected="false" width="167" height="52">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="flopMachine_json.fpj_ruler_sm_2" source.down="flopMachine_json.fpj_ruler_sm_1" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="24" textColor="0xb18b43" textColor.down="0xffffff"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="cj_rbtn" label="彩金说明" y="90" horizontalCenter="0" width="167" height="52" value="2" selected="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="flopMachine_json.fpj_ruler_sm_4" source.down="flopMachine_json.fpj_ruler_sm_3" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="24" textColor="0xb18b43" textColor.down="0xffffff"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="cdx_rbtn" label="猜大小说明" x="668" y="90" width="167" height="52" value="3" selected="false" scaleX="-1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="flopMachine_json.fpj_ruler_sm_2" source.down="flopMachine_json.fpj_ruler_sm_1" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="24" textColor="0xb18b43" scaleX="-1" textColor.down="0xffffff"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Label id="rule_lbl" text="" y="181" fontFamily="Microsoft YaHei" size="24" width="770" lineSpacing="10" textColor="0xa46359" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,35 @@
+{
+    "frames": {
+        "sz_winFrame": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 123, 
+            "sourceW": 125, 
+            "w": 125, 
+            "h": 123, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "sz_Gongxi": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 50, 
+            "sourceW": 101, 
+            "w": 101, 
+            "h": 50, 
+            "y": 125, 
+            "x": 0
+        }, 
+        "sz_Lobby_help_close": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 99, 
+            "sourceW": 111, 
+            "w": 111, 
+            "h": 99, 
+            "y": 0, 
+            "x": 127
+        }
+    }, 
+    "file": "common_92a53941.png"
+}

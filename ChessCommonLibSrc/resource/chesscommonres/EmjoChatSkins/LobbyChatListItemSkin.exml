@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.LobbyChatListItemSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="960">
+	<e:Label id="chat_lb" size="27" maxChars="60" text=""  lineSpacing="5" anchorOffsetX="0" anchorOffsetY="0" left="8" top="3" fontFamily="null1" multiline="true" width="949" bottom="6" textColor="0x239924" visible="false"/>
+		<e:Label id="name_lb" size="27"  x="106" y="7" width="198" height="26" fontFamily="null1" textColor="0x000000" visible="false"/>
+	<e:Image id="vipIcon" source="mid_vip12" x="5.5" y="0" visible="false"/>
+	<!--<e:Image id="chat_line" source="sz_common_Chat_json.sz_common_chat_line" x="5" bottom="0" visible="false"/>-->
+</e:Skin>

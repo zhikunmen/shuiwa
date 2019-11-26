@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMemberItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  xmlns:eui="eui.*">
+	<e:Image x="0" y="0" anchorOffsetY="0" height="70" anchorOffsetX="0" width="1145"
+	         source="club_new_menage_json.club_list_bg" scale9Grid="27,23,27,24" />
+	<e:Label id="_uidText" text="12222222" verticalCenter="-0.5" textAlign="center" anchorOffsetX="0" textColor="0x796e65"
+	         size="22" fontFamily="Microsoft YaHei" horizontalCenter="-501.5" width="110" anchorOffsetY="0" height="23" />
+	<e:Label id="_nametext" text="是大法官认" verticalCenter="-2" textAlign="center" anchorOffsetX="0" textColor="0x796e65"
+	         size="22" fontFamily="Microsoft YaHei" horizontalCenter="-371" width="113" height="22" />
+	<e:Label id="_remarksText" text="发的所发发风动旛动" verticalCenter="-2" textAlign="center" anchorOffsetX="0" textColor="0x796E65"
+	         size="22" fontFamily="Microsoft YaHei" horizontalCenter="-239" width="113" height="22" />
+	<e:Label id="_winloseText" text="123(-222)" verticalCenter="-0.5" textAlign="right" anchorOffsetX="0" textColor="0x796E65"
+	         size="22" fontFamily="Microsoft YaHei" horizontalCenter="-116.5" width="102" anchorOffsetY="0" height="25" />
+	<e:Label id="_winNumText" text="122" verticalCenter="-2" textAlign="center" anchorOffsetX="0" textColor="0x796E65"
+	         size="22" fontFamily="Microsoft YaHei" horizontalCenter="114"  height="22"/>
+	<e:Group id="operationGroup" width="280" x="752.32" anchorOffsetY="0" anchorOffsetX="0" height="60" y="3">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="25" />
+		</e:layout>
+	</e:Group>
+	<eui:WxButton id="_detailBtn" label="查 看" x="1027.2" verticalCenter="-2.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="110" height="53" source="mjl_panel_common_json.mjl_btn3" scale9Grid="25,21,45,3" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2"
+				         strokeColor="0x793f20" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_cleanRemarksBtn" label="清除备注" x="508.24" verticalCenter="-3.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="122" height="49" source="mjl_panel_common_json.mjl_btn3" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2"
+				         strokeColor="0x793f20" size="24" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_writeRemarksbtn" label="点击备注" x="508.24" verticalCenter="-3.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="122" height="49" source="mjl_panel_common_json.mjl_btn4" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2"
+				         strokeColor="0x135b17" size="24" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+</e:Skin>

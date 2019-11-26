@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubCleanRecordItemSkin" width="860" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="club_new_menage_json.club_deskitem_bg" left="0" width="860" scale9Grid="10,10,63,66" height="80" y="-3"/>
+	<e:Label id="_timeText" text="3333-33-33\n33:33:33" textColor="0x77310f" fontFamily="Microsoft YaHei" size="24" textAlign="center" x="39" verticalCenter="0"/>
+	<e:Label id="_dayText" text="今天数学:22" textColor="0x77310F" fontFamily="Microsoft YaHei" size="28" textAlign="center" verticalCenter="0" width="248" height="28" horizontalCenter="0"/>
+	<e:Label id="_nameText" text="水电费粉色是" textColor="0x77310F" fontFamily="Microsoft YaHei" size="28" textAlign="center" verticalCenter="0" x="633" width="187" height="28"/>
+</e:Skin>

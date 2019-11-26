@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxGameRecordItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bs_jilu_bg1_png" scale9Grid="21,23,2,3" anchorOffsetX="0" width="922"/>
+	<e:Image source="bs_jilu_line1_png" x="179" scaleX="1" scaleY="1"/>
+	<e:Image source="bs_jilu_line1_png" scaleX="1" scaleY="1" x="367"/>
+	<e:Image source="bs_jilu_line1_png" x="549" scaleX="1" scaleY="1"/>
+	<e:Image source="bs_jilu_line1_png" x="726" scaleX="1" scaleY="1"/>
+	<e:Label id="one_lbl" text="--" x="189" size="22" fontFamily="Microsoft YaHei" textColor="0xff4e00" width="170" textAlign="center" verticalCenter="0" height="22"/>
+	<e:Label id="min_lbl" text="--" x="22" size="18" fontFamily="Microsoft YaHei" verticalAlign="middle" textColor="0xa46359" textAlign="center" verticalCenter="-8" width="120"/>
+	<e:Label id="sec_lbl" text="--" x="22" size="18" fontFamily="Microsoft YaHei" verticalAlign="middle" textColor="0xA46359" width="120" textAlign="center" verticalCenter="11"/>
+	<e:Label id="third_lbl" text="--" x="553" size="22" fontFamily="Microsoft YaHei" textColor="0xFF4E00" verticalCenter="0" width="170" textAlign="center" height="22"/>
+	<e:Label id="two_lbl" text="--" x="374" size="22" fontFamily="Microsoft YaHei" textColor="0xFF4E00" verticalCenter="0" width="170" textAlign="center" height="22"/>
+	<e:Label id="rank_lbl" text="--" x="733" size="22" fontFamily="Microsoft YaHei" verticalCenter="0" width="170" textAlign="center" height="22" textColor="0x8e2a0c"/>
+</e:Skin>

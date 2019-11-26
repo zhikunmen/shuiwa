@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubNewBoxSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Rect id="bgRect" height="720" fillAlpha="0" strokeAlpha="0" left="0" right="0"/>
+	<e:Group id="floorGroup" x="0">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1" width="596" height="720" source="club_scale9_json.club_bg1" scale9Grid="1,1,4,4"/>
+		<e:Image x="0" y="0" width="528" height="72" source="club_scale9_json.club_titlebg1" scale9Grid="28,28,34,13" locked="true"/>
+		<e:Image x="15" y="120" width="66" height="570" source="club_scale9_json.clubbox_itembg" scale9Grid="12,10,1,3" locked="true"/>
+		<e:Label text="切换包厢" x="222" y="13.5" size="40" fontFamily="Microsoft YaHei" bold="true" locked="true"/>
+		<e:Image x="24" y="227" source="club_scale9_json.line4" locked="true"/>
+		<e:Image source="club_scale9_json.line4" x="24" y="346.35" locked="true"/>
+		<e:Image source="club_scale9_json.line4" x="24" y="463.83" locked="true"/>
+		<e:Image source="club_scale9_json.line4" x="24" y="584" locked="true"/>
+		<eui:WxButton id="closeBtn" label="" x="522" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.clubbox_up_close1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<e:Scroller width="489.33" height="578.67" x="97" y="113" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="floorList" itemRendererSkinName="ClubNewBoxItemSkin">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Label text="1" x="37.58" y="155.03" size="40" fontFamily="Microsoft YaHei"/>
+		<e:Label text="2" x="37.58" y="267.45" size="40" fontFamily="Microsoft YaHei"/>
+		<e:Label text="3" x="37.58" y="387" size="40" fontFamily="Microsoft YaHei"/>
+		<e:Label text="4" x="37.58" y="505.88" size="40" fontFamily="Microsoft YaHei"/>
+		<e:Label text="5" x="37.58" y="614.96" size="40" fontFamily="Microsoft YaHei"/>
+		<e:Image id="onefloor" x="17.08" y="128.03" width="69" height="95" source="club_scale9_json.clubbox_choice" scale9Grid="7,11,7,72" visible="false"/>
+		<e:Image id="twofloor" x="17.08" y="240.45" width="69" height="95" source="club_scale9_json.clubbox_choice" scale9Grid="8,11,4,72" visible="false"/>
+		<e:Image id="threefloor" x="17.08" y="360" width="69" height="95" source="club_scale9_json.clubbox_choice" scale9Grid="8,11,4,72" visible="false"/>
+		<e:Image id="fourfloor" x="17.08" y="478.88" width="69" height="95" source="club_scale9_json.clubbox_choice" scale9Grid="8,11,4,72" visible="false"/>
+		<e:Image id="fivefloor" x="17.08" y="587.96" width="69" height="95" source="club_scale9_json.clubbox_choice" scale9Grid="8,11,4,72" visible="false"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+{"file":"game_set.png","frames":{
+"game_sp_voice_off":{"x":57,"y":52,"w":53,"h":54,"offX":0,"offY":0,"sourceW":53,"sourceH":54},
+"game_sp_voice_on":{"x":0,"y":52,"w":53,"h":54,"offX":0,"offY":0,"sourceW":53,"sourceH":54},
+"game_sp_arrow_left":{"x":219,"y":41,"w":31,"h":37,"offX":0,"offY":0,"sourceW":31,"sourceH":37},
+"game_sp_arrow_right":{"x":219,"y":0,"w":31,"h":37,"offX":0,"offY":0,"sourceW":31,"sourceH":37},
+"game_sp_bigcard":{"x":114,"y":88,"w":42,"h":60,"offX":0,"offY":0,"sourceW":42,"sourceH":60},
+"game_sp_check":{"x":0,"y":110,"w":20,"h":20,"offX":8,"offY":8,"sourceW":36,"sourceH":36},
+"game_sp_checkbg":{"x":199,"y":88,"w":36,"h":36,"offX":0,"offY":0,"sourceW":36,"sourceH":36},
+"game_sp_off":{"x":123,"y":44,"w":92,"h":40,"offX":0,"offY":0,"sourceW":92,"sourceH":40},
+"game_sp_on":{"x":123,"y":0,"w":92,"h":40,"offX":0,"offY":0,"sourceW":92,"sourceH":40},
+"game_sp_smallcard":{"x":160,"y":88,"w":35,"h":50,"offX":3,"offY":10,"sourceW":42,"sourceH":60},
+"game_sp_title":{"x":0,"y":0,"w":119,"h":48,"offX":0,"offY":0,"sourceW":119,"sourceH":48}}}

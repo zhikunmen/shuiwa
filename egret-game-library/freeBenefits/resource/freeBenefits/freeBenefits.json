@@ -1,0 +1,12 @@
+{"file":"freeBenefits.png","frames":{
+"free_collection":{"x":313,"y":327,"w":105,"h":112,"offX":12,"offY":3,"sourceW":132,"sourceH":119},
+"free_bg_2":{"x":420,"y":322,"w":30,"h":186,"offX":0,"offY":0,"sourceW":30,"sourceH":186},
+"free_item_bg":{"x":119,"y":0,"w":174,"h":215,"offX":0,"offY":0,"sourceW":174,"sourceH":215},
+"free_invitation":{"x":231,"y":217,"w":112,"h":108,"offX":9,"offY":10,"sourceW":132,"sourceH":119},
+"free_fuli_title":{"x":119,"y":404,"w":134,"h":36,"offX":0,"offY":0,"sourceW":134,"sourceH":36},
+"free_sign":{"x":345,"y":217,"w":95,"h":103,"offX":17,"offY":8,"sourceW":132,"sourceH":119},
+"free_common_bg":{"x":119,"y":336,"w":192,"h":66,"offX":7,"offY":5,"sourceW":199,"sourceH":74},
+"free_bg_1":{"x":0,"y":0,"w":117,"h":449,"offX":0,"offY":0,"sourceW":118,"sourceH":450},
+"free_desktop_collection":{"x":119,"y":217,"w":110,"h":117,"offX":13,"offY":4,"sourceW":132,"sourceH":121},
+"free_btn_close":{"x":255,"y":441,"w":58,"h":58,"offX":0,"offY":0,"sourceW":58,"sourceH":58},
+"free_tips":{"x":315,"y":441,"w":52,"h":46,"offX":0,"offY":0,"sourceW":52,"sourceH":46}}}

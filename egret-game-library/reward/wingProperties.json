@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/reward.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/reward.thm.json"
+}

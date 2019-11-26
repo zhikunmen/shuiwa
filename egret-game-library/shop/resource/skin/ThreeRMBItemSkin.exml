@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThreeRMBItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*"
+        width="165" height="165">
+	<e:Image  source="lb_giftDaily_json.lb_huiyuan_dikuang" scale9Grid="43,50,8,6" width="165" height="165"/>
+	<e:Image id="icon_img" horizontalCenter="0" verticalCenter="0" source="lb_giftDaily_json.mjl_match_fuka" width="120" height="120"/>
+	<e:Image id="give_img" source="lb_giftDaily_json.lb_giftDaily_give" x="-4" y="-4"/>
+	<e:Image id="mask_img" source="lb_giftDaily_json.lb_giftDaily_rect" scale9Grid="42,9,4,3" width="165" y="130" x="0" visible="false"/>
+	<e:Label id="name_lbl" text="" y="172" fontFamily="Microsoft YaHei" size="26" stroke="2" strokeColor="0x123fa6" horizontalCenter="0"/>
+	<e:Label id="num_lbl" text="" y="133" size="30" fontFamily="Microsoft YaHei" horizontalCenter="0" visible="false"/>
+</e:Skin>

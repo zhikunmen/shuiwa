@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PackBagItemSkin" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bag_bg" source="packbag_json.bag_weixuan" source.down="packbag_json.bag_xuanzhong"/>
+	<e:Image id="bag_icon" width="90" height="90" horizontalCenter="0" verticalCenter="0" source=""/>
+	<e:BitmapLabel id="bag_num" width="36" height="22" font="packbagFont_fnt" text="" anchorOffsetX="0" anchorOffsetY="0" right="12" bottom="12"/>
+</e:Skin>

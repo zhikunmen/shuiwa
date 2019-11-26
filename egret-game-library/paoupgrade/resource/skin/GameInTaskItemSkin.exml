@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameInTaskItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Group x="0" y="0" anchorOffsetX="0">
+
+		<e:Image source="game_in_task_json.game_task_reward_bg" x="0" y="0"/>
+		<e:Image id="reward_icon" source="" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="game_in_task_json.game_task_reward_tbg" x="0" bottom="4"/>
+		<e:Label id="reward_num" text="120万" y="43" size="18" fontFamily="Microsoft YaHei" textColor="0xfcff1f" horizontalCenter="0.5"/>
+
+	</e:Group>
+	<e:Group x="71" anchorOffsetY="0" y="5">
+		<e:Label id="task_title" text="300倍炮击杀大鲨鱼" y="5" size="18" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:ProgressBar id="task_bar" width="168"  x="0" y="33"  skinName="ProgressSkin1"/>
+		<e:Label id="task_progress" text="4/6" fontFamily="Microsoft YaHei" size="16" scaleX="1" scaleY="1" horizontalCenter="0" stroke="1" strokeColor="0x003f48" y="36"/>
+	</e:Group>
+
+
+
+</e:Skin>

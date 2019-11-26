@@ -1,0 +1,12 @@
+{"file":"paotai_font.png","frames":{
+"1":{"x":111,"y":0,"w":15,"h":32,"offX":3,"offY":2,"sourceW":23,"sourceH":38},
+"2":{"x":46,"y":69,"w":21,"h":32,"offX":1,"offY":2,"sourceW":23,"sourceH":38},
+"3":{"x":0,"y":40,"w":21,"h":33,"offX":1,"offY":2,"sourceW":23,"sourceH":38},
+"4":{"x":37,"y":0,"w":23,"h":32,"offX":0,"offY":2,"sourceW":23,"sourceH":38},
+"5":{"x":23,"y":69,"w":21,"h":32,"offX":1,"offY":2,"sourceW":23,"sourceH":38},
+"6":{"x":87,"y":0,"w":22,"h":33,"offX":1,"offY":2,"sourceW":23,"sourceH":38},
+"7":{"x":85,"y":35,"w":22,"h":32,"offX":0,"offY":2,"sourceW":23,"sourceH":38},
+"8":{"x":61,"y":34,"w":22,"h":33,"offX":1,"offY":2,"sourceW":23,"sourceH":38},
+"9":{"x":37,"y":34,"w":22,"h":33,"offX":1,"offY":2,"sourceW":23,"sourceH":38},
+"元":{"x":0,"y":0,"w":35,"h":38,"offX":0,"offY":0,"sourceW":35,"sourceH":38},
+"0":{"x":62,"y":0,"w":23,"h":32,"offX":0,"offY":2,"sourceW":23,"sourceH":38}}}

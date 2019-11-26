@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwRewardRecordItemSkin" width="940" height="64" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="HJJL-x_png" y="57" horizontalCenter="0"/>
+	<e:Label id="time_lbl" text="--" x="33" fontFamily="Microsoft YaHei" textColor="0x452468" size="20" verticalCenter="0" height="42" width="113" textAlign="center" verticalAlign="middle"/>
+	<e:Label id="first_lbl" text="--" x="192" fontFamily="Microsoft YaHei" textColor="0x452468" size="24" verticalCenter="0" width="148" height="24" textAlign="center"/>
+	<e:Label id="second_lbl" text="--" x="393" fontFamily="Microsoft YaHei" textColor="0x452468" size="24" verticalCenter="0" width="148" height="24" textAlign="center"/>
+	<e:Label id="third_lbl" text="--" x="594" fontFamily="Microsoft YaHei" textColor="0x452468" size="24" verticalCenter="0" width="148" height="24" textAlign="center"/>
+	<e:Label id="me_lbl" text="--" x="770" fontFamily="Microsoft YaHei" textColor="0x452468" size="24" verticalCenter="0" width="120" textAlign="center"/>
+</e:Skin>

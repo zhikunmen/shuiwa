@@ -1,0 +1,7 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skin/LoginPhoneSkin.exml",
+    "resource/skin/LoginSkin.exml"
+  ]
+}

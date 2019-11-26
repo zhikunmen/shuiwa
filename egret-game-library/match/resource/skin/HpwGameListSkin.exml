@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwGameListSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:match="match.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" source="XHPW-dt-bj_jpg"/>
+	<e:Image source="BSLB-zbl_png" y="79"/>
+	<e:Image source="BSLB-scd_png"/>
+	<e:Group x="134" y="6">
+		<e:Image id="_buyTicketBg" source="XHPW-dt-zsd_png" x="481.72" verticalCenter="0"/>
+		<e:Image id="_buyCardBg" source="XHPW-dt-zsd_png" x="227.69" verticalCenter="0"/>
+		<e:Image x="227.69" touchEnabled="false" source="XHPW-dt-zs_png" verticalCenter="3.5"/>
+		<e:Image x="485.71" touchEnabled="false" source="XHPW-dt-yhj_png" verticalCenter="0.5"/>
+		<match:BaseButton id="_buyCardBtn" label="" x="426.02" verticalCenter="0" anchorOffsetX="23" anchorOffsetY="23">
+			<match:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="XHPW-dt-jia_png" source.down="XHPW-dt-jia-ax_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</match:skinName>
+		</match:BaseButton>
+		<match:BaseButton id="_buyTicketBtn" label="" x="681.02" verticalCenter="0" anchorOffsetX="23" anchorOffsetY="23">
+			<match:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="XHPW-dt-jia_png" source.down="XHPW-dt-jia-ax_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</match:skinName>
+		</match:BaseButton>
+		<e:Image id="_headMc" touchEnabled="true" source="XHPW-dt-tx_png" width="52" height="52" x="9" verticalCenter="0"/>
+		<e:Image touchEnabled="false" source="XHPW-dt-txk_png" verticalCenter="0"/>
+		<e:Label id="_nameTxt" text="--" x="76.33" y="8.17" size="24" height="24" fontFamily="Microsoft YaHei" width="120"/>
+		<e:Label id="_idTxt" text="ID:--" x="76.51" y="41.01" size="20" fontFamily="Microsoft YaHei"/>
+		<e:Label id="_cardNTxt" text="--" x="279.35" size="28" width="120" verticalAlign="middle" textAlign="center" touchEnabled="false" fontFamily="Microsoft YaHei" verticalCenter="0.5" textColor="0xfefbb3"/>
+		<e:Label id="_ticketNTxt" text="--" x="534.7" size="28" width="120" verticalAlign="middle" textAlign="center" touchEnabled="false" fontFamily="Microsoft YaHei" verticalCenter="0.5" textColor="0xfefbb3"/>
+	</e:Group>
+	<e:RadioButton id="allGame_rbtn" label="" y="117" x="2" value="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSLB-qbss_png" source.down="BSLB-qbss-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="ticketGame_rbtn" label="" y="242" value="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSLB-csjs_png" source.down="BSLB-csjs-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="packageGame_rbtn" label="" y="367" value="2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSLB-hbs_png" source.down="BSLB-hbs-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<match:BaseButton id="ret_btn" label="">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSLB-fh_png" source.down="BSLB-fh-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</match:BaseButton>
+	<e:Scroller id="banner_scr" width="1025" x="243" y="146" anchorOffsetY="0" height="178">
+		<e:Group id="banner_grp">
+			<e:layout>
+				<e:HorizontalLayout gap="14"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller height="376" x="243" y="342" anchorOffsetY="0">
+		<e:List id="game_lst" itemRendererSkinName="HpwGameListItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

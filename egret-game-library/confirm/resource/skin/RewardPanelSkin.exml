@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RewardPanelSkin" width="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:eui="eui.*" height="720">
+	<w:Declarations>
+		<tween:TweenGroup id="guangquan">
+			<tween:TweenItem target="{quan1}">
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object width="{1280}" height="{1280}" x="{-140}" y="{-408}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+			<tween:TweenItem target="{quan2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{600}" height="{600}" x="{187.82}" y="{-9.73}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object width="{1835}" height="{1835}" x="{-417.5}" y="{-647.5}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="50"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="light">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="4000">
+					<tween:props>
+						<e:Object rotation="{359.9}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect id="panel_mask" width="100%" height="100%" fillAlpha="0.6" cacheAsBitmap="true"/>
+	<e:Image id="quan1" source="reward_guangquan_png" y="202" width="300" height="300" horizontalCenter="0.5" visible="false"/>
+	<e:Image id="quan2" source="reward_guangquan_png" y="202" width="300" height="300" horizontalCenter="0.5" visible="false"/>
+	<e:Image id="image" source="reward_guangquan2_png" anchorOffsetX="407" anchorOffsetY="332" y="353.27" horizontalCenter="0.5"/>
+
+	<e:Image  y="62.11" source="reward_title_png" horizontalCenter="0"/>
+	
+	<e:Group id="item_grp" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0"/>
+	<eui:WxButton id="sure_btn" label="" y="521.9" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sure1_png"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+</e:Skin>

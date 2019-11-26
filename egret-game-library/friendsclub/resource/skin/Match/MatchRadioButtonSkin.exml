@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchRadioButtonSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" width="152" height="69">
+    <e:Image source.down="club_new_manage_json.club_manage_chosebg2" anchorOffsetX="0" source="club_new_manage_json.club_manage_chosebg1" x="0" y="0" scale9Grid="55,29,35,10"/>
+	<e:Label id="label" text="555555" y="10.5" textColor="0xffffff" anchorOffsetX="0" anchorOffsetY="0" height="48" verticalAlign="middle" size="34" textAlign="center" horizontalCenter="0"/>
+</e:Skin>

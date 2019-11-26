@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbyGetAwardSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="guang">
+			<tween:TweenItem target="{image}">
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="3000">
+					<tween:props>
+						<e:Object rotation="{359}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect id="bgRect" left="-2" right="2" top="0" bottom="0" fillAlpha="0.6"/>
+	<e:Image id="image" anchorOffsetX="150" width="300" anchorOffsetY="150" height="300" horizontalCenter="0" verticalCenter="0" source="mjl_award_json.mjl_guang"/>
+	<e:Image id="awardimage" anchorOffsetX="100" anchorOffsetY="100" horizontalCenter="0" verticalCenter="0" source="mjl_award_json.mjl_sign_rewards1"/>
+	<e:BitmapLabel id="jinbiText" y="481.67" anchorOffsetX="0" anchorOffsetY="0" text="3000" horizontalCenter="-1" height="54" font="mjl_getgold_fnt_fnt"/>
+	<e:Button id="okBtn" label="" x="525.5" y="562.94">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_newsure2_png" source.down="mjl_common_newsure1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

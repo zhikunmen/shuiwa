@@ -1,0 +1,65 @@
+{
+  "file": "fuka_desc.png",
+  "frames": {
+    "fuka_desc_b g": {
+      "x": 0,
+      "y": 0,
+      "w": 869,
+      "h": 512,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 869,
+      "sourceH": 513
+    },
+    "fuka_desc_btn": {
+      "x": 0,
+      "y": 650,
+      "w": 204,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 204,
+      "sourceH": 71
+    },
+    "fuka_desc_close": {
+      "x": 137,
+      "y": 514,
+      "w": 58,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 58
+    },
+    "fuka_desc_fuka": {
+      "x": 197,
+      "y": 514,
+      "w": 33,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 33,
+      "sourceH": 46
+    },
+    "fuka_desc_grain": {
+      "x": 137,
+      "y": 574,
+      "w": 75,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 75,
+      "sourceH": 37
+    },
+    "fuka_desc_itembg": {
+      "x": 0,
+      "y": 514,
+      "w": 135,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 135,
+      "sourceH": 134
+    }
+  }
+}

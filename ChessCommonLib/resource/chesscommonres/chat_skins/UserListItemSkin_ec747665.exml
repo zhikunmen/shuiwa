@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonlib.UserListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="93">
+	<e:Image source="chat_userlist_bg_png" scale9Grid="17,13,45,46" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Image id="avar_img" width="55" height="55" x="14" y="17" anchorOffsetX="0" anchorOffsetY="0" source="{data.headUrl}"/>
+	<e:Image id="vip_img" y="-1" anchorOffsetX="0" width="118" anchorOffsetY="0" height="97" source="{data.vipLevel}" x="-18"/>
+
+	<e:Image id="frame_img" width="60" height="60" x="11.5" y="14" source="chat_input_png" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible="false"/>
+	<e:Label id="name_lb" y="10.5" textColor="0xabc2ff" horizontalCenter="37" text="{data.nickName}"/>
+	<e:Label id="gold_lb" text="{data.remainder}" y="49" size="26" textColor="0xfdf4a9" horizontalCenter="37"/>
+	<e:Image source="chat_coin_png" x="91" y="41" anchorOffsetX="0" width="45" anchorOffsetY="0" height="45"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/TurnTableRecordItemSkin.exml",
+		"resource/skin/TurnTableSkin.exml",
+		"resource/skin/TurnTableTaskItemSkin.exml"
+	],
+	"path": "resource/turntable.thm.json"
+}

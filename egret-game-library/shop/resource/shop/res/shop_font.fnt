@@ -1,0 +1,13 @@
+{"file":"shop_font.png","frames":{
+"3":{"x":85,"y":64,"w":21,"h":30,"offX":1,"offY":4,"sourceW":23,"sourceH":39},
+"4":{"x":101,"y":0,"w":23,"h":30,"offX":1,"offY":4,"sourceW":26,"sourceH":39},
+"5":{"x":62,"y":64,"w":21,"h":30,"offX":1,"offY":4,"sourceW":23,"sourceH":39},
+"6":{"x":100,"y":32,"w":22,"h":30,"offX":1,"offY":4,"sourceW":24,"sourceH":39},
+"7":{"x":0,"y":38,"w":22,"h":29,"offX":1,"offY":4,"sourceW":24,"sourceH":39},
+"8":{"x":38,"y":37,"w":22,"h":30,"offX":1,"offY":4,"sourceW":24,"sourceH":39},
+"9":{"x":76,"y":32,"w":22,"h":30,"offX":1,"offY":4,"sourceW":24,"sourceH":39},
+"元":{"x":38,"y":0,"w":36,"h":35,"offX":1,"offY":2,"sourceW":39,"sourceH":39},
+"钻":{"x":0,"y":0,"w":36,"h":36,"offX":1,"offY":1,"sourceW":39,"sourceH":39},
+"0":{"x":76,"y":0,"w":23,"h":30,"offX":1,"offY":4,"sourceW":25,"sourceH":39},
+"1":{"x":108,"y":64,"w":15,"h":29,"offX":2,"offY":4,"sourceW":20,"sourceH":39},
+"2":{"x":0,"y":69,"w":21,"h":29,"offX":1,"offY":4,"sourceW":23,"sourceH":39}}}

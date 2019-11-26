@@ -1,0 +1,26 @@
+{
+	"groups":[
+		{
+			"keys":"freeBenefits_json",
+			"name":"pub_freeBenefits"
+		},
+		{
+			"keys":"deskMahjongCollection_json",
+			"name":"pub_deskCollection"
+		}
+	],
+	"resources":[
+		{
+			"name":"freeBenefits_json",
+			"subkeys":"free_bg_1,free_bg_2,free_btn_close,free_collection,free_common_bg,free_desktop_collection,free_fuli_title,free_invitation,free_item_bg,free_sign,free_tips",
+			"type":"sheet",
+			"url":"freeBenefits/freeBenefits.json"
+		},
+		{
+			"name":"deskMahjongCollection_json",
+			"subkeys":"collection_btn,collection_img",
+			"type":"sheet",
+			"url":"freeBenefits/deskMahjongCollection.json"
+		}
+	]
+}

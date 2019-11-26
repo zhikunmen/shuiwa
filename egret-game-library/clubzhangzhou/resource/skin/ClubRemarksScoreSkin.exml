@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubRemarksScoreSkin" width="631" height="435" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_bg2_png" width="610" height="421" scale9Grid="6,6,41,41" verticalCenter="0" horizontalCenter="0" locked="true"/>
+	<e:Button id="_closeBtn" label="" y="-26.3" anchorOffsetX="0" width="73.4" anchorOffsetY="0" height="74.27" x="-21.32">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="mjl_common_inputBg_png" scale9Grid="23,23,12,9" x="225.36" y="38" anchorOffsetX="0" width="314.33" anchorOffsetY="0" height="65.33" locked="true"/>
+	<e:Label text="备注分数:" x="57.35" y="49.07" textColor="0x786e65" size="38" fontFamily="Microsoft YaHei" locked="true"/>
+	<e:Label id="_inputText" text="" x="234" y="51" textColor="0x73491b" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="283" anchorOffsetY="0" height="38" size="38"/>
+	<e:Group x="35.98" y="117.34">
+		<e:Button id="_num1" label="1" y="0" x="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="1" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_num2" label="1" y="0" x="166">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="2" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_num3" label="1" y="0" x="332">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="3" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_num4" label="1" y="73" x="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="4" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_num5" label="1" y="73" x="166">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="5" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_num6" label="1" y="73" x="332">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="6" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_num7" label="1" y="146" x="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="7" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_num8" label="1" y="146" x="166">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="8" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_num9" label="1" y="146" x="332">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="9" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_sureBtn" label="1" y="219" x="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_new_menage_json.club_input_sure1" source.down="club_new_menage_json.club_input_sure2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_num0" label="1" y="219" x="166">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51"/>
+				<e:BitmapLabel text="0" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_deleteBtn" label="1" y="219" x="332">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_new_menage_json.club_input_delete1" source.down="club_new_menage_json.club_input_delete2"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_reduceBtn" label="1" y="0" x="497.02">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51" width="71" height="138"/>
+				<e:BitmapLabel text="-" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_addBtn" label="1" y="146" x="497.02">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="club_new_menage_json.club_input_up" source.down="club_new_menage_json.club_input_down" scale9Grid="20,8,120,51" width="71" height="138"/>
+				<e:BitmapLabel text="+" verticalCenter="0" horizontalCenter="0" font="club_input_fnt_fnt"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

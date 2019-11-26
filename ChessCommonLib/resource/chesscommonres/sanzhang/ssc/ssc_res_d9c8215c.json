@@ -1,0 +1,825 @@
+{
+    "frames": {
+        "ssc_tyep3_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 131, 
+            "y": 793, 
+            "x": 0
+        }, 
+        "ssc_over_bg": {
+            "offY": 23, 
+            "offX": 23, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 164, 
+            "h": 39, 
+            "y": 61, 
+            "x": 1243
+        }, 
+        "ssc_tyep7_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 131, 
+            "y": 551, 
+            "x": 496
+        }, 
+        "ssc_tyep8_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 131, 
+            "y": 793, 
+            "x": 260
+        }, 
+        "ssc_kaijiang_bg": {
+            "offY": 0, 
+            "offX": 1, 
+            "sourceH": 56, 
+            "sourceW": 372, 
+            "w": 370, 
+            "h": 56, 
+            "y": 735, 
+            "x": 0
+        }, 
+        "ssc_tyep6_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 131, 
+            "y": 793, 
+            "x": 130
+        }, 
+        "ssc_tyep7_btn_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 130, 
+            "y": 498, 
+            "x": 808
+        }, 
+        "ssc_autoCall_50_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 73, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 73, 
+            "y": 891, 
+            "x": 520
+        }, 
+        "ssc_record_type_7": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 45, 
+            "sourceW": 80, 
+            "w": 80, 
+            "h": 43, 
+            "y": 382, 
+            "x": 1109
+        }, 
+        "ssc_autoCall_50": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 73, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 73, 
+            "y": 630, 
+            "x": 780
+        }, 
+        "ssc_type_6": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 40, 
+            "sourceW": 72, 
+            "w": 72, 
+            "h": 40, 
+            "y": 427, 
+            "x": 1082
+        }, 
+        "ssc_type_5": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 40, 
+            "sourceW": 72, 
+            "w": 72, 
+            "h": 39, 
+            "y": 274, 
+            "x": 1276
+        }, 
+        "ssc_tyep5_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 131, 
+            "y": 551, 
+            "x": 366
+        }, 
+        "ssc_call_2k_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 74, 
+            "x": 922
+        }, 
+        "ssc_type_2": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 40, 
+            "sourceW": 72, 
+            "w": 72, 
+            "h": 39, 
+            "y": 966, 
+            "x": 568
+        }, 
+        "ssc_type_1": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 40, 
+            "sourceW": 72, 
+            "w": 72, 
+            "h": 39, 
+            "y": 192, 
+            "x": 1311
+        }, 
+        "ssc_autoCall_20": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 73, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 73, 
+            "y": 816, 
+            "x": 520
+        }, 
+        "ssc_autoCall_btn": {
+            "offY": 0, 
+            "offX": 1, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 234, 
+            "h": 90, 
+            "y": 551, 
+            "x": 0
+        }, 
+        "ssc_tyep6_btn_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 130, 
+            "y": 816, 
+            "x": 390
+        }, 
+        "ssc_autoCall_10": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 73, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 73, 
+            "y": 225, 
+            "x": 662
+        }, 
+        "ssc_type_8": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 40, 
+            "sourceW": 72, 
+            "w": 72, 
+            "h": 39, 
+            "y": 147, 
+            "x": 1411
+        }, 
+        "ssc_rank_1": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 71, 
+            "sourceW": 79, 
+            "w": 79, 
+            "h": 71, 
+            "y": 350, 
+            "x": 1028
+        }, 
+        "ssc_autoCall_10_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 73, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 73, 
+            "y": 926, 
+            "x": 0
+        }, 
+        "ssc_rank_3": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 71, 
+            "sourceW": 79, 
+            "w": 79, 
+            "h": 71, 
+            "y": 477, 
+            "x": 938
+        }, 
+        "ssc_rank_2": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 71, 
+            "sourceW": 79, 
+            "w": 78, 
+            "h": 71, 
+            "y": 180, 
+            "x": 1231
+        }, 
+        "ssc_call_20w": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 844, 
+            "x": 844
+        }, 
+        "ssc_tyep1_btn_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 130, 
+            "y": 366, 
+            "x": 678
+        }, 
+        "sz_Lobby_top_XJSSC": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 83, 
+            "sourceW": 88, 
+            "w": 88, 
+            "h": 83, 
+            "y": 350, 
+            "x": 938
+        }, 
+        "ssc_tyep4_btn_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 130, 
+            "y": 684, 
+            "x": 390
+        }, 
+        "ssc_chipBg_lose": {
+            "offY": 0, 
+            "offX": 5, 
+            "sourceH": 155, 
+            "sourceW": 467, 
+            "w": 458, 
+            "h": 152, 
+            "y": 0, 
+            "x": 202
+        }, 
+        "ssc_callIcon_2000": {
+            "offY": 26, 
+            "offX": 63, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 108, 
+            "h": 36, 
+            "y": 45, 
+            "x": 1409
+        }, 
+        "ssc_secondOtherTitle": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 80, 
+            "sourceW": 676, 
+            "w": 676, 
+            "h": 80, 
+            "y": 469, 
+            "x": 0
+        }, 
+        "ssc_select_btn_dis": {
+            "offY": 0, 
+            "offX": 1, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 234, 
+            "h": 90, 
+            "y": 0, 
+            "x": 662
+        }, 
+        "ssc_secondMyTitle": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 80, 
+            "sourceW": 676, 
+            "w": 676, 
+            "h": 80, 
+            "y": 387, 
+            "x": 0
+        }, 
+        "ssc_help_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 63, 
+            "sourceW": 159, 
+            "w": 157, 
+            "h": 63, 
+            "y": 74, 
+            "x": 1084
+        }, 
+        "ssc_record_newIcon": {
+            "offY": 0, 
+            "offX": 4, 
+            "sourceH": 35, 
+            "sourceW": 44, 
+            "w": 36, 
+            "h": 35, 
+            "y": 551, 
+            "x": 626
+        }, 
+        "ssc_rank_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 63, 
+            "sourceW": 159, 
+            "w": 157, 
+            "h": 63, 
+            "y": 222, 
+            "x": 986
+        }, 
+        "ssc_call_2w_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 148, 
+            "x": 922
+        }, 
+        "ssc_record_title": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 48, 
+            "sourceW": 192, 
+            "w": 192, 
+            "h": 48, 
+            "y": 300, 
+            "x": 874
+        }, 
+        "ssc_callIcon_20000": {
+            "offY": 23, 
+            "offX": 82, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 71, 
+            "h": 43, 
+            "y": 0, 
+            "x": 1508
+        }, 
+        "ssc_secondCommonTitle": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 56, 
+            "sourceW": 670, 
+            "w": 670, 
+            "h": 56, 
+            "y": 308, 
+            "x": 202
+        }, 
+        "ssc_call_200w_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 770, 
+            "x": 844
+        }, 
+        "ssc_rank_title": {
+            "offY": 0, 
+            "offX": 19, 
+            "sourceH": 48, 
+            "sourceW": 192, 
+            "w": 152, 
+            "h": 48, 
+            "y": 684, 
+            "x": 236
+        }, 
+        "sz_Lobby_top_XJSSCNew_press": {
+            "offY": 4, 
+            "offX": 0, 
+            "sourceH": 80, 
+            "sourceW": 94, 
+            "w": 84, 
+            "h": 76, 
+            "y": 200, 
+            "x": 1145
+        }, 
+        "ssc_balance_Icon": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 60, 
+            "sourceW": 139, 
+            "w": 138, 
+            "h": 59, 
+            "y": 0, 
+            "x": 1222
+        }, 
+        "ssc_tyep2_btn_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 130, 
+            "y": 366, 
+            "x": 808
+        }, 
+        "ssc_callIcon_200000": {
+            "offY": 23, 
+            "offX": 68, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 98, 
+            "h": 43, 
+            "y": 337, 
+            "x": 1109
+        }, 
+        "ssc_callIcon_10000000": {
+            "offY": 23, 
+            "offX": 46, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 144, 
+            "h": 43, 
+            "y": 0, 
+            "x": 1362
+        }, 
+        "sz_Lobby_top_XJSSCNew": {
+            "offY": 4, 
+            "offX": 0, 
+            "sourceH": 80, 
+            "sourceW": 94, 
+            "w": 84, 
+            "h": 76, 
+            "y": 102, 
+            "x": 1243
+        }, 
+        "ssc_call_2w": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 0, 
+            "x": 1060
+        }, 
+        "ssc_tyep2_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 131, 
+            "y": 551, 
+            "x": 236
+        }, 
+        "ssc_autoCall_100": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 73, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 73, 
+            "y": 225, 
+            "x": 824
+        }, 
+        "ssc_type_7": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 40, 
+            "sourceW": 72, 
+            "w": 72, 
+            "h": 39, 
+            "y": 83, 
+            "x": 1455
+        }, 
+        "ssc_call_1000w": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 770, 
+            "x": 682
+        }, 
+        "ssc_chipIn_Icon": {
+            "offY": 0, 
+            "offX": 1, 
+            "sourceH": 60, 
+            "sourceW": 139, 
+            "w": 138, 
+            "h": 59, 
+            "y": 139, 
+            "x": 1084
+        }, 
+        "ssc_ChipSelect_btn": {
+            "offY": 0, 
+            "offX": 1, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 234, 
+            "h": 90, 
+            "y": 643, 
+            "x": 0
+        }, 
+        "ssc_call_1000w_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 844, 
+            "x": 682
+        }, 
+        "ssc_help_title": {
+            "offY": 0, 
+            "offX": 34, 
+            "sourceH": 48, 
+            "sourceW": 192, 
+            "w": 124, 
+            "h": 48, 
+            "y": 287, 
+            "x": 1068
+        }, 
+        "ssc_record_type_8": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 45, 
+            "sourceW": 80, 
+            "w": 80, 
+            "h": 43, 
+            "y": 477, 
+            "x": 1019
+        }, 
+        "ssc_callIcon_2000000": {
+            "offY": 23, 
+            "offX": 55, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 124, 
+            "h": 43, 
+            "y": 102, 
+            "x": 1329
+        }, 
+        "ssc_call_2k": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 0, 
+            "x": 898
+        }, 
+        "ssc_select_bg": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 385, 
+            "sourceW": 200, 
+            "w": 200, 
+            "h": 385, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "ssc_record_type_2": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 15, 
+            "sourceW": 15, 
+            "w": 15, 
+            "h": 15, 
+            "y": 366, 
+            "x": 219
+        }, 
+        "ssc_record_type_3": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 45, 
+            "sourceW": 80, 
+            "w": 80, 
+            "h": 43, 
+            "y": 147, 
+            "x": 1329
+        }, 
+        "ssc_tyep5_btn_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 130, 
+            "y": 684, 
+            "x": 520
+        }, 
+        "ssc_record_type_1": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 15, 
+            "sourceW": 15, 
+            "w": 15, 
+            "h": 15, 
+            "y": 366, 
+            "x": 202
+        }, 
+        "ssc_record_type_6": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 45, 
+            "sourceW": 80, 
+            "w": 80, 
+            "h": 43, 
+            "y": 550, 
+            "x": 938
+        }, 
+        "ssc_call_20w_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 918, 
+            "x": 844
+        }, 
+        "ssc_record_type_4": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 45, 
+            "sourceW": 80, 
+            "w": 80, 
+            "h": 43, 
+            "y": 278, 
+            "x": 1194
+        }, 
+        "ssc_record_type_5": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 45, 
+            "sourceW": 80, 
+            "w": 80, 
+            "h": 43, 
+            "y": 966, 
+            "x": 486
+        }, 
+        "ssc_autoCall_20_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 73, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 73, 
+            "y": 948, 
+            "x": 324
+        }, 
+        "ssc_tyep3_btn_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 130, 
+            "y": 498, 
+            "x": 678
+        }, 
+        "ssc_tyep4_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 131, 
+            "y": 92, 
+            "x": 792
+        }, 
+        "ssc_type_4": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 40, 
+            "sourceW": 72, 
+            "w": 72, 
+            "h": 39, 
+            "y": 323, 
+            "x": 1209
+        }, 
+        "ssc_chipBg_win": {
+            "offY": 0, 
+            "offX": 5, 
+            "sourceH": 153, 
+            "sourceW": 468, 
+            "w": 458, 
+            "h": 152, 
+            "y": 154, 
+            "x": 202
+        }, 
+        "ssc_call_200w": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 72, 
+            "y": 918, 
+            "x": 682
+        }, 
+        "ssc_record_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 63, 
+            "sourceW": 185, 
+            "w": 183, 
+            "h": 63, 
+            "y": 705, 
+            "x": 780
+        }, 
+        "ssc_autoCall_100_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 73, 
+            "sourceW": 160, 
+            "w": 160, 
+            "h": 73, 
+            "y": 926, 
+            "x": 162
+        }, 
+        "ssc_autoCall_Icon": {
+            "offY": 22, 
+            "offX": 39, 
+            "sourceH": 91, 
+            "sourceW": 236, 
+            "w": 142, 
+            "h": 40, 
+            "y": 435, 
+            "x": 938
+        }, 
+        "ssc_tyep8_btn_dis": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 130, 
+            "y": 630, 
+            "x": 650
+        }, 
+        "ssc_type_3": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 40, 
+            "sourceW": 72, 
+            "w": 72, 
+            "h": 39, 
+            "y": 233, 
+            "x": 1311
+        }, 
+        "ssc_tyep1_btn": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 131, 
+            "sourceW": 128, 
+            "w": 128, 
+            "h": 131, 
+            "y": 92, 
+            "x": 662
+        }
+    }, 
+    "file": "ssc_res_d9c8215c.png"
+}

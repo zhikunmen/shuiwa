@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwRankSkin" width="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="720" xmlns:match="match.*">
+	<e:Image horizontalCenter="0" source="XHPW-dt-bj_jpg" locked="true"/>
+	<e:Image source="PHB-bsjf_png" x="124" y="170" locked="true"/>
+	<e:Image source="PHB-jb_png" x="27.5" y="455" locked="true"/>
+	<e:Image source="PHB-bt_png" horizontalCenter="0" locked="true"/>
+	<match:BaseButton id="ticketGame_btn" label="" y="226" right="57">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="PHB-csqs_png" source.down="PHB-csqs-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="revPackage_btn" label="" right="57" y="488">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="PHB-lhb_png" source.down="PHB-lhb-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="packageGame_btn" label="" y="357" right="57">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="PHB-hbs_png" source.down="PHB-hbs-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="record_btn" label="" y="20" right="42">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="PHB-zj_png" source.down="PHB-zj-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="notice_btn" label="" y="20" right="138">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="PHB-gg-1_png" source.down="PHB-gg-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="ret_btn" label="" x="39" y="20">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="PHB-fh_png" source.down="PHB-fh-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</match:BaseButton>
+	<e:Label text="排行" x="177" y="199" fontFamily="Microsoft YaHei" bold="true" size="26"/>
+	<e:Label text="比赛选手" x="306" y="199" fontFamily="Microsoft YaHei" bold="true" size="26"/>
+	<e:Label text="ID" x="545" y="199" fontFamily="Microsoft YaHei" bold="true" size="26"/>
+	<e:Label text="积分" x="688" y="199" fontFamily="Microsoft YaHei" bold="true" size="26"/>
+	<e:Image source="PHB-gg_png" y="110" horizontalCenter="0.5"/>
+	<e:Scroller width="687" height="309" x="124" y="243" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="rank_lst" anchorOffsetY="0" height="334" itemRendererSkinName="HpwRankItemSkin">
+			<e:layout>
+				<e:VerticalLayout gap="11"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group x="245" y="567">
+		<e:Image source="PHB-txn_png" scaleX="1" scaleY="1"/>
+		<e:Label text="我的排名:" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" verticalCenter="0.5" x="83"/>
+		<e:Label id="myRank_lbl" text="--" x="193.5" fontFamily="Microsoft YaHei" size="24" textAlign="center" verticalCenter="0.5" y="-217" scaleX="1" scaleY="1" textColor="0xffff00"/>
+		<e:Label id="myPoint_lbl" text="--" x="431" fontFamily="Microsoft YaHei" size="24" textAlign="center" verticalCenter="0.5" y="-207" scaleX="1" scaleY="1" textColor="0xFFFF00"/>
+		<e:Label text="我的积分:" x="322" fontFamily="Microsoft YaHei" size="24" textAlign="center" verticalCenter="0.5" y="-217"/>
+		<e:Image id="head_img" width="50" height="50" scaleX="1" scaleY="1" verticalCenter="0.5" x="1"/>
+	</e:Group>
+</e:Skin>

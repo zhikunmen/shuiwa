@@ -1,0 +1,15 @@
+{"file":"loseFloat.png","frames":{
+".":{"x":104,"y":37,"w":11,"h":16,"offX":0,"offY":19,"sourceW":11,"sourceH":35},
+"-":{"x":0,"y":111,"w":29,"h":16,"offX":0,"offY":10,"sourceW":29,"sourceH":35},
+"0":{"x":0,"y":37,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"1":{"x":74,"y":0,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"2":{"x":52,"y":37,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"3":{"x":78,"y":37,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"4":{"x":78,"y":74,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"5":{"x":52,"y":74,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"6":{"x":100,"y":0,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"7":{"x":0,"y":74,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"8":{"x":26,"y":74,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"9":{"x":26,"y":37,"w":24,"h":35,"offX":0,"offY":0,"sourceW":24,"sourceH":35},
+"万":{"x":0,"y":0,"w":35,"h":35,"offX":0,"offY":0,"sourceW":35,"sourceH":35},
+"亿":{"x":37,"y":0,"w":35,"h":35,"offX":0,"offY":0,"sourceW":35,"sourceH":35}}}

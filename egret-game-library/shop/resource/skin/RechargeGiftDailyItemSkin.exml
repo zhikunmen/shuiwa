@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeGiftDailyItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*"
+        width="203" height="74">
+	<e:RadioButton id="btn_rbtn" label="每日6元">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="lb_giftDaily_json.lb_giftDaily_sel1" source.down="lb_giftDaily_json.lb_giftDaily_sel2" width="100%" height="100%"/>
+			<e:Label id="labelDisplay" text="每日6元" x="75" y="10" fontFamily="Microsoft YaHei" size="22" textColor="0x215ba9" textColor.down="0xffffff" stroke="2" strokeColor="0xf4f5f9" strokeColor.down="0xc5401c" bold="true" width="120" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Image id="icon_img" source="lb_giftDaily_json.lb_giftDaily_icon1" x="13" touchEnabled="false" verticalCenter="0.5"/>
+	<e:Label id="desc_lbl" text="每日祝福" x="77" y="38.5" fontFamily="Microsoft YaHei" size="22" stroke="2" strokeColor="0x215ba9" bold="true" textColor="0x49e81e" width="120" textAlign="center" touchEnabled="false"/>
+</e:Skin>

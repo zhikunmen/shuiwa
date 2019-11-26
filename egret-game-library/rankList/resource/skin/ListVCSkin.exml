@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ListVCSkin" width="174" height="438" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:eui="eui.*">
+        <e:Group id="_rankGroup">
+    <e:Image x="13" y="0" width="119" height="380"  source="rank_bg_4" scale9Grid="24,24,68,53" locked="true"/>
+    <e:Image source="rank_list_title" x="12" y="0"  locked="true"/>
+    <e:Scroller id="_rankScroll" width="114" height="339" x="15" y="41" scrollPolicyH="on" anchorOffsetY="0" locked="true"></e:Scroller>
+    <e:List id="_rankList" width="114" height="339" itemRendererSkinName="ListItemSkin" anchorOffsetX="0"
+            anchorOffsetY="0" x="15" y="41" locked="true">
+        <e:ArrayCollection>
+            <e:Array>
+                <e:Object/>
+                <e:Object dsf="null" />
+            </e:Array>
+        </e:ArrayCollection>
+        <e:layout>
+            <e:TileLayout requestedColumnCount="1" horizontalGap="16" verticalGap="0" />
+        </e:layout>
+    </e:List>
+    <eui:WxButton id="_openBtn" label="" x="128" y="135" locked="true">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="rank_left" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </eui:WxButton>
+    </e:Group>
+    <eui:WxButton id="subscribe_btn" label="" y="386" x="18">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_game_res_1_json.lb_shoucang_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+
+    </eui:WxButton>
+</e:Skin>

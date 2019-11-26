@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMemberRecordItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="mjl_record_json.mjl_record_userbg" />
+    <e:Label id="_indexText" text="1" x="33" y="20" size="25" textColor="0x796e65" fontFamily="Microsoft YaHei" />
+	<e:Label id="_gameNameText" text="漳州麻将" x="63" y="20" size="25" textColor="0x796E65" fontFamily="Microsoft YaHei"/>
+	<e:Label id="_roomText" text="233333号房间" x="236.77" y="20" size="25" textColor="0x796E65" fontFamily="Microsoft YaHei"/>
+	<e:Label id="_timeText" text="2019-22-22 00:22:22" x="467.97" y="20" size="25" textColor="0x796E65" fontFamily="Microsoft YaHei"/>
+    <e:Scroller width="1097" height="95" x="19.88" y="61.99" anchorOffsetX="0" anchorOffsetY="0">
+        <e:List id="nameandscore" itemRendererSkinName="MatchFightingNSSkin" y="-3.03">
+            <e:layout>
+                <e:TileLayout orientation="columns" horizontalGap="89" paddingLeft="41" />
+            </e:layout>
+            <e:ArrayCollection>
+                <e:Array>
+                    <e:Object e="null" />
+                    <e:Object e="null" />
+                    <e:Object e="null" />
+                    <e:Object e="null" />
+                </e:Array>
+            </e:ArrayCollection>
+        </e:List>
+    </e:Scroller>
+	<e:Button id="_detailBtn" label="" x="801.3" y="5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_record_json.mjl_record_detail1" source.down="mjl_record_json.mjl_record_detail2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_copyBtn" label="" x="962.21" y="5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_record_json.mjl_record_copy1" source.down="mjl_record_json.mjl_record_copy2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

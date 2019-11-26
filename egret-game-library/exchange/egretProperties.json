@@ -1,0 +1,82 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.2.8",
+	"template": {},
+	"eui": {
+		"exmlRoot": "resource/skin",
+		"autoGenerateExmlsList": true,
+		"themes": [
+			"resource/exchange.thm.json"
+		],
+		"exmlPublishPolicy": "commonjs2"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "uniLib",
+			"path": "E:/uni_h5/uniLib_h5"
+		},
+		{
+			"name": "wxgamelib",
+			"path": "E:/wxgame/wxgamelib"
+		},
+		{
+			"name": "protoandtable",
+			"path":"E:/Egret/egret-game-library/protoandtable2"
+		},
+		{
+			"name": "commonpanel",
+			"path":"E:/Egret/egret-game-library/commonpanel"
+		},
+		{
+			"name": "shop",
+			"path":"E:/Egret/egret-game-library/shop"
+		},
+		{
+			"name": "match",
+			"path":"E:/Egret/egret-game-library/match"
+		},
+		{
+			"name": "myInfo",
+			"path":"E:/Egret/egret-game-library/myInfo"
+		},
+		{
+			"name": "confirm",
+			"path":"E:/Egret/egret-game-library/confirm"
+		},
+		{
+			"name": "reward",
+			"path":"E:/Egret/egret-game-library/reward"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideGuideCheckSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="lb_xrdlb_bg_png"/>
+	<e:Image x="225" y="122" source="guideGame_json.lb_check_title"/>
+	<e:Image x="590" y="208" source="game_prop_json.bag_daoju_336" width="118.7" height="117"/>
+	<e:Image source="guideGame_json.lb_xrdlb_jinbi" x="412" y="208"/>
+	<e:Image source="guideGame_json.lb_xrdlb_zuanshi" x="243" y="208"/>
+	<eui:WxButton id="click_btn" label="" x="336" y="384">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guideGame_json.lb_xrdlb_lingqu"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Label text="钻石x6" fontFamily="Microsoft YaHei" size="18" textAlign="center" y="330" textColor="0xFF0000" x="280"/>
+	<e:Label text="金币x5000" fontFamily="Microsoft YaHei" size="18" textAlign="center" y="330" textColor="0xFF0000" x="436"/>
+	<e:Label text="福卡" fontFamily="Microsoft YaHei" size="18" textAlign="center" y="330" textColor="0xFF0000" x="632"/>
+</e:Skin>

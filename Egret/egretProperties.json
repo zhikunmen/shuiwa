@@ -1,0 +1,55 @@
+{
+  "native": {
+    "path_ignore": []
+  },
+  "publish": {
+    "web": 0,
+    "native": 1,
+    "path": "bin-release"
+  },
+  "egret_version": "5.0.15",
+  "template": {},
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "res"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise",
+      "path": "./promise"
+    },
+    {
+      "name": "pureMvc",
+      "path": "pureMvc"
+    },
+    {
+			"name": "uniLib",
+			"path": "../../libsrc/uniLib-dev"
+		},
+    {
+      "name": "protoandtable",
+      "path": "../egret-game-library/protoandtable"
+    },
+    {
+			"name": "chessCommonLib",
+			"path": "../chessCommonLib"
+		}
+  ]
+}

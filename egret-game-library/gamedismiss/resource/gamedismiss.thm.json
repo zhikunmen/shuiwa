@@ -1,0 +1,7 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/GpsPanel.exml"
+	],
+	"path": "resource/gamegps.thm.json"
+}

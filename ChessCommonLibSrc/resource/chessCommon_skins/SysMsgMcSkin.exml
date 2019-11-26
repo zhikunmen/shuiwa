@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.SysMsgMcSkin" width="561" height="39" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+    <e:Image  width="561" height="39"  source="mjl_lobby_systembg_png" />
+	<!--<e:Label id="_msgTxt" size="24"  textColor="0xffffff"  fontFamily="Microsoft YaHei" multiline="false" verticalAlign="middle" text=""/>-->
+    <e:Image id="_vipIcon" source="vip_small1_png" scaleX="0.7" scaleY="0.7"/>
+    <e:Image id="_worldchat" source="sys_msg_click_png" x="548"/>
+</e:Skin>

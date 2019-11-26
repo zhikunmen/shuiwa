@@ -1,0 +1,6 @@
+{"file":"wx_loading_res.png","frames":{
+"lb_login_png":{"x":0,"y":0,"w":277,"h":87,"offX":1,"offY":0,"sourceW":279,"sourceH":88},
+"loadingCircle_png":{"x":279,"y":0,"w":90,"h":90,"offX":0,"offY":0,"sourceW":90,"sourceH":90},
+"download_png":{"x":0,"y":89,"w":94,"h":41,"offX":1,"offY":0,"sourceW":95,"sourceH":41},
+"lb_loading_darkLine_png":{"x":96,"y":89,"w":45,"h":25,"offX":0,"offY":0,"sourceW":45,"sourceH":25},
+"lb_loading_lightLine_png":{"x":143,"y":89,"w":22,"h":14,"offX":0,"offY":0,"sourceW":22,"sourceH":14}}}

@@ -1,0 +1,9 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/ExchangeGoldSkin.exml",
+		"resource/skin/KnapsackItemSkin.exml",
+		"resource/skin/KnapsackSkin.exml"
+	],
+	"path": "resource/knapsack.thm.json"
+}

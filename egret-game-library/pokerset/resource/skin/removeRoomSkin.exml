@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="poker_removeRoomSkin" width="635" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="pdk_set_bg1" x="0" y="0" locked="true"/>
+	<e:Image source="pdk_set_bg_png" x="0" y="0" scale9Grid="29,147,13,96" anchorOffsetX="0" width="635" height="500" locked="true"/>
+    <e:Label id="txt" text="是否确定解散房间？" width="635" textAlign="center" fontFamily="Microsoft YaHei" size="32" textColor="0x3e3e49" y="200"/>
+	<eui:WxButton id="yesBtn" label="" x="185" y="410" anchorOffsetX="105" anchorOffsetY="35">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="pdk_green_btn"/>
+            <e:Label text="同 意" width="100%" y="15" fontFamily="Microsoft YaHei" size="32" textAlign="center"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="noBtn" label="" x="450" y="410" anchorOffsetX="105" anchorOffsetY="35">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="pdk_orange_btn"/>
+            <e:Label text="拒 绝" width="100%" y="15" fontFamily="Microsoft YaHei" size="32" textAlign="center"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+</e:Skin>

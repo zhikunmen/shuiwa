@@ -1,0 +1,11 @@
+{"file":"guide_sign.png","frames":{
+"lb_xinshou_yilingqu":{"x":97,"y":282,"w":82,"h":44,"offX":0,"offY":0,"sourceW":82,"sourceH":44},
+"lb_xinshou_bg1":{"x":419,"y":282,"w":56,"h":57,"offX":0,"offY":0,"sourceW":56,"sourceH":57},
+"lb_xinshou_hongbao_wenzi":{"x":0,"y":252,"w":235,"h":28,"offX":0,"offY":0,"sourceW":235,"sourceH":28},
+"lb_xinshou_guangquan":{"x":419,"y":204,"w":73,"h":76,"offX":1,"offY":0,"sourceW":76,"sourceH":76},
+"lb_xinshou_leiji":{"x":0,"y":204,"w":321,"h":46,"offX":0,"offY":0,"sourceW":321,"sourceH":46},
+"lb_xinshou_title":{"x":0,"y":0,"w":484,"h":167,"offX":0,"offY":1,"sourceW":486,"sourceH":168},
+"lb_xinshou_dibuxuanchuan":{"x":0,"y":169,"w":488,"h":33,"offX":0,"offY":0,"sourceW":488,"sourceH":33},
+"lb_xinshou_jiangquan":{"x":0,"y":282,"w":95,"h":46,"offX":0,"offY":0,"sourceW":95,"sourceH":46},
+"lb_xinshou_weilingqu":{"x":237,"y":252,"w":82,"h":44,"offX":0,"offY":0,"sourceW":82,"sourceH":44},
+"lb_xinshou_meirihongbao":{"x":323,"y":204,"w":94,"h":117,"offX":0,"offY":0,"sourceW":94,"sourceH":117}}}

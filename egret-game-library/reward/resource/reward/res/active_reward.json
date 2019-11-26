@@ -1,0 +1,25 @@
+{
+  "file": "active_reward.png",
+  "frames": {
+    "active_chest": {
+      "x": 0,
+      "y": 156,
+      "w": 134,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 36
+    },
+    "active_item_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 166,
+      "h": 154,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 166,
+      "sourceH": 154
+    }
+  }
+}

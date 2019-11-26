@@ -1,0 +1,16 @@
+{"file":"common_confirm.png","frames":{
+"confirm_bg_png":{"x":423,"y":0,"w":51,"h":418,"offX":0,"offY":0,"sourceW":52,"sourceH":418},
+"confirm_titlebg_png":{"x":238,"y":420,"w":193,"h":66,"offX":6,"offY":5,"sourceW":199,"sourceH":74},
+"mjl_match_points_png":{"x":225,"y":303,"w":99,"h":93,"offX":0,"offY":0,"sourceW":99,"sourceH":93},
+"reward_numbg_png":{"x":141,"y":161,"w":139,"h":40,"offX":0,"offY":0,"sourceW":139,"sourceH":40},
+"sure1_png":{"x":0,"y":420,"w":236,"h":71,"offX":0,"offY":0,"sourceW":236,"sourceH":71},
+"mjl_match_jipai_png":{"x":326,"y":303,"w":91,"h":91,"offX":2,"offY":1,"sourceW":96,"sourceH":94},
+"reward_itemBg_png":{"x":0,"y":88,"w":139,"h":140,"offX":0,"offY":0,"sourceW":139,"sourceH":140},
+"confirm_title_png":{"x":433,"y":420,"w":68,"h":36,"offX":0,"offY":0,"sourceW":68,"sourceH":36},
+"mjl_sign_rewards3_png":{"x":118,"y":303,"w":105,"h":100,"offX":0,"offY":1,"sourceW":108,"sourceH":103},
+"confirm_btn2_png":{"x":141,"y":88,"w":178,"h":71,"offX":0,"offY":0,"sourceW":178,"sourceH":71},
+"confirm_btn1_png":{"x":0,"y":230,"w":178,"h":71,"offX":6,"offY":6,"sourceW":190,"sourceH":80},
+"reward_title_png":{"x":0,"y":0,"w":421,"h":86,"offX":2,"offY":0,"sourceW":425,"sourceH":86},
+"mjl_sign_rewards4_png":{"x":0,"y":303,"w":116,"h":95,"offX":1,"offY":0,"sourceW":119,"sourceH":99},
+"mjl_match_fuka_png":{"x":321,"y":192,"w":68,"h":92,"offX":16,"offY":0,"sourceW":93,"sourceH":92},
+"mjl_match_huafei_png":{"x":321,"y":88,"w":75,"h":102,"offX":15,"offY":0,"sourceW":102,"sourceH":102}}}

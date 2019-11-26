@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/exchange.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/exchange/exchange.thm.json"
+}

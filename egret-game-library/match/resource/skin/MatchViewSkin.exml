@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:login="login.*" xmlns:eui="eui.*" width="583" height="465">
+	<e:Image source="hongbaosai_png" x="42" y="2"/>
+
+
+
+
+	<eui:ArmatureComponent x="140" y="265" resName="renwu"/>
+	<e:Image source="XHPW-dt-hbs-1_png" x="244" y="37"/>
+	<e:Image source="XHPW-dt-wdjf_png" x="284" y="179"/>
+	<e:Image source="XHPW-dt-wdpm_png" x="285" y="216"/>
+
+	<e:Button id="parttake_btn" label="" x="231" y="265">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="XHPW-dt-ljcz_png" source.down="XHPW-dt-ljcz-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+	<e:Label id="point_lbl" text="0" x="404" y="180" fontFamily="Microsoft YaHei" size="28"/>
+	<e:Label id="rank_lbl" text="0" x="404" y="216" fontFamily="Microsoft YaHei" size="28"/>
+	<e:Label id="gamtType_lbl" text="跑得快" x="267" y="124" fontFamily="Microsoft YaHei" size="28" textColor="0xfefbb3" anchorOffsetX="0" width="177" textAlign="center"/>
+	<eui:ArmatureComponent resName="hongbaosai" x="310" y="233" touchChildren="false" touchEnabled="false"/>
+</e:Skin>

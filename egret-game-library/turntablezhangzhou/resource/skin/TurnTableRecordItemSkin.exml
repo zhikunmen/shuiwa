@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TurnTableRecordItemSkin" width="462" height="44" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Image id="_bg" width="462" height="44" scale9Grid="1,5,12,33" source="mjl_turntable_json.mjl_turntable_item1"/>
+	<e:Label id="_timeText" text="2019-12-22 12:22:22" x="56" size="18" verticalCenter="0" fontFamily="Microsoft YaHei"/>
+	<e:Label id="_prizeText" text="12/10" x="354" size="18" verticalCenter="0" textColor="0xfdff40" anchorOffsetX="0" textAlign="center" fontFamily="Microsoft YaHei"/>
+
+</e:Skin>

@@ -1,0 +1,15 @@
+{"file":"ssc_font_loseChip.png","frames":{
+"4":{"x":130,"y":63,"w":45,"h":61,"offX":0,"offY":1,"sourceW":45,"sourceH":64},
+"5":{"x":0,"y":66,"w":45,"h":60,"offX":0,"offY":2,"sourceW":46,"sourceH":64},
+"6":{"x":93,"y":126,"w":44,"h":61,"offX":0,"offY":1,"sourceW":45,"sourceH":64},
+"7":{"x":46,"y":129,"w":44,"h":60,"offX":1,"offY":2,"sourceW":45,"sourceH":64},
+"8":{"x":0,"y":128,"w":44,"h":61,"offX":1,"offY":1,"sourceW":46,"sourceH":64},
+"9":{"x":47,"y":66,"w":44,"h":61,"offX":0,"offY":1,"sourceW":45,"sourceH":64},
+"万":{"x":0,"y":0,"w":64,"h":64,"offX":0,"offY":0,"sourceW":64,"sourceH":64},
+"亿":{"x":66,"y":0,"w":62,"h":64,"offX":1,"offY":0,"sourceW":64,"sourceH":64},
+".":{"x":93,"y":66,"w":21,"h":26,"offX":0,"offY":34,"sourceW":21,"sourceH":64},
+"-":{"x":184,"y":125,"w":53,"h":26,"offX":0,"offY":19,"sourceW":53,"sourceH":64},
+"0":{"x":130,"y":0,"w":45,"h":61,"offX":0,"offY":1,"sourceW":45,"sourceH":64},
+"1":{"x":177,"y":63,"w":30,"h":60,"offX":6,"offY":2,"sourceW":46,"sourceH":64},
+"2":{"x":177,"y":0,"w":42,"h":61,"offX":1,"offY":1,"sourceW":45,"sourceH":64},
+"3":{"x":139,"y":126,"w":43,"h":61,"offX":2,"offY":1,"sourceW":45,"sourceH":64}}}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActiveRoomListItemSkin" width="608" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<eui:WxButton id="eliminate" label="踢 出" y="5.61" enabled="true" width="96" scaleX="1" scaleY="1" x="494" height="35">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn4"/>
+			<e:Label id="labelDisplay" text="踢出" textAlign="center" verticalAlign="middle" size="25"  fontFamily="Microsoft YaHei"  stroke="2" strokeColor="0x135b17"  horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</eui:WxButton>
+	<e:Label id="playerNameLaber" text="玩家：" x="0" y="8" fontFamily="SimHei" width="100" textAlign="left" textColor="0x404d44"/>
+	<e:Label id="playerName" text="" x="86" y="8" fontFamily="SimHei" width="170" height="30" verticalAlign="middle" textAlign="center" textColor="0x006007"/>
+	<e:Label id="playerScoreLaber" text="分数：" x="271" y="8" fontFamily="SimHei" textAlign="left" verticalAlign="middle" width="100" textColor="0x404d44"/>
+    <e:Label id="playerScore" text="暂无" x="371" y="8" fontFamily="SimHei" textAlign="center" verticalAlign="middle" width="100" textColor="0xe60000"/>
+</e:Skin>

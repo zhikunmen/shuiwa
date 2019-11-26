@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmailItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="msg_list_bg" scale9Grid="15,26,18,58" width="973" height="113" x="18" y="14"/>
+    <e:Image id="_type" source="msg_email_1" x="38" y="26"/>
+    <e:Label id="_titleTxt" text="--" size="26" textColor="0xa46359" x="148" y="44" fontFamily="Microsoft YaHei"/>
+    <e:Label id="_msg" text="--" size="22" textColor="0xff4e00" x="148" y="79" fontFamily="Microsoft YaHei"/>
+    <e:Image source="msg_clock_bg" x="471" y="45" height="50" width="215" scale9Grid="21,19,13,8"/>
+    <e:Image source="msg_clock" x="493" y="57"/>
+    <e:Label id="_timeTxt" text="--" textColor="0xee4a3d" size="22" fontFamily="Microsoft YaHei" x="528" y="59"/>
+    <e:Image source="msg_list_line" x="777" y="25"/>
+    <eui:WxButton id="_getBtn" label="" x="803" y="34.5" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="msg_btn_get" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+    <eui:WxButton id="_lookBtn" label="" x="803" y="34.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="msg_btn_look" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Image id="_noGet" source="msg_btn_noget" x="803" y="34.5" visible="false"/>
+</e:Skin>

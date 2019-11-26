@@ -1,0 +1,34 @@
+{
+	"groups":[{
+			"keys":"mjlb_freegold_effect_ske_json,mjlb_freegold_effect_tex_json,mjlb_freegold_effect_tex_png,mjl_award_json,mjl_getgold_fnt_fnt",
+			"name":"lobby_award"
+		}],
+	"resources":[
+		{
+			"name":"mjlb_freegold_effect_ske_json",
+			"type":"json",
+			"url":"lobbyaward/mjlb_freegold_effect_ske.json"
+		},
+		{
+			"name":"mjlb_freegold_effect_tex_json",
+			"type":"json",
+			"url":"lobbyaward/mjlb_freegold_effect_tex.json"
+		},
+		{
+			"name":"mjlb_freegold_effect_tex_png",
+			"type":"image",
+			"url":"lobbyaward/mjlb_freegold_effect_tex.png"
+		},
+		{
+			"name":"mjl_award_json",
+			"subkeys":"mjl_guang,mjl_rewards1,mjl_rewards2,mjl_rewards3,mjl_rewards4",
+			"type":"sheet",
+			"url":"lobbyaward/mjl_award.json"
+		},
+		{
+			"name":"mjl_getgold_fnt_fnt",
+			"type":"font",
+			"url":"lobbyaward/mjl_getgold_fnt.fnt"
+		}
+	]
+}

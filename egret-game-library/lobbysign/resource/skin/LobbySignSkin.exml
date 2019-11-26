@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbySignSkin" width="850" height="560" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="1675e7b01bc" scale9Grid="71,114,33,33" anchorOffsetX="0" width="848"/>
+	<e:Image source="lobbysign_json.mjl_sign_bg1" x="0" y="0" anchorOffsetX="0" width="850" scale9Grid="8,11,3,2" height="554" locked="true" visible="false"/>
+	<e:Image source="lobbysign_json.mjl_sign_bg3" y="49" scale9Grid="27,27,3,0" anchorOffsetX="0" width="789" anchorOffsetY="0" height="155" horizontalCenter="0" locked="true"/>
+	<e:Image source="lobbysign_json.mjl_sign_EXP_bg" x="53" y="132" scale9Grid="13,12,1,0" width="740" locked="true"/>
+	<e:Image id="_expBr" source="lobbysign_json.mjl_sign_EXP" x="53" y="132" scale9Grid="17,3,2,19" width="495"/>
+	<e:Label text="每月累计签到达到指定天数，即可获得相应的奖励！" x="48" y="19" size="20" fontFamily="Microsoft YaHei" textColor="0x73491b"/>
+	<e:Label id="_totalTxt" text="累计签43天" x="700" y="19" size="20" fontFamily="Microsoft YaHei" textColor="0x73491b"/>
+	<e:Scroller width="659" height="152" x="145" y="52" anchorOffsetX="0">
+		<e:List id="_signRewardItemList" anchorOffsetX="0" x="-1" itemRendererSkinName="SignRewardItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="69"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller width="790" height="175" x="32" y="225" anchorOffsetX="0">
+		<e:List id="_signDayOfWeekItemList" anchorOffsetX="0" x="-1" itemRendererSkinName="SignDayOfWeekItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="2"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="_signBtn" label="签到领取" y="445" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1" source.disabled="mjl_panel_common_json.mjl_btn6"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xffffff" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

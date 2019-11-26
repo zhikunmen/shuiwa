@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.zm_UserInfoSKin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:chessCommonLib="chessCommonLib.*">
+	<e:Group width="825" height="554" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Image source="zm_userinfo_bg2_png" x="200" y="143" scaleX="1" scaleY="1"/>
+		<e:Image source="zm_userinfo_bg2_png" x="425" y="143" scaleX="1" scaleY="1"/>
+		<e:Image source="zm_bean_png" x="433" y="146" scaleX="1" scaleY="1"/>
+		<e:Image source="zm_diamond_png" x="204" y="148" scaleX="1" scaleY="1"/>
+		<e:Image source="zm_userinfo_head_png" x="32" y="89" scaleX="1" scaleY="1"/>
+		<e:Image source="zm_common_bg1_png" x="32" y="314" scale9Grid="20,21,7,8" anchorOffsetX="0" width="733" anchorOffsetY="0" height="189" scaleX="1" scaleY="1"/>
+		<e:Label id="_name_lbl" text="名字最多几个字" x="240" y="101" anchorOffsetX="0" width="577" textAlign="left" fontFamily="Microsoft YaHei" size="28" scaleX="1" scaleY="1"/>
+		<e:Label id="_id_lbl" text="帐号:44422200" x="204" y="201" anchorOffsetX="0" width="215" textAlign="left" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1"/>
+		<e:Label id="_gps_lbl" text="" x="67" y="268.5" anchorOffsetX="0" textAlign="left" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" width="673" multiline="false"/>
+		<e:Label id="_bean_lbl" text="00000." x="484" y="152.5" anchorOffsetX="0" width="137" textAlign="left" fontFamily="Microsoft YaHei" size="26" textColor="0xfff285" scaleX="1" scaleY="1"/>
+		<e:Label id="_diamond_lbl" text="00000." x="259" y="153" anchorOffsetX="0" width="137" textAlign="left" fontFamily="Microsoft YaHei" size="26" textColor="0xFFF285" scaleX="1" scaleY="1"/>
+		<e:Label id="_ip_lbl" text="地址:192.168.000.000" x="425" y="201" anchorOffsetX="0" width="267" textAlign="left" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1"/>
+		<e:Image id="_gender_img" width="24" height="24" x="204" y="105" source="zm_userinfo_male_png" scaleX="1" scaleY="1"/>		
+		<e:Group id="_head" width="134" height="131" x="43" y="102" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image id="_head_img" width="130" height="129" x="2" y="1" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

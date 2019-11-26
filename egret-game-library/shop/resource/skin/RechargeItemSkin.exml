@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RechargeItemSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" height="168" width="174">
+	<e:Image source="reward_vip_json.lb_huiyuan_dikuang"/>
+	<e:Image id="icon_img" source="reward_vip_json.mjl_sign_bingdong" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="desc_img" source="reward_vip_json.lb_huiyuan_send" x="72" y="-17"/>
+	<e:Label id="desc_lbl" text="" y="171" fontFamily="Microsoft YaHei" size="26" textColor="0xfffe95" horizontalCenter="0"/>
+</e:Skin>

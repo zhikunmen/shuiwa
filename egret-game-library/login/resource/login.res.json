@@ -1,0 +1,21 @@
+{
+	"groups": [
+		{
+			"keys": "yy_login_json",
+			"name": "pub_login"
+		}
+	],
+	"resources": [
+		{
+			"url": "login/res/yy_login.json",
+			"type": "sheet",
+			"name": "yy_login_json",
+			"subkeys": "login1_png,login2_png,mjl_login_chenk_png,mjl_login_chenkbg_png,mjl_login_wx1_png,mjl_login_wx2_png,ykLogin1_png,ykLogin2_png,yy_login_bd_png,yy_login_chzhmm1_png,yy_login_chzhmm2_png,yy_login_db_png,yy_login_dg_png,yy_login_dlyx1_png,yy_login_dlyx2_png,yy_login_fh1_png,yy_login_fh2_png"
+		},
+		{
+			"url": "login/res/mjf_loadingbg.jpg",
+			"type": "image",
+			"name": "mjf_loadingbg_jpg"
+		}
+	]
+}

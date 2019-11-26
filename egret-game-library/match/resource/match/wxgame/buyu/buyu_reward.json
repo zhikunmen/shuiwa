@@ -1,0 +1,195 @@
+{
+  "file": "buyu_reward.png",
+  "frames": {
+    "buyu_dntg_icon": {
+      "x": 352,
+      "y": 0,
+      "w": 206,
+      "h": 205,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 206,
+      "sourceH": 205
+    },
+    "buyu_dntg_txt": {
+      "x": 768,
+      "y": 233,
+      "w": 179,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 51
+    },
+    "buyu_enter_game": {
+      "x": 768,
+      "y": 117,
+      "w": 179,
+      "h": 61,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 61
+    },
+    "buyu_fish_bg": {
+      "x": 352,
+      "y": 414,
+      "w": 122,
+      "h": 95,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 95
+    },
+    "buyu_goods_bg": {
+      "x": 912,
+      "y": 0,
+      "w": 102,
+      "h": 102,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 102,
+      "sourceH": 102
+    },
+    "buyu_item_bg": {
+      "x": 194,
+      "y": 402,
+      "w": 34,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 34
+    },
+    "buyu_lxbd_icon": {
+      "x": 352,
+      "y": 207,
+      "w": 206,
+      "h": 205,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 206,
+      "sourceH": 205
+    },
+    "buyu_lxbd_txt": {
+      "x": 768,
+      "y": 180,
+      "w": 180,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 180,
+      "sourceH": 51
+    },
+    "buyu_lznh_icon": {
+      "x": 560,
+      "y": 0,
+      "w": 206,
+      "h": 205,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 206,
+      "sourceH": 205
+    },
+    "buyu_lznh_txt": {
+      "x": 768,
+      "y": 286,
+      "w": 179,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 51
+    },
+    "buyu_reward_select": {
+      "x": 768,
+      "y": 0,
+      "w": 142,
+      "h": 115,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 142,
+      "sourceH": 115
+    },
+    "buyu_reward_title": {
+      "x": 0,
+      "y": 470,
+      "w": 134,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 36
+    },
+    "buyu_ryhw_icon": {
+      "x": 560,
+      "y": 207,
+      "w": 206,
+      "h": 205,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 206,
+      "sourceH": 205
+    },
+    "buyu_ryhw_txt": {
+      "x": 657,
+      "y": 414,
+      "w": 179,
+      "h": 51,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 51
+    },
+    "buyu_select_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 232,
+      "h": 400,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 232,
+      "sourceH": 400
+    },
+    "buyu_unenter_game": {
+      "x": 476,
+      "y": 414,
+      "w": 179,
+      "h": 61,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 179,
+      "sourceH": 61
+    },
+    "vip_bg_1": {
+      "x": 234,
+      "y": 0,
+      "w": 116,
+      "h": 449,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 450
+    },
+    "vip_btn_close": {
+      "x": 194,
+      "y": 451,
+      "w": 56,
+      "h": 58,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 58
+    },
+    "vip_common_bg": {
+      "x": 0,
+      "y": 402,
+      "w": 192,
+      "h": 66,
+      "offX": 7,
+      "offY": 5,
+      "sourceW": 199,
+      "sourceH": 74
+    }
+  }
+}

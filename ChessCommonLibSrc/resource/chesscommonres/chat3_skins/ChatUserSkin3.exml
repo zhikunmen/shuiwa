@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.ChatUserSkin3" width="458" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="2" width="406" top="0" bottom="0"  source="3chat_noset_bg_png" scale9Grid="14,12,29,31"/>
+	<e:ToggleButton id="chat_btn" label="" y="216" x="408">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="3chat_chat_normal_png" source.down="3chat_chat_selected_png" source.disabled="3chat_chat_selected_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:ToggleButton>
+	<e:ToggleButton id="noseat_btn" label="" y="362" x="408" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="3chat_noset_normal2_png" source.down="3chat_noset_selected_png" source.disabled="3chat_noset_selected_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
+	<e:BitmapLabel id="mess_count" visible="false" height="20" y="427" font="room_num_fnt" text="0" x="412" textAlign="center"/>
+</e:Skin>

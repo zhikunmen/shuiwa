@@ -1,0 +1,5 @@
+[
+{"id":1,"name":"128快速赛","lobbyId":1001,"gameId":5001,"defaltPlayType":[10029],"isOpen":1,"mode":1,"joinType":0,"joinNum":2,"gameNbr":2,"needRobot":0,"outTime":20,"icon":"1","month":[0],"week":[0],"sec":72000,"userNbr":128,"startDesc":"满128人开赛","award":"10钻石","winRate":50,"func":"","shareTitle":"","shareContent":""},
+{"id":2,"name":"京东卡奖励大赛","lobbyId":1001,"gameId":5001,"defaltPlayType":[10029],"isOpen":1,"mode":2,"joinType":1,"joinNum":1,"gameNbr":2,"needRobot":1,"outTime":20,"icon":"2","month":[1],"week":[0],"sec":72000,"userNbr":0,"startDesc":"0.875","award":"10钻石","winRate":25,"func":"","shareTitle":"","shareContent":""},
+{"id":3,"name":"16人快速赛","lobbyId":1002,"gameId":5003,"defaltPlayType":[10070,217,10041,153],"isOpen":1,"mode":3,"joinType":1,"joinNum":2,"gameNbr":2,"needRobot":0,"outTime":10,"icon":"1","month":[0],"week":[0],"sec":75600,"userNbr":0,"startDesc":"0.875","award":"10钻石","winRate":50,"func":"","shareTitle":"","shareContent":""}
+]

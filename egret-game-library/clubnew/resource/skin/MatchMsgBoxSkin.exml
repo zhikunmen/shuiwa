@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMsgBoxSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Group width="635" height="391" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="635" height="391"  source="club_scale9_json.club_bg1" scale9Grid="2,2,2,2"/>
+		<e:Image x="0" y="0" anchorOffsetY="0" height="58" anchorOffsetX="0" width="632" source="club_scale9_json.club_btnbg6" scale9Grid="2,10,2,60"/>
+		<e:Image y="80.67" anchorOffsetX="0" width="520" anchorOffsetY="0" height="207.99" horizontalCenter="0.5" source="club_scale9_json.club_bg2" scale9Grid="2,2,4,2"/>
+		<eui:WxButton id="_closebtn" label="" x="567" y="0" anchorOffsetX="0" width="68" anchorOffsetY="0" height="57.92">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.club_manage_closebtn3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<e:Label id="title" text="温馨提示" size="32" x="221.5" y="14" width="191"  textAlign="center" fontFamily="SimHei" textColor="0xffffff"/>
+		<e:Label id="info" text="匹配号消息框" size="32" y="114" width="508"  textAlign="center" fontFamily="SimHei" textColor="0xffffff" horizontalCenter="0"/>
+		<eui:WxButton id="confirm" x="90.12" y="308" anchorOffsetX="0" anchorOffsetY="0" width="195" height="56" label="确定">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg2" scale9Grid="1,7,6,42"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x894215" fontFamily="Microsoft YaHei" size="28" bold="true"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+
+		</eui:WxButton>
+		<eui:WxButton id="cancel" x="347.49" y="308"  anchorOffsetX="0" anchorOffsetY="0" width="195" height="56" label="取消">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg2" scale9Grid="1,7,6,42"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x894215" fontFamily="Microsoft YaHei" size="28" bold="true"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</eui:WxButton>
+	</e:Group>
+</e:Skin>

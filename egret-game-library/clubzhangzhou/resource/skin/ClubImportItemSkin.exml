@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubImportItemSkin" width="764" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="club_new_menage_json.club_list_bg" width="764" height="65" scale9Grid="13,23,85,15" locked="true"/>
+	<e:Image source="club_new_menage_json.club_import_frame" x="17" verticalCenter="0"/>
+	<e:Image id="_selectImg" source="club_new_menage_json.club_import_on" x="19" verticalCenter="0" visible="false"/>
+	<e:Label id="_clubNameText" text="发地方地方地方的" x="66.53" verticalAlign="middle" textColor="0x773210" fontFamily="Microsoft YaHei" size="30" verticalCenter="0.5" height="30" width="210"/>
+	<e:Label id="_clubIdText" text="234333" x="349.84" verticalAlign="middle" textColor="0x773210" fontFamily="Microsoft YaHei" size="30" verticalCenter="0.5"/>
+	<e:Label id="_numText" text="2" x="650.49" verticalAlign="middle" textColor="0x773210" fontFamily="Microsoft YaHei" size="30" verticalCenter="0.5"/>
+</e:Skin>

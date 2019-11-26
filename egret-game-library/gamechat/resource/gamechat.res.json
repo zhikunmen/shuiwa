@@ -1,0 +1,20 @@
+{
+	"groups":[{
+			"keys":"game_chat_json,game_face_json",
+			"name":"game_chat"
+		}],
+	"resources":[
+		{
+			"name":"game_chat_json",
+			"subkeys":"chat_bg,chat_horn,chat_send,chat_title",
+			"type":"sheet",
+			"url":"gamechat/game_chat.json"
+		},
+		{
+			"name":"game_face_json",
+			"subkeys":"game_face1,game_face10,game_face11,game_face12,game_face13,game_face14,game_face15,game_face16,game_face17,game_face18,game_face2,game_face3,game_face4,game_face5,game_face6,game_face7,game_face8,game_face9",
+			"type":"sheet",
+			"url":"gamechat/game_face.json"
+		}
+	]
+}

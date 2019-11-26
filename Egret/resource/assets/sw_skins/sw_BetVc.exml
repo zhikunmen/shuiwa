@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_BetVc" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:SWGAME="SWGAME.*">
+	<e:Image source="sw_chip_bg_2_png" x="65" y="650"/>
+	<e:Group id="_chip_real_group" width="599" height="89" x="349.5" y="631" anchorOffsetX="0" anchorOffsetY="0">
+		<SWGAME:ChipReal id="chip_real_1" width="93" height="89" x="65.5" enabled="true" skinName="sw_ChipReal" scaleX="1" scaleY="1" anchorOffsetX="46" bottom="0"/>
+		<SWGAME:ChipReal id="chip_real_2" width="93" height="89" x="185.5" enabled="true" skinName="sw_ChipReal" scaleX="1" scaleY="1" anchorOffsetX="46" bottom="0"/>
+		<SWGAME:ChipReal id="chip_real_3" width="93" height="89" x="305.5" enabled="true" skinName="sw_ChipReal" scaleX="1" scaleY="1" anchorOffsetX="46" bottom="0"/>
+		<SWGAME:ChipReal id="chip_real_4" width="93" height="89" x="423.5" enabled="true" skinName="sw_ChipReal" scaleX="1" scaleY="1" anchorOffsetX="46" bottom="0"/>
+		<SWGAME:ChipReal id="chip_real_5" width="93" height="89" x="539.5" enabled="true" skinName="sw_ChipReal" scaleX="1" scaleY="1" anchorOffsetX="46" bottom="0"/>
+	</e:Group>
+	<e:Image source="sw_chip_bg_png" height="70" bottom="0" left="65" width="1151"/>
+	<e:Group id="_chip_hide_group" width="599" height="89" x="349.5" y="631" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="_chip_hide_1" source="sw_chip_10_png" x="65.5" bottom="0" y="0" scaleX="1" scaleY="1" name="_chip_hide_1" width="93" height="89" anchorOffsetX="46"/>
+		<e:Image id="_chip_hide_2" source="sw_chip_20_png" x="185.5" bottom="0" y="0" scaleX="1" scaleY="1" name="_chip_hide_2" width="93" height="89" anchorOffsetX="46"/>
+		<e:Image id="_chip_hide_3" source="sw_chip_30_png" x="305.5" bottom="0" y="0" scaleX="1" scaleY="1" name="_chip_hide_3" width="93" height="89" anchorOffsetX="46"/>
+		<e:Image id="_chip_hide_4" source="sw_chip_40_png" x="423.5" bottom="0" y="0" scaleX="1" scaleY="1" name="_chip_hide_4" width="93" height="89" anchorOffsetX="46"/>
+		<e:Image id="_chip_hide_5" source="sw_chip_50_png" x="539.5" bottom="0" y="0" scaleX="1" scaleY="1" name="_chip_hide_5" width="93" height="89" anchorOffsetX="46"/>
+	</e:Group>
+	<e:Button id="_continue_chip_btn" label="" x="970.72" y="634.62" enabled="true" touchEnabled="false" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sw_continue_chip_btn_up_png" source.down="sw_continue_chip_btn_down_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="sw_betAreaBg_png" scale9Grid="11,11,35,35" x="228" y="123" rotation="0" width="823" height="413" locked="true"/>
+	<SWGAME:BetChess id="_betChessIcon_1" width="193" height="127" x="848" y="134" skinName="sw_BetChess" enabled="true"/>
+	<SWGAME:BetChess id="_betChessIcon_2" width="193" height="127" x="848" y="266.67" skinName="sw_BetChess" enabled="true"/>
+	<SWGAME:BetChess id="_betChessIcon_3" width="193" height="127" x="848" y="400" skinName="sw_BetChess" enabled="true"/>
+	<SWGAME:BetChess width="193" height="127" x="443" y="134" skinName="sw_BetChess" id="_betChessIcon_4" enabled="true"/>
+	<SWGAME:BetChess width="193" height="127" x="443" y="266" skinName="sw_BetChess" id="_betChessIcon_5" enabled="true"/>
+	<SWGAME:BetChess id="_betChessIcon_6" width="193" height="127" x="443" y="400" skinName="sw_BetChess" enabled="true"/>
+	<SWGAME:BetChess id="_betChessIcon_7" width="193" height="127" x="240" y="134" skinName="sw_BetChess" enabled="true"/>
+	<SWGAME:BetChess id="_betChessIcon_8" width="193" height="127" x="240" y="266" skinName="sw_BetChess" enabled="true"/>
+	<SWGAME:BetChess id="_betChessIcon_9" width="193" height="127" x="240" y="400" skinName="sw_BetChess" enabled="true"/>
+	<SWGAME:BetChess id="_betChessIcon_10" width="193" height="127" x="646" y="134" skinName="sw_BetChess" enabled="true"/>
+	<SWGAME:BetChess id="_betChessIcon_11" width="193" height="127" x="646" y="266" skinName="sw_BetChess" enabled="true"/>
+	<SWGAME:BetChess id="_betChessIcon_12" width="193" height="127" x="646" y="400" skinName="sw_BetChess" enabled="true"/>
+	<e:Image id="_my_head_url" width="63" height="63" x="117.3" y="653" name="_my_head_url"/>
+	<e:Label id="_my_nickName" text="昵称：我的昵称" x="185" y="653.67" size="17" fontFamily="Microsoft YaHei" name="_my_nickName" textAlign="left"/>
+	<e:Label text="财富：" x="185" y="676.99" size="17" fontFamily="Microsoft YaHei" name="_my_point" textAlign="left"/>
+	<e:Label id="_my_point" text="123万" x="255" y="676" size="17" fontFamily="Microsoft YaHei" name="_my_point" textAlign="left"/>
+	<e:Label id="_my_score" text="成绩：123" x="185" y="697.63" size="17" fontFamily="Microsoft YaHei" name="_my_score" textAlign="left"/>
+	<e:Image id="_unit_diamond" source="sw_diamond_png" x="231.5" y="677" width="23" height="20" visible="false"/>
+	<e:Image id="_unit_golden" source="sw_golden_icon_png" x="233" y="675" width="20" height="20" visible="false"/>
+	<e:Group id="_bet_panel_btn" x="967" y="638" width="202" height="74" touchChildren="true" touchEnabled="true">
+		<e:Button label="" x="0" y="0" scaleX="1" scaleY="1" enabled="true" width="202" height="74">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="sw_have_beted_btn_up_png" source.down="sw_have_beted_btn_down_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="_my_bet_total_txt" text="8888" x="107" y="22" size="26" fontFamily="Microsoft YaHei" textColor="0xffe400" touchEnabled="false" cacheAsBitmap="false" textAlign="center" anchorOffsetX="0" width="73" rotation="0"/>
+	</e:Group>
+</e:Skin>

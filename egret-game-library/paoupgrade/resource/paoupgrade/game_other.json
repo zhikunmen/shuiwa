@@ -1,0 +1,45 @@
+{
+  "file": "game_other.png",
+  "frames": {
+    "game_desc_bg": {
+      "x": 139,
+      "y": 0,
+      "w": 54,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 126
+    },
+    "game_in_turntable": {
+      "x": 0,
+      "y": 95,
+      "w": 73,
+      "h": 84,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 75,
+      "sourceH": 85
+    },
+    "game_out_bg": {
+      "x": 75,
+      "y": 95,
+      "w": 34,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 34
+    },
+    "game_paopao": {
+      "x": 0,
+      "y": 0,
+      "w": 137,
+      "h": 93,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 137,
+      "sourceH": 93
+    }
+  }
+}

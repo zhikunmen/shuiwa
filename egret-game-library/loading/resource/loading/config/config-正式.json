@@ -1,0 +1,10 @@
+{
+    "default": {
+        "login_url": "https://logins.gamelaoyou.com:7000/httplogin",
+        "gameid": 9074,
+        "zoneid": 182,
+        "lobbyId": 54,
+        "platid": 326,
+        "is_sandbox": 0
+    }
+}

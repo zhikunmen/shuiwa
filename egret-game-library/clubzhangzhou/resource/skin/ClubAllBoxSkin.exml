@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubAllBoxSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Rect id="_bgRect" fillAlpha="0.3" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="_leftGroup" x="-3.03" y="23.95">
+		<e:Image x="0" y="0" anchorOffsetX="0" width="1143" anchorOffsetY="0" height="687.18" source="mjl_common_bg_png" scale9Grid="29,67,15,177"/>
+		<e:Image source="mjl_common_bg1_png" x="28.39" y="68.81" anchorOffsetX="0" width="1096.06" anchorOffsetY="0" height="500.61" scale9Grid="5,5,30,30"/>
+		<e:Image y="22.45" source="club_new_menage_json.club_myclub_title" x="483.03"/>
+		<eui:WxButton id="_createBtn" label="创建老友圈" y="578.05" x="265.03">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei"  stroke="2" strokeColor="0x91481f"/>
+				</e:Skin>
+			</e:skinName>
+
+		</eui:WxButton>
+		<eui:WxButton id="_joinBtn" label="加入老友圈" y="578.05" x="668.03">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x216300"/>
+				</e:Skin>
+			</e:skinName>
+
+		</eui:WxButton>
+		<e:Scroller width="1098" height="483" x="27.06" y="77.17" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="boxList" itemRendererSkinName="ClubBoxItemSkin" x="17.33" y="1.52" anchorOffsetX="0" width="1090" anchorOffsetY="0" height="444.67" useVirtualLayout="false">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" requestedColumnCount="1"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Button id="_closeBtn" label="Button" x="1137" y="180">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="club_new_menage_json.club_switch"/>
+			<e:Image source="club_new_menage_json.club_switch_close" x="8.96" y="268.55"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSetPanelSKin" width="690" height="403" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group id="_mainGroup" width="690" height="403" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Label text="方言" x="509" y="270" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1" textColor="0x73491b"/>
+		<e:Label text="音效" x="508" y="199" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1" textColor="0x73491b"/>
+		<e:Image id="leftBtn" x="28" y="197" touchEnabled="true" scaleX="1" scaleY="1" source="game_sp_arrow_left"/>
+		<e:Image id="rightBtn" x="453" y="197" touchEnabled="true" scaleX="1" scaleY="1" source="game_sp_arrow_right"/>
+		<e:Image id="musicBtn" source="game_set_json.game_sp_voice_on" x="581" y="113.5"/>
+		<e:Image id="soundBtn" source="game_set_json.game_sp_voice_on" x="581" y="186"/>
+		<e:Image id="localSoundBtn" source="game_set_json.game_sp_voice_on" x="581" y="255.5"/>
+
+
+
+		<e:Label text="音乐" x="507" y="128" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1" textColor="0x73491b"/>
+		<e:Group id="_imgGroup" width="367" height="201" x="70.5" y="116.5" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

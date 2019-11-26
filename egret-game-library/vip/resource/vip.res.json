@@ -1,0 +1,20 @@
+{
+	"groups":[{
+			"keys":"vip_json,vip_logo_json",
+			"name":"pub_vip"
+		}],
+	"resources":[
+		{
+			"name":"vip_json",
+			"subkeys":"vip_arrow_left,vip_arrow_right,vip_bg_1,vip_bottom_bg,vip_btn_close,vip_common_bg,vip_flower1,vip_flower2,vip_gold1,vip_gold2,vip_gold3,vip_pao_bg,vip_progress_bar,vip_progress_bg,vip_receive1,vip_receive2,vip_recharge,vip_title",
+			"type":"sheet",
+			"url":"vip/vip.json"
+		},
+		{
+			"name":"vip_logo_json",
+			"subkeys":"vip_small_0,vip_small_1,vip_small_2,vip_small_3,vip_small_4,vip_small_5,vip_small_6,vip_small_7,vip_small_8,vip_small_9",
+			"type":"sheet",
+			"url":"vip/vip_logo.json"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/ConfirmPanelSkin.exml",
+		"resource/skin/RewardItem.exml",
+		"resource/skin/RewardPanelSkin.exml"
+	],
+	"path": "resource/confirm.thm.json"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwRankItemSkin" width="687" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="PHB-txn_png" x="147" verticalCenter="0"/>
+	<e:Image id="rank_img" x="51" verticalCenter="0" source=""/>
+	<e:Label id="nickName_lbl" text="-" x="203" fontFamily="Microsoft YaHei" size="26" verticalCenter="0"/>
+	<e:Label id="id_lbl" text="-" x="378" fontFamily="Microsoft YaHei" size="26" width="126" textAlign="center" verticalCenter="0"/>
+	<e:Label id="point_lbl" text="-" x="537" fontFamily="Microsoft YaHei" size="26" anchorOffsetX="0" width="99" textAlign="center" verticalCenter="0"/>
+	<e:Image id="head_img" width="50" height="50" x="149" verticalCenter="0"/>
+	<e:BitmapLabel id="rank_blbl" x="20" font="hpw_rank_font_fnt" text="1" anchorOffsetX="0" verticalCenter="0" width="118" textAlign="center"/>
+</e:Skin>

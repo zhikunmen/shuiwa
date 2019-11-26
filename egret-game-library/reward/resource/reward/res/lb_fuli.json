@@ -1,0 +1,325 @@
+{
+  "file": "lb_fuli.png",
+  "frames": {
+    "fuli_bg": {
+      "x": 605,
+      "y": 104,
+      "w": 50,
+      "h": 615,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 52,
+      "sourceH": 615
+    },
+    "fuli_bg1": {
+      "x": 553,
+      "y": 418,
+      "w": 40,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 40,
+      "sourceH": 38
+    },
+    "fuli_daohang": {
+      "x": 0,
+      "y": 0,
+      "w": 214,
+      "h": 495,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 495
+    },
+    "fuli_title": {
+      "x": 0,
+      "y": 969,
+      "w": 135,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 135,
+      "sourceH": 36
+    },
+    "fuli_weixuan": {
+      "x": 657,
+      "y": 104,
+      "w": 214,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 83
+    },
+    "fuli_xuanzhong": {
+      "x": 0,
+      "y": 811,
+      "w": 214,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 83
+    },
+    "mjl_common_closebtn1": {
+      "x": 873,
+      "y": 206,
+      "w": 58,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 58
+    },
+    "mjl_common_title": {
+      "x": 0,
+      "y": 659,
+      "w": 384,
+      "h": 67,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 386,
+      "sourceH": 67
+    },
+    "mjl_match_fuka": {
+      "x": 216,
+      "y": 811,
+      "w": 67,
+      "h": 92,
+      "offX": 16,
+      "offY": 0,
+      "sourceW": 93,
+      "sourceH": 92
+    },
+    "mjl_match_jipai": {
+      "x": 386,
+      "y": 597,
+      "w": 93,
+      "h": 92,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 96,
+      "sourceH": 94
+    },
+    "mjl_sign_rewards3": {
+      "x": 873,
+      "y": 104,
+      "w": 105,
+      "h": 100,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 108,
+      "sourceH": 103
+    },
+    "mjl_sign_rewards4": {
+      "x": 657,
+      "y": 294,
+      "w": 114,
+      "h": 94,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 119,
+      "sourceH": 99
+    },
+    "sign_doublebtn": {
+      "x": 0,
+      "y": 728,
+      "w": 310,
+      "h": 81,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 310,
+      "sourceH": 81
+    },
+    "sign_getbg1": {
+      "x": 216,
+      "y": 104,
+      "w": 387,
+      "h": 155,
+      "offX": 4,
+      "offY": 5,
+      "sourceW": 393,
+      "sourceH": 162
+    },
+    "sign_getbg2": {
+      "x": 0,
+      "y": 497,
+      "w": 187,
+      "h": 160,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 193,
+      "sourceH": 162
+    },
+    "sign_gettitle": {
+      "x": 312,
+      "y": 728,
+      "w": 78,
+      "h": 77,
+      "offX": 7,
+      "offY": 7,
+      "sourceW": 90,
+      "sourceH": 89
+    },
+    "sign_miss": {
+      "x": 405,
+      "y": 418,
+      "w": 146,
+      "h": 104,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 150,
+      "sourceH": 107
+    },
+    "sign_missbg1": {
+      "x": 216,
+      "y": 261,
+      "w": 387,
+      "h": 155,
+      "offX": 4,
+      "offY": 5,
+      "sourceW": 393,
+      "sourceH": 162
+    },
+    "sign_missbg2": {
+      "x": 216,
+      "y": 418,
+      "w": 187,
+      "h": 155,
+      "offX": 4,
+      "offY": 5,
+      "sourceW": 193,
+      "sourceH": 162
+    },
+    "sign_misstitle": {
+      "x": 657,
+      "y": 390,
+      "w": 78,
+      "h": 77,
+      "offX": 6,
+      "offY": 7,
+      "sourceW": 90,
+      "sourceH": 89
+    },
+    "sign_receive": {
+      "x": 657,
+      "y": 189,
+      "w": 146,
+      "h": 103,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 150,
+      "sourceH": 107
+    },
+    "task_bg": {
+      "x": 216,
+      "y": 0,
+      "w": 771,
+      "h": 102,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 771,
+      "sourceH": 102
+    },
+    "task_donebtn": {
+      "x": 189,
+      "y": 575,
+      "w": 178,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 178,
+      "sourceH": 71
+    },
+    "task_getbtn": {
+      "x": 0,
+      "y": 896,
+      "w": 178,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 178,
+      "sourceH": 71
+    },
+    "task_gobtn": {
+      "x": 405,
+      "y": 524,
+      "w": 178,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 178,
+      "sourceH": 71
+    },
+    "task_icon": {
+      "x": 805,
+      "y": 189,
+      "w": 66,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 66,
+      "sourceH": 64
+    },
+    "task_icon2": {
+      "x": 481,
+      "y": 597,
+      "w": 66,
+      "h": 58,
+      "offX": 0,
+      "offY": 3,
+      "sourceW": 66,
+      "sourceH": 64
+    },
+    "task_jianglibg": {
+      "x": 386,
+      "y": 691,
+      "w": 74,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 74,
+      "sourceH": 19
+    },
+    "task_jindu": {
+      "x": 553,
+      "y": 458,
+      "w": 38,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 23
+    },
+    "task_jindu2": {
+      "x": 989,
+      "y": 0,
+      "w": 28,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 23
+    },
+    "task_laba": {
+      "x": 189,
+      "y": 497,
+      "w": 23,
+      "h": 23,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 23
+    },
+    "task_new_reward": {
+      "x": 773,
+      "y": 294,
+      "w": 134,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 36
+    }
+  }
+}

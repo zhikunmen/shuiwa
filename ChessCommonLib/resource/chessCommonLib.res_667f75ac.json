@@ -1,0 +1,998 @@
+{
+    "resources": [
+        {
+            "url": "hc_assets/head/default_avar_fae6eb8c.png", 
+            "type": "image", 
+            "name": "default_avar_png"
+        }, 
+        {
+            "url": "hc_assets/head/default_avar_man_b3ab46c1.png", 
+            "type": "image", 
+            "name": "default_avar_man_png"
+        }, 
+        {
+            "url": "hc_assets/head/default_avar_woman_8903bd42.png", 
+            "type": "image", 
+            "name": "default_avar_woman_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon0_7fa14463.png", 
+            "type": "image", 
+            "name": "vip_icon0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon1_78c4028e.png", 
+            "type": "image", 
+            "name": "vip_icon1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon2_7b99a647.png", 
+            "type": "image", 
+            "name": "vip_icon2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon3_82e5e593.png", 
+            "type": "image", 
+            "name": "vip_icon3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon4_e6a58335.png", 
+            "type": "image", 
+            "name": "vip_icon4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon5_cca3ea93.png", 
+            "type": "image", 
+            "name": "vip_icon5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon6_7b6609b1.png", 
+            "type": "image", 
+            "name": "vip_icon6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon7_73b15d1.png", 
+            "type": "image", 
+            "name": "vip_icon7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon8_621dd8a3.png", 
+            "type": "image", 
+            "name": "vip_icon8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon9_c0365b38.png", 
+            "type": "image", 
+            "name": "vip_icon9_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big0_36373c85.png", 
+            "type": "image", 
+            "name": "vip_big0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big1_fb0544ff.png", 
+            "type": "image", 
+            "name": "vip_big1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big2_30072571.png", 
+            "type": "image", 
+            "name": "vip_big2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big3_e7067e51.png", 
+            "type": "image", 
+            "name": "vip_big3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big4_bffd8d1a.png", 
+            "type": "image", 
+            "name": "vip_big4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big5_cb54f92f.png", 
+            "type": "image", 
+            "name": "vip_big5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big6_f01c6266.png", 
+            "type": "image", 
+            "name": "vip_big6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big7_29ecc30e.png", 
+            "type": "image", 
+            "name": "vip_big7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big8_9efaab27.png", 
+            "type": "image", 
+            "name": "vip_big8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big9_bb3f4af9.png", 
+            "type": "image", 
+            "name": "vip_big9_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small0_ee061e.png", 
+            "type": "image", 
+            "name": "vip_small0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small1_257eabb4.png", 
+            "type": "image", 
+            "name": "vip_small1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small2_6295d9f2.png", 
+            "type": "image", 
+            "name": "vip_small2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small3_74dfec2b.png", 
+            "type": "image", 
+            "name": "vip_small3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small4_b58c4126.png", 
+            "type": "image", 
+            "name": "vip_small4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small5_56666b9a.png", 
+            "type": "image", 
+            "name": "vip_small5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small6_21015c84.png", 
+            "type": "image", 
+            "name": "vip_small6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small7_cc4eb516.png", 
+            "type": "image", 
+            "name": "vip_small7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small8_3c1a764e.png", 
+            "type": "image", 
+            "name": "vip_small8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small9_494202b7.png", 
+            "type": "image", 
+            "name": "vip_small9_png"
+        }, 
+        {
+            "url": "hc_assets/head/name_bg_mask_4d1fee66.png", 
+            "type": "image", 
+            "name": "name_bg_mask_png"
+        }, 
+        {
+            "url": "hc_assets/head/br_seatHead_4bc9b0d9.png", 
+            "type": "image", 
+            "name": "br_seatHead_png"
+        }, 
+        {
+            "url": "chesscommonres/chatview/hbgame_chat_imoj_3c11394d.json", 
+            "type": "sheet", 
+            "name": "hbgame_chat_imoj_json", 
+            "subkeys": "hbgame_face1,hbgame_face10,hbgame_face11,hbgame_face12,hbgame_face13,hbgame_face14,hbgame_face15,hbgame_face16,hbgame_face17,hbgame_face18,hbgame_face2,hbgame_face3,hbgame_face4,hbgame_face5,hbgame_face6,hbgame_face7,hbgame_face8,hbgame_face9"
+        }, 
+        {
+            "url": "chesscommonres/chatview/hbgame_chat_panel_826c7db3.json", 
+            "type": "sheet", 
+            "name": "hbgame_chat_panel_json", 
+            "subkeys": "hbgame_bg,hbgame_chat,hbgame_chatbottom,hbgame_chatclick,hbgame_chatinputbottom,hbgame_chatlogbg,hbgame_chatlogbox,hbgame_face,hbgame_facebottom,hbgame_noseatuser,hbgame_noseatuserclick,hbgame_send,hbgame_sendclick,hbgame_windowChatFrame"
+        }, 
+        {
+            "url": "chesscommonres/chatview/hbgame_headDefault_ae21f109.png", 
+            "type": "image", 
+            "name": "hbgame_headDefault_png"
+        }, 
+        {
+            "url": "chesscommonres/chatview/showTips_12ec7ee8.png", 
+            "type": "image", 
+            "name": "showTips_png"
+        }, 
+        {
+            "url": "chesscommonres/mjl_lobby_systembg_3e55ffdb.png", 
+            "type": "image", 
+            "name": "mjl_lobby_systembg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/char_emoj_selected_1254c531.png", 
+            "type": "image", 
+            "name": "char_emoj_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_chat_bg_d05bfb31.png", 
+            "type": "image", 
+            "name": "chat_chat_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_chat_normal_2e522da2.png", 
+            "type": "image", 
+            "name": "chat_chat_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_chat_selected_2107a552.png", 
+            "type": "image", 
+            "name": "chat_chat_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_coin_71271658.png", 
+            "type": "image", 
+            "name": "chat_coin_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_emoj_normal_5faa7cd9.png", 
+            "type": "image", 
+            "name": "chat_emoj_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_input_262efb47.png", 
+            "type": "image", 
+            "name": "chat_input_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_input_bg_f4a3f469.png", 
+            "type": "image", 
+            "name": "chat_input_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_btn_normal_67b7352.png", 
+            "type": "image", 
+            "name": "chat_laba_btn_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_btn_selected_d1e18a0a.png", 
+            "type": "image", 
+            "name": "chat_laba_btn_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_drop_normal_8ce202a7.png", 
+            "type": "image", 
+            "name": "chat_laba_drop_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_drop_selected_1ede414c.png", 
+            "type": "image", 
+            "name": "chat_laba_drop_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_icon_66cc10cd.png", 
+            "type": "image", 
+            "name": "chat_laba_icon_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_loading_47a33d27.png", 
+            "type": "image", 
+            "name": "chat_loading_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_noset_bg_ea4bbbcd.png", 
+            "type": "image", 
+            "name": "chat_noset_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_noset_normal_3ee79528.png", 
+            "type": "image", 
+            "name": "chat_noset_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_noset_selected_98894529.png", 
+            "type": "image", 
+            "name": "chat_noset_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_room_btn_normal_8ffd26d1.png", 
+            "type": "image", 
+            "name": "chat_room_btn_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_room_btn_selected_9805fee0.png", 
+            "type": "image", 
+            "name": "chat_room_btn_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_room_drop_normal_7121c888.png", 
+            "type": "image", 
+            "name": "chat_room_drop_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_room_drop_selected_bfb4d917.png", 
+            "type": "image", 
+            "name": "chat_room_drop_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_send_normal_69b25a2b.png", 
+            "type": "image", 
+            "name": "chat_send_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_send_selected_65362f59.png", 
+            "type": "image", 
+            "name": "chat_send_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_userlist_bg_63de99ef.png", 
+            "type": "image", 
+            "name": "chat_userlist_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_vip_icon_fbba0538.png", 
+            "type": "image", 
+            "name": "chat_vip_icon_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_voice_normal_9b50f2f9.png", 
+            "type": "image", 
+            "name": "chat_voice_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_voice_selected_9d291c67.png", 
+            "type": "image", 
+            "name": "chat_voice_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat2/chat2_bg_54658e4c.png", 
+            "type": "image", 
+            "name": "chat2_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat2/chat2_btn_538baa3b.png", 
+            "type": "image", 
+            "name": "chat2_btn_png"
+        }, 
+        {
+            "url": "chesscommonres/chat2/chat2_noseat_btn_6a7f7a26.png", 
+            "type": "image", 
+            "name": "chat2_noseat_btn_png"
+        }, 
+        {
+            "url": "sound/gift/GiftSound1_1dd8eb4b.mp3", 
+            "type": "sound", 
+            "name": "GiftSound1_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound2_d736cf57.mp3", 
+            "type": "sound", 
+            "name": "GiftSound2_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound3_e6c2d93c.mp3", 
+            "type": "sound", 
+            "name": "GiftSound3_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound4_b6d2683d.mp3", 
+            "type": "sound", 
+            "name": "GiftSound4_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound5_8344397e.mp3", 
+            "type": "sound", 
+            "name": "GiftSound5_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound6_1e4622c9.mp3", 
+            "type": "sound", 
+            "name": "GiftSound6_mp3"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_chat_selected_c3035f2f.png", 
+            "type": "image", 
+            "name": "3chat_chat_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_coin_c4db7869.png", 
+            "type": "image", 
+            "name": "3chat_coin_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_laba_9772ff39.png", 
+            "type": "image", 
+            "name": "3chat_laba_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_laba_icon_f464656a.png", 
+            "type": "image", 
+            "name": "3chat_laba_icon_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_noset_bg_402e0e58.png", 
+            "type": "image", 
+            "name": "3chat_noset_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_noset_normal2_23b24e88.png", 
+            "type": "image", 
+            "name": "3chat_noset_normal2_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_noset_selected_54458696.png", 
+            "type": "image", 
+            "name": "3chat_noset_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_room_2d32dfd0.png", 
+            "type": "image", 
+            "name": "3chat_room_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_send_da0e0f33.png", 
+            "type": "image", 
+            "name": "3chat_send_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_share_f668bc16.png", 
+            "type": "image", 
+            "name": "3chat_share_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_userlist_bg_99130af6.png", 
+            "type": "image", 
+            "name": "3chat_userlist_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/mjl_common_button1_158fc865.png", 
+            "type": "image", 
+            "name": "mjl_common_button1_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/mjl_common_button2_9b08e225.png", 
+            "type": "image", 
+            "name": "mjl_common_button2_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_chat_bg_56b03b2.png", 
+            "type": "image", 
+            "name": "3chat_chat_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_chat_normal_146b72fb.png", 
+            "type": "image", 
+            "name": "3chat_chat_normal_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame3_tex_8386fa9f.png", 
+            "type": "image", 
+            "name": "vip_frame3_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame9_ske_bf9f4f8.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame9_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame9_tex_1de34520.png", 
+            "type": "image", 
+            "name": "vip_frame9_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame0_ske_da3511be.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame0_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame0_tex_b7ea347.png", 
+            "type": "image", 
+            "name": "vip_frame0_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame1_ske_241f2aa3.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame1_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame1_tex_5480030a.png", 
+            "type": "image", 
+            "name": "vip_frame1_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame2_ske_4d9e7dd.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame2_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame2_tex_65099598.png", 
+            "type": "image", 
+            "name": "vip_frame2_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame3_ske_55062ea0.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame3_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/other/task_5bc3689e.png", 
+            "type": "image", 
+            "name": "task_png"
+        }, 
+        {
+            "url": "hc_assets/other/guang01_d22ad1f7.png", 
+            "type": "image", 
+            "name": "guang01_png"
+        }, 
+        {
+            "url": "hc_assets/other/sys_msg_click_a6558835.png", 
+            "type": "image", 
+            "name": "sys_msg_click_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_mess_tex_cf2ddc5c.png", 
+            "type": "image", 
+            "name": "chat_mess_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_mess_ske_759a41e.dbmv", 
+            "type": "bin", 
+            "name": "chat_mess_ske_dbmv"
+        }, 
+        {
+            "url": "chesscommonres/chat3/chat_mess3_tex_78fcc890.png", 
+            "type": "image", 
+            "name": "chat_mess3_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/chat3/chat_mess3_ske_b7aa64e5.dbmv", 
+            "type": "bin", 
+            "name": "chat_mess3_ske_dbmv"
+        }, 
+        {
+            "url": "chesscommonres/room_num_5e37ed80.fnt", 
+            "type": "font", 
+            "name": "room_num_fnt"
+        }, 
+        {
+            "url": "hc_assets/other/jinbi_num_8719f710.fnt", 
+            "type": "font", 
+            "name": "jinbi_num_fnt"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sound_kaishixiazhu_6fbfe41e.mp3", 
+            "type": "sound", 
+            "name": "sound_kaishixiazhu_mp3"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_chip_res_703ba704.json", 
+            "type": "sheet", 
+            "name": "sz_chip_res_json", 
+            "subkeys": "sz_Chip100,sz_Chip1000,sz_Chip10000,sz_Chip100000,sz_Chip1000000,sz_Chip10000000,sz_Chip200,sz_Chip2000,sz_Chip20000,sz_Chip500,sz_Chip5000,sz_Chip50000,sz_Chip500000,sz_Chip5000000"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_clock_3f8a66e7.fnt", 
+            "type": "font", 
+            "name": "sz_clock_fnt"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_cancel_ef20ee8c.png", 
+            "type": "image", 
+            "name": "sz_common_cancel_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_head0_dd37753a.png", 
+            "type": "image", 
+            "name": "sz_common_head0_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_smallclose_265acca4.png", 
+            "type": "image", 
+            "name": "sz_common_smallclose_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_sure_62bfdf00.png", 
+            "type": "image", 
+            "name": "sz_common_sure_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_tips1_3bcf8ecb.png", 
+            "type": "image", 
+            "name": "sz_common_tips1_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_gold_b0f4144b.png", 
+            "type": "image", 
+            "name": "sz_gold_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_lobby_rank1_tex_f79798e8.png", 
+            "type": "image", 
+            "name": "sz_lobby_rank1_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_lobby_rank1_ske_d5676038.dbmv", 
+            "type": "bin", 
+            "name": "sz_lobby_rank1_ske_dbmv"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/mission/sz_duiju_effect_tex_a4ee8005.png", 
+            "type": "image", 
+            "name": "sz_duiju_effect_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/mission/sz_duiju_effect_ske_c9081dec.dbmv", 
+            "type": "bin", 
+            "name": "sz_duiju_effect_ske_dbmv"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_sys_bg_338f70f7.png", 
+            "type": "image", 
+            "name": "sz_sys_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_time_bg_904e5612.png", 
+            "type": "image", 
+            "name": "sz_time_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_Toast_b530f27.png", 
+            "type": "image", 
+            "name": "sz_Toast_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_userinfo_bg_112e74fb.png", 
+            "type": "image", 
+            "name": "sz_userinfo_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_userinfo_female_839ae149.png", 
+            "type": "image", 
+            "name": "sz_userinfo_female_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_userinfo_head_3aaebb19.png", 
+            "type": "image", 
+            "name": "sz_userinfo_head_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_userinfo_male_962460cd.png", 
+            "type": "image", 
+            "name": "sz_userinfo_male_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res_8521767d.json", 
+            "type": "sheet", 
+            "name": "sz_vip_res_json", 
+            "subkeys": "big_vip0,big_vip1,big_vip10,big_vip11,big_vip12,big_vip13,big_vip2,big_vip3,big_vip4,big_vip5,big_vip6,big_vip7,big_vip8,big_vip9,mid_vip1,mid_vip10,mid_vip11,mid_vip12,mid_vip13,mid_vip2,mid_vip3,mid_vip4,mid_vip5,mid_vip6,mid_vip7,mid_vip8,mid_vip9,min_vip1,min_vip10,min_vip11,min_vip12,min_vip13,min_vip2,min_vip3,min_vip4,min_vip5,min_vip6,min_vip7,min_vip8,min_vip9"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/winFloat_ff48d5fb.fnt", 
+            "type": "font", 
+            "name": "winFloat_fnt"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip0_2b5cb6f7.png", 
+            "type": "image", 
+            "name": "big_vip0_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip1_9c961b17.png", 
+            "type": "image", 
+            "name": "big_vip1_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip10_2228dd36.png", 
+            "type": "image", 
+            "name": "big_vip10_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip11_708d8172.png", 
+            "type": "image", 
+            "name": "big_vip11_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip12_c11e1b92.png", 
+            "type": "image", 
+            "name": "big_vip12_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip13_a627f4df.png", 
+            "type": "image", 
+            "name": "big_vip13_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip2_529a824e.png", 
+            "type": "image", 
+            "name": "big_vip2_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip3_5e941a5c.png", 
+            "type": "image", 
+            "name": "big_vip3_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip4_f8facc17.png", 
+            "type": "image", 
+            "name": "big_vip4_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip5_11500fe4.png", 
+            "type": "image", 
+            "name": "big_vip5_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip6_7c69bb8.png", 
+            "type": "image", 
+            "name": "big_vip6_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip7_d07ac9f2.png", 
+            "type": "image", 
+            "name": "big_vip7_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip8_8818e1.png", 
+            "type": "image", 
+            "name": "big_vip8_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/big_vip9_9da86c64.png", 
+            "type": "image", 
+            "name": "big_vip9_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip1_496b72da.png", 
+            "type": "image", 
+            "name": "mid_vip1_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip10_6465b75c.png", 
+            "type": "image", 
+            "name": "mid_vip10_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip11_382393a3.png", 
+            "type": "image", 
+            "name": "mid_vip11_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip12_162de528.png", 
+            "type": "image", 
+            "name": "mid_vip12_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip13_c0f6f73b.png", 
+            "type": "image", 
+            "name": "mid_vip13_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip2_f92b8546.png", 
+            "type": "image", 
+            "name": "mid_vip2_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip3_9a7e2f04.png", 
+            "type": "image", 
+            "name": "mid_vip3_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip4_6c8534c.png", 
+            "type": "image", 
+            "name": "mid_vip4_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip5_463cac50.png", 
+            "type": "image", 
+            "name": "mid_vip5_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip6_31e518ee.png", 
+            "type": "image", 
+            "name": "mid_vip6_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip7_f000baca.png", 
+            "type": "image", 
+            "name": "mid_vip7_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip8_ee19b71f.png", 
+            "type": "image", 
+            "name": "mid_vip8_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/mid_vip9_eecf0984.png", 
+            "type": "image", 
+            "name": "mid_vip9_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip1_9953f858.png", 
+            "type": "image", 
+            "name": "min_vip1_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip10_41efdf21.png", 
+            "type": "image", 
+            "name": "min_vip10_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip11_94d7bc3.png", 
+            "type": "image", 
+            "name": "min_vip11_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip12_bb5b8bfe.png", 
+            "type": "image", 
+            "name": "min_vip12_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip13_1d2bfe65.png", 
+            "type": "image", 
+            "name": "min_vip13_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip2_e01bda2e.png", 
+            "type": "image", 
+            "name": "min_vip2_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip3_66b61b81.png", 
+            "type": "image", 
+            "name": "min_vip3_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip4_e6150ee4.png", 
+            "type": "image", 
+            "name": "min_vip4_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip5_a74a7ed2.png", 
+            "type": "image", 
+            "name": "min_vip5_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip6_84d7f09a.png", 
+            "type": "image", 
+            "name": "min_vip6_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip7_a4a8b3e1.png", 
+            "type": "image", 
+            "name": "min_vip7_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip8_1579ea01.png", 
+            "type": "image", 
+            "name": "min_vip8_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res/min_vip9_8d93a9a1.png", 
+            "type": "image", 
+            "name": "min_vip9_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/common_1c6e95b3.json", 
+            "type": "sheet", 
+            "name": "common_json", 
+            "subkeys": "sz_Lobby_help_close"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/game_top_chat_bg_defe54cc.png", 
+            "type": "image", 
+            "name": "game_top_chat_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/loseFloat_bdc1cd88.fnt", 
+            "type": "font", 
+            "name": "loseFloat_fnt"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/PokerCard_4904a2db.json", 
+            "type": "sheet", 
+            "name": "PokerCard_json", 
+            "subkeys": "Poker0_1,Poker0_10,Poker0_11,Poker0_12,Poker0_13,Poker0_2,Poker0_3,Poker0_4,Poker0_5,Poker0_6,Poker0_7,Poker0_8,Poker0_9,Poker1_1,Poker1_10,Poker1_11,Poker1_12,Poker1_13,Poker1_2,Poker1_3,Poker1_4,Poker1_5,Poker1_6,Poker1_7,Poker1_8,Poker1_9,PokerBack_1,PokerBack_2,PokerBg_1,PokerBg_2,PokerBg_3,PokerBg_4"
+        }, 
+        {
+            "url": "chesscommonres/EmjoChat/sz_common_Chat_f1393551.json", 
+            "type": "sheet", 
+            "name": "sz_common_Chat_json", 
+            "subkeys": "face_Big_1,face_Big_10,face_Big_11,face_Big_12,face_Big_13,face_Big_14,face_Big_15,face_Big_16,face_Big_17,face_Big_18,face_Big_19,face_Big_2,face_Big_20,face_Big_21,face_Big_22,face_Big_23,face_Big_24,face_Big_25,face_Big_26,face_Big_27,face_Big_28,face_Big_29,face_Big_3,face_Big_30,face_Big_31,face_Big_32,face_Big_33,face_Big_34,face_Big_35,face_Big_36,face_Big_37,face_Big_38,face_Big_39,face_Big_4,face_Big_40,face_Big_41,face_Big_42,face_Big_43,face_Big_44,face_Big_45,face_Big_46,face_Big_47,face_Big_48,face_Big_5,face_Big_6,face_Big_7,face_Big_8,face_Big_9,face_Small_1,face_Small_10,face_Small_11,face_Small_12,face_Small_13,face_Small_14,face_Small_15,face_Small_16,face_Small_17,face_Small_18,face_Small_19,face_Small_2,face_Small_20,face_Small_21,face_Small_22,face_Small_23,face_Small_24,face_Small_25,face_Small_26,face_Small_27,face_Small_28,face_Small_29,face_Small_3,face_Small_30,face_Small_31,face_Small_32,face_Small_33,face_Small_34,face_Small_35,face_Small_36,face_Small_37,face_Small_38,face_Small_39,face_Small_4,face_Small_40,face_Small_41,face_Small_42,face_Small_43,face_Small_44,face_Small_45,face_Small_46,face_Small_47,face_Small_48,face_Small_49,face_Small_5,face_Small_6,face_Small_7,face_Small_8,face_Small_9,sz_common_chat_bg,sz_common_chat_bg2,sz_common_chat_facebg,sz_common_chat_horn,sz_common_chat_icon,sz_common_chat_line,sz_common_chat_mask,sz_common_chat_point1,sz_common_chat_point2,sz_common_chat_send,sz_common_chat_send2,sz_common_chat_sendBtn1,sz_common_chat_sendBtn2"
+        }, 
+        {
+            "url": "chesscommonres/EmjoChat/Emojchat_loading_71f9d67e.png", 
+            "type": "image", 
+            "name": "Emojchat_loading_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon20_463a9556.png", 
+            "type": "image", 
+            "name": "vip_icon20_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon22_7f3fa192.png", 
+            "type": "image", 
+            "name": "vip_icon22_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon23_3d288f8b.png", 
+            "type": "image", 
+            "name": "vip_icon23_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon24_e0d337bd.png", 
+            "type": "image", 
+            "name": "vip_icon24_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon25_959dcc2d.png", 
+            "type": "image", 
+            "name": "vip_icon25_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon26_c9dfcb1b.png", 
+            "type": "image", 
+            "name": "vip_icon26_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon27_9dc3a9eb.png", 
+            "type": "image", 
+            "name": "vip_icon27_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon21_21f263e5.png", 
+            "type": "image", 
+            "name": "vip_icon21_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon28_8bebb444.png", 
+            "type": "image", 
+            "name": "vip_icon28_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame29_tex_d7610e0d.png", 
+            "type": "image", 
+            "name": "vip_frame29_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame29_ske_e368a20d.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame29_ske_dbmv"
+        }
+    ], 
+    "groups": [
+        {
+            "keys": "default_avar_png,default_avar_man_png,default_avar_woman_png,name_bg_mask_png,br_seatHead_png", 
+            "name": "chess_common_head"
+        }, 
+        {
+            "keys": "vip_icon0_png,vip_icon1_png,vip_icon2_png,vip_icon3_png,vip_icon4_png,vip_icon5_png,vip_icon6_png,vip_icon7_png,vip_icon8_png,vip_icon9_png,vip_big0_png,vip_big1_png,vip_big2_png,vip_big3_png,vip_big4_png,vip_big5_png,vip_big6_png,vip_big7_png,vip_big8_png,vip_big9_png,vip_small0_png,vip_small1_png,vip_small2_png,vip_small3_png,vip_small4_png,vip_small5_png,vip_small6_png,vip_small7_png,vip_small8_png,vip_small9_png,vip_icon20_png,vip_icon22_png,vip_icon23_png,vip_icon24_png,vip_icon25_png,vip_icon26_png,vip_icon27_png,vip_icon21_png,vip_icon28_png", 
+            "name": "chess_common_vip"
+        }, 
+        {
+            "keys": "chat_laba_btn_selected_png,chat_laba_drop_normal_png,chat_laba_drop_selected_png,chat_laba_icon_png,chat_loading_png,chat_noset_bg_png,chat_noset_normal_png,chat_noset_selected_png,chat_room_btn_normal_png,chat_room_btn_selected_png,chat_room_drop_normal_png,chat_room_drop_selected_png,chat_send_normal_png,chat_send_selected_png,chat_userlist_bg_png,chat_vip_icon_png,chat_voice_normal_png,chat_voice_selected_png,char_emoj_selected_png,chat_chat_bg_png,chat_chat_normal_png,chat_chat_selected_png,chat_coin_png,chat_emoj_normal_png,chat_input_png,chat_input_bg_png,chat_laba_btn_normal_png,chat2_noseat_btn_png,chat2_bg_png,chat2_btn_png,hbgame_headDefault_png,showTips_png,hbgame_chat_imoj_json,hbgame_chat_panel_json,chat_mess_tex_png", 
+            "name": "chess_common_chat"
+        }, 
+        {
+            "keys": "GiftSound1_mp3,GiftSound2_mp3,GiftSound3_mp3,GiftSound4_mp3,GiftSound5_mp3,GiftSound6_mp3", 
+            "name": "chess_common_gift_sound"
+        }, 
+        {
+            "keys": "3chat_chat_selected_png,3chat_coin_png,3chat_laba_png,3chat_laba_icon_png,3chat_noset_bg_png,3chat_noset_normal2_png,3chat_noset_selected_png,3chat_room_png,3chat_send_png,3chat_share_png,3chat_userlist_bg_png,mjl_common_button1_png,mjl_common_button2_png,3chat_chat_bg_png,3chat_chat_normal_png,chat_mess3_tex_png,chat_mess3_ske_dbmv", 
+            "name": "chess_common_chat3"
+        }, 
+        {
+            "keys": "vip_frame3_tex_png,vip_frame9_ske_dbmv,vip_frame9_tex_png,vip_frame0_ske_dbmv,vip_frame0_tex_png,vip_frame1_ske_dbmv,vip_frame1_tex_png,vip_frame2_ske_dbmv,vip_frame2_tex_png,vip_frame3_ske_dbmv,vip_frame29_tex_png,vip_frame29_ske_dbmv", 
+            "name": "chess_common_anim_vip"
+        }, 
+        {
+            "keys": "task_png,guang01_png,sys_msg_click_png,mjl_lobby_systembg_png,room_num_fnt,jinbi_num_fnt", 
+            "name": "chess_common_other"
+        }, 
+        {
+            "keys": "sound_kaishixiazhu_mp3,sz_chip_res_json,sz_clock_fnt,sz_common_cancel_png,sz_common_head0_png,sz_common_smallclose_png,sz_common_sure_png,sz_common_tips1_png,sz_gold_png,sz_lobby_rank1_tex_png,sz_lobby_rank1_ske_dbmv,sz_sys_bg_png,sz_time_bg_png,sz_Toast_png,sz_userinfo_bg_png,sz_userinfo_female_png,sz_userinfo_head_png,sz_userinfo_male_png,sz_vip_res_json,winFloat_fnt,sz_duiju_effect_tex_png,sz_duiju_effect_ske_dbmv,big_vip0_png,big_vip1_png,big_vip10_png,big_vip11_png,big_vip12_png,big_vip13_png,big_vip2_png,big_vip3_png,big_vip4_png,big_vip5_png,big_vip6_png,big_vip7_png,big_vip8_png,big_vip9_png,mid_vip1_png,mid_vip10_png,mid_vip11_png,mid_vip12_png,mid_vip13_png,mid_vip2_png,mid_vip3_png,mid_vip4_png,mid_vip5_png,mid_vip6_png,mid_vip7_png,mid_vip8_png,mid_vip9_png,min_vip1_png,min_vip10_png,min_vip11_png,min_vip12_png,min_vip13_png,min_vip2_png,min_vip3_png,min_vip4_png,min_vip5_png,min_vip6_png,min_vip7_png,min_vip8_png,min_vip9_png,common_json,game_top_chat_bg_png,loseFloat_fnt,PokerCard_json,sz_common_Chat_json", 
+            "name": "chess_common_sanzhang"
+        }, 
+        {
+            "keys": "sz_common_Chat_json,Emojchat_loading_png", 
+            "name": "chess_common_emojchat"
+        }, 
+        {
+            "keys": "", 
+            "name": "preload"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VipPanelSkin" width="874" height="552" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Image x="-1" y="0" scale9Grid="34,148,46,186" width="874" height="552"  source="vip_json.vip_bg_1"/>
+	<e:Image x="230" y="-5"  source="vip_json.vip_common_bg"/>
+	<e:Image scaleX="-1" x="627" y="-5"  source="vip_json.vip_common_bg"/>
+	<e:Image y="13" horizontalCenter="0" source="vip_json.vip_title"/>
+
+	<eui:WxButton id="_closeBtn" label="" y="6" x="803">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="vip_json.vip_btn_close" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+
+
+	<!--<e:Image id="pao_img" x="90" anchorOffsetX="0" y="151" source="vip_json.vip_pao_bg" width="200" height="200"/>-->
+
+
+	<e:Image x="12" anchorOffsetX="0" y="416" source="vip_json.vip_bottom_bg" scale9Grid="13,3,3,10" height="120" width="851"/>
+	<e:Group width="795" height="120" x="44" y="416.01" anchorOffsetX="0" anchorOffsetY="0">
+
+
+
+		<e:Label id="_needTex" text="200钻" x="267" y="74" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" textAlign="center" size="24" lineSpacing="4" scaleX="1" scaleY="1" textColor="0xfc00ff"/>
+
+
+		<e:Image x="90" y="35" source="vip_json.vip_progress_bg" scale9Grid="18,15,9,1" width="420" height="31"/>
+		<e:Image id="_rechargeCur" x="90" y="35" source="vip_json.vip_progress_bar" scale9Grid="18,15,9,1" width="210" height="31"/>
+		<e:Rect id="_rechargeMask" width="420" height="31" x="90" y="35" cacheAsBitmap="true"/>
+		<e:Label id="_progressTex" text="200/300" x="261" y="41" anchorOffsetX="0" anchorOffsetY="0" fontFamily="Microsoft YaHei" textAlign="center" size="22" lineSpacing="4" scaleX="1" scaleY="1" textColor="0xffffff"/>
+		<e:WxButton id="_recharge" x="611" label="" scaleX="1" scaleY="1" verticalCenter="0.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="vip_json.vip_recharge" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:WxButton>
+		<e:Image id="vip_start" x="-3" y="36" source="vip_small_0"/>
+		<e:Image id="vip_end" x="527" y="36" source="vip_small_1"/>
+
+	</e:Group>
+
+	<e:WxButton id="_leftBtn" x="-26" verticalCenter="-20" width="100" height="100">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="vip_json.vip_arrow_left"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:WxButton>
+	<e:WxButton id="_rightBtn" x="804" verticalCenter="-20" width="100" height="100">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="vip_json.vip_arrow_right"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:WxButton>
+	<e:Scroller id="scrol" width="785" height="302" x="46" y="91" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:List id="vip_list" itemRendererSkinName="VipItemSkin">
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+
+		</e:List>
+	</e:Scroller>
+
+
+</e:Skin>

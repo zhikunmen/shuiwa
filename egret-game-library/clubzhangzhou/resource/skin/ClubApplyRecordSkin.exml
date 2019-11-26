@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubApplyRecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+    <e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" y="36.85" anchorOffsetX="0" width="1091"
+             anchorOffsetY="0" height="659" horizontalCenter="0" />
+	<e:Image source="mjl_common_title_png" y="9.11" horizontalCenter="0.5"/>
+	<e:Image source="mjl_common_inputBg_png" x="832.01" y="76.43" anchorOffsetX="0" width="324" height="46" scale9Grid="19,15,24,20"/>
+	<eui:WxButton id="_closeBtn" label="" x="1140">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:EditableText id="_searchEditableText" width="265" height="42" text="" x="841.68" y="77.11" verticalAlign="middle" prompt="搜索ID" promptColor="0xD39C50" anchorOffsetX="0" fontFamily="Microsoft YaHei" maxChars="9" textColor="0x73491B" anchorOffsetY="0" size="24"/>
+	<eui:WxButton id="_searchBtn" label="" x="1112" y="80.1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_new_menage_json.club_invite_search" source.down="club_new_menage_json.club_invite_search"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Image y="137" scaleX="1" scaleY="1" anchorOffsetX="0" width="1025" anchorOffsetY="0" height="510" scale9Grid="8,7,13,14" source="mjl_common_bg1_png" horizontalCenter="1.5"/>
+	<e:Label id="_tipsText" text="暂时没有数据哦~" size="46" fontFamily="Microsoft YaHei" textColor="0xd39c50" verticalCenter="23" horizontalCenter="0.5"/>
+    <e:Image horizontalCenter="0.5" y="22.8"  source="club_new_menage_json.club_applyrecord_title"/>
+	<e:Label text="序号" x="169.75" y="148" textColor="0xb56b5d" fontFamily="Microsoft YaHei" size="26"/>
+	<e:Label text="审批时间" x="252" y="148" textColor="0xB56B5D" fontFamily="Microsoft YaHei" size="26"/>
+	<e:Label text="玩家信息" x="453.61" y="148" textColor="0xB56B5D" fontFamily="Microsoft YaHei" size="26"/>
+	<e:Label text="管理信息" x="751" y="148" textColor="0xB56B5D" fontFamily="Microsoft YaHei" size="26"/>
+	<e:Label text="进入方式" x="985.33" y="148" textColor="0xB56B5D" fontFamily="Microsoft YaHei" size="26"/>
+	<e:Label text="说明：审批记录只保留最近2个月" y="651" size="20" fontFamily="Microsoft YaHei" textColor="0xff0202" horizontalCenter="0"/>
+	<e:Scroller id="_scroller" width="982" height="452" x="149" y="183" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="messageList" itemRendererSkinName="ClubApplyRecordItemSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

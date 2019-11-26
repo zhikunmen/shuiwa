@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="test1" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" xmlns:paoupgrade="paoupgrade.*">
+	<paoupgrade:UpgradeOtherAward x="40" y="-2" skinName="UpgradeOtherAwardSkin"/>
+	<paoupgrade:PaoTaiUpgrade x="0" y="93" skinName="PaoTaiUpgradeSkin"/>
+	<paoupgrade:TakeRedPack y="200" skinName="TakeRedPackSkin"/>
+	<paoupgrade:GameInTurnTable y="309" skinName="GameInTurnTableSkin"/>
+
+	
+</e:Skin>

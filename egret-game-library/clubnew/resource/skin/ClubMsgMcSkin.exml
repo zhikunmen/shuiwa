@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMsgMcSkin" height="39" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="305">
+    <e:Image    source="club_json.club_msgBg" scale9Grid="68,5,75,30" width="274"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/GpsPanelSkin.exml"
+	],
+	"path": "resource/pokergps.thm.json"
+}

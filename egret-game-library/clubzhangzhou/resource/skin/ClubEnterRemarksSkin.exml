@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubEnterRemarksSkin" width="700" height="400" xmlns:e="http://ns.egret.com/eui"
+        xmlns:MJLobby="MJLobby.*" xmlns:w="http://ns.egret.com/wing">
+    <e:Button id="yesBtn" label="" x="253" y="290.33"  >
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_common_sure1_png" source.down="mjl_common_sure2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+    </e:Button>
+    <e:Label text="第一次进入老友圈的房间需要房主授权" x="94.5" y="170" fontFamily="Microsoft YaHei"  textColor="0x773210"/>
+    <e:Label id="clubText" text="您正在申请进入老友圈“xxxxxx”" x="94.5" y="98.5" fontFamily="Microsoft YaHei"
+              width="507"  textColor="0x773210"/>
+    <e:Label text="备注：" x="94.5" y="234.5" fontFamily="Microsoft YaHei" 
+             width="93"  textColor="0x773210"/>
+    <e:Image x="185" y="232"  width="405"
+              height="39"  scale9Grid="11,13,407,24" source="mjl_panel_common_json.mjl_common_inputBg_png"/>
+    <e:EditableText id="remarksText" width="391" height="25" prompt="最多可输入十个文字" maxChars="10" text="" x="191.5"
+                    y="239.5"   size="21" verticalAlign="middle"
+                    fontFamily="Microsoft YaHei" textColor="0x282828" />
+</e:Skin>

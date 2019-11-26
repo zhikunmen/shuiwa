@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.UserListItemSkin3" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="87" width="386">
+	<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="14,11,9,10" source="3chat_userlist_bg_png"/>
+	<e:Image id="avar_img" width="55" height="55" x="15" anchorOffsetX="0" anchorOffsetY="0" source="{data.headUrl}" verticalCenter="0"/>
+	<e:Image id="vip_img" y="-7" anchorOffsetX="0" width="115" anchorOffsetY="0" height="105" x="-15" source="{data.vipLevel}"/>
+
+	<e:Image id="frame_img" width="60" height="60" x="11.5" y="14" source="chat_input_png" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible="false"/>
+	<e:Label id="name_lb" text="{data.nickName}" fontFamily="Microsoft YaHei" size="23" textColor="0xf8f87e" textAlign="left" anchorOffsetX="0" width="165" anchorOffsetY="0" height="25" x="87" verticalCenter="0"/>
+	<e:Label id="gold_lb" text="{data.remainder}" size="23" textColor="0xf8f87e" textAlign="left" anchorOffsetX="0" width="110" anchorOffsetY="0" height="24" x="295" verticalCenter="0.5"/>
+	<e:Image x="252" anchorOffsetX="0" width="45" anchorOffsetY="0" height="45" verticalCenter="0" source="3chat_coin_png"/>
+</e:Skin>

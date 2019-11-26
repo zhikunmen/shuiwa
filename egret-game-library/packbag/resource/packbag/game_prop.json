@@ -1,0 +1,195 @@
+{
+  "file": "game_prop.png",
+  "frames": {
+    "bag_daoju_6": {
+      "x": 727,
+      "y": 0,
+      "w": 120,
+      "h": 105,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 125,
+      "sourceH": 110
+    },
+    "bag_daoju_32": {
+      "x": 0,
+      "y": 0,
+      "w": 158,
+      "h": 151,
+      "offX": 18,
+      "offY": 19,
+      "sourceW": 190,
+      "sourceH": 180
+    },
+    "bag_daoju_296": {
+      "x": 593,
+      "y": 0,
+      "w": 132,
+      "h": 131,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 132
+    },
+    "bag_daoju_298": {
+      "x": 539,
+      "y": 159,
+      "w": 124,
+      "h": 121,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 124,
+      "sourceH": 121
+    },
+    "bag_daoju_329": {
+      "x": 539,
+      "y": 282,
+      "w": 121,
+      "h": 102,
+      "offX": 1,
+      "offY": 2,
+      "sourceW": 123,
+      "sourceH": 105
+    },
+    "bag_daoju_334": {
+      "x": 160,
+      "y": 0,
+      "w": 158,
+      "h": 139,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 160,
+      "sourceH": 139
+    },
+    "bag_daoju_335": {
+      "x": 320,
+      "y": 0,
+      "w": 158,
+      "h": 139,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 160,
+      "sourceH": 139
+    },
+    "bag_daoju_336": {
+      "x": 427,
+      "y": 313,
+      "w": 95,
+      "h": 131,
+      "offX": 21,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 132
+    },
+    "bag_daoju_341": {
+      "x": 849,
+      "y": 0,
+      "w": 114,
+      "h": 100,
+      "offX": 1,
+      "offY": 2,
+      "sourceW": 116,
+      "sourceH": 103
+    },
+    "bag_daoju_348": {
+      "x": 0,
+      "y": 303,
+      "w": 142,
+      "h": 145,
+      "offX": 9,
+      "offY": 7,
+      "sourceW": 160,
+      "sourceH": 160
+    },
+    "bag_daoju_349": {
+      "x": 145,
+      "y": 153,
+      "w": 143,
+      "h": 145,
+      "offX": 9,
+      "offY": 7,
+      "sourceW": 160,
+      "sourceH": 160
+    },
+    "bag_daoju_350": {
+      "x": 0,
+      "y": 153,
+      "w": 143,
+      "h": 148,
+      "offX": 9,
+      "offY": 6,
+      "sourceW": 160,
+      "sourceH": 160
+    },
+    "bag_daoju_351": {
+      "x": 145,
+      "y": 300,
+      "w": 135,
+      "h": 138,
+      "offX": 12,
+      "offY": 11,
+      "sourceW": 160,
+      "sourceH": 160
+    },
+    "bag_daoju_352": {
+      "x": 290,
+      "y": 281,
+      "w": 135,
+      "h": 138,
+      "offX": 12,
+      "offY": 11,
+      "sourceW": 160,
+      "sourceH": 160
+    },
+    "bag_daoju_353": {
+      "x": 290,
+      "y": 141,
+      "w": 143,
+      "h": 138,
+      "offX": 11,
+      "offY": 11,
+      "sourceW": 160,
+      "sourceH": 160
+    },
+    "bag_daoju_354": {
+      "x": 435,
+      "y": 159,
+      "w": 102,
+      "h": 152,
+      "offX": 28,
+      "offY": 4,
+      "sourceW": 160,
+      "sourceH": 160
+    },
+    "bag_daoju_355": {
+      "x": 282,
+      "y": 421,
+      "w": 70,
+      "h": 85,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 75,
+      "sourceH": 89
+    },
+    "bag_daoju_361": {
+      "x": 665,
+      "y": 133,
+      "w": 96,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 96,
+      "sourceH": 126
+    },
+    "bag_daoju_364": {
+      "x": 480,
+      "y": 0,
+      "w": 111,
+      "h": 157,
+      "offX": 25,
+      "offY": 2,
+      "sourceW": 160,
+      "sourceH": 160
+    }
+  }
+}

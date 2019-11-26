@@ -1,0 +1,165 @@
+{
+    "frames": {
+        "\u4e07": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 23, 
+            "sourceW": 23, 
+            "w": 23, 
+            "h": 22, 
+            "y": 0, 
+            "x": 23
+        }, 
+        "+": {
+            "offY": 2, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 14, 
+            "y": 56, 
+            "x": 13
+        }, 
+        "-": {
+            "offY": 7, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 7, 
+            "y": 57, 
+            "x": 0
+        }, 
+        ",": {
+            "offY": 9, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 7, 
+            "h": 8, 
+            "y": 22, 
+            "x": 36
+        }, 
+        ".": {
+            "offY": 11, 
+            "offX": 1, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 5, 
+            "h": 6, 
+            "y": 39, 
+            "x": 26
+        }, 
+        "1": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 10, 
+            "h": 17, 
+            "y": 51, 
+            "x": 39
+        }, 
+        "0": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 17, 
+            "y": 51, 
+            "x": 26
+        }, 
+        "3": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 17, 
+            "y": 34, 
+            "x": 36
+        }, 
+        "2": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 17, 
+            "y": 40, 
+            "x": 0
+        }, 
+        "5": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 17, 
+            "y": 17, 
+            "x": 46
+        }, 
+        "4": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 17, 
+            "y": 39, 
+            "x": 13
+        }, 
+        "7": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 17, 
+            "y": 0, 
+            "x": 46
+        }, 
+        "6": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 17, 
+            "y": 39, 
+            "x": 49
+        }, 
+        "9": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 17, 
+            "y": 22, 
+            "x": 23
+        }, 
+        "8": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 17, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 17, 
+            "y": 23, 
+            "x": 0
+        }, 
+        "\u4ebf": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 23, 
+            "sourceW": 23, 
+            "w": 23, 
+            "h": 23, 
+            "y": 0, 
+            "x": 0
+        }
+    }, 
+    "file": "jinbi_num_349bd5d7.png"
+}

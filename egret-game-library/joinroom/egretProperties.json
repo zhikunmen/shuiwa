@@ -1,0 +1,64 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.2.7",
+	"template": {},
+	"eui": {
+		"exmlRoot": "resource/skin",
+		"autoGenerateExmlsList": true,
+		"themes": [
+			"resource/joinroom.thm.json"
+		],
+		"exmlPublishPolicy": "commonjs2"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "uniLib",
+			"path": "../../../libsrc/uniLib-dev"
+		},
+		{
+			"name": "commonpanel",
+			"path": "../commonpanel"
+		},
+		{
+			"name": "protoandtable",
+			"path": "../protoandtable"
+		},
+		{
+			"name": "loading",
+			"path": "../loading"
+		}
+	],
+	"engineVersion": "5.2.8",
+	"compilerVersion": "5.2.8"
+}

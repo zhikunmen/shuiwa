@@ -1,0 +1,12 @@
+{
+	"groups":[{
+			"keys":"lobbysign_json",
+			"name":"lobby_sign"
+		}],
+	"resources":[{
+			"name":"lobbysign_json",
+			"subkeys":"mjl_sign_EXP,mjl_sign_EXP_bg,mjl_sign_bg1,mjl_sign_bg2,mjl_sign_bg3,mjl_sign_ok,mjl_sign_received_btn",
+			"type":"sheet",
+			"url":"lobbysign/lobbysign.json"
+		}]
+}

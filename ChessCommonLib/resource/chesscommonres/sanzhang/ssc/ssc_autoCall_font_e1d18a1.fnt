@@ -1,0 +1,105 @@
+{
+    "frames": {
+        "1": {
+            "offY": 0, 
+            "offX": 3, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 17, 
+            "h": 29, 
+            "y": 62, 
+            "x": 25
+        }, 
+        "0": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 29, 
+            "y": 0, 
+            "x": 52
+        }, 
+        "3": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 23, 
+            "h": 29, 
+            "y": 62, 
+            "x": 0
+        }, 
+        "2": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 29, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "5": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 29, 
+            "y": 31, 
+            "x": 52
+        }, 
+        "4": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 29, 
+            "y": 0, 
+            "x": 26
+        }, 
+        "7": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 29, 
+            "y": 31, 
+            "x": 0
+        }, 
+        "6": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 29, 
+            "y": 31, 
+            "x": 26
+        }, 
+        "9": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 29, 
+            "y": 31, 
+            "x": 78
+        }, 
+        "8": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 29, 
+            "y": 0, 
+            "x": 78
+        }
+    }, 
+    "file": "ssc_autoCall_font_e1d18a1.png"
+}

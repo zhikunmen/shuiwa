@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EmailVCSkin" width="775" height="445" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="msg_bg_1" x="0" y="0" scale9Grid="34,148,46,186" width="775" height="445" locked="true" />
+	<e:Image source="msg_bg_3" x="0" y="-6" locked="true" />
+	<e:Image source="msg_bg_4" x="550" y="425" locked="true" />
+	<e:Image source="msg_common_bg" x="189" y="-5" locked="true" />
+	<e:Image source="msg_common_bg" scaleX="-1" x="586.5" y="-5" locked="true" />
+	<e:Image source="msg_title_email" x="320.5" y="12" locked="true" />
+	<eui:WxButton id="_closeBtn" label="" x="709" y="8" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="msg_btn_close" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Image source="msg_line" y="125" x="114.5" />
+	<e:Label id="_prizeTxt" text="--" size="26" width="775" textAlign="center" textColor="0xa46359"
+	         fontFamily="Microsoft YaHei" y="85" />
+	<e:Scroller id="_scroll" scrollPolicyH="off" x="0" y="126" anchorOffsetY="0" height="303" anchorOffsetX="0" width="775">
+		<e:Group id="_group" width="775">
+			<e:Label id="_msgTxt" text="--" width="665" x="55" textColor="0xa46359" size="20" fontFamily="Microsoft YaHei" y="25"
+			         lineSpacing="10" />
+			<e:Label id="_fromTxt" text="--" textAlign="right" width="665" x="55" textColor="0xa46359" size="20"
+			         fontFamily="Microsoft YaHei" y="229" />
+			<e:Label id="_timeTxt" text="--" textAlign="right" width="665" x="55" textColor="0xa46359" size="20"
+			         fontFamily="Microsoft YaHei" y="259" />
+		</e:Group>
+	</e:Scroller>
+	<eui:WxButton id="_getBtn" label="" x="269.5" y="345" locked="true" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="msg_btn_get_1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+</e:Skin>

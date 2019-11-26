@@ -1,0 +1,21 @@
+{
+	"groups": [
+		{
+			"name": "pub_message",
+			"keys": "message_number_fnt,msg_game_res_1_json"
+		}
+	],
+	"resources": [
+		{
+			"name": "message_number_fnt",
+			"type": "font",
+			"url": "message/res/message_number.fnt"
+		},
+		{
+			"name": "msg_game_res_1_json",
+			"type": "sheet",
+			"url": "message/res/msg_game_res_1.json",
+			"subkeys": "msg_btn_nolook,msg_clock,msg_clock_bg,msg_common_bg,msg_diamond,msg_diamond_bg,msg_email_1,msg_email_2,msg_frame,msg_icon_1,msg_icon_2,msg_icon_bg,msg_icon_frame,msg_line,msg_list_bg,msg_list_line,msg_noemail,msg_red,msg_title_bg_1,msg_title_bg_2,msg_title_email,msg_title_friend_1,msg_title_friend_2,msg_title_sys_1,msg_title_sys_2,msg_bg_1,msg_bg_2,msg_bg_3,msg_bg_4,msg_btn_allget,msg_btn_close,msg_btn_get,msg_btn_get_1,msg_btn_look,msg_btn_noget"
+		}
+	]
+}

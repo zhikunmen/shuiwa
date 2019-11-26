@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubAllBoxSkin" width="1150" height="650" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image id="msgImg2" source="club_tishi_title_png" horizontalCenter="0" verticalCenter="-32"/>
+	<e:Image source="mjl_common_bgline_png"   height="-28.33" right="50" left="36" bottom="105"/>
+	<eui:WxButton id="createBtn" label="创建老友圈" y="545" horizontalCenter="-195.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="joinBtn" label="加入老友圈" y="546" horizontalCenter="181.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+	<e:Scroller width="1098" height="446" x="21" y="92"  >
+		<e:List id="boxList" itemRendererSkinName="ClubBoxItemSkin" x="17.33" y="0"  width="1090"  height="444.67" useVirtualLayout="false">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" requestedColumnCount="1"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+
+</e:Skin>

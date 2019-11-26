@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubInvitePlayerSkin" width="880" height="569" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" width="865" height="547" y="20.12" x="8" locked="true" />
+	<e:Image source="mjl_common_title_png" y="-7.25" horizontalCenter="0.5" locked="true" />
+	<e:Image source="club_new_menage_json.club_invite_title" y="6" horizontalCenter="0.5" locked="true" />
+	<e:Image source="mjl_common_inputBg_png" x="477.01" y="122.33" anchorOffsetX="0" width="365" height="46"
+	         scale9Grid="19,15,24,20" locked="true" />
+	<e:Image source="mjl_common_bg1_png" y="178.66" anchorOffsetX="0" width="812" anchorOffsetY="0" height="261"
+	         scale9Grid="7,7,21,24" horizontalCenter="0" locked="true" />
+	<e:Button id="_closeBtn" label="" x="-2" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_clubNameText" text="群名：买得到" x="50" y="93" fontFamily="Microsoft YaHei" textColor="0x773210" size="24" />
+	<e:Label id="_onlineText" text="在线：2" x="300" y="134" fontFamily="Microsoft YaHei" textColor="0x773210" size="24" />
+	<e:Label id="_clubIdText" text="群ID:323232" x="50" y="134" fontFamily="Microsoft YaHei" textColor="0x773210" size="24" />
+	<e:EditableText id="_searchEditableText" width="303.33" height="42" text="" x="486.68" y="123.01"
+	                verticalAlign="middle" prompt="输入玩家昵称或者ID" promptColor="0xD39C50" anchorOffsetX="0"
+	                fontFamily="Microsoft YaHei" maxChars="9" textColor="0x73491B" anchorOffsetY="0" size="24" />
+	<eui:WxButton id="_searchBtn" label="" x="798" y="126">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_new_menage_json.club_invite_search"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Scroller width="801" height="251" y="184" horizontalCenter="0">
+		<e:List id="_playerList" itemRendererSkinName="ClubInvitePlayerItemSkin" useVirtualLayout="false">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<eui:WxButton id="_allInviteBtn" label="全部邀请" horizontalCenter="0.5" verticalCenter="207.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" stroke="2" strokeColor="0x91481f" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Label id="_tishiText" text="暂时没有数据哦~" y="221" size="58" fontFamily="Microsoft YaHei" textColor="0xD39C50" horizontalCenter="0"/>
+</e:Skin>

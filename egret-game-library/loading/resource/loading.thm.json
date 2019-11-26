@@ -1,0 +1,13 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/LoadGameTipSkin.exml",
+		"resource/skin/PublicLoadingHCMahjongSkin.exml",
+		"resource/skin/PublicLoadingViewLYSkin.exml",
+		"resource/skin/PublicLoadingViewNBSkin.exml",
+		"resource/skin/PublicLoadingViewSkin.exml",
+		"resource/skin/PublicLoadingViewZZSkin.exml",
+		"resource/skin/TipsSkin.exml"
+	],
+	"path": "resource/loading.thm.json"
+}

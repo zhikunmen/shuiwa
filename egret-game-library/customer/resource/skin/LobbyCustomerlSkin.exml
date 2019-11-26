@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbyCustomerlSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="1280" height="720">
+	<e:Image source="mjl_customer_bg_png" y="64" right="200"/>
+	<e:Image source="mjl_customer_point_png" y="94" right="114"/>
+</e:Skin>

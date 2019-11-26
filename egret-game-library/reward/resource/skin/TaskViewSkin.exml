@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskViewSkin" width="772" height="490" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="lb_fuli_json.task_laba" x="129" y="8"/>
+	<e:Label text="任务每日零点重置，完成任务要记得领取奖励哦！" y="8" fontFamily="Microsoft YaHei" size="22" textColor="0xba997c" x="155"/>
+	<e:Scroller id="scroll" width="771" height="419" y="54" x="1" anchorOffsetY="0">
+		<e:List id="task_lst" y="-11" itemRendererSkinName="TaskItemlSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

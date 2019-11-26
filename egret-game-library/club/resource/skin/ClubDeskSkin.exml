@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubDeskSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image x="0" y="0" source="club_desk_bg_jpg" />
+	<e:Image source="club_bigtitle" x="468.5" y="17" locked="true" />
+	<e:Image source="club_samlltitle" x="483.5" y="83" locked="true" />
+	<e:Image source="club_upmenubgh" y="23.34" scaleX="-1" right="190" />
+	<e:Label id="title" text="老友圈名称" x="487.5" y="29.16" width="296.66" height="36.67" size="32"
+	         fontFamily="Microsoft YaHei" textAlign="center" />
+	<e:Label id="gameplay" text="老友圈玩法" y="30.5" width="234.54" height="36.67" size="32" fontFamily="Microsoft YaHei"
+	         textAlign="right" bold="true" scaleX="1" right="197" />
+	<e:Label id="play" text="玩法" x="558.85" y="92.67" size="18" width="162.33" height="19.67" textAlign="center"
+	         fontFamily="Microsoft YaHei" />
+	<eui:WxButton id="boxManageBtn" label="" x="276.7" y="625">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_manage1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="memberListBtn" label="" x="487.5" y="625">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_memberlist1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="applyListBtn" label="" x="667.51" y="625" visible="false">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_applylist1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="noticeBtn" label="" x="666.18" y="625">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_notice1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="queryFightingBtn" label="" x="869.45" y="625">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_queryfighting1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="shareBtn" label="" x="91.01" y="625">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_share1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="fastEnterBtn" label="快速加入" x="267.5" y="617.01" width="220" height="79" visible="false">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn4" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Scroller width="1100" height="484" x="90.01" y="133">
+		<e:List id="deskList" itemRendererSkinName="ClubItemDeskSkin" x="-54.55" y="-242" touchEnabled="true">
+			<e:layout>
+				<e:TileLayout verticalGap="7" horizontalGap="4" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<eui:WxButton id="closeBtn" label="" y="19.5" skinName="ClubCloseSkin" left="21" />
+	<eui:WxButton id="swtichBtn" label="" x="1058.22" y="625">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_switch1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="createBtn" label="" x="0" y="358.58" anchorOffsetY="108.58">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_deskcreate1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image id="redPoint" x="395.7" y="622.5" width="24" height="26.67" source="redDot" visible="false" />
+	<e:Button id="scratchBtn" label="" y="341" right="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.mjl_scratch_btn_png" source.down="club_json.mjl_scratch_btn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

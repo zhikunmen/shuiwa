@@ -1,0 +1,54 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.2.8",
+	"template": {},
+	"eui": {
+		"exmlRoot": "resource/skin",
+		"autoGenerateExmlsList": true,
+		"themes": [
+			"resource/pokerreward.thm.json"
+		],
+		"exmlPublishPolicy": "commonjs2"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "uniLib",
+			"path": "self-libs/uniLib"
+		},
+		{
+			"name": "protoandtable",
+			"path":"self-libs/protoandtable"
+		}
+	]
+}

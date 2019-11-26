@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gd_ClubItemDeskSkin" width="292.67" height="242" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Group id="deskGroup" width="288.66" height="242" x="0" y="0" anchorOffsetX="0">
+		<e:Image source="club_json.club_desk" y="22" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" x="28.5" locked="true"/>
+
+		<e:Image id="kuang1" x="34.6" y="17.1" scaleX="1" scaleY="1" source="club_json.club_deskseat_bg" visible="false"/>
+		<e:Image id="headbg1" x="37.1" y="19.1" scaleX="1" scaleY="1" source="club_json.club_deskseat_head" width="46" height="46" visible="false"/>
+		<e:Image id="kuang3" x="216" y="143.67" scaleX="1" scaleY="1" source="club_json.club_deskseat_bg" visible="false"/>
+		<e:Image id="headbg3" x="218.5" y="145.67" scaleX="1" scaleY="1" source="club_json.club_deskseat_head" width="46" height="46" visible="false"/>
+		<e:Image id="kuang4" x="215" y="15.1" scaleX="1" scaleY="1" source="club_json.club_deskseat_bg" visible="false"/>
+		<e:Image id="headbg4" x="217" y="17.1" scaleX="1" scaleY="1" source="club_json.club_deskseat_head" width="46" height="46" visible="false"/>
+		<e:Image id="kuang2" x="35.1" y="143.67" scaleX="1" scaleY="1" source="club_json.club_deskseat_bg" visible="false"/>
+		<e:Image id="headbg2" x="37.1" y="145.67" scaleX="1" scaleY="1" source="club_json.club_deskseat_head" width="46" height="46" visible="false"/>
+
+
+		<e:Image id="head" source="club_json.club_person_head" x="125.5" y="67.5"/>
+		<e:Label id="personTxet" text="" x="150" y="68.5" anchorOffsetX="0" anchorOffsetY="0" height="15.5" size="18" textAlign="center" textColor="0xd0cc5e"/>
+		<e:Label id="state" text="等待中" y="89" anchorOffsetX="0" anchorOffsetY="0" height="20" textAlign="center" fontFamily="Microsoft YaHei" bold="true" size="20" x="120" textColor="0x9fe9ef" alpha="0.5"/>
+		<e:Label id="gamesNumberText" text="" y="109" anchorOffsetX="0" anchorOffsetY="0" height="20" textAlign="center" fontFamily="Microsoft YaHei" size="18" alpha="1" textColor="0xd0cc5e" horizontalCenter="0"/>
+
+	</e:Group>
+
+</e:Skin>

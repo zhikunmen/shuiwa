@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchFightingNSSkin" width="189" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="names" text="22222222" x="5.5" y="7" fontFamily="Microsoft YaHei" textColor="0x8b5500"/>
+	<e:Label id="score" text="Label" x="7" y="49" fontFamily="Microsoft YaHei" textColor="0x8b5500"/>
+</e:Skin>

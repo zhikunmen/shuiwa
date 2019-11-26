@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwMatchWaitConfirmSkin" xmlns:e="http://ns.egret.com/eui" xmlns:match="match.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="BSPP2-bjjgg_png" scale9Grid="116,95,8,9" width="672" height="322"/>
+	<e:Label text="返回大厅将会取消报名，是否要返回？" y="110" fontFamily="Microsoft YaHei" size="26" horizontalCenter="0"/>
+	<match:BaseButton id="confirm_btn" label="" x="152" y="202">
+		<match:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSPP2-qd_png" source.down="BSPP2-qd-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="cancel_btn" label="" x="357" y="202">
+		<match:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSPP2-qx_png" source.down="BSPP2-qx-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+</e:Skin>

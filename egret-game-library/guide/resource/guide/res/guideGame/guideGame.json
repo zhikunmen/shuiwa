@@ -1,0 +1,75 @@
+{
+  "file": "guideGame.png",
+  "frames": {
+    "lb_check_title": {
+      "x": 0,
+      "y": 0,
+      "w": 544,
+      "h": 64,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 544,
+      "sourceH": 64
+    },
+    "lb_xrdlb_exchange": {
+      "x": 257,
+      "y": 129,
+      "w": 174,
+      "h": 56,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 174,
+      "sourceH": 56
+    },
+    "lb_xrdlb_hongbao": {
+      "x": 0,
+      "y": 339,
+      "w": 115,
+      "h": 103,
+      "offX": 11,
+      "offY": 8,
+      "sourceW": 133,
+      "sourceH": 117
+    },
+    "lb_xrdlb_jinbi": {
+      "x": 134,
+      "y": 225,
+      "w": 103,
+      "h": 112,
+      "offX": 20,
+      "offY": 4,
+      "sourceW": 133,
+      "sourceH": 117
+    },
+    "lb_xrdlb_lingqu": {
+      "x": 0,
+      "y": 129,
+      "w": 255,
+      "h": 94,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 255,
+      "sourceH": 94
+    },
+    "lb_xrdlb_title": {
+      "x": 0,
+      "y": 66,
+      "w": 509,
+      "h": 61,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 511,
+      "sourceH": 61
+    },
+    "lb_xrdlb_zuanshi": {
+      "x": 0,
+      "y": 225,
+      "w": 132,
+      "h": 112,
+      "offX": 1,
+      "offY": 2,
+      "sourceW": 133,
+      "sourceH": 117
+    }
+  }
+}

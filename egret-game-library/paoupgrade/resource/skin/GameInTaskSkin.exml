@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameInTaskSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" xmlns:paoupgrade="paoupgrade.*">
+
+	<e:Button id="open_btn" label="" y="0" horizontalCenter="0" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_in_task_json.gamein_arrow_btm1" source.down="game_in_task_json.gamein_arrow_btm2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="group" x="0" y="0" width="273" height="110">
+
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="game_in_task_json.game_task_bg"/>
+		<eui:WxButton id="left_btn" label="" y="25" x="-2" anchorOffsetX="0" scaleX="1" scaleY="1">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_in_task_json.game_task_left"/>
+			<e:Label id="labelDisplay" verticalCenter="0" fontFamily="Microsoft YaHei" size="20" textColor="0xffffff"/>
+			</e:Skin>
+		</eui:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="right_btn" label="" y="25" x="255" anchorOffsetX="0" scaleX="1" scaleY="1">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="game_in_task_json.game_task_right"/>
+			<e:Label id="labelDisplay" verticalCenter="0" fontFamily="Microsoft YaHei" size="20" textColor="0xffffff"/>
+			</e:Skin>
+		</eui:skinName>
+		</eui:WxButton>
+		<e:Scroller id="scroll" width="239" height="65" x="16" y="3" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="off" scaleX="1" scaleY="1">
+		<e:Group>
+			<paoupgrade:GameInTaskItem id="item1" x="0" y="0" skinName="GameInTaskItemSkin"/>
+			<paoupgrade:GameInTaskItem id="item2" x="239" y="0" skinName="GameInTaskItemSkin"/>
+		</e:Group>
+		</e:Scroller>
+		<e:Button id="close_btn" label="" y="60" x="101">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="game_in_task_json.gamein_arrow_top1" source.down="game_in_task_json.gamein_arrow_top2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

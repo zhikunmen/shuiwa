@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outFile": "bin/gamedismiss/gamedismiss.js",
+        "declaration": true,
+        "lib": [
+            "es2015",
+            "dom",
+            "es2015.promise",
+            "es5"
+        ]
+    },
+    "include": [
+        "libs",
+        "src"
+    ]
+}

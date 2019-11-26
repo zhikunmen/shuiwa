@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JoinRoomSkin" width="1150" height="650" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group width="670" height="564.12" x="25" y="120" anchorOffsetY="0" scaleX="0.9" scaleY="0.9">
+		<e:Image source="mjl_common_bg1_png" x="0" y="0" anchorOffsetX="0" width="668.79" anchorOffsetY="0" height="565" scale9Grid="9,8,23,25"/>
+		<e:Label id="neverInfo" text="您还没有加入历史记录，赶快加入游戏吧!" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="0"
+		         fontFamily="SimHei" size="32" bold="true"  textColor="0xc3a185" textAlign="center"/>
+		<e:Scroller anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="670" x="0" height="462.88" y="100">
+			<e:List id="recordList"  anchorOffsetY="0" height="459.85" y="5"/>
+		</e:Scroller>
+		<e:Image y="38" horizontalCenter="0" source="mjl_joined_list_title" />
+	</e:Group>
+	<e:Group width="546.67" height="566.66" x="645.33" y="120" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.9" scaleY="0.9">
+		<e:Image source="mjl_common_bg1_png" x="0" y="0" anchorOffsetX="0" width="538.48" anchorOffsetY="0" height="565" scale9Grid="8,10,23,19" locked="true"/>
+		<e:Image y="35" horizontalCenter="0" source="mjl_impute_title"  locked="true"/>
+		<e:Image y="111.21" anchorOffsetY="0" height="442.58" left="9" right="15.669999999999959"
+		         anchorOffsetX="0"  source="mjl_common_bg2_png" scale9Grid="7,8,40,38" locked="true"/>
+		<e:Image width="650" height="330" y="245" scale9Grid="17,15,52,55" scaleX="0.75" scaleY="0.85" horizontalCenter="0"
+		         source="mjl_input_bg" visible="false" />
+		<e:Group id="inputNumberGroup" y="151.69" width="584" height="74" scaleX="0.8000000000000002" scaleY="0.9"
+		         anchorOffsetX="0" horizontalCenter="0"></e:Group>
+		<e:Group id="inputKeyGroup" height="351.39" width="664.14" y="245" scaleX="0.75" scaleY="0.85"
+		         horizontalCenter="-1.3349999999999795" anchorOffsetY="0" anchorOffsetX="0">
+			<e:layout>
+				<e:TileLayout horizontalGap="3" verticalGap="1" horizontalAlign="center" verticalAlign="middle"
+				              requestedRowCount="4" requestedColumnCount="3" orientation="rows" rowAlign="justifyUsingGap"
+				              columnAlign="justifyUsingGap" />
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

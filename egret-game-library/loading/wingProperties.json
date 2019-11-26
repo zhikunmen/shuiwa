@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/loading_zhangzhou.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/loading_hcbuyu.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/loading/loading.thm.json"
+}

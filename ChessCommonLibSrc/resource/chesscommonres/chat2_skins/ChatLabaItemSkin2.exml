@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.Chat2LabaItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="93">
+	<e:Image source="chat_userlist_bg_png" scale9Grid="17,13,45,46" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Image id="avar_img" source="chat_laba_icon_png" x="14" y="6.5"/>
+	<e:Image id="frame_img" width="60" height="60" x="11.5" y="14" source="chat_input_png" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible="false"/>
+	<e:Label id="gold_lb" y="15" size="26" textColor="0xfdf4a9" left="66" right="0" maxChars="60" text="{data.text}"/>
+	<e:Image source="chat_vip_icon_png" x="65.5" y="7"/>
+</e:Skin>

@@ -1,0 +1,16 @@
+{
+	"resources": [
+		{
+			"name": "pdk_gps_json",
+			"type": "sheet",
+			"url": "pokergps/res/pdk_gps.json",
+			"subkeys": "pdk_default_head,pdk_gps_3line,pdk_gps_green,pdk_gps_normal,pdk_gps_red,pdk_gps_title,pdk_gps_warn"
+		}
+	],
+	"groups": [
+		{
+			"name": "poker_gps",
+			"keys": "pdk_gps_json"
+		}
+	]
+}

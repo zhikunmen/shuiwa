@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubNewBoxItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" width="481" anchorOffsetY="0" height="116">
+		<e:Image source="mjl_club_newbox_json.clubbox_itembg" scaleX="1" scaleY="1" y="13"/>
+		<e:Button id="_closeBtn" label="" x="444" y="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_club_newbox_json.clubbox_close1" source.down="mjl_club_newbox_json.clubbox_close2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_createBtn" label="" x="356" y="37" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_club_newbox_json.clubbox_join1" source.down="mjl_club_newbox_json.clubbox_join2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_switchBtn" label="" x="251.5" y="37">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_club_newbox_json.clubbox_switch1" source.down="mjl_club_newbox_json.clubbox_switch2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_setBtn" label="" x="356" y="37">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_club_newbox_json.clubbox_set1" source.down="mjl_club_newbox_json.clubbox_set2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_detailsBtn" label="" x="356" y="37" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_club_newbox_json.clubbox_details1" source.down="mjl_club_newbox_json.clubbox_details2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="_msgTxt" text="该包间暂无玩法" x="23" y="43" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Label id="_gameTypeTxt" text="斗地主" x="100" y="30" fontFamily="Microsoft YaHei"/>
+		<e:Label id="_personNumTxt" text="16人" x="100" y="70" fontFamily="Microsoft YaHei" textColor="0xffff00" size="24"/>
+		<e:Label id="_gameNumTxt" text="16局" x="165" y="70" fontFamily="Microsoft YaHei" textColor="0xFFFF00" size="24" visible="false"/>
+		<e:Image id="_gameIconImg" x="10" y="29" anchorOffsetX="0" anchorOffsetY="0" source="club_game_json.club_gameicon_4215"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubAllBoxSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image x="0" y="0" anchorOffsetX="0" width="1173" anchorOffsetY="0" height="649" source="club_scale9_json.club_allbox_bg" scale9Grid="14,11,5,74"/>
+	<e:Image y="0" horizontalCenter="0" source="club_scale9_json.club_allbox_title" scale9Grid="37,10,6,63" width="308"/>
+	<e:Label text="亲友圈" y="14" horizontalCenter="0" textColor="0xffffff" fontFamily="Microsoft YaHei" bold="true" size="40"/>
+	<e:Image width="1138" height="460" y="88" source="club_scale9_json.club_allbox_bg1" scale9Grid="14,14,10,14" horizontalCenter="0"/>
+	<eui:WxButton id="createBtn" label="" y="576" x="331">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_createjlb1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="joinBtn" label="" y="576" x="671">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_joinclub1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Label id="msgText" text="您暂未加入任何老友圈，可以创建自己的老友圈！" y="304.5" anchorOffsetX="0"  anchorOffsetY="0" height="40" fontFamily="Microsoft YaHei" textColor="0xffffff" horizontalCenter="0"/>
+	<eui:WxButton id="closeBtn" label="" left="-23" top="-29">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.clubbox_close1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Scroller width="1113" height="437" y="100" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:List id="boxList" itemRendererSkinName="ClubBoxItemSkin" x="2.67" y="-154" anchorOffsetX="0" width="1097" anchorOffsetY="0" height="466">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" requestedColumnCount="1"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

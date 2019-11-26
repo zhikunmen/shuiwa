@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/club.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/club/zhangzhou/lobby/lobby.res.json",
+                "relativePath": "resource/club/zhangzhou/lobby/"
+            }
+        ]
+    },
+    "theme": "resource/loading/club.thm.json"
+}

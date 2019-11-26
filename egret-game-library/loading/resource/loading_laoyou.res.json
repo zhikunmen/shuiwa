@@ -1,0 +1,34 @@
+{
+	"groups":[{
+			"keys":"config_json,config_test_json,wx_loading_res_json,mjf_loadingbg_jpg,mjl_tipsBg_png",
+			"name":"pub_loading"
+		}],
+	"resources":[
+		{
+			"name":"config_json",
+			"type":"json",
+			"url":"loading/config/config.json"
+		},
+		{
+			"name":"config_test_json",
+			"type":"json",
+			"url":"loading/config/config_test.json"
+		},
+		{
+			"name":"wx_loading_res_json",
+			"subkeys":"download_png,lb_loading_darkLine_png,lb_loading_lightLine_png,lb_login_png,loadingCircle_png",
+			"type":"sheet",
+			"url":"loading/res_laoyou/wx_loading_res.json"
+		},
+		{
+			"name":"mjf_loadingbg_jpg",
+			"type":"image",
+			"url":"loading/res_laoyou/mjf_loadingbg.jpg"
+		},
+		{
+			"name":"mjl_tipsBg_png",
+			"type":"image",
+			"url":"loading/res_laoyou/mjl_tipsBg.png"
+		}
+	]
+}

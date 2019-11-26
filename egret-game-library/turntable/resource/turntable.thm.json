@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/NewTurntablePanelSkin.exml",
+		"resource/skin/TurntablePanelSkin.exml"
+	],
+	"path": "resource/turntable.thm.json"
+}

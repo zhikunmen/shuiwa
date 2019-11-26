@@ -1,0 +1,18 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/ProgressSkin1.exml",
+		"resource/skin/GameInTaskItemSkin.exml",
+		"resource/skin/GameInTaskSkin.exml",
+		"resource/skin/GameInTurnTableSkin.exml",
+		"resource/skin/NoviceRedPackageBtnSkin.exml",
+		"resource/skin/PaoBeiItemSkin.exml",
+		"resource/skin/ProgressSkin2.exml",
+		"resource/skin/PaoBeiPanelSkin.exml",
+		"resource/skin/PaoTaiUpgradeSkin.exml",
+		"resource/skin/TakeRedPackSkin.exml",
+		"resource/skin/UpgradeOtherAwardSkin.exml",
+		"resource/skin/test1.exml"
+	],
+	"path": "resource/paoupgrade.thm.json"
+}

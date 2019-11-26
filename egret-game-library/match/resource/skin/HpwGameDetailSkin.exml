@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwGameDetailSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:match="match.*" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Rect width="100%" height="100%" fillColor="0x10234a" fillAlpha="0.8" strokeColor="0x444444" strokeAlpha="0.8" horizontalCenter="0"/>
+	<e:Image source="BSXQ-db_png" scale9Grid="24,285,15,28" width="1008" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="BSXQ-bt_png" horizontalCenter="0" y="46"/>
+	<match:BaseButton id="close_btn" label="" y="49" horizontalCenter="480.5">
+		<match:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSXQ-gb_png" source.down="BSXQ-gb-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<e:Group y="164" horizontalCenter="0">
+		<e:Image source="BSXQ-jgg_png" scale9Grid="98,94,7,11" width="958" height="469" scaleX="1" scaleY="1" locked="true"/>
+		<e:Image source="BSXQ-ju_png" scaleX="1" scaleY="1" x="16" y="60" locked="true"/>
+		<e:Image source="BSXQ-yj_png" scaleX="1" scaleY="1" x="348" y="60" locked="true"/>
+		<e:Image source="BSXQ-gj_png" scaleX="1" scaleY="1" x="159" y="38" locked="true"/>
+		<e:Image source="BSXQ-gd_png" x="542" y="137"/>
+		<e:Image source="BSXQ-gd_png" x="542" y="197"/>
+		<match:BaseButton id="signUp_btn" label="" x="604" y="308" scaleX="1" scaleY="1">
+			<match:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="BSXQ-wybm_png" source.down="BSXQ-wybm-ax_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</match:skinName>
+		</match:BaseButton>
+		<match:BaseButton id="gameRule_btn" label="" y="356" scaleX="1" scaleY="1" x="261">
+			<match:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="BSXQ-ckbsgz_png" source.down="BSXQ-ckbsgz-ax_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</match:skinName>
+		</match:BaseButton>
+		<match:BaseButton id="record_btn" label="" x="18" y="356" scaleX="1" scaleY="1">
+			<match:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="BSXQ-hjjl_png" source.down="BSXQ-hjjl-ax_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</match:skinName>
+		</match:BaseButton>
+		<e:Label text="报名条件:" x="559" y="155" fontFamily="Microsoft YaHei" size="24"/>
+		<e:Label text="报名费用:" x="559" y="210.5" fontFamily="Microsoft YaHei" size="24"/>
+		<e:Label text="开赛条件:" x="559" y="98" fontFamily="Microsoft YaHei" size="24"/>
+		<e:Label id="reward00_lbl" text="--" x="200" y="235" fontFamily="Microsoft YaHei" size="21" textColor="0xffff00" width="130" textAlign="center"/>
+		<e:Label id="reward01_lbl" text="--" x="200" y="265" fontFamily="Microsoft YaHei" size="21" textColor="0xffffff" width="130" textAlign="center"/>
+		<e:Label id="reward20_lbl" text="--" x="374" y="219" fontFamily="Microsoft YaHei" size="21" textColor="0xFFFF00" width="130" textAlign="center"/>
+		<e:Label id="reward21_lbl" text="--" x="374" y="244" fontFamily="Microsoft YaHei" size="21" textColor="0xFFFFFF" width="130" textAlign="center"/>
+		<e:Label id="reward10_lbl" text="--" x="31" y="219" fontFamily="Microsoft YaHei" size="21" textColor="0xFFFF00" width="130" textAlign="center"/>
+		<e:Label id="reward11_lbl" text="--" x="31" y="244" fontFamily="Microsoft YaHei" size="21" textColor="0xFFFFFF" width="130" textAlign="center"/>
+		<e:Label id="beginCondition_lbl" text="--" x="669" y="98" fontFamily="Microsoft YaHei" size="24" textColor="0x60a9f2"/>
+		<e:Label id="signUpCondition_lbl" text="--" x="669" y="155" fontFamily="Microsoft YaHei" size="24" textColor="0x60A9F2"/>
+		<e:Label id="signUpCost_lbl" text="--" x="669" y="210.5" fontFamily="Microsoft YaHei" size="24" textColor="0x60A9F2"/>
+	</e:Group>
+</e:Skin>

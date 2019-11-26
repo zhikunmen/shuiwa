@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameTaskSkin" width="266" height="136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" xmlns:commonConfirm="commonConfirm.*">
+
+	<e:Image source="game_task_json.renwu_bg" x="0" y="0" scale9Grid="11,27,4,85" width="266" height="136"/>
+	<e:Image source="game_task_json.renwu_line" x="0" y="46" width="266"/>
+	<e:Image source="game_task_json.renwu_line" x="0" y="91" width="266"/>
+	<e:Image source="game_task_json.renwu_line" x="122" y="0" width="1" scaleY="1" scaleX="1" height="136"/>
+	<e:Image source="game_task_json.renwu_line" x="197" y="0" width="1" scaleY="1" scaleX="1" height="136"/>
+	<e:List id="task_list" width="266" height="136" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="GameTaskItemSkin">
+		<!--<e:ArrayCollection>
+			<e:Array>
+				<e:Object dsf="null"/>
+				<e:Object dsf="null"/>
+				<e:Object dsf="null"/>
+			</e:Array>
+		</e:ArrayCollection>-->
+    </e:List>
+</e:Skin>

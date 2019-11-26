@@ -1,0 +1,20 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/buyu/ActiveBoxPanelSkin.exml",
+		"resource/skin/buyu/EnergyViewSkin.exml",
+		"resource/skin/buyu/NewFuliPanelSkin.exml",
+		"resource/skin/buyu/TaskItem2Skin.exml",
+		"resource/skin/buyu/TaskView1Skin.exml",
+		"resource/skin/buyu/TaskView2Skin.exml",
+		"resource/skin/DiamondsPanelSkin.exml",
+		"resource/skin/DiamondsReceiveSkin.exml",
+		"resource/skin/FuliPanelSkin.exml",
+		"resource/skin/ReceiveItemSkin.exml",
+		"resource/skin/SignItemSkin.exml",
+		"resource/skin/SignViewSkin.exml",
+		"resource/skin/TaskItemlSkin.exml",
+		"resource/skin/TaskViewSkin.exml"
+	],
+	"path": "resource/reward.thm.json"
+}

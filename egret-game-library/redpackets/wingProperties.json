@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/redpackets/award/lobbyaward.res.json",
+                "relativePath": "resource/redpackets/award/"
+            },
+            {
+                "configPath": "resource/redpackets.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/redpackets.thm.json"
+}

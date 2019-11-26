@@ -1,0 +1,15 @@
+{"file":"turntable_loginFont.png","frames":{
+"2":{"x":0,"y":113,"w":22,"h":33,"offX":0,"offY":4,"sourceW":22,"sourceH":41},
+"3":{"x":77,"y":81,"w":22,"h":33,"offX":0,"offY":4,"sourceW":22,"sourceH":41},
+"4":{"x":26,"y":77,"w":24,"h":33,"offX":0,"offY":4,"sourceW":24,"sourceH":41},
+"5":{"x":26,"y":112,"w":22,"h":33,"offX":0,"offY":4,"sourceW":22,"sourceH":41},
+"6":{"x":52,"y":77,"w":23,"h":33,"offX":0,"offY":4,"sourceW":23,"sourceH":41},
+"7":{"x":0,"y":78,"w":24,"h":33,"offX":0,"offY":4,"sourceW":24,"sourceH":41},
+"8":{"x":43,"y":42,"w":24,"h":33,"offX":0,"offY":4,"sourceW":24,"sourceH":41},
+"9":{"x":50,"y":112,"w":22,"h":33,"offX":0,"offY":4,"sourceW":22,"sourceH":41},
+"登":{"x":43,"y":0,"w":41,"h":40,"offX":0,"offY":0,"sourceW":41,"sourceH":41},
+"第":{"x":0,"y":0,"w":41,"h":41,"offX":0,"offY":0,"sourceW":41,"sourceH":41},
+"录":{"x":86,"y":0,"w":39,"h":39,"offX":0,"offY":1,"sourceW":39,"sourceH":41},
+"日":{"x":86,"y":41,"w":34,"h":38,"offX":0,"offY":1,"sourceW":34,"sourceH":41},
+"0":{"x":0,"y":43,"w":24,"h":33,"offX":0,"offY":4,"sourceW":24,"sourceH":41},
+"1":{"x":101,"y":81,"w":22,"h":33,"offX":0,"offY":4,"sourceW":22,"sourceH":41}}}

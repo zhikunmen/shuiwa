@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MJ_JoinRoomButtonSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" width="216" height="80">
+	<e:Image width="100%" height="100%" width.down="100%" height.down="100%" source.down="mjl_join_down" source.up="mjl_join_input_up"  source="mjl_join_input_up" scale9Grid="16,16,131,35"/>
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="poker_userinfoSkin" width="750" height="392" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+  	<e:Image x="0" y="22" width="724" anchorOffsetY="0" height="365" source="pdk_set_bg_png" scale9Grid="26,138,13,116" anchorOffsetX="0" locked="true"/>
+	<e:Image x="262.2" y="249.5" source="pdk_gift_item_bg"/>
+	<e:Image x="374.2" y="249.5" source="pdk_gift_item_bg"/>
+	<e:Image x="485.2" y="249.5" source="pdk_gift_item_bg"/>
+	<e:Image x="597.2" y="249.5" source="pdk_gift_item_bg"/>
+	<e:Image x="150.5" y="249.5" source="pdk_gift_item_bg"/>
+	<e:Image x="40" y="249.5" source="pdk_gift_item_bg"/>
+	<e:Image id="gift_1" source="userInfo_gift1" x="45" y="244.5"/>
+	<e:Image id="gift_2" source="userInfo_gift2" x="155" y="244.5"/>
+	<e:Image id="gift_3" x="267.2" y="244.5" source="userInfo_gift3"/>
+	<e:Image id="gift_4" x="379.2" y="244.5" source="userInfo_gift4"/>
+	<e:Image id="gift_5" x="490.2" y="244.5" source="userInfo_gift5"/>
+	<e:Image id="gift_6" x="602.2" y="244.5" source="userInfo_gift6"/>
+	<e:Image x="39" y="89" source="pdk_face_bg"/>
+	<e:Label id="nick_name" text="昵称:" x="155" y="79" anchorOffsetX="0" width="310" textAlign="left" textColor="0x590d00" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label id="id_lbl" text="帐号:" x="155" y="125" anchorOffsetX="0" width="300" textAlign="left" textColor="0x590D00" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label id="point_lbl" text="积分:0" x="465" y="165" anchorOffsetX="0" width="220" textAlign="left" textColor="0x590D00" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label id="diomand_lbl" text="钻石:0" x="465" y="125" anchorOffsetX="0" width="220" textAlign="left" textColor="0x590D00" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label id="ip_lbl" text="地址:1111000" x="155" y="165" anchorOffsetX="0" width="300" textAlign="left" textColor="0x590D00" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Image id="sex_img" width="32" height="38" x="490.2" y="73"/>
+	<e:Image id="head_img" width="79" height="79" x="47" y="97" anchorOffsetX="0" anchorOffsetY="0"/>
+	<eui:WxButton id="close_btn" label="" x="675.2" y="0" scaleX="0.8" scaleY="0.8" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="26" fontFamily="funderFont" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+</e:Skin>

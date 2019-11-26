@@ -1,0 +1,81 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.2.15",
+	"template": {},
+	"eui": {
+		"exmlRoot": "resource/wxskin",
+		"autoGenerateExmlsList": true,
+		"themes": [
+			"resource/match.thm.json"
+		],
+		"exmlPublishPolicy": "commonjs2"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "promise",
+			"path": "./promise"
+		},
+		{
+			"name": "uniLib",
+			"path": "../uniLib"
+		},
+		{
+			"name": "protoandtable2",
+			"path": "../protoandtable2"
+		},
+		{
+			"name": "confirm",
+			"path": "../confirm"
+		},
+		{
+			"name": "confirm",
+			"path": "../confirm"
+		},
+		{
+			"name": "wxgamelib",
+			"path": "../../../wxgame/wxgamelib"
+		},
+		{
+			"name": "exchange",
+			"path": "../exchange"
+		},
+		{
+			"path": "../guide",
+			"name": "guide"
+		},
+		{
+			"path": "../share",
+			"name": "share"
+		}
+	],
+	"engineVersion": "5.2.15",
+	"compilerVersion": "5.2.15"
+}

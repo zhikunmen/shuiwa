@@ -1,0 +1,10 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/BagBuyOrSellSkin.exml",
+		"resource/skin/BagPresentSkin.exml",
+		"resource/skin/PackBagItemSkin.exml",
+		"resource/skin/PackBagPanelSkin.exml"
+	],
+	"path": "resource/packbag.thm.json"
+}

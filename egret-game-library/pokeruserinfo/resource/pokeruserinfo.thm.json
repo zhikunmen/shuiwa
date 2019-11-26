@@ -1,0 +1,7 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/UserInfoPanelSkin.exml"
+	],
+	"path": "resource/pokeruserinfo.thm.json"
+}

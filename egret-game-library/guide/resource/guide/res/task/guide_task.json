@@ -1,0 +1,175 @@
+{
+  "file": "guide_task.png",
+  "frames": {
+    "lb_cz_day_1": {
+      "x": 0,
+      "y": 393,
+      "w": 101,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 59
+    },
+    "lb_cz_day_2": {
+      "x": 103,
+      "y": 393,
+      "w": 101,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 59
+    },
+    "lb_cz_day_3": {
+      "x": 206,
+      "y": 393,
+      "w": 101,
+      "h": 59,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 101,
+      "sourceH": 59
+    },
+    "lb_cz_day_bg": {
+      "x": 518,
+      "y": 180,
+      "w": 29,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 29,
+      "sourceH": 24
+    },
+    "lb_cz_fuka": {
+      "x": 310,
+      "y": 0,
+      "w": 206,
+      "h": 259,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 210,
+      "sourceH": 259
+    },
+    "lb_cz_fuka_light": {
+      "x": 310,
+      "y": 261,
+      "w": 119,
+      "h": 131,
+      "offX": 6,
+      "offY": 0,
+      "sourceW": 131,
+      "sourceH": 131
+    },
+    "lb_cz_hongbao": {
+      "x": 0,
+      "y": 0,
+      "w": 308,
+      "h": 391,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 308,
+      "sourceH": 391
+    },
+    "lb_cz_jz_1": {
+      "x": 266,
+      "y": 454,
+      "w": 22,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 20
+    },
+    "lb_cz_jz_2": {
+      "x": 431,
+      "y": 291,
+      "w": 22,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 20
+    },
+    "lb_cz_qianwang": {
+      "x": 431,
+      "y": 261,
+      "w": 66,
+      "h": 28,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 66,
+      "sourceH": 28
+    },
+    "lb_cz_task_bg_1": {
+      "x": 570,
+      "y": 128,
+      "w": 24,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 24,
+      "sourceH": 24
+    },
+    "lb_cz_task_bg_2": {
+      "x": 309,
+      "y": 394,
+      "w": 24,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 24,
+      "sourceH": 24
+    },
+    "lb_cz_title": {
+      "x": 518,
+      "y": 0,
+      "w": 394,
+      "h": 126,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 394,
+      "sourceH": 126
+    },
+    "lb_cz_wancheng": {
+      "x": 0,
+      "y": 454,
+      "w": 105,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 105,
+      "sourceH": 53
+    },
+    "lb_cz_yiwancheng": {
+      "x": 107,
+      "y": 454,
+      "w": 105,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 105,
+      "sourceH": 53
+    },
+    "task_icon": {
+      "x": 518,
+      "y": 128,
+      "w": 50,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 50,
+      "sourceH": 50
+    },
+    "task_icon2": {
+      "x": 214,
+      "y": 454,
+      "w": 50,
+      "h": 50,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 51,
+      "sourceH": 50
+    }
+  }
+}

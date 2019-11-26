@@ -1,0 +1,7 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/LobbySharePanelSkin.exml"
+	],
+	"path": "resource/commonPanel.thm.json"
+}

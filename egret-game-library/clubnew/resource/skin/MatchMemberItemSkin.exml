@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMemberItemSkin" width="700" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" height="71">
+	<e:Image id="bg" source="club_scale9_json.club_manage_applyitem2" width="701" height="71" scale9Grid="1,1,9,9"/>
+	<e:Label id="num" text="10" verticalCenter="0" textAlign="center" anchorOffsetX="0" textColor="0xFFFFFF" size="24" horizontalCenter="-327.5"/>
+
+	<e:Label id="nameLabel" text="水电费水电" verticalCenter="1" textAlign="center" anchorOffsetX="0" textColor="0xffffff" size="26" horizontalCenter="-1"/>
+	<e:Label id="playertype" text="山水多所是" verticalCenter="1" textAlign="center" anchorOffsetX="0" textColor="0xFFFFFF" size="26" horizontalCenter="152"/>
+
+	<e:Label id="playerID" text="123456789" verticalCenter="1" textAlign="center" anchorOffsetX="0" textColor="0xffffff" size="26" horizontalCenter="-164.5"/>
+
+
+	<e:Image source="club_json.club_deskseat_bg" x="46.6" y="9"/>
+	<e:Image id="headImg" source="club_json.club_deskseat_head" x="49" y="11" width="46" height="46"/>
+	<eui:WxButton id="changeBtn" label="" x="613" y="3.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_manage_chengyuan_change1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+</e:Skin>

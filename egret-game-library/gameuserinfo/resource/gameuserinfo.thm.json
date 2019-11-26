@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/GiftItemSkin.exml",
+		"resource/skin/UserInfoSKin.exml"
+	],
+	"path": "resource/gameuserinfo.thm.json"
+}

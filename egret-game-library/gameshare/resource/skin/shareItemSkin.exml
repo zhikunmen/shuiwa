@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="shareItemSkin" width="603" height="76" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="gameshare_json.gameshare_itembg" x="0" y="0" scale9Grid="14,13,7,8" width="603" height="76" locked="true"/>
+	<e:Image source="gameshare_json.gameshare_headbg" x="64" y="11.5"/>
+	<e:Image id="rankImg" source="gameshare_json.gameshare_1" x="17" verticalCenter="0"/>
+	<e:Image id="headImg" source="gameshare_json.gameshare_headbg" x="65" y="12.5" width="51" height="51"/>
+	<e:Label id="nameLabel" text="昵称对对对" x="141" fontFamily="Microsoft YaHei" size="28" anchorOffsetY="0" anchorOffsetX="0" width="150" textAlign="left" height="28" textColor="0x1b3b63" verticalCenter="0"/>
+	<e:Label id="idLabel" text="33333333" x="315.2" fontFamily="Microsoft YaHei" size="28" anchorOffsetY="0" height="28" anchorOffsetX="0" width="156" textAlign="center" textColor="0x00356b" verticalCenter="0"/>
+	<e:Label id="totalLabel" text="-443" x="491.33" textColor="0xFF4E00" fontFamily="Microsoft YaHei" size="30" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" verticalCenter="0" height="30" width="99"/>
+</e:Skin>

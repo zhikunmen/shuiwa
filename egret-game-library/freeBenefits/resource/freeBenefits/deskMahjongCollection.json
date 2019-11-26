@@ -1,0 +1,25 @@
+{
+  "file": "deskMahjongCollection.png",
+  "frames": {
+    "collection_btn": {
+      "x": 0,
+      "y": 562,
+      "w": 236,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 236,
+      "sourceH": 71
+    },
+    "collection_img": {
+      "x": 0,
+      "y": 0,
+      "w": 974,
+      "h": 557,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 974,
+      "sourceH": 557
+    }
+  }
+}

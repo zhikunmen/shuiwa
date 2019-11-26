@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopDFInfoSkin" width="648" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="shop_daifu_json.daifu_bg" width="100%" scale9Grid="21,200,9,14" />
+    <e:Image horizontalCenter="0"  source="shop_daifu_json.mjl_common_title"/>
+	<e:Image source="shop_daifu_json.daifu_title_xinxi" y="13" horizontalCenter="0"/>
+	<eui:WxButton id="refuse_btn" label="" x="72" y="353">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shop_daifu_json.daifu_button_jujue"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="pay_btn" label="" x="369" y="353">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shop_daifu_json.daifu_button_zhifu"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="close_btn" label="" x="574" y="4.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shop_daifu_json.mjl_common_closebtn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Label text="赠送好友：" x="105" y="112" fontFamily="Microsoft YaHei" textColor="0xb25c24"/>
+	<e:Label text="商品价格：" x="90" y="285" fontFamily="Microsoft YaHei" textColor="0xB25C24"/>
+	<e:Label text="商品名称：" x="90" y="222" fontFamily="Microsoft YaHei" textColor="0xB25C24"/>
+	<e:Label id="id_lbl" text="--" x="336" y="152" fontFamily="Microsoft YaHei" textColor="0xB25C24"/>
+	<e:Label id="nickName_lbl" text="--" x="336" y="112" fontFamily="Microsoft YaHei" textColor="0xB25C24" anchorOffsetX="0" width="289" height="34"/>
+	<e:Label id="goodName_lbl" text="--" x="248" y="222" fontFamily="Microsoft YaHei" textColor="0xff0000"/>
+	<e:Label id="price_lbl" text="--" x="248" y="285" fontFamily="Microsoft YaHei" textColor="0xFF0000"/>
+	<e:Image id="head_img" width="70" height="70" x="254" y="112"/>
+</e:Skin>

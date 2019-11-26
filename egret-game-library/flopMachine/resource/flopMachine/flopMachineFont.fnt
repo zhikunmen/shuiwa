@@ -1,0 +1,11 @@
+{"file":"flopMachineFont.png","frames":{
+"2":{"x":55,"y":75,"w":25,"h":35,"offX":4,"offY":5,"sourceW":36,"sourceH":47},
+"3":{"x":82,"y":38,"w":23,"h":36,"offX":5,"offY":5,"sourceW":35,"sourceH":47},
+"4":{"x":0,"y":0,"w":28,"h":35,"offX":3,"offY":5,"sourceW":36,"sourceH":47},
+"5":{"x":82,"y":0,"w":23,"h":36,"offX":6,"offY":5,"sourceW":36,"sourceH":47},
+"6":{"x":0,"y":75,"w":26,"h":36,"offX":4,"offY":5,"sourceW":35,"sourceH":47},
+"7":{"x":30,"y":0,"w":26,"h":35,"offX":4,"offY":5,"sourceW":36,"sourceH":47},
+"8":{"x":0,"y":37,"w":26,"h":36,"offX":4,"offY":5,"sourceW":35,"sourceH":47},
+"9":{"x":28,"y":75,"w":25,"h":36,"offX":5,"offY":5,"sourceW":36,"sourceH":47},
+"0":{"x":28,"y":37,"w":26,"h":36,"offX":3,"offY":5,"sourceW":36,"sourceH":47},
+"1":{"x":56,"y":37,"w":24,"h":35,"offX":4,"offY":5,"sourceW":35,"sourceH":47}}}

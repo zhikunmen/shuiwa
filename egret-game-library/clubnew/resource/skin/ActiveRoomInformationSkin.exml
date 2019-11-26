@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActiveRoom" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<w:Config id="16541b5e141" locked="true"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" x="0" y="2" width="749" height="485" source="club_scale9_json.club_bg1" scale9Grid="1,1,3,3"/>
+	<e:Image x="0" y="0" anchorOffsetX="0" width="749" height="69" source="club_scale9_json.club_btnbg6" scale9Grid="1,9,4,61"/>
+
+	<e:Image y="130" anchorOffsetX="0" width="691" anchorOffsetY="0" height="251" horizontalCenter="0" source="club_scale9_json.club_bg2" scale9Grid="2,1,4,4"/>
+	<eui:WxButton id="closeButton" label="" anchorOffsetX="0" anchorOffsetY="0" right="0" top="0">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_manage_closebtn3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+	<e:Label id="topfloorNumber" text="楼层1" horizontalCenter="-250.5" verticalAlign="justify" fontFamily="SimHei" size="28" top="86" textColor="0xFFFFFF" visible="false"/>
+
+	<e:Label id="topTableNumber" text="房号：" horizontalCenter="146.5" verticalAlign="justify" fontFamily="SimHei" size="28" top="85" textColor="0xffffff"/>
+	<e:Group id="playerGroup" width="609" height="200" anchorOffsetX="0" verticalCenter="10.5" horizontalCenter="0">
+		<e:Scroller width="609" height="200" x="0" y="2" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="auto" touchEnabled="true" bounces="true" anchorOffsetY="0">
+			<e:Group id="itemList"/>
+		</e:Scroller>
+	</e:Group>
+	<eui:WxButton id="cancelBtn" label="取消" x="392.17" y="406" width="195" height="56">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg2" scale9Grid="1,7,6,42"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" bold="true" size="28" fontFamily="Microsoft YaHei" textColor="0x894215"/>
+			</e:Skin>
+		</e:skinName>
+
+
+
+	</eui:WxButton>
+	<e:Label text="房间详情" y="16.5" fontFamily="Microsoft YaHei" size="36" bold="true" horizontalCenter="0"/>
+	<eui:WxButton id="dissolveBtn" label="解散房间" x="159" y="406" width="195" height="56">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg2" scale9Grid="1,7,6,42"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x894215" size="28" fontFamily="Microsoft YaHei" bold="true"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</eui:WxButton>
+</e:Skin>

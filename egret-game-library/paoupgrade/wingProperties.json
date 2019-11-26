@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/paoupgrade.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/paoupgrade.thm.json"
+}

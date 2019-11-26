@@ -1,0 +1,19 @@
+{
+	"groups":[{
+			"keys":"exchange_number_fnt,exchange_game_res_1_json",
+			"name":"pub_exchange"
+		}],
+	"resources":[
+		{
+			"name":"exchange_number_fnt",
+			"type":"font",
+			"url":"exchange/res/exchange_number.fnt"
+		},
+		{
+			"name":"exchange_game_res_1_json",
+			"subkeys":"dh_anniu1_png,dh_anniu2_png,dh_anniu3_png,dh_anniu4_png,dh_anniu5_png,dh_anniu6_png,dh_hongbao_462_png,dh_hongbao_470_png,dh_jinbi_466_png,dh_jinbi_467_png,dh_jinbi_468_png,dh_jinbi_469_png,exchange_btn_exit,exchange_fare_463_png,exchange_fare_481_png,exchange_fare_482_png,exchange_fare_bg,exchange_icon_3,exchange_tips_bg_png,exchange_title_bg",
+			"type":"sheet",
+			"url":"exchange/res/exchange_game_res_1.json"
+		}
+	]
+}

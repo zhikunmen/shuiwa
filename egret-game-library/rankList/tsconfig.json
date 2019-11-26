@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outFile": "bin/rankList/rankList.js",
+        "declaration": true,
+        "lib": [
+            "es5",
+            "es2015",
+            "dom",
+            "es2015.promise"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "files": [
+        "libs/modules/egret/egret.d.ts",
+        "libs/modules/game/game.d.ts",
+        "libs/modules/assetsmanager/assetsmanager.d.ts",
+        "libs/modules/eui/eui.d.ts",
+        "libs/modules/tween/tween.d.ts",
+        "libs/modules/dragonBones/dragonBones.d.ts",
+        "libs/modules/uniLib/uniLib.d.ts",
+        "libs/modules/wxgamelib/wx.d.ts",
+        "libs/modules/wxgamelib/wxGameLib.d.ts",
+        "libs/promise.d.ts",
+        "libs/modules/protoandtable/protoandtable.d.ts",
+        "libs/modules/confirm/confirm.d.ts",
+        "libs/modules/match/match.d.ts",
+        "libs/dependent.d.ts"
+    ]
+}

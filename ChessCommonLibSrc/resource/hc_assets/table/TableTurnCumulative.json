@@ -1,0 +1,5 @@
+[
+{"id":1,"name":"金币","goodId":32,"giftGoods":{"goodId":32,"goodNbr":1888},"probability":40},
+{"id":2,"name":"金币","goodId":32,"giftGoods":{"goodId":32,"goodNbr":2888},"probability":30},
+{"id":3,"name":"金币","goodId":32,"giftGoods":{"goodId":32,"goodNbr":3888},"probability":30}
+]

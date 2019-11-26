@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outFile": "bin/protoandtable/protoandtable.js",
+        "declaration": true
+    },
+    "include":[
+        "src/**/*.ts"
+    ]
+}

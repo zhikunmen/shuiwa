@@ -1,0 +1,185 @@
+{
+    "frames": {
+        "3chat_laba_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 30, 
+            "sourceW": 70, 
+            "w": 70, 
+            "h": 30, 
+            "y": 265, 
+            "x": 437
+        }, 
+        "3chat_chat_selected_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 111, 
+            "sourceW": 34, 
+            "w": 34, 
+            "h": 111, 
+            "y": 158, 
+            "x": 327
+        }, 
+        "3chat_send_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 31, 
+            "sourceW": 58, 
+            "w": 58, 
+            "h": 31, 
+            "y": 293, 
+            "x": 0
+        }, 
+        "3chat_coin_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 70, 
+            "sourceW": 63, 
+            "w": 63, 
+            "h": 70, 
+            "y": 113, 
+            "x": 392
+        }, 
+        "3chat_room_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 31, 
+            "sourceW": 72, 
+            "w": 72, 
+            "h": 31, 
+            "y": 265, 
+            "x": 363
+        }, 
+        "3chat_userlist_bg_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 36, 
+            "w": 36, 
+            "h": 35, 
+            "y": 185, 
+            "x": 419
+        }, 
+        "wuzuo_user_list_png": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 290, 
+            "w": 289, 
+            "h": 93, 
+            "y": 198, 
+            "x": 0
+        }, 
+        "mjl_common_button1_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 77, 
+            "sourceW": 158, 
+            "w": 158, 
+            "h": 77, 
+            "y": 79, 
+            "x": 232
+        }, 
+        "3chat_noset_normal2_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 111, 
+            "sourceW": 34, 
+            "w": 34, 
+            "h": 111, 
+            "y": 113, 
+            "x": 457
+        }, 
+        "3chat_share_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 37, 
+            "sourceW": 69, 
+            "w": 69, 
+            "h": 37, 
+            "y": 226, 
+            "x": 419
+        }, 
+        "3chat_laba_icon_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 38, 
+            "sourceW": 39, 
+            "w": 39, 
+            "h": 38, 
+            "y": 158, 
+            "x": 232
+        }, 
+        "3chat_noset_bg_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 54, 
+            "sourceW": 54, 
+            "w": 54, 
+            "h": 54, 
+            "y": 185, 
+            "x": 363
+        }, 
+        "wuzuo_user_bg_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 196, 
+            "sourceW": 230, 
+            "w": 230, 
+            "h": 196, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "chat_mess3_tex_png": {
+            "offY": 1, 
+            "offX": 1, 
+            "sourceH": 128, 
+            "sourceW": 128, 
+            "w": 70, 
+            "h": 111, 
+            "y": 0, 
+            "x": 392
+        }, 
+        "3chat_chat_bg_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 44, 
+            "sourceW": 48, 
+            "w": 48, 
+            "h": 44, 
+            "y": 271, 
+            "x": 291
+        }, 
+        "mjl_common_button2_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 77, 
+            "sourceW": 158, 
+            "w": 158, 
+            "h": 77, 
+            "y": 0, 
+            "x": 232
+        }, 
+        "3chat_chat_normal_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 111, 
+            "sourceW": 34, 
+            "w": 34, 
+            "h": 111, 
+            "y": 158, 
+            "x": 291
+        }, 
+        "3chat_noset_selected_png": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 111, 
+            "sourceW": 34, 
+            "w": 34, 
+            "h": 111, 
+            "y": 0, 
+            "x": 464
+        }
+    }, 
+    "file": "3chat_chesscommon_sheet_a86a024c.png"
+}

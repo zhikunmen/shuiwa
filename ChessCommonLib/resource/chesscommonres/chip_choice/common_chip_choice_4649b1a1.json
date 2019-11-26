@@ -1,0 +1,205 @@
+{
+    "frames": {
+        "chip_choice_5": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 73, 
+            "x": 188
+        }, 
+        "chip_choice_1": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 73, 
+            "x": 376
+        }, 
+        "chip_choice_5000": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 170, 
+            "x": 376
+        }, 
+        "sz_chip_close0": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 34, 
+            "sourceW": 33, 
+            "w": 33, 
+            "h": 34, 
+            "y": 36, 
+            "x": 466
+        }, 
+        "chip_choice_2": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 73, 
+            "x": 282
+        }, 
+        "chip_choice_100": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 170, 
+            "x": 188
+        }, 
+        "chip_choice_check": {
+            "offY": 0, 
+            "offX": 1, 
+            "sourceH": 30, 
+            "sourceW": 30, 
+            "w": 29, 
+            "h": 30, 
+            "y": 104, 
+            "x": 470
+        }, 
+        "chip_choice_2000": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 261, 
+            "x": 0
+        }, 
+        "sz_chip_close1": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 34, 
+            "sourceW": 33, 
+            "w": 33, 
+            "h": 34, 
+            "y": 0, 
+            "x": 466
+        }, 
+        "sz_chip_choice_bg": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 79, 
+            "sourceW": 87, 
+            "w": 87, 
+            "h": 79, 
+            "y": 267, 
+            "x": 188
+        }, 
+        "sz_chip_choice_title": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 65, 
+            "sourceW": 180, 
+            "w": 180, 
+            "h": 65, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "chip_choice_10": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 73, 
+            "x": 94
+        }, 
+        "chip_choice_500": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 164, 
+            "x": 0
+        }, 
+        "chip_choice_250": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 170, 
+            "x": 94
+        }, 
+        "chip_choice_uncheck": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 30, 
+            "sourceW": 30, 
+            "w": 30, 
+            "h": 30, 
+            "y": 72, 
+            "x": 470
+        }, 
+        "chip_choice_1000": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 267, 
+            "x": 94
+        }, 
+        "chip_choice_10000": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 170, 
+            "x": 282
+        }, 
+        "chip_choice_50": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 95, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 95, 
+            "y": 67, 
+            "x": 0
+        }, 
+        "chip_choice_confirm1": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 142, 
+            "w": 140, 
+            "h": 71, 
+            "y": 0, 
+            "x": 182
+        }, 
+        "chip_choice_confirm0": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 72, 
+            "sourceW": 142, 
+            "w": 140, 
+            "h": 71, 
+            "y": 0, 
+            "x": 324
+        }
+    }, 
+    "file": "common_chip_choice_4649b1a1.png"
+}

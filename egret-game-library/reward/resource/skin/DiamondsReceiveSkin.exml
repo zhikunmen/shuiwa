@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DiamondsReceiveSkin" width="775" height="525" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image width="775" height="525" source="reward_json.reward_all_bg_png" scale9Grid="26,99,6,303"/>
+	<e:Image  y="-5" x="192" source="reward_titlebg_png"/>
+	<e:Image y="-5" x="589" scaleX="-1" source="reward_titlebg_png"/>
+	<e:Image  horizontalCenter="0.5" y="14" source="receive_title_png"/>
+	<e:Image y="-5.33" x="5.33" source="reward_json.reward_light_zuoshang_png"/>
+	<e:Image y="504" x="550" source="reward_json.reward_light_youxia_png"/>
+
+	<e:Label text="每邀请一位好友进入，获得" y="100" fontFamily="Microsoft YaHei" size="26" textColor="0xa46359" x="80"/>
+	<e:Label text="奖励：      +1" y="100" fontFamily="Microsoft YaHei" size="26" x="396" textColor="0xff2200" anchorOffsetX="0" width="170"/>
+
+	<e:Label text="每天最多邀请10位" y="470" horizontalCenter="-15.5" fontFamily="Microsoft YaHei" size="20" textColor="0xa05c13"/>
+	<e:Image y="95.5" x="473" source="receive_diamond_png"/>
+	<e:Image y="145" x="47" source="receive_line_png"/>
+	<e:Image y="449" x="47" source="receive_line_png"/>
+	<eui:WxButton id="_shareBtn" label="" x="572" y="77">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="receive_share_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+
+
+	<e:Scroller id="scroll" width="627" height="300" x="70" y="151" scaleX="1" scaleY="1" anchorOffsetY="0">
+		<e:List id="diamond_lst" itemRendererSkinName="ReceiveItemSkin" anchorOffsetY="0" height="100%" x="-1.33" width="100%">
+		<!--<e:ArrayCollection>
+			<e:Array>
+				<e:Object dsf="null"/>
+				<e:Object dsf="null"/>
+				<e:Object dsf="null"/>
+			</e:Array>
+		</e:ArrayCollection>-->
+			<e:layout>
+				<e:VerticalLayout gap="5"/>
+			</e:layout>
+        </e:List>
+	</e:Scroller>
+
+	<eui:WxButton id="_closeBtn" label="" x="700" y="6">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="reward_close_png" source.down="reward_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Group id="empty_group" y="250" horizontalCenter="0.5">
+		<e:Label text="邀请好友加入游戏可以获得钻石" y="0" fontFamily="Microsoft YaHei" size="26" textColor="0xA46359" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<eui:WxButton id="_shareBtn2" label="" y="40" horizontalCenter="0">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="receive_share_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+	</e:Group>
+</e:Skin>

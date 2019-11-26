@@ -1,0 +1,16 @@
+{
+	"resources": [
+		{
+			"name": "pdk_scoreRecord_json",
+			"type": "sheet",
+			"url": "pokerreward/res/pdk_scoreRecord.json",
+			"subkeys": "pdk_record_arrow,pdk_record_bg,pdk_record_bg_profile,pdk_record_bg_tableHead,pdk_record_bg_unit,pdk_socre_txt"
+		}
+	],
+	"groups": [
+		{
+			"name": "poker_reward",
+			"keys": "pdk_scoreRecord_json"
+		}
+	]
+}

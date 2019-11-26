@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" width="94" height="117">
+	<e:Image source="guide_sign_json.lb_xinshou_meirihongbao"/>
+	<e:Image id="light_img" source="guide_sign_json.lb_xinshou_guangquan" x="47" y="53" anchorOffsetX="38" anchorOffsetY="38"/>
+	<e:Image id="rev_img" source="guide_sign_json.lb_xinshou_weilingqu" x="6" y="32" visible="false"/>
+	<e:Label id="day_lbl" text="第1天" y="89" fontFamily="Microsoft YaHei" size="18" horizontalCenter="0"/>
+</e:Skin>

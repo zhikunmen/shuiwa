@@ -1,0 +1,7 @@
+{"file":"pdk_scoreRecord.png","frames":{
+"pdk_record_arrow":{"x":0,"y":102,"w":11,"h":22,"offX":0,"offY":0,"sourceW":11,"sourceH":22},
+"pdk_record_bg":{"x":0,"y":0,"w":59,"h":61,"offX":0,"offY":0,"sourceW":59,"sourceH":61},
+"pdk_record_bg_profile":{"x":13,"y":102,"w":12,"h":12,"offX":0,"offY":0,"sourceW":12,"sourceH":12},
+"pdk_record_bg_tableHead":{"x":61,"y":0,"w":11,"h":53,"offX":0,"offY":0,"sourceW":11,"sourceH":53},
+"pdk_record_bg_unit":{"x":74,"y":0,"w":11,"h":53,"offX":0,"offY":0,"sourceW":11,"sourceH":53},
+"pdk_socre_txt":{"x":0,"y":63,"w":74,"h":37,"offX":0,"offY":0,"sourceW":74,"sourceH":37}}}

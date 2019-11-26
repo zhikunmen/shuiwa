@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMemberRecordSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" anchorOffsetX="0" width="1230.88" anchorOffsetY="0" height="683.15" y="26.07" horizontalCenter="0" locked="true"/>
+	<e:Image source="mjl_common_title_png" x="405" y="0" locked="true"/>
+	<e:Image source="mjl_common_bg1_png" y="110" anchorOffsetX="0" width="1162" anchorOffsetY="0" height="562.73" scale9Grid="7,10,25,20" horizontalCenter="-2" locked="true"/>
+	<e:Image y="109.06" anchorOffsetX="0" width="1162" scale9Grid="4,8,28,49" horizontalCenter="0" source="club_new_menage_json.club_record_bg" locked="true"/>
+	<e:Image y="13.3" source="club_new_menage_json.club_myclubrecord_title" horizontalCenter="0" locked="true"/>
+	<e:Button id="_closeBtn" label="" x="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_lookRecordBtn" label="" x="92.56" y="50.66">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_record_json.mjl_look_record"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_choseDayBtn" label="" x="72.55" y="116.28">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="204" height="52" source="mjl_common_bg1_png" scale9Grid="5,5,30,30"/>
+			<e:Label id="_dayTypeText" horizontalCenter="-7" verticalCenter="0" text="今日输赢" fontFamily="Microsoft YaHei" textColor="0xe73500" bold="true"/>
+			<e:Image source="club_new_menage_json.club_matchlist_up" x="171" y="2" includeIn="up"/>
+			<e:Image source="club_new_menage_json.club_matchlist_down" x="171" y="2" includeIn="down"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="_scroller" height="481.82" y="182" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" width="1138">
+		<e:List id="_recordsList" itemRendererSkinName="ClubMemberRecordItemSkin" x="21.56" y="1.52">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="_dayTypeGroup" width="204" x="71.05" y="166.9" height="175" visible="false">
+		<e:Rect id="_choseRect" width="1280" height="720" fillColor="0xFFFFFF" x="-66" y="-137.18" alpha="0" locked="true"/>
+		<e:Image source="club_new_menage_json.club_matchlist_bg" width="204" scale9Grid="1,1,8,8" height="150" anchorOffsetY="0"/>
+		<e:Button id="_todayBtn" label="今日输赢" x="1" y="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="club_new_menage_json.club_matchlist_item1" scale9Grid="2,2,5,7" height="49" width="202"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x97550f" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="_yesterdayBtn" label="昨日输赢" x="1" y="50">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image scale9Grid="2,2,5,7" height="49" width="202" source="club_new_menage_json.club_matchlist_item2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x97550f" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="_qianBtn" label="前日输赢" x="1" y="99">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="club_new_menage_json.club_matchlist_item1" scale9Grid="2,2,5,7" height="49" width="202"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x97550f" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Label text="战绩：" x="303.2" y="130" textColor="0x8b5500" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label text="房间数：" x="526.85" y="130" textColor="0x8B5500" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label text="大赢家次数：" x="812.05" y="130" textColor="0x8B5500" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label id="_sorceText" text="33" x="368.51" y="127" fontFamily="Microsoft YaHei" textColor="0xf5573a"/>
+	<e:Label id="_roomText" text="2" x="618.46" y="127" fontFamily="Microsoft YaHei" textColor="0xF5573A"/>
+	<e:Label id="_bigWinText" text="22" x="950.35" y="127" fontFamily="Microsoft YaHei" textColor="0xF5573A"/>
+	<e:Label id="_tipsText" text="暂时没有数据哦~" size="65" fontFamily="Microsoft YaHei" textColor="0xB56B5D" y="328" horizontalCenter="0" visible="false"/>
+</e:Skin>

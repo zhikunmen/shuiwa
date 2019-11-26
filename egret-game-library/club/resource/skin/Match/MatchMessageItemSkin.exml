@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchMessageItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image top="0" bottom="0" scale9Grid="117,40,545,58" source="mjl_userlist_userbg"  width="877"/>
+	<eui:WxButton id="blackButton" x="742" y="35.5">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="blackWord"  horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</eui:WxButton>
+	<eui:WxButton id="whiteButton" x="742" y="91">
+		<e:Skin states="up,down,disabled">
+		<e:Image source="whiteWord"  horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</eui:WxButton>
+	<e:Label id="contenLabel" text="请求进入房间" y="22"  height="30" textAlign="left" x="100" textColor="0x796965" fontFamily="Microsoft YaHei"/>
+	<e:Label id="contenRemarks" text="请求进入房间" y="62" height="30" x="100" textColor="0x796965" size="27" fontFamily="Microsoft YaHei"/>
+	<eui:WxButton id="agreeButton" label="确认" x="158" y="106" width="108" height="44">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+
+
+	</eui:WxButton>
+	<eui:WxButton id="disAgreeButton" label="拒绝" x="407.5" y="106"  width="108" height="44">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+</e:Skin>

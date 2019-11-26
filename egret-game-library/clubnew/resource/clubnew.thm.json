@@ -1,0 +1,32 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/ActiveRoomInformationSkin.exml",
+		"resource/skin/ActiveRoomListItemSkin.exml",
+		"resource/skin/ClubAllBoxSkin.exml",
+		"resource/skin/ClubBoxItemSkin.exml",
+		"resource/skin/ClubDeskSkin.exml",
+		"resource/skin/ClubEnterRemarksSkin.exml",
+		"resource/skin/ClubItemDeskSkin.exml",
+		"resource/skin/ClubManageChangeBWSkin.exml",
+		"resource/skin/ClubManageSkin.exml",
+		"resource/skin/ClubMsgMcSkin.exml",
+		"resource/skin/ClubNewBoxItemSkin.exml",
+		"resource/skin/ClubNewBoxSkin.exml",
+		"resource/skin/ClubNoticeSkin.exml",
+		"resource/skin/ClubPlayerListHeadSkin.exml",
+		"resource/skin/ClubPlayerListSkin.exml",
+		"resource/skin/ClubRoomdetailsheadSkin.exml",
+		"resource/skin/ClubRoomdetailsSkin.exml",
+		"resource/skin/ClubUserInfoSkin.exml",
+		"resource/skin/CreateMatchSetSkin.exml",
+		"resource/skin/MatchFightingItemSkin.exml",
+		"resource/skin/MatchFightingNSSkin.exml",
+		"resource/skin/MatchMemberItemSkin.exml",
+		"resource/skin/MatchMessageItemSkin.exml",
+		"resource/skin/MatchMsgBoxSkin.exml",
+		"resource/skin/MatchRadioButtonSkin.exml",
+		"resource/skin/MatchTableItemSkin.exml"
+	],
+	"path": "resource/clubnew.thm.json"
+}

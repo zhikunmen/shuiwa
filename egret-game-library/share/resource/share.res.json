@@ -1,0 +1,24 @@
+{
+	"groups":[{
+			"keys":"lobby_share_json,lb_yq_bg2_png,lb_yq_bg1_png",
+			"name":"pub_share"
+		}],
+	"resources":[
+		{
+			"name":"lobby_share_json",
+			"subkeys":"lb_yq_hongbao,lb_yq_hongbao_1,lb_yq_jia,lb_yq_lingqu,lb_yq_mengban,lb_yq_open,lb_yq_open_1,lb_yq_wancheng",
+			"type":"sheet",
+			"url":"share/res/lobby_share.json"
+		},
+		{
+			"name":"lb_yq_bg2_png",
+			"type":"image",
+			"url":"share/res/lb_yq_bg2.png"
+		},
+		{
+			"name":"lb_yq_bg1_png",
+			"type":"image",
+			"url":"share/res/lb_yq_bg1.png"
+		}
+	]
+}

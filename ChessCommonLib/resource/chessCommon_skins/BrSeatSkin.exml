@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.BrSeatSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:chessCommonLib="chessCommonLib.*" minWidth="10" minHeight="10" width="90" height="90">
+	<e:Image id="empty_bg" left="-12" right="-9" top="-10" bottom="-12" source="br_seatHead_png" anchorOffsetX="0"/>
+	<chessCommonLib:Head id="head" left="0" top="0" bottom="0" right="0" visible="false"/>
+	<e:Image id="lb_bg_img" source="name_bg_mask_png" left="0" right="0" y="60" visible="false"/>
+	<e:Label id="nickName_lbl" text="1212" size="22" left="0" right="0" textAlign="center" multiline="false" height="22" bottom="8" visible="false"/>
+	<e:BitmapLabel id="chips_lbl" text="" textAlign="center"  font="jinbi_num_fnt"  y="91" horizontalCenter="-1" height="22" visible="false"/>
+</e:Skin>

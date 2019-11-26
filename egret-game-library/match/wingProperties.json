@@ -1,0 +1,19 @@
+{
+    "resourcePlugin": {
+        "configs": [
+             {
+                "configPath": "resource/wxmatch.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/match.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/default.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/match.thm.json"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="poker_jinbi_ChatItemSkin" width="500" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="pdk_chat_line" y="50" horizontalCenter="0"/>
+	<e:Label id="chatItem" text="1.又断线了，网络怎么那么差啊!" anchorOffsetX="0" width="485" fontFamily="Microsoft YaHei" horizontalCenter="-2.5" textColor="0xcf8250" size="24" verticalCenter="0" textAlign="center"/>
+</e:Skin>

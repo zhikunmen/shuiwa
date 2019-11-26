@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SignDayOfWeekItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" x="0" source="lobbysign_json.mjl_sign_bg2" anchorOffsetX="0" width="110" anchorOffsetY="0" height="175" rotation="359.71" scale9Grid="23,24,2,3" y="0"/>
+	<e:Image source="lobbysign_json.mjl_sign_bg3" y="35" anchorOffsetX="0" width="85.22" anchorOffsetY="0" height="80.74" scale9Grid="27,28,2,1" horizontalCenter="0"/>
+	<e:Label id="dayTxt" text="星期天" y="9" size="20" fontFamily="Microsoft YaHei" horizontalCenter="0" textColor="0xb8946f"/>
+	<e:Label id="goldTxt" text="1000" y="126.5" size="24" fontFamily="Microsoft YaHei" horizontalCenter="1" textColor="0xd77d31"/>
+	<e:Image id="icon" horizontalCenter="-0.5" y="35" anchorOffsetX="0" width="76" anchorOffsetY="0" height="72" source="mjl_award_json.mjl_sign_rewards1"/>
+	<e:Image id="tick" x="12.5" y="123.5" source="lobbysign_json.mjl_sign_received_btn"/>
+</e:Skin>

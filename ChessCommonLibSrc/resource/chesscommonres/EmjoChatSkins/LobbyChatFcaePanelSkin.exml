@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.LobbyChatFcaePanelSkin" width="920" height="320" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+	<e:Image source="sz_common_chat_facebg" y="0" horizontalCenter="0"/>
+
+	<e:Scroller id="scroll" width="892" height="308.66" x="13" y="7.67" scrollPolicyV="off" anchorOffsetY="0">
+		<e:Group y="-139.67" x="22" anchorOffsetX="0" anchorOffsetY="0">
+			 <e:List id="faceList" width="888.67" height="284.66" itemRendererSkinName="chessCommonLib.LobbyChatFcaeItemSkin"
+                anchorOffsetX="0" anchorOffsetY="0" y="10"  x="0">
+            <e:ArrayCollection>
+                <e:Array>
+                    <e:Object/>
+                    <e:Object/>
+                    <e:Object dsf="null" />
+                    <e:Object dsf="null" />
+                    <e:Object dsf="null" />
+                    <e:Object dsf="null" />
+                    <e:Object dsf="null" />
+					 <e:Object dsf="null" />
+					  <e:Object dsf="null" />
+					   <e:Object dsf="null" />
+                </e:Array>
+            </e:ArrayCollection>
+            <e:layout>
+                <e:TileLayout requestedColumnCount="9" horizontalGap="31" verticalGap="33" paddingLeft="20" />
+            </e:layout>
+        </e:List>
+
+		 <e:List id="faceList1" width="888.67" height="284.66" itemRendererSkinName="chessCommonLib.LobbyChatFcaeItemSkin"
+                anchorOffsetX="0" anchorOffsetY="0" y="10"  x="900">
+            <e:ArrayCollection>
+                <e:Array>
+                    <e:Object/>
+                    <e:Object/>
+                    <e:Object dsf="null" />
+                    <e:Object dsf="null" />
+                    <e:Object dsf="null" />
+                    <e:Object dsf="null" />
+                    <e:Object dsf="null" />
+					 <e:Object dsf="null" />
+					  <e:Object dsf="null" />
+					   <e:Object dsf="null" />
+                </e:Array>
+            </e:ArrayCollection>
+            <e:layout>
+                <e:TileLayout requestedColumnCount="9" horizontalGap="31" verticalGap="33" paddingLeft="20" />
+            </e:layout>
+        </e:List>
+		
+		</e:Group>
+	</e:Scroller>
+			<e:Image id="page1Point1" source="sz_common_Chat_json.sz_common_chat_point1" y="304" horizontalCenter="-54.5"/>
+        	<e:Image id="page1Point2" source="sz_common_Chat_json.sz_common_chat_point2" y="304" horizontalCenter="-54.5"/>
+			<e:Image id="page2Point1" source="sz_common_Chat_json.sz_common_chat_point1" y="304" horizontalCenter="-4.5"/>
+            <e:Image id="page2Point2" source="sz_common_Chat_json.sz_common_chat_point2" y="304" horizontalCenter="-4.5"/>
+    
+</e:Skin>

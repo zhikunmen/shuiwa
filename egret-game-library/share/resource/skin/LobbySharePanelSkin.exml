@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LobbySharePanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="985" height="615">
+	<e:Image scaleX="1" scaleY="1" source="lb_yq_bg1_png"/>
+	<e:Image id="open_img" source="lb_yq_bg2_png" x="734.78" visible="false"/>
+	<e:Image source="lobby_share_json.lb_yq_hongbao" x="847" y="203"/>
+	<eui:WxButton id="btn_0" label="1000金币" x="106" y="211" name="0">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="head" source="lobby_share_json.lb_yq_jia" x="22" width="114" height="115" y="0"/>
+			<e:Image id="msk" source="lobby_share_json.lb_yq_mengban" x="22" y="0" visible="false"/>
+			<e:Image id="get" source="lobby_share_json.lb_yq_wancheng" y="7" x="35" visible="false"/>
+			<e:Image source="lobby_share_json.lb_yq_lingqu" y="136.68" x="0"/>
+			<e:Label id="labelDisplay" size="24" fontFamily="Microsoft YaHei" textColor="0xb43717" text="" y="150" horizontalCenter="8.5"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="btn_1" label="1000金币" x="291" y="211" name="1">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+	<e:Image id="head" source="lobby_share_json.lb_yq_jia" x="22" width="114" height="115" y="0"/>
+	<e:Image id="msk" source="lobby_share_json.lb_yq_mengban" x="22" y="0" visible="false"/>
+	<e:Image id="get" source="lobby_share_json.lb_yq_wancheng" y="7" x="35" visible="false"/>
+			<e:Image source="lobby_share_json.lb_yq_lingqu" y="136.68" x="0"/>
+			<e:Label id="labelDisplay" size="24" fontFamily="Microsoft YaHei" textColor="0xb43717" text="" y="150" horizontalCenter="8.5"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="btn_2" label="1000金币" x="474" y="211" name="2">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image id="head" source="lobby_share_json.lb_yq_jia" x="22" width="114" height="115" y="0"/>
+			<e:Image id="msk" source="lobby_share_json.lb_yq_mengban" x="22" y="0" visible="false"/>
+			<e:Image id="get" source="lobby_share_json.lb_yq_wancheng" y="7" x="35" visible="false"/>
+			<e:Image source="lobby_share_json.lb_yq_lingqu" y="136.68" x="0"/>
+			<e:Label id="labelDisplay" size="24" fontFamily="Microsoft YaHei" textColor="0xb43717" text="" y="150" horizontalCenter="8.5"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+
+	<eui:WxButton id="open_btn" label="" x="681" y="229" currentState="disabled">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lobby_share_json.lb_yq_open" source.disabled="lobby_share_json.lb_yq_open_1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Label text="每天0点刷新次数" x="291" y="503" fontFamily="Microsoft YaHei" size="24" textColor="0xe9cdaf"/>
+	<e:Label id="tips_lbl" text="邀请3名新用户领0.66元及以上随机红包，自动提现！" x="107" y="471" fontFamily="Microsoft YaHei" size="24" textColor="0xe9cdaf"/>
+
+</e:Skin>

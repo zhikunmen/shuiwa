@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxGameDetailItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*" xmlns:w="http://ns.egret.com/wing" xmlns:match="match.*" width="333" height="34">
+	<e:Rect width="333" height="1" fillColor="0xd7c29b" y="34"/>
+	<e:Image id="rank_img" x="42" source="wx_lb_res_json.bs_xiangqing_1_png" y="3"/>
+	<e:Label id="reward0_lbl" text="1000福卡" x="108.5" fontFamily="Microsoft YaHei" size="18" textColor="0xa46359" verticalCenter="0" width="100" textAlign="center"/>
+	<e:Label id="reward1_lbl" text="1000金币" x="218.5" fontFamily="Microsoft YaHei" size="18" textColor="0xA46359" verticalCenter="0" width="100" textAlign="center"/>
+	<e:Label id="rank_lbl" text="第四名" x="12.5" fontFamily="Microsoft YaHei" size="18" verticalCenter="0" textColor="0xff4e00" width="100" textAlign="center"/>
+</e:Skin>

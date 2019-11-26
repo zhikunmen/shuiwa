@@ -1,0 +1,179 @@
+{
+    "resources": [
+        {
+            "url": "hc_assets/head/default_avar_fae6eb8c.png", 
+            "type": "image", 
+            "name": "default_avar_png"
+        }, 
+        {
+            "url": "hc_assets/head/default_avar_man_b3ab46c1.png", 
+            "type": "image", 
+            "name": "default_avar_man_png"
+        }, 
+        {
+            "url": "hc_assets/head/default_avar_woman_8903bd42.png", 
+            "type": "image", 
+            "name": "default_avar_woman_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon0_73e4c89f.png", 
+            "type": "image", 
+            "name": "vip_icon0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon1_be2a4001.png", 
+            "type": "image", 
+            "name": "vip_icon1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon2_7fbd3bc7.png", 
+            "type": "image", 
+            "name": "vip_icon2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon3_5e106c20.png", 
+            "type": "image", 
+            "name": "vip_icon3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon4_37480feb.png", 
+            "type": "image", 
+            "name": "vip_icon4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon5_cb54b337.png", 
+            "type": "image", 
+            "name": "vip_icon5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon6_909ad35e.png", 
+            "type": "image", 
+            "name": "vip_icon6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon7_afe49475.png", 
+            "type": "image", 
+            "name": "vip_icon7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon8_337a18ee.png", 
+            "type": "image", 
+            "name": "vip_icon8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon9_58d9aa74.png", 
+            "type": "image", 
+            "name": "vip_icon9_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big0_36373c85.png", 
+            "type": "image", 
+            "name": "vip_big0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big1_fb0544ff.png", 
+            "type": "image", 
+            "name": "vip_big1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big2_30072571.png", 
+            "type": "image", 
+            "name": "vip_big2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big3_e7067e51.png", 
+            "type": "image", 
+            "name": "vip_big3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big4_bffd8d1a.png", 
+            "type": "image", 
+            "name": "vip_big4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big5_cb54f92f.png", 
+            "type": "image", 
+            "name": "vip_big5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big6_f01c6266.png", 
+            "type": "image", 
+            "name": "vip_big6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big7_29ecc30e.png", 
+            "type": "image", 
+            "name": "vip_big7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big8_9efaab27.png", 
+            "type": "image", 
+            "name": "vip_big8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big9_bb3f4af9.png", 
+            "type": "image", 
+            "name": "vip_big9_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small0_ee061e.png", 
+            "type": "image", 
+            "name": "vip_small0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small1_257eabb4.png", 
+            "type": "image", 
+            "name": "vip_small1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small2_6295d9f2.png", 
+            "type": "image", 
+            "name": "vip_small2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small3_74dfec2b.png", 
+            "type": "image", 
+            "name": "vip_small3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small4_b58c4126.png", 
+            "type": "image", 
+            "name": "vip_small4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small5_56666b9a.png", 
+            "type": "image", 
+            "name": "vip_small5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small6_21015c84.png", 
+            "type": "image", 
+            "name": "vip_small6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small7_cc4eb516.png", 
+            "type": "image", 
+            "name": "vip_small7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small8_3c1a764e.png", 
+            "type": "image", 
+            "name": "vip_small8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small9_494202b7.png", 
+            "type": "image", 
+            "name": "vip_small9_png"
+        }
+    ], 
+    "groups": [
+        {
+            "keys": "default_avar_png,default_avar_man_png,default_avar_woman_png", 
+            "name": "chess_common_head"
+        }, 
+        {
+            "keys": "vip_icon0_png,vip_icon1_png,vip_icon2_png,vip_icon3_png,vip_icon4_png,vip_icon5_png,vip_icon6_png,vip_icon7_png,vip_icon8_png,vip_icon9_png,vip_big0_png,vip_big1_png,vip_big2_png,vip_big3_png,vip_big4_png,vip_big5_png,vip_big6_png,vip_big7_png,vip_big8_png,vip_big9_png,vip_small0_png,vip_small1_png,vip_small2_png,vip_small3_png,vip_small4_png,vip_small5_png,vip_small6_png,vip_small7_png,vip_small8_png,vip_small9_png", 
+            "name": "chess_common_vip"
+        }
+    ]
+}

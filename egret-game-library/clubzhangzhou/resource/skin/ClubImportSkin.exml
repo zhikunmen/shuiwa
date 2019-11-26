@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubImportSkin" width="870" height="575.15" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  xmlns:eui="eui.*">
+	<e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" width="825" height="547" verticalCenter="13.925000000000011" horizontalCenter="0" locked="true"/>
+	<e:Image source="mjl_common_bg1_png" y="97.34" anchorOffsetX="0" width="774.85" anchorOffsetY="0" height="351.24" scale9Grid="5,5,30,30" horizontalCenter="0.5"/>
+	<e:Image source="mjl_common_title_png" y="1.82" horizontalCenter="0" locked="true"/>
+	<e:Image source="club_new_menage_json.club_memberimport_title" y="11" horizontalCenter="0" locked="true"/>
+	<eui:WxButton id="_importBtn" label="导  入" y="464.18" horizontalCenter="0.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"  fontFamily="Microsoft YaHei"  stroke="2" strokeColor="0x91481f" size="38"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Button id="_closeBtn" label="" x="-11.31" y="2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="766" height="291" y="152" horizontalCenter="0">
+		<e:List id="_clubList" itemRendererSkinName="ClubImportItemSkin" useVirtualLayout="false">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="8"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="老友圈信息" x="136.02" textColor="0xb56b5d" fontFamily="Microsoft YaHei" size="24" verticalCenter="-164.575"/>
+	<e:Label text="老友圈ID" x="406.66" textColor="0xB56B5D" fontFamily="Microsoft YaHei" size="24" verticalCenter="-164.575"/>
+	<e:Label text="成员人数" x="665.33" textColor="0xB56B5D" fontFamily="Microsoft YaHei" size="24" verticalCenter="-164.575"/>
+</e:Skin>

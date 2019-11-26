@@ -1,0 +1,11 @@
+{"file":"mjl_knapsack.png","frames":{
+"mjl_knapsack_add":{"x":240,"y":109,"w":50,"h":51,"offX":0,"offY":0,"sourceW":50,"sourceH":51},
+"mjl_knapsack_gold":{"x":179,"y":188,"w":165,"h":124,"offX":13,"offY":5,"sourceW":184,"sourceH":129},
+"mjl_knapsack_input":{"x":0,"y":462,"w":114,"h":41,"offX":0,"offY":0,"sourceW":114,"sourceH":41},
+"mjl_knapsack_itembg":{"x":0,"y":0,"w":182,"h":184,"offX":0,"offY":0,"sourceW":182,"sourceH":184},
+"mjl_knapsack_reduce":{"x":186,"y":109,"w":50,"h":51,"offX":0,"offY":0,"sourceW":50,"sourceH":51},
+"mjl_knapsack_select":{"x":186,"y":53,"w":52,"h":52,"offX":0,"offY":0,"sourceW":52,"sourceH":52},
+"mjl_knapsack_title":{"x":186,"y":0,"w":186,"h":49,"offX":0,"offY":0,"sourceW":186,"sourceH":49},
+"mjl_knapsack_341":{"x":0,"y":325,"w":174,"h":133,"offX":0,"offY":0,"sourceW":174,"sourceH":133},
+"mjl_knapsack_342":{"x":0,"y":188,"w":175,"h":133,"offX":0,"offY":0,"sourceW":175,"sourceH":133},
+"mjl_knapsack_343":{"x":178,"y":325,"w":174,"h":133,"offX":0,"offY":0,"sourceW":174,"sourceH":133}}}

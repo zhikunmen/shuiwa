@@ -1,0 +1,10 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/ChatPanelSkin.exml",
+		"resource/skin/poker_FaceItemSkin.exml",
+		"resource/skin/poker_fangka_ChatItemSkin.exml",
+		"resource/skin/poker_jinbi_ChatItemSkin.exml"
+	],
+	"path": "resource/pokerchat.thm.json"
+}

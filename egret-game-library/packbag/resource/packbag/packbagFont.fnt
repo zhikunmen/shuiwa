@@ -1,0 +1,13 @@
+{"file":"packbagFont.png","frames":{
+"2":{"x":54,"y":24,"w":15,"h":22,"offX":1,"offY":1,"sourceW":17,"sourceH":25},
+"3":{"x":46,"y":0,"w":15,"h":22,"offX":1,"offY":1,"sourceW":17,"sourceH":25},
+"4":{"x":0,"y":27,"w":17,"h":22,"offX":1,"offY":1,"sourceW":18,"sourceH":25},
+"5":{"x":88,"y":24,"w":14,"h":22,"offX":1,"offY":1,"sourceW":16,"sourceH":25},
+"6":{"x":19,"y":27,"w":16,"h":22,"offX":1,"offY":1,"sourceW":17,"sourceH":25},
+"7":{"x":63,"y":0,"w":15,"h":22,"offX":1,"offY":1,"sourceW":17,"sourceH":25},
+"8":{"x":71,"y":24,"w":15,"h":22,"offX":1,"offY":1,"sourceW":17,"sourceH":25},
+"9":{"x":37,"y":24,"w":15,"h":22,"offX":1,"offY":1,"sourceW":17,"sourceH":25},
+"天":{"x":0,"y":0,"w":26,"h":25,"offX":0,"offY":0,"sourceW":26,"sourceH":25},
+".":{"x":0,"y":51,"w":7,"h":7,"offX":0,"offY":16,"sourceW":7,"sourceH":25},
+"0":{"x":28,"y":0,"w":16,"h":22,"offX":1,"offY":1,"sourceW":17,"sourceH":25},
+"1":{"x":80,"y":0,"w":14,"h":22,"offX":1,"offY":1,"sourceW":16,"sourceH":25}}}

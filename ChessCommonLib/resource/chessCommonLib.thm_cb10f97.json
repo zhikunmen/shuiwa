@@ -1,0 +1,12 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "resource/chessCommon_skins/HeadSkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<e:Skin class=\"chessCommonLib.HeadSkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\"  minWidth=\"10\" minHeight=\"10\">\r\n\t<e:Image id=\"avar_img\" source=\"default_avar_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\r\n\t<e:Image id=\"avarFrame_img\" horizontalCenter=\"0\" verticalCenter=\"0\" source=\"\"/>\r\n</e:Skin>"
+    }
+  ],
+  "skins": {
+    "chessCommonLib.HeadSkin": "resource/chessCommon_skins/HeadSkin.exml"
+  }
+}

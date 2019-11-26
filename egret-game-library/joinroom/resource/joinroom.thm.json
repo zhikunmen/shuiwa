@@ -1,0 +1,9 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/HistroyJoinItemSkin.exml",
+		"resource/skin/JoinRoomSkin.exml",
+		"resource/skin/MJ_JoinRoomButtonSkin.exml"
+	],
+	"path": "resource/joinroom.thm.json"
+}

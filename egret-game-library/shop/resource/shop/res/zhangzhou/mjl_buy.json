@@ -1,0 +1,9 @@
+{"file":"mjl_buy.png","frames":{
+"mjl_buy_good105":{"x":206,"y":288,"w":204,"h":286,"offX":0,"offY":0,"sourceW":204,"sourceH":286},
+"mjl_buy_good106":{"x":0,"y":288,"w":204,"h":286,"offX":0,"offY":0,"sourceW":204,"sourceH":286},
+"mjl_buy_good107":{"x":206,"y":0,"w":204,"h":286,"offX":0,"offY":0,"sourceW":204,"sourceH":286},
+"mjl_buy_good108":{"x":0,"y":0,"w":204,"h":286,"offX":0,"offY":0,"sourceW":204,"sourceH":286},
+"mjl_buy_title2":{"x":364,"y":576,"w":118,"h":49,"offX":0,"offY":0,"sourceW":118,"sourceH":49},
+"mjl_buy_btn":{"x":0,"y":576,"w":185,"h":79,"offX":0,"offY":0,"sourceW":185,"sourceH":79},
+"mjl_buy_btn2":{"x":187,"y":576,"w":175,"h":75,"offX":5,"offY":2,"sourceW":185,"sourceH":79},
+"mjl_buy_give":{"x":412,"y":0,"w":92,"h":91,"offX":0,"offY":0,"sourceW":92,"sourceH":91}}}

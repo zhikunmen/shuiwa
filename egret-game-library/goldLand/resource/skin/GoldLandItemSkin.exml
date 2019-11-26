@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldLandItemSkin" width="656" height="31" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<e:Label id="card_type" text="累积胜利100局" x="82" size="18" fontFamily="Microsoft YaHei" textColor="0xd34a1a" verticalCenter="0.5"/>
+	<e:Label id="nick_name" text="昵称1534" x="242" size="18" fontFamily="Microsoft YaHei" textColor="0xD34A1A" verticalCenter="0.5"/>
+	<e:Label id="num_txt" text="2134" x="405" size="18" fontFamily="Microsoft YaHei" textColor="0xD34A1A" verticalCenter="0.5"/>
+	<e:Label id="time_txt" text="17:45" x="568" size="18" fontFamily="Microsoft YaHei" textColor="0xD34A1A" verticalCenter="0.5"/>
+
+
+	<e:Rect width="656" height="1" x="0" y="29" fillColor="0xFCF3D9" strokeColor="0xFCF3D9" cacheAsBitmap="true"/>
+</e:Skin>

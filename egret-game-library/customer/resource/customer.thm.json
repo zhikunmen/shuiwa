@@ -1,0 +1,7 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/LobbyCustomerlSkin.exml"
+	],
+	"path": "resource/customer.thm.json"
+}

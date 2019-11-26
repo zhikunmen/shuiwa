@@ -1,0 +1,15 @@
+bin-release/
+bin-debug/
+/debug.log
+/favicon.ico
+/.tscache
+/node_modules
+/egretProperties.json
+
+
+.idea/
+package-lock.json
+.wing/
+/manifest.json
+/manifest.json
+/tmp

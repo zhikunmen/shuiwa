@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/GameTaskItemSkin.exml",
+		"resource/skin/GameTaskSkin.exml"
+	],
+	"path": "resource/task.thm.json"
+}

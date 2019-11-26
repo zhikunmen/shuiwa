@@ -1,0 +1,30 @@
+{
+	"groups":[{
+			"keys":"club_desk_bg_jpg,club_guide_json,club_input_fnt_fnt,club_new_menage_json",
+			"name":"pub_club"
+		}],
+	"resources":[
+		{
+			"name":"club_desk_bg_jpg",
+			"type":"image",
+			"url":"club/zhangzhou/club_desk_bg.jpg"
+		},
+		{
+			"name":"club_guide_json",
+			"subkeys":"club_guide_bg,club_guide_click,club_guide_finger,club_guide_finger1,club_guide_finger3",
+			"type":"sheet",
+			"url":"club/zhangzhou/club_guide.json"
+		},
+		{
+			"name":"club_input_fnt_fnt",
+			"type":"font",
+			"url":"club/zhangzhou/club_input_fnt.fnt"
+		},
+		{
+			"name":"club_new_menage_json",
+			"subkeys":"blackWord,club_active_bg,club_addmember_title,club_addpartner_title,club_apply_title,club_applyrecord_title,club_bigwinner_word,club_break,club_btn_add,club_btn_addpartner,club_btn_approval,club_btn_clubrecored,club_btn_detail,club_btn_fastplay,club_btn_import_member,club_btn_manage,club_btn_member,club_btn_partner,club_btn_recored,club_btn_share,club_chengyuan,club_chengyuan1,club_clubname_bg,club_clubrecord_title,club_confirm_play1,club_confirm_play2,club_create_line_png,club_createclub,club_desk,club_deskitem_bg,club_deskitem_bg1,club_deskitem_free,club_deskitem_head,club_deskitem_leave,club_deskitem_leave2,club_deskitem_online,club_deskseat_bg,club_deskseat_head,club_down_playbg,club_downarrow,club_downbg,club_enter,club_enterclub,club_fangjian,club_fangjian1,club_fright_titilebg,club_head_bg,club_import_frame,club_import_on,club_import_on2,club_importid_title,club_importinfo_title,club_importsum_title,club_ingame,club_input_delete1,club_input_delete2,club_input_down,club_input_sure1,club_input_sure2,club_input_up,club_invite_search,club_invite_title,club_invite_title2,club_list_bg,club_matchlist_bg,club_matchlist_down,club_matchlist_item1,club_matchlist_item2,club_matchlist_up,club_member_add,club_member_apply,club_member_chose1,club_member_chose2,club_member_chose3,club_member_chose4,club_member_delete,club_member_delete2,club_member_kick1,club_member_kick2,club_member_manage_title,club_member_owner1,club_member_owner2,club_member_record_title,club_member_search,club_memberdetail_title,club_memberimport_title,club_myclub_title,club_myclubrecord_title,club_myrecord_title,club_notice_bg,club_notice_titile,club_notice_title,club_numlist_bg,club_online,club_online_bg,club_out,club_partner_record_title,club_pauseMatch1,club_person_head,club_question_mark,club_record_bg,club_record_delete1,club_record_delete2,club_recoveryMatch1,club_reddot,club_remarks_title,club_roomdetail_headbg,club_search_title,club_share1,club_switch,club_switch_close,club_switch_on,club_tishi_title_png,club_waiting,club_winlose1,club_winlose2,club_winlose3,club_winlose_bg,club_winlose_pull,club_yelloList,club_yelloList1,club_zhankuang,club_zhankuang1,matchid,matchmemeber2,matchmemeber6,mjl_club_choicetitle,mjl_club_list_title,mjl_club_my,mjl_club_plat1,mjl_club_plat2,mjl_club_plat3,mjl_club_roomdetail_title,mjl_club_title,mjl_club_txt,mjl_record_userbg_png,mjl_scratch_btn1_png,mjl_scratch_btn_png,redDot",
+			"type":"sheet",
+			"url":"club/zhangzhou/club_new_menage.json"
+		}
+	]
+}

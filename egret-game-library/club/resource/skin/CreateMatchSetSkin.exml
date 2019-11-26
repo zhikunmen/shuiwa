@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreateMatchSetSkin" width="920" height="580" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="mjl_common_bg_png" x="0" y="0"  width="917"  height="575" scale9Grid="24,46,20,276" locked="true"/>
+	<e:Label text="老友圈名称：" x="204" y="93" textColor="0x773210" fontFamily="Microsoft YaHei" size="32"/>
+	<e:Label text="副房主账号：" x="204" y="190" textColor="0x773210" fontFamily="Microsoft YaHei" size="32"/>
+	<e:Label text="玩法：" x="177" y="320" textColor="0x773210" fontFamily="Microsoft YaHei" size="32"/>
+	<e:Label id="_permissionLabel" text="房主授权进入" x="415" y="396" fontFamily="Microsoft YaHei" size="28" textColor="0x6d3f32"/>
+	<e:Label id="_gameNameLabel" text="漳州麻将" y="320" fontFamily="Microsoft YaHei" size="32" horizontalCenter="1" textColor="0xff5401"/>
+	<e:Label text="(副房主拥有房主同样的权利，可以帮助房主管理老友圈)" y="255.5" fontFamily="Microsoft YaHei" size="18" textColor="0xc36739" horizontalCenter="0"/>
+	<e:Image source="mjl_common_inputBg_png" x="415" y="81"  width="281"/>
+	<e:Image source="mjl_common_inputBg_png" x="415" y="176"  width="281"/>
+	<e:EditableText id="_clubNameInput"  text="" x="440" y="94" prompt="输入老友圈名称" promptColor="0xd39c50"  width="237" size="32" fontFamily="Microsoft YaHei" height="32" textColor="0x773210" textAlign="center"/>
+	<e:EditableText id="_userIdInput" text="" x="440" y="190" prompt="输入玩家账号" promptColor="0xD39C50"  width="237" size="32" fontFamily="Microsoft YaHei" height="32" textColor="0x773210" textAlign="center" maxChars="9" restrict="0-9"/>
+	<eui:WxButton id="_modifyBtn" label="修 改" x="658.82" y="306.8" width="165" height="59">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_creatBtn" label="创建老友圈" y="457" x="348">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="_sureSetBtn" label="确 定" y="457" x="348">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image source="mjl_createPanel_json.mjl_create_checkbg" x="360" y="398" visible="false"/>
+	<e:Image source="mjl_createPanel_json.mjl_create_check" x="360" y="398" visible="false"/>
+	<e:RadioButton id="_permissionCheck" label="" x="365" y="394">
+		<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+			<e:Image width="100%" height="100%" source="mjl_create_checkbg"/>
+	<e:Image source="mjl_createPanel_json.mjl_create_check" includeIn="upAndSelected,downAndSelected,disabledAndSeleced"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+</e:Skin>

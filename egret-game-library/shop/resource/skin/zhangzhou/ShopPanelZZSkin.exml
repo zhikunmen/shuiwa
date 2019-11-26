@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopPanelZZSkin" width="1101" height="550"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Scroller width="1014" height="340" x="46" y="110" anchorOffsetX="0" anchorOffsetY="0" id="scroller" scrollPolicyV="off" scrollPolicyH="auto">
+		<e:List id="_list" itemRendererSkinName="ShopItemZZSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="34" paddingLeft="39" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="_desc" text="如有问题请关注公众号：lyzzqp(点击可复制)" y="480" horizontalCenter="0" fontFamily="Microsoft YaHei" size="26" textColor="0xcb9158"/>
+</e:Skin>

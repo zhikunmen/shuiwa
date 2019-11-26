@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubApplyRecordItemSkin" width="980" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="980" source="club_new_menage_json.club_list_bg" scale9Grid="40,28,27,21" height="95"/>
+	<e:Label id="_indextText" text="1" x="30" size="40" fontFamily="Arial" textColor="0x8b5500" verticalCenter="0.5"/>
+	<e:Label id="_timeText" text="2012-22-22\n12:12:12" size="18" fontFamily="Microsoft YaHei" textColor="0x796e65" x="100" verticalCenter="0.5"/>
+	<e:Label id="_nameText1" text="大大大大的" x="321.57" y="14" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" width="130" height="24"/>
+	<e:Label id="_uidText1" text="ID:55555555" x="321.32" y="51" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" width="150" height="24"/>
+	<e:Label id="_enterText" text="上游了趴地了" x="816.27" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" verticalCenter="0.5" width="146" textAlign="center" height="24" anchorOffsetX="0"/>
+	<e:Image id="_headImg1" x="242.29" width="73" height="73" verticalCenter="0" source="mjl_common_head_png"/>
+	<e:Label id="_nameText2" text="大大大大的" x="628.57" y="14" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" width="130" height="24"/>
+	<e:Label id="_uidText2" text="ID:55555555" x="628.32" y="51" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" width="150" height="24"/>
+	<e:Image id="_headImg2" x="539.29" width="73" height="73" verticalCenter="0" source="mjl_common_head_png"/>
+</e:Skin>

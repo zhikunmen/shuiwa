@@ -1,0 +1,105 @@
+{
+    "frames": {
+        "1": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 18, 
+            "y": 21, 
+            "x": 45
+        }, 
+        "0": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 19, 
+            "y": 0, 
+            "x": 15
+        }, 
+        "3": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 19, 
+            "y": 0, 
+            "x": 30
+        }, 
+        "2": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 18, 
+            "y": 41, 
+            "x": 45
+        }, 
+        "5": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 19, 
+            "y": 21, 
+            "x": 0
+        }, 
+        "4": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 18, 
+            "y": 41, 
+            "x": 30
+        }, 
+        "7": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 18, 
+            "y": 21, 
+            "x": 30
+        }, 
+        "6": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 19, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "9": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 19, 
+            "y": 0, 
+            "x": 45
+        }, 
+        "8": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 19, 
+            "sourceW": 13, 
+            "w": 13, 
+            "h": 19, 
+            "y": 21, 
+            "x": 15
+        }
+    }, 
+    "file": "room_num_5e37ed80.png"
+}

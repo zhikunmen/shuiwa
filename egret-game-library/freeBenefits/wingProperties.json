@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/freeBenefits.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/freeBenefits_buyu.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/freeBenefits.thm.json"
+}

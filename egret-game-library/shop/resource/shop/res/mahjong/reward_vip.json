@@ -1,0 +1,175 @@
+{
+  "file": "reward_vip.png",
+  "frames": {
+    "daifu_button_haoyou_png": {
+      "x": 176,
+      "y": 418,
+      "w": 236,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 236,
+      "sourceH": 71
+    },
+    "lb_huiyuan_buy_png": {
+      "x": 490,
+      "y": 284,
+      "w": 236,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 236,
+      "sourceH": 71
+    },
+    "lb_huiyuan_day": {
+      "x": 641,
+      "y": 215,
+      "w": 214,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 36
+    },
+    "lb_huiyuan_diamond_png": {
+      "x": 176,
+      "y": 284,
+      "w": 168,
+      "h": 129,
+      "offX": 1,
+      "offY": 7,
+      "sourceW": 169,
+      "sourceH": 137
+    },
+    "lb_huiyuan_dikuang": {
+      "x": 0,
+      "y": 284,
+      "w": 174,
+      "h": 168,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 174,
+      "sourceH": 168
+    },
+    "lb_huiyuan_fuka": {
+      "x": 619,
+      "y": 357,
+      "w": 97,
+      "h": 131,
+      "offX": 20,
+      "offY": 0,
+      "sourceW": 134,
+      "sourceH": 132
+    },
+    "lb_huiyuan_gold2_png": {
+      "x": 346,
+      "y": 284,
+      "w": 142,
+      "h": 132,
+      "offX": 15,
+      "offY": 5,
+      "sourceW": 169,
+      "sourceH": 137
+    },
+    "lb_huiyuan_gold_png": {
+      "x": 691,
+      "y": 0,
+      "w": 137,
+      "h": 132,
+      "offX": 13,
+      "offY": 5,
+      "sourceW": 169,
+      "sourceH": 137
+    },
+    "lb_huiyuan_jia": {
+      "x": 119,
+      "y": 454,
+      "w": 45,
+      "h": 45,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 45,
+      "sourceH": 45
+    },
+    "lb_huiyuan_send_png": {
+      "x": 0,
+      "y": 454,
+      "w": 117,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 117,
+      "sourceH": 46
+    },
+    "lb_huiyuan_special_png": {
+      "x": 728,
+      "y": 253,
+      "w": 117,
+      "h": 46,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 117,
+      "sourceH": 46
+    },
+    "lb_huiyuan_title_png": {
+      "x": 0,
+      "y": 0,
+      "w": 689,
+      "h": 140,
+      "offX": 6,
+      "offY": 0,
+      "sourceW": 695,
+      "sourceH": 141
+    },
+    "lb_huiyuan_yilingjiang_png": {
+      "x": 641,
+      "y": 142,
+      "w": 236,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 236,
+      "sourceH": 71
+    },
+    "lb_shouchong_daoju2_png": {
+      "x": 830,
+      "y": 0,
+      "w": 125,
+      "h": 128,
+      "offX": 19,
+      "offY": 5,
+      "sourceW": 169,
+      "sourceH": 137
+    },
+    "lb_shouchong_title_png": {
+      "x": 0,
+      "y": 142,
+      "w": 639,
+      "h": 140,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 640,
+      "sourceH": 141
+    },
+    "lb_yaoqianshu": {
+      "x": 490,
+      "y": 357,
+      "w": 127,
+      "h": 118,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 128,
+      "sourceH": 118
+    },
+    "mjl_common_closebtn1_png": {
+      "x": 414,
+      "y": 418,
+      "w": 58,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 58
+    }
+  }
+}

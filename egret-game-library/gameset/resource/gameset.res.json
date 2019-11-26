@@ -1,0 +1,12 @@
+{
+	"groups":[{
+			"keys":"game_set_json",
+			"name":"game_set"
+		}],
+	"resources":[{
+			"name":"game_set_json",
+			"subkeys":"game_sp_arrow_left,game_sp_arrow_right,game_sp_bigcard,game_sp_check,game_sp_checkbg,game_sp_off,game_sp_on,game_sp_smallcard,game_sp_title,game_sp_voice_off,game_sp_voice_on",
+			"type":"sheet",
+			"url":"gameset/game_set.json"
+		}]
+}

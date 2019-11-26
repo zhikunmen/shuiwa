@@ -1,0 +1,8 @@
+[
+{"id":1,"stalls":6,"shopIds":[200,201],"startTime":"","endTime":"","actTime":180},
+{"id":2,"stalls":12,"shopIds":[202,203],"startTime":"","endTime":"","actTime":180},
+{"id":3,"stalls":25,"shopIds":[204,205],"startTime":"","endTime":"","actTime":180},
+{"id":4,"stalls":50,"shopIds":[206,207],"startTime":"","endTime":"","actTime":180},
+{"id":5,"stalls":100,"shopIds":[208,209],"startTime":"","endTime":"","actTime":180},
+{"id":6,"stalls":500,"shopIds":[210,211],"startTime":"","endTime":"","actTime":0}
+]

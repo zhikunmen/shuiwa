@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPartnerImportItemSkin" width="214" height="190" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_headImg" x="44" y="23" width="85" height="85" source="club_new_menage_json.club_deskitem_head"/>
+	<e:Label id="_nameText" text="打的阿达的发" x="18" y="122" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" width="146" height="24"/>
+	<e:Label id="_idText" text="ID:43434343" x="19" y="155" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" width="146" height="24"/>
+	<e:Image source="club_new_menage_json.club_import_frame" x="147" y="42"/>
+	<e:Image id="_selectImg" source="club_new_menage_json.club_import_on2" x="148" y="44" visible="false"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+{"file":"poker_chat.png","frames":{
+"pdk_chat_title":{"x":0,"y":72,"w":450,"h":37,"offX":4,"offY":2,"sourceW":458,"sourceH":39},
+"pdk_face_line":{"x":0,"y":218,"w":345,"h":2,"offX":0,"offY":0,"sourceW":345,"sourceH":2},
+"pdk_send":{"x":0,"y":113,"w":170,"h":75,"offX":0,"offY":0,"sourceW":170,"sourceH":75},
+"pdk_chat_bg":{"x":174,"y":113,"w":95,"h":95,"offX":0,"offY":0,"sourceW":95,"sourceH":95},
+"pdk_chat_input":{"x":0,"y":0,"w":477,"h":68,"offX":0,"offY":0,"sourceW":477,"sourceH":68},
+"pdk_chat_line":{"x":0,"y":212,"w":448,"h":2,"offX":0,"offY":0,"sourceW":448,"sourceH":2}}}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TurnTableTaskItemSkin" width="462" height="44" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" width="462" height="44" source="mjl_turntable_json.mjl_turntable_item1" scale9Grid="1,5,12,33"/>
+	<e:Label id="_taskText" text="获得大赢家+" x="56" size="18" verticalCenter="0" fontFamily="Microsoft YaHei"/>
+	<e:Image id="_integralImg" x="164" y="9" source="mjl_turntable_json.mjl_turntable_integral" visible="false"/>
+	<e:Label id="_taskNumText" text="x10" x="193" size="18" verticalCenter="0" fontFamily="Microsoft YaHei" visible="false"/>
+	<e:Label id="_processText" text="12/10" x="354" size="18" verticalCenter="0" textColor="0xfdff40" anchorOffsetX="0" width="56" textAlign="center" fontFamily="Microsoft YaHei"/>
+</e:Skin>

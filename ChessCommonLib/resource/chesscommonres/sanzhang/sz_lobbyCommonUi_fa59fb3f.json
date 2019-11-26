@@ -1,0 +1,45 @@
+{
+    "frames": {
+        "sz_lobbyRankToday4": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 88, 
+            "sourceW": 240, 
+            "w": 239, 
+            "h": 88, 
+            "y": 90, 
+            "x": 241
+        }, 
+        "sz_lobbyRankToday3": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 88, 
+            "sourceW": 240, 
+            "w": 239, 
+            "h": 88, 
+            "y": 0, 
+            "x": 242
+        }, 
+        "sz_lobbyRankToday2": {
+            "offY": 0, 
+            "offX": 1, 
+            "sourceH": 88, 
+            "sourceW": 240, 
+            "w": 239, 
+            "h": 88, 
+            "y": 90, 
+            "x": 0
+        }, 
+        "sz_lobbyRankToday1": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 88, 
+            "sourceW": 240, 
+            "w": 240, 
+            "h": 88, 
+            "y": 0, 
+            "x": 0
+        }
+    }, 
+    "file": "sz_lobbyCommonUi_fa59fb3f.png"
+}

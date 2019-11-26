@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/clubnew.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/loading/clubnew.thm.json"
+}

@@ -1,0 +1,11 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/EmailItemSkin.exml",
+		"resource/skin/EmailVCSkin.exml",
+		"resource/skin/FriendItemSkin.exml",
+		"resource/skin/MainVCSkin.exml",
+		"resource/skin/PrizeItemSkin.exml"
+	],
+	"path": "resource/message.thm.json"
+}

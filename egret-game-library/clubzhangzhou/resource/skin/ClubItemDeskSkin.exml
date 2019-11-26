@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubItemDeskSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="deskGroup" width="260.66" height="219" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image y="10" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="club_new_menage_json.club_desk" x="17" locked="true"/>
+		<e:Image id="headbg1" x="20" y="20.1" scaleX="1" scaleY="1" width="54" height="54" source="club_new_menage_json.club_deskitem_head" visible="false"/>
+		<e:Image id="kuang1" x="20" y="20" scaleX="1" scaleY="1" width="54" height="54" source="club_new_menage_json.club_deskseat_bg" visible="false"/>
+		<e:Image id="leave1" source="club_new_menage_json.club_deskitem_leave" x="22" y="22" visible="false"/>
+		<e:Image id="headbg2" x="192" y="99" scaleX="1" scaleY="1" width="54" height="54" source="club_new_menage_json.club_deskitem_head" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		<e:Image id="kuang2" x="192" y="99" scaleX="1" scaleY="1" width="54" height="54" source="club_new_menage_json.club_deskseat_bg" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		<e:Image source="club_new_menage_json.club_deskitem_leave" x="194" y="101" id="leave2" visible="false"/>
+		<e:Image id="headbg4" x="192" y="20" scaleX="1" scaleY="1" width="54" height="54" source="club_new_menage_json.club_deskitem_head" visible="false"/>
+		<e:Image id="kuang4" x="192" y="20" scaleX="1" scaleY="1" width="54" height="54" source="club_new_menage_json.club_deskseat_bg" visible="false"/>
+		<e:Image source="club_new_menage_json.club_deskitem_leave" x="194" y="22" id="leave4" visible="false"/>
+		<e:Image id="headbg3" x="20" y="98" scaleX="1" scaleY="1" width="54" height="54" source="club_new_menage_json.club_deskitem_head" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		<e:Image id="kuang3" x="20" y="98" scaleX="1" scaleY="1" width="54" height="54" source="club_new_menage_json.club_deskseat_bg" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+		<e:Image source="club_new_menage_json.club_deskitem_leave" x="22" y="100" id="leave3" visible="false"/>
+		<e:Image id="head" x="102.5" y="47.5" source="club_new_menage_json.club_person_head" visible="false"/>
+		<e:Label id="personTxet" text="9/9" x="127" y="52.5" anchorOffsetX="0" anchorOffsetY="0" height="15.5" size="18" textAlign="center" textColor="0xd0cc5e"/>
+		<e:Label id="gamesNumberText" text="" y="101" anchorOffsetX="0" anchorOffsetY="0" height="20" textAlign="center" fontFamily="Microsoft YaHei" size="18" alpha="1" textColor="0xd0cc5e" horizontalCenter="-0.3300000000000125"/>
+		<e:Image id="state" x="90" y="68" source="club_new_menage_json.club_waiting"/>
+
+	</e:Group>
+
+</e:Skin>

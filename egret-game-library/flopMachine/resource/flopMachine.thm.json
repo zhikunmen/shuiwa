@@ -1,0 +1,10 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/FlopMachineBonusPoolSkin.exml",
+		"resource/skin/FlopMachineGuessSkin.exml",
+		"resource/skin/FlopMachinePanelSkin.exml",
+		"resource/skin/FlopMachineRuleSkin.exml"
+	],
+	"path": "resource/flopMachine.thm.json"
+}

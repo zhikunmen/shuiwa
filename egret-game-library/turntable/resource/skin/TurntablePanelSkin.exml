@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TurntablePanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" xmlns:tween="egret.tween.*" width="1280" height="720">
+	<e:Image source="lb_zp_dipan_png" y="545" x="151"/>
+	<e:Image source="lb_zp_title_png" x="97" y="23"/>
+	<e:Group id="turn_grp" y="356" anchorOffsetX="215" anchorOffsetY="215" x="330" width="430" height="430" locked="true">
+		<e:Image source="lb_zp_bg_png" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+	<e:Image source="lb_zp_kaung_png" y="102" x="78"/>
+	<e:Image id="left_img" source="turntable_res_json.lb_zp_sidelight_1_png" x="89" y="275"/>
+	<e:Image id="right_img" source="turntable_res_json.lb_zp_sidelight_1_png" x="568" y="276" scaleX="-1"/>
+	<e:Image id="top_img" source="turntable_res_json.lb_zp_uplight_1_png" y="119" x="205"/>
+	<eui:WxButton id="luckDraw_btn" label="" y="614" x="522" enabled="true">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_zp_button_png" source.disabled="lb_zp_button_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image y="545" x="774" source="turntable_res_json.lb_zp2_dipan_png"/>
+	<e:Image x="719" source="turntable_res_json.lb_zp2_title_png" y="23"/>
+	<e:Group id="turn1_grp" y="356" anchorOffsetX="215" anchorOffsetY="215" x="952" width="430" height="430" locked="true">
+		<e:Image scaleX="1" scaleY="1" source="lb_zp2_bg_png"/>
+	</e:Group>
+	<e:Image source="lb_zp_kaung_png" y="102" x="700"/>
+	<e:Image id="lock_img" source="turntable_res_json.lb_zp2_lock_png" x="884" y="253"/>
+	<e:BitmapLabel id="login_blbl" x="869.5" y="423" font="turntable_loginFont_fnt" text="第1日登录"/>
+	<e:Image id="left1_img" source="turntable_res_json.lb_zp_sidelight_1_png" x="711" y="275"/>
+	<e:Image id="right1_img" source="turntable_res_json.lb_zp_sidelight_1_png" x="1190" y="276" scaleX="-1"/>
+	<e:Image id="top1_img" source="turntable_res_json.lb_zp_uplight_1_png" y="119" x="827"/>
+	<eui:WxButton id="close_btn" label="" y="11" x="1207" visible="false">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="turntable_res_json.lb_geren_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+	<e:Label id="left_lbl" text="剩余次数:0" y="581" fontFamily="Microsoft YaHei" size="24" horizontalCenter="0"/>
+	<e:Label text="非月卡用户每周一零点重置解锁状态" y="594" fontFamily="Microsoft YaHei" size="22" bold="true" x="847" anchorOffsetX="0" width="224" textAlign="center" lineSpacing="6"/>
+
+</e:Skin>

@@ -1,0 +1,10 @@
+{"file":"mjl_joinPanel.png","frames":{
+"mjl_impute_title":{"x":0,"y":0,"w":415,"h":35,"offX":0,"offY":0,"sourceW":415,"sourceH":35},
+"mjl_input_bg":{"x":324,"y":124,"w":83,"h":91,"offX":0,"offY":0,"sourceW":83,"sourceH":91},
+"mjl_join_down":{"x":0,"y":73,"w":160,"h":67,"offX":0,"offY":0,"sourceW":160,"sourceH":67},
+"mjl_join_input_up":{"x":162,"y":73,"w":160,"h":67,"offX":0,"offY":0,"sourceW":160,"sourceH":67},
+"mjl_join_numbg":{"x":417,"y":0,"w":54,"h":56,"offX":0,"offY":0,"sourceW":54,"sourceH":56},
+"mjl_join_title":{"x":324,"y":73,"w":184,"h":49,"offX":0,"offY":0,"sourceW":184,"sourceH":49},
+"mjl_joined_list_title":{"x":0,"y":37,"w":365,"h":34,"offX":0,"offY":0,"sourceW":365,"sourceH":34},
+"lobby_detailsBtn_down":{"x":134,"y":142,"w":132,"h":42,"offX":0,"offY":0,"sourceW":132,"sourceH":42},
+"lobby_joinBtn_down":{"x":0,"y":142,"w":132,"h":42,"offX":0,"offY":0,"sourceW":132,"sourceH":42}}}

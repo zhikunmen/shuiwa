@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/sharepanel.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/loading/sharepanel.thm.json"
+}

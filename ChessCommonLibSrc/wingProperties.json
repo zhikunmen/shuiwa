@@ -1,0 +1,31 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/default.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/chessCommonLib.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/chessCommonLibTest.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/chesscommonres/sanzhang/sz_chip_res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/chesscommonres/sanzhang/sz_vip_res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/chesscommonres/sanzhang/ssc/ssc_res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/chessCommonLib.thm.json"
+}

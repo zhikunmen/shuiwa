@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchYelloItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<e:Image bottom="0" anchorOffsetY="0" height="70" width="1120" source="club_new_menage_json.club_list_bg"
+	         scale9Grid="13,8,85,54" />
+	<e:Image source="mjl_common_bgliney_png" x="465.67" height="53" verticalCenter="-1.5"/>
+	<e:Label id="_nameText" text="姓名" x="217.33" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="173" height="30"
+	         textColor="0x796e65" fontFamily="Microsoft YaHei" />
+	<e:Label id="_uidText" text="ID" x="12.97" verticalCenter="1" textAlign="center" anchorOffsetX="0" width="173"
+	         height="30" textColor="0x796e65" fontFamily="Microsoft YaHei" />
+	<e:Label id="_nameText1" text="姓名" x="704.36" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="173"
+	         height="30" textColor="0x796e65" fontFamily="Microsoft YaHei" />
+	<e:Label id="_uidText1" text="ID" x="511.32" verticalCenter="0" textAlign="center" anchorOffsetX="0" width="166"
+	         height="30" fontFamily="Microsoft YaHei" textColor="0x796e65" />
+
+	<eui:WxButton id="_removeButton" label="移除列表" x="944.26" y="8">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image height="52" source="mjl_panel_common_json.mjl_btn4" width="161"  scale9Grid="34,22,41,2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2"
+				         strokeColor="0x135b17"  size="28"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxGameListItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*" xmlns:w="http://ns.egret.com/wing" width="260" height="344">
+	<eui:WxButton id="tick_btn" label="" touchChildren="false" y="1">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" width="260" height="344">
+			<e:Image source="bs_bg_png" y="1"/>
+	<e:Image source="bs_baoming_png" x="158" y="284"/>
+	<e:Image id="mf_img" source="wx_bs_res_json.bs_mianfei_png" x="36" y="281"/>
+	<e:Image id="diamond_img" x="3" y="283" source="wx_lb_res_json.lb_diamond_png"/>
+	<e:Image id="icon_img" source="lb_bisai_type7_png" y="27" horizontalCenter="0"/>
+	<e:BitmapLabel id="diamond_blbl" y="284" font="lb_diamond_fnt" text="1000" x="14" textAlign="center" letterSpacing="-4" width="168" anchorOffsetX="0"/>
+	<e:Label id="money_lbl" text="5" textAlign="center" anchorOffsetX="0" fontFamily="Microsoft YaHei" size="52" bold="true" scaleX="1" scaleY="1" textColor="0xffff0e" horizontalCenter="0.5" verticalCenter="-51"/>
+	<e:Label id="desc_lbl" text="前6名可获得福卡" y="236" fontFamily="Microsoft YaHei" size="22" horizontalCenter="0" textColor="0x57b868"/>
+	<e:Image id="black_img" source="bs_mengban_png" width="253" scale9Grid="24,24,2,2" height="338" horizontalCenter="0" visible="false"/>
+	<e:Image id="lock_img" source="bs_jiesuo_png" y="147" x="7"/>
+	<e:Label id="lockDesc_lbl" text="邀请三个好友解锁" y="156" size="22" fontFamily="Microsoft YaHei" horizontalCenter="15"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+</e:Skin>

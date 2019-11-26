@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="shareSkin" width="650" height="520" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" width="650" height="520" scale9Grid="6,116,4,24" source="gameshare_bg_jpg"/>
+	<e:List id="itemList" width="603" y="84.33" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="shareItemSkin" horizontalCenter="0">
+		<e:layout>
+			<e:VerticalLayout gap="10"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+				<e:Object d="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:Label id="playLabel" text="房号:3333333 漳浦麻将 2015/22/22 22:22:22" x="10.33" y="485.33" size="22" anchorOffsetX="0" width="490.82" textAlign="left" fontFamily="Microsoft YaHei" textColor="0xffff00"/>
+</e:Skin>

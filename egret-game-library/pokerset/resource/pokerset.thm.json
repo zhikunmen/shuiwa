@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/removeRoomSkin.exml",
+		"resource/skin/SetPanelSkin.exml"
+	],
+	"path": "resource/pokerset.thm.json"
+}

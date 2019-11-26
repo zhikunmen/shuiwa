@@ -1,0 +1,1 @@
+{"width":128,"imagePath":"game_zhuanpan_tex.png","height":256,"name":"game_zhuanpan","SubTexture":[{"width":75,"y":108,"height":85,"name":"zhuanpan","x":1},{"width":14,"y":108,"height":24,"name":"zhizhen","x":78},{"y":1,"frameY":-8,"frameWidth":128,"width":112,"frameX":-8,"frameHeight":128,"height":105,"name":"Circle_a_0021","x":1}]}

@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/turntable.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/turntable/turntable_res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/turntable.thm.json"
+}

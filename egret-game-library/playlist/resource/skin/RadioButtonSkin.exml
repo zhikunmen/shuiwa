@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="playlist.RadioButtonSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="270">
+	<e:Image verticalCenter="1" width="100%" height="100%"
+	         source.upAndSelected="mjl_common_menu2_png" source.downAndSelected="mjl_common_menu2_png"
+	         source.disabledAndSelected="mjl_common_menu2_png" anchorOffsetX="0" x="10" source="mjl_common_menu1_png"/>
+	<e:Label id="labelDisplay" size="35"  fontFamily="黑体" text="" verticalCenter="0" width="240" x="12" textAlign="center" textColor="0x664438" bold="true"/>
+</e:Skin>

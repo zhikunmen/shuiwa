@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.LobbyChatPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:tween="egret.tween.*" xmlns:w="http://ns.egret.com/wing">
+	<w:Declarations>
+		<tween:TweenGroup id="loadingTip">
+			<tween:TweenItem target="{loading_img}">
+				<tween:To duration="3000">
+					<tween:props>
+						<e:Object rotation="{360}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image source="sz_common_Chat_json.sz_common_chat_bg" y="78.33" horizontalCenter="0" locked="true" />
+	<e:Image id="loading_img" anchorOffsetX="58" anchorOffsetY="58" y="316" source="Emojchat_loading_png" horizontalCenter="0" />
+	<e:Button id="chatSend" label="" x="1042.83" y="587" anchorOffsetX="66.33" anchorOffsetY="35.67" width="130">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="sz_common_chat_sendBtn1" source.down="sz_common_chat_sendBtn1" scaleX.down="1.05"
+				         scaleY.down="1.05" />
+				<e:Image id="sendDisable" source="sz_common_chat_sendBtn2" source.down="sz_common_chat_sendBtn2" visible="false" />
+				<e:Image id="send_word" source="sz_common_chat_send" source.down="sz_common_chat_send" horizontalCenter="0"
+				         verticalCenter="0.5" scaleX.down="1.1" scaleY.down="1.1" anchorOffsetX="54.67" anchorOffsetY="20" visible="true" />
+				<e:Image id="send_wordDisable" source="sz_common_chat_send2" source.down="sz_common_chat_send2" horizontalCenter="0"
+				         verticalCenter="0.5" scaleX.down="1.1" scaleY.down="1.1" anchorOffsetX="54.67" anchorOffsetY="20" />
+				<e:Label size="33" fontFamily="null1" id="sendClock" text="" x="11.33" y="8" verticalAlign="middle"
+				         textAlign="center" anchorOffsetX="0" width="110.34" anchorOffsetY="0" height="53" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="chatClose" label="" x="1120.5" y="53.83" anchorOffsetX="29" anchorOffsetY="25">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="sz_Lobby_help_close" source.down="sz_Lobby_help_close" scaleX.down="1.1" scaleY.down="1.1" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="chatScroll" width="963" height="420.33" x="159" y="109" anchorOffsetX="0" anchorOffsetY="0"
+	            bounces="false" scrollPolicyH="off">
+		<e:List id="chatList" height="453.66" itemRendererSkinName="chessCommonLib.LobbyChatListItemSkin"
+		        anchorOffsetX="0" anchorOffsetY="0" y="-30.67" x="0">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object x="1" y="2" />
+					<e:Object/>
+					<e:Object dsf="null" />
+					<e:Object dsf="null" />
+					<e:Object dsf="null" />
+					<e:Object dsf="null" />
+					<e:Object dsf="null" />
+					<e:Object dsf="null" />
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="justify" gap="4" verticalAlign="top" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="chatFaceIcon" source="sz_common_Chat_json.sz_common_chat_icon" x="805.33" y="561.33" />
+	<e:Image id="hornIcon" source="sz_common_Chat_json.sz_common_chat_horn" x="874" y="565.83" />
+	<e:Image source="sz_common_Chat_json.sz_common_chat_mask" x="162" y="550.33" scale9Grid="74,15,448,18"
+	         anchorOffsetY="0" height="70" anchorOffsetX="0" width="640" />
+	<!--<chesscommonlib:LobbyChatFaceComponent id="chatFacePanel" width="926.67" height="310.67" x="178.33" y="194.66"
+	                                           anchorOffsetX="0" anchorOffsetY="0" visible="false" />
+	-->
+	<e:EditableText id="chatContentLable" width="623" height="64" size="27" text="" x="171" y="555.33" anchorOffsetY="0"
+	                anchorOffsetX="0" textAlign="left" verticalAlign="middle" textColor="0x050505"
+	                fontFamily="null1" multiline="true" prompt="请在此输入内容，总长度不超过40个字" />
+	<e:Label id="hornNum" text="" x="913" y="574" fontFamily="null1" size="24" width="63" textAlign="center" />
+	<!--<e:Component width="926.67" height="310.67" x="178.33" y="194.66" anchorOffsetX="0" anchorOffsetY="0"
+	                 skinName="chesscommonlib.LobbyChatFaceComponent" visible="false" />
+	-->
+		<e:Rect id="touchMask" fillColor="0xfcfcfc" fillAlpha="0" anchorOffsetX="0" width="1278.33" anchorOffsetY="0" height="723" touchEnabled="false"/>
+</e:Skin>

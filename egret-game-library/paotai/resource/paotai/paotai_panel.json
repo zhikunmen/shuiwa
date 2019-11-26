@@ -1,0 +1,145 @@
+{
+  "file": "paotai_panel.png",
+  "frames": {
+    "attack_speed_bar": {
+      "x": 215,
+      "y": 365,
+      "w": 16,
+      "h": 19,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 18,
+      "sourceH": 21
+    },
+    "attack_speed_bg": {
+      "x": 587,
+      "y": 0,
+      "w": 171,
+      "h": 21,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 171,
+      "sourceH": 21
+    },
+    "attack_speed_txt": {
+      "x": 647,
+      "y": 23,
+      "w": 41,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 41,
+      "sourceH": 22
+    },
+    "paotai_bg": {
+      "x": 253,
+      "y": 0,
+      "w": 117,
+      "h": 450,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 450
+    },
+    "paotai_biao": {
+      "x": 372,
+      "y": 213,
+      "w": 95,
+      "h": 54,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 95,
+      "sourceH": 54
+    },
+    "paotai_btn_close": {
+      "x": 587,
+      "y": 23,
+      "w": 58,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 58
+    },
+    "paotai_button1": {
+      "x": 0,
+      "y": 365,
+      "w": 213,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 71
+    },
+    "paotai_button2": {
+      "x": 0,
+      "y": 438,
+      "w": 213,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 71
+    },
+    "paotai_button3": {
+      "x": 372,
+      "y": 0,
+      "w": 213,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 71
+    },
+    "paotai_button4": {
+      "x": 372,
+      "y": 73,
+      "w": 213,
+      "h": 71,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 214,
+      "sourceH": 71
+    },
+    "paotai_common_bg": {
+      "x": 372,
+      "y": 146,
+      "w": 192,
+      "h": 65,
+      "offX": 7,
+      "offY": 5,
+      "sourceW": 199,
+      "sourceH": 74
+    },
+    "paotai_item_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 251,
+      "h": 363,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 251,
+      "sourceH": 363
+    },
+    "paotai_title": {
+      "x": 372,
+      "y": 269,
+      "w": 89,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 89,
+      "sourceH": 36
+    },
+    "paotai_unlock": {
+      "x": 587,
+      "y": 83,
+      "w": 68,
+      "h": 26,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 68,
+      "sourceH": 26
+    }
+  }
+}

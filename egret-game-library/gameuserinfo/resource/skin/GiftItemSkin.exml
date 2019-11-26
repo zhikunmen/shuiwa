@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftItemSkin" width="110" height="167" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="zhangzhou_userinfo_json.userinfo_bg1" width="110" height="167"/>
+	<e:Image id="_gift_img" x="16.5" y="61" source="zhangzhou_userinfo_json.userinfo_gift1"/>
+	<e:Label id="_gift_name" text="黄瓜" x="2.5" y="18" anchorOffsetX="0" width="105" textAlign="center" fontFamily="Microsoft YaHei" size="20" textColor="0x8c482d"/>
+</e:Skin>

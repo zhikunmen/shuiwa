@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/ExchangeItemSkin.exml",
+		"resource/skin/ExchangeVCSkin.exml"
+	],
+	"path": "resource/exchange.thm.json"
+}

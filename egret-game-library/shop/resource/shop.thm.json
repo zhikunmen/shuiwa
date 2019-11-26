@@ -1,0 +1,21 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/buyu/FirstRechargeBuYuSkin.exml",
+		"resource/skin/FirstRechargeSkin.exml",
+		"resource/skin/MonthlyCardRecvSkin.exml",
+		"resource/skin/MonthlyCardSkin.exml",
+		"resource/skin/RechargeGiftDailyItemSkin.exml",
+		"resource/skin/RechargeGiftDailySkin.exml",
+		"resource/skin/RechargeItemSkin.exml",
+		"resource/skin/ShopDFInfoSkin.exml",
+		"resource/skin/ShopDFTipsSkin.exml",
+		"resource/skin/ShopItemSkin.exml",
+		"resource/skin/ShopPanelSkin.exml",
+		"resource/skin/ThreeRMBItemSkin.exml",
+		"resource/skin/ThreeRMBSkin.exml",
+		"resource/skin/zhangzhou/ShopItemZZSkin.exml",
+		"resource/skin/zhangzhou/ShopPanelZZSkin.exml"
+	],
+	"path": "resource/shop.thm.json"
+}

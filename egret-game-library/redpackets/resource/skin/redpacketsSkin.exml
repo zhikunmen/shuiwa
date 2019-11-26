@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="redpacketsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="985" height="615">
+	<e:Image scaleX="1" scaleY="1" y="1" source="mjl_redpackets_bg1_png"/>
+
+	<e:Image x="847" y="203" source="mjl_redpackets_json.mjl_redpackets_hongbao" locked="true"/>
+	<eui:Button id="btn_0" label="1000金币" x="112.66" y="211" name="0">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image id="head" source="mjl_redpackets_jia" x="22" width="114" height="115" y="0"/>
+			<e:Image id="msk" source="mjl_redpackets_mengban" x="22" y="0" visible="false"/>
+			<e:Image id="get" source="mjl_redpackets_wancheng" y="7" x="35" visible="false"/>
+			<e:Image id="type" source="mjl_redpackets_lingqu" y="147.32" x="0" includeIn="up"/>
+	<e:Image id="type0" source="mjl_redpackets_lingqu" y="149.97" x="2.5" includeIn="down" anchorOffsetX="0" width="152" anchorOffsetY="0" height="44"/>
+	<e:Label id="numTxt" size="24" fontFamily="Microsoft YaHei" text="" y="116.68" horizontalCenter="3.5" textColor="0xdeff00"/>
+			<e:Label id="awardTxt" size="24" fontFamily="Microsoft YaHei" textColor="0xb43717" text="" y="159.32" horizontalCenter="0.5"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:Button>
+	<eui:Button id="btn_2" label="1000金币" x="540.61" y="211" name="2">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image id="head" source="mjl_redpackets_jia" x="22" width="114" height="115" y="0"/>
+			<e:Image id="msk" source="mjl_redpackets_mengban" x="22" y="0" visible="false"/>
+			<e:Image id="get" source="mjl_redpackets_wancheng" y="7" x="35" visible="false"/>
+			<e:Image id="type" source="mjl_redpackets_lingqu" y="147.32" x="0" includeIn="up"/>
+			<e:Image id="type0" source="mjl_redpackets_lingqu" y="150" x="2.5" includeIn="down" anchorOffsetX="0" width="152" anchorOffsetY="0" height="44"/>
+			<e:Label id="numTxt" size="24" fontFamily="Microsoft YaHei" text="" y="116.68" horizontalCenter="3.5" textColor="0xdeff00"/>
+			<e:Label id="awardTxt" size="24" fontFamily="Microsoft YaHei" textColor="0xb43717" text="" y="159.32" horizontalCenter="0.5"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:Button>
+	<eui:Button id="btn_1" label="1000金币" x="327.29" y="211" name="1">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image id="head" source="mjl_redpackets_jia" x="22" width="114" height="115" y="0"/>
+			<e:Image id="msk" source="mjl_redpackets_mengban" x="22" y="0" visible="false"/>
+			<e:Image id="get" source="mjl_redpackets_wancheng" y="7" x="35" visible="false"/>
+			<e:Image id="type" source="mjl_redpackets_lingqu" y="147.32" x="0" includeIn="up"/>
+			<e:Image id="type0" source="mjl_redpackets_lingqu" y="149.97" x="2.5" includeIn="down" anchorOffsetX="0" width="152" anchorOffsetY="0" height="44"/>
+			<e:Label id="numTxt" size="24" fontFamily="Microsoft YaHei" text="" y="116.68" horizontalCenter="3.5" textColor="0xdeff00"/>
+			<e:Label id="awardTxt" size="24" fontFamily="Microsoft YaHei" textColor="0xb43717" text="" y="159.32" horizontalCenter="0.5"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:Button>
+
+
+
+
+
+
+
+	<e:Label text="每天0点刷新次数" x="291" y="503" fontFamily="Microsoft YaHei" size="24" textColor="0xe9cdaf" locked="true"/>
+	<e:Label id="tips_lbl" text="邀请3名新用户领0.66元及以上随机红包，自动提现！" x="107" y="471" fontFamily="Microsoft YaHei" size="24" textColor="0xe9cdaf" locked="true"/>
+
+</e:Skin>

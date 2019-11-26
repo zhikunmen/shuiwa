@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwGameRecordItemSkin" width="843" height="48" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="HPW-hbjl-tx_png" scale9Grid="15,21,4,4" width="100%" locked="true"/>
+	<e:Label id="name_lbl" text="888元红包赛" x="6" y="13" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" anchorOffsetX="0" width="135" textAlign="right"/>
+	<e:Label id="sceneId_lbl" text="11111111" x="166" y="13" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" width="120" textAlign="center"/>
+	<e:Label id="time_lbl" text="2017/08/08/23:00" x="304.5" y="13" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" width="200" textAlign="center"/>
+	<e:Label id="rank_lbl" text="第三名" x="526" y="13" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" width="100" textAlign="center"/>
+	<e:Label id="point_lbl" text="3分" x="629" y="11" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" width="100" textAlign="center"/>
+	<e:Label id="packet_lbl" text="888元" x="729" y="11" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" width="100" textAlign="center"/>
+</e:Skin>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwPackageRewardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:match="match.*" xmlns:w="http://ns.egret.com/wing" width="1128" height="613">
+    <e:Image source="BSXQ-db_png" scale9Grid="24,2,15,28" width="1128" horizontalCenter="0" verticalCenter="0"  height="613"/>
+	<e:Image y="-13" horizontalCenter="0.5" source="HPW-hbjl-bt_png"/>
+    <e:Image y="89" anchorOffsetX="0" width="1084" anchorOffsetY="0" height="507" source="BSXQ-jgg_png" scale9Grid="116,107,7,7" horizontalCenter="0"/>
+	<e:RadioButton id="record_rbtn" label="" x="301" y="108">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HPW-hbjl-hbjl_png" source.down="HPW-hbjl-hbjl-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="detail_rbtn" label="" x="79" y="108" selected="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HPW-hbjl-txxq_png" source.down="HPW-hbjl-txxq-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Image source="HPW-hbjl-jgg_png" x="46.5" y="163.5" scale9Grid="59,59,6,8" height="411" anchorOffsetX="0" width="686" anchorOffsetY="0"/>
+	<e:Image x="53" y="174" source="HPW-hbjl-xh_png" width="669" scale9Grid="18,19,3,4"/>
+	<match:BaseButton id="help_btn" label="" x="1019" y="97">
+		<match:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HPW-hbjl-yw_png" source.down="HPW-hbjl-yw-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<e:Image id="openPackage_img" source="HPW-hbjl-hb_png" x="752.5" y="146"/>
+	<e:Image source="HPW-hbjl-yld_png" x="791" y="488"/>
+	<match:BaseButton id="close_btn" label="" y="-20" x="1060">
+		<match:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSXQ-gb_png" source.down="BSXQ-gb-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<e:Label text="序号" x="90" y="187" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label text="红包金额" x="225" y="187" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label text="待领取红包" x="809" y="496" fontFamily="Microsoft YaHei" size="24" textColor="0xffe15d"/>
+	<e:Label id="revSum_lbl" text="15" x="968" y="496" fontFamily="Microsoft YaHei" size="24" textColor="0xFFE15D" width="70" textAlign="center"/>
+	<e:Label text="时间" x="408.5" y="187" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label text="微信客服:" x="791" y="114.5" fontFamily="Microsoft YaHei" size="22" textColor="0xc6d9f1"/>
+	<e:Label text="状态" x="613" y="187" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Scroller width="669" height="340" x="53" y="228" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="reward_lst" x="-1" y="-1" itemRendererSkinName="HpwPackageRewardItemSkin">
+		</e:List>
+	</e:Scroller>
+</e:Skin>

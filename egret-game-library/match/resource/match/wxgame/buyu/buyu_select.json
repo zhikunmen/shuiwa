@@ -1,0 +1,75 @@
+{
+  "file": "buyu_select.png",
+  "frames": {
+    "buyu_back_icon": {
+      "x": 82,
+      "y": 765,
+      "w": 148,
+      "h": 42,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 151,
+      "sourceH": 45
+    },
+    "buyu_dntg": {
+      "x": 304,
+      "y": 0,
+      "w": 318,
+      "h": 377,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 318,
+      "sourceH": 377
+    },
+    "buyu_lock": {
+      "x": 304,
+      "y": 379,
+      "w": 224,
+      "h": 212,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 224,
+      "sourceH": 212
+    },
+    "buyu_lxbd": {
+      "x": 0,
+      "y": 0,
+      "w": 302,
+      "h": 399,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 302,
+      "sourceH": 399
+    },
+    "buyu_lznh": {
+      "x": 0,
+      "y": 401,
+      "w": 302,
+      "h": 362,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 302,
+      "sourceH": 362
+    },
+    "buyu_reward": {
+      "x": 0,
+      "y": 765,
+      "w": 80,
+      "h": 82,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 80,
+      "sourceH": 82
+    },
+    "buyu_ryht": {
+      "x": 624,
+      "y": 0,
+      "w": 318,
+      "h": 366,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 318,
+      "sourceH": 366
+    }
+  }
+}

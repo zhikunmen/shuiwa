@@ -1,0 +1,85 @@
+{
+  "file": "fingerling.png",
+  "frames": {
+    "finger_all_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 116,
+      "h": 449,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 450
+    },
+    "finger_btn_close": {
+      "x": 396,
+      "y": 0,
+      "w": 58,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 58
+    },
+    "finger_in_bg": {
+      "x": 396,
+      "y": 60,
+      "w": 34,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 34
+    },
+    "finger_title": {
+      "x": 0,
+      "y": 451,
+      "w": 135,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 135,
+      "sourceH": 36
+    },
+    "fish_item_bg1": {
+      "x": 118,
+      "y": 0,
+      "w": 137,
+      "h": 192,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 137,
+      "sourceH": 192
+    },
+    "fish_item_bg2": {
+      "x": 257,
+      "y": 0,
+      "w": 137,
+      "h": 192,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 137,
+      "sourceH": 192
+    },
+    "fish_item_bg3": {
+      "x": 118,
+      "y": 194,
+      "w": 137,
+      "h": 192,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 137,
+      "sourceH": 192
+    },
+    "fish_titlebg": {
+      "x": 257,
+      "y": 194,
+      "w": 193,
+      "h": 67,
+      "offX": 6,
+      "offY": 5,
+      "sourceW": 199,
+      "sourceH": 74
+    }
+  }
+}

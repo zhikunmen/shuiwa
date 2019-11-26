@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/gameset.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/gameset.thm.json"
+}

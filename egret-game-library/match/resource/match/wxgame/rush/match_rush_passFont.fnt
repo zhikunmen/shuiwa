@@ -1,0 +1,13 @@
+{"file":"match_rush_passFont.png","frames":{
+"第":{"x":0,"y":0,"w":29,"h":29,"offX":0,"offY":0,"sourceW":30,"sourceH":30},
+"二":{"x":61,"y":59,"w":28,"h":25,"offX":1,"offY":2,"sourceW":30,"sourceH":30},
+"关":{"x":31,"y":30,"w":28,"h":28,"offX":1,"offY":1,"sourceW":30,"sourceH":30},
+"九":{"x":93,"y":29,"w":28,"h":28,"offX":1,"offY":1,"sourceW":30,"sourceH":30},
+"六":{"x":61,"y":30,"w":29,"h":27,"offX":0,"offY":1,"sourceW":30,"sourceH":30},
+"七":{"x":93,"y":0,"w":30,"h":27,"offX":0,"offY":1,"sourceW":30,"sourceH":30},
+"三":{"x":0,"y":31,"w":29,"h":26,"offX":0,"offY":2,"sourceW":30,"sourceH":30},
+"十":{"x":62,"y":0,"w":29,"h":28,"offX":0,"offY":1,"sourceW":30,"sourceH":30},
+"四":{"x":91,"y":59,"w":27,"h":25,"offX":1,"offY":2,"sourceW":30,"sourceH":30},
+"五":{"x":0,"y":59,"w":29,"h":26,"offX":0,"offY":2,"sourceW":30,"sourceH":30},
+"一":{"x":31,"y":60,"w":28,"h":8,"offX":1,"offY":11,"sourceW":30,"sourceH":30},
+"八":{"x":31,"y":0,"w":29,"h":28,"offX":0,"offY":1,"sourceW":30,"sourceH":30}}}

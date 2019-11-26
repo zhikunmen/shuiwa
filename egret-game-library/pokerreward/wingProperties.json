@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/pokerreward.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/pokerreward.thm.json"
+}

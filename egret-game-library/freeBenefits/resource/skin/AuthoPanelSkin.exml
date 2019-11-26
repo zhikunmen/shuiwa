@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AuthoPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="919" height="522">
+	<e:Image width="919" height="522" source="lb_autho_panel_json.lb_shc_bg" scale9Grid="35,35,5,4"/>
+	<e:Image source="lb_autho_panel_json.lb_shc_title" y="-87" horizontalCenter="0"/>
+	<e:Image y="-19" source="lb_autho_panel_json.lb_shc_hongbu" x="-17"/>
+	<e:Image y="-19" source="lb_autho_panel_json.lb_shc_hongbu" scaleX="-1" x="935"/>
+	<eui:WxButton id="reward_btn" y="381" x="325">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_autho_panel_json.shc_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+			</eui:WxButton>
+	<eui:WxButton id="close_btn" y="-20.5" x="874">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_autho_panel_json.lb_closeBtn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Scroller y="143" horizontalCenter="0">
+		<e:List id="reward_lst" itemRendererSkinName="AuthoItemSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="48"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="账号授权成功后即可获得以下奖励" y="92" fontFamily="Microsoft YaHei" size="28" textColor="0x7c3812" horizontalCenter="0.5"/>
+	<e:Label text="账号授权能更有效保护账号安全" y="473" fontFamily="Microsoft YaHei" size="24" textColor="0x7c3812" horizontalCenter="0.5"/>
+</e:Skin>

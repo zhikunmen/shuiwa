@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxPigRushThroughSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*"
+        xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:match="match.*">
+	<e:Image id="bg_img" source="lb_bg_jpg"  horizontalCenter="0"/>
+	<e:Group width="1280" height="720" horizontalCenter="0" touchEnabled="true">
+		<eui:WxButton id="silverPig_btn" label="" x="241" y="149" scaleX="1" scaleY="1" name="1" visible="false">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="match_pig_json.cg_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="goldPig_btn" label="" x="731" y="149" scaleX="1" scaleY="1" touchEnabled="true" name="2" visible="false">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="match_pig_json.cg_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="cardRush_btn" label="报名：福卡x10" y="149" scaleX="1" scaleY="1" x="149" name="1">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="match_pig_json.cg_3"/>
+				<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" size="24" y="311" horizontalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="goldRush_btn" label="当前关数：3" y="149" scaleX="1" scaleY="1" touchEnabled="true" x="497" name="2">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="match_pig_json.cg_4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="Microsoft YaHei" size="24" y="311"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="diamondRush_btn" label="当前关数：3" y="149" scaleX="1" scaleY="1" touchEnabled="true" x="845" name="3">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="match_pig_json.cg_5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="Microsoft YaHei" size="24" y="311"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<e:Image id="rbtnBg_img" source="match_pig_json.cg_xuanchang_bg" y="612" horizontalCenter="0"/>
+		<e:RadioButton id="cardRush_rbtn" label="" y="600" x="389" value="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="match_pig_json.cg_xuanchang_bg2" source.down="match_pig_json.cg_xuanchang_fuka1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="goldRush_rbtn" label="" y="600" x="647" value="2">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="match_pig_json.cg_xuanchang_jinzhu2" source.down="match_pig_json.cg_xuanchang_jinzhu1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+	</e:Group>
+	<eui:WxButton id="ret_btn" label="" x="38" y="38">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bs_ret_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<match:WxTopOpBtn id="top_skin" x="260" y="38" skinName="WxTopOpBtnSkin"/>
+	<eui:WxButton id="rule_btn" label="" x="894" y="25">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="wx_lb_res_json.ruler_botton_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+</e:Skin>

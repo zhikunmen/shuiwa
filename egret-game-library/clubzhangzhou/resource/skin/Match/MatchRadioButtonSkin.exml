@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchRadioButtonSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <w:Config id="1645e31690b" />
+    <e:Image id="_itemBg" anchorOffsetX="0" width="202" source="club_new_menage_json.club_matchlist_item2" scale9Grid="4,3,3,3"
+             height="49" y="0" />
+    <e:Label id="_clubId" text="222222" anchorOffsetX="0" width="156" anchorOffsetY="0"
+             size="22" textAlign="center"  bold="true"
+             x="19"  fontFamily="Microsoft YaHei" textColor="0x97550f" verticalCenter="0"/>
+</e:Skin>

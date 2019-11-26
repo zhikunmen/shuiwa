@@ -1,0 +1,6 @@
+[
+{"vipLevel":1,"diamond":5000,"freeType":[4],"discount":0.0,"desc":["激活免费创建4人房间"]},
+{"vipLevel":2,"diamond":10000,"freeType":[4,3],"discount":0.0,"desc":["激活免费创建3人房间"]},
+{"vipLevel":3,"diamond":50000,"freeType":[4,3,2],"discount":0.0,"desc":["激活免费创建2人房间"]},
+{"vipLevel":4,"diamond":100000,"freeType":[4,3,2],"discount":0.1,"desc":["享受10%折扣","激活"]}
+]

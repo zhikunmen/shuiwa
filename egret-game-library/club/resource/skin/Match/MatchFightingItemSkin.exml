@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchFightingItemSkin" width="895" height="180" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="891" height="180" y="2" x="1" source="mjl_record_userbg_png"  scale9Grid="32,71,748,41"/>
+	<e:Label id="tableNoLabel" text="卓1" x="38" y="11" size="25" textColor="0x796e65" fontFamily="Microsoft YaHei"/>
+	<e:Label text="姓名" x="32.5" y="61.16" size="25" fontFamily="Microsoft YaHei" textColor="0x796e65"/>
+	<e:Label text="分数" x="32" y="109.66" size="25" fontFamily="Microsoft YaHei" textColor="0x796e65"/>
+	<e:Label id="tableIdLabel" text="桌号" y="11" x="137" textAlign="center" size="25" fontFamily="Microsoft YaHei" textColor="0x796e65"/>
+	<e:Label id="timeLabel" text="123456" y="11" right="52" size="25" height="25" fontFamily="Microsoft YaHei" textColor="0x796e65"/>
+
+	<e:Scroller width="756" height="95" x="105" y="51.16"  >
+		<e:List id="nameandscore" itemRendererSkinName="MatchFightingNSSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

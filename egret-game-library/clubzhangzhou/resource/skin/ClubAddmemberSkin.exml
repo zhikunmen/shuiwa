@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubAddmemberSkin" width="850" height="343" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="mjl_common_bg_png" width="850" y="29" anchorOffsetX="0" anchorOffsetY="0" height="309"
+	         scale9Grid="30,162,12,71" x="-1" locked="true" />
+	<e:Image source="mjl_common_title_png" y="2" x="190" locked="true" />
+	<e:Image source="club_new_menage_json.club_addmember_title" y="13" horizontalCenter="0" locked="true" />
+	<e:Image source="mjl_common_bgline_png" y="177" scale9Grid="3,0,19,3" width="803" horizontalCenter="0" locked="true" />
+	<e:Image source="mjl_common_inputBg_png" x="33" y="104" anchorOffsetX="0" width="622" />
+	<e:EditableText id="_searchEditableText" width="596" height="46" text="" x="45.35" y="111" verticalAlign="middle"
+	                prompt="输入玩家ID" promptColor="0xD39C50" anchorOffsetX="0" fontFamily="Microsoft YaHei" maxChars="8"
+	                textColor="0x73491B" inputType="egret.TextFieldInputType.TEL" size="24" />
+	<eui:WxButton id="_searchBtn" label="搜 索" horizontalCenter="314" verticalCenter="-36.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn7"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x995413" size="28"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Button id="_closeBtn" label="" x="-24" y="-5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_tishiText" text="暂时没有数据哦~" y="221" size="58" fontFamily="Microsoft YaHei" textColor="0xD39C50"
+	         horizontalCenter="0" />
+	<e:Scroller width="788" height="80" y="208" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:List id="_menberList" itemRendererSkinName="ClubMemberItemSkin"></e:List>
+	</e:Scroller>
+</e:Skin>

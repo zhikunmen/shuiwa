@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPlayerListHeadSkin" width="176" height="233" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="_nameTxt" text="玩家昵称..." y="119" horizontalCenter="4.5" size="24" fontFamily="Microsoft YaHei" textColor="0x624a33" anchorOffsetX="0" width="129" anchorOffsetY="0" height="27"/>
+	<e:Label id="_idTxt" text="ID:333333332" y="152" horizontalCenter="-1.5" size="24" fontFamily="Microsoft YaHei" textColor="0x624A33" anchorOffsetX="0" width="191" anchorOffsetY="0" height="27" textAlign="center"/>
+	<e:Image id="_headImg" y="18.23" anchorOffsetX="0" anchorOffsetY="0" height="85" horizontalCenter="0.5" width="85" source="club_new_menage_json.club_deskseat_head"/>
+	<e:Image y="12" anchorOffsetX="0" anchorOffsetY="0" rotation="360" horizontalCenter="0.5" source="club_new_menage_json.club_numlist_bg"/>
+	<e:Image id="_adminImg" y="186" source="club_new_menage_json.club_member_owner2" horizontalCenter="1"/>
+	<e:Image id="_ownerImg" y="185.5" source="club_new_menage_json.club_member_owner1" horizontalCenter="1"/>
+	<e:Image id="_onlineImg" source="club_new_menage_json.club_online" x="121.5" y="89"/>
+	<e:Image id="_deleteBtn" source="club_new_menage_json.club_member_delete" x="29.5" y="1" visible="false"/>
+</e:Skin>

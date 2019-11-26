@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outFile": "bin/goldLand/goldLand.js",
+        "declaration": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "files": [
+        "libs/modules/egret/egret.d.ts",
+        "libs/modules/game/game.d.ts",
+        "libs/modules/assetsmanager/assetsmanager.d.ts",
+        "libs/modules/eui/eui.d.ts",
+        "libs/modules/tween/tween.d.ts",
+        "libs/modules/dragonBones/dragonBones.d.ts",
+        "libs/modules/uniLib/uniLib.d.ts",
+        "libs/modules/wxgamelib/wxgamelib.d.ts",
+        "libs/modules/share/share.d.ts",
+        "libs/modules/match/match.d.ts",
+        "libs/promise.d.ts",
+        "libs/exml.e.d.ts",
+        "libs/modules/wxgamelib/wx.d.ts",
+        "libs/modules/protoandtable/protoandtable.d.ts",
+        "libs/modules/confirm/confirm.d.ts",
+        "libs/dependent.d.ts"
+        
+    ]
+}

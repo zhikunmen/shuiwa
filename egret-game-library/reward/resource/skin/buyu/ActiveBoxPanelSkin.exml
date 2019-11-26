@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActiveBoxPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="542" height="469">
+	<e:Image width="100%" source="lb_fuli_json.fuli_bg"  height="100%" scale9Grid="26,119,6,459"/>
+	<e:Image scaleX="-1" source="lb_fuli_json.mjl_common_title" horizontalCenter="0" />
+	<e:Image horizontalCenter="0" y="11"  source="active_reward_json.active_chest"/>
+
+
+	<e:Group id="goods" width="355" height="331" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" y="99">
+	</e:Group>
+
+
+
+
+
+
+
+
+
+	</e:Skin>

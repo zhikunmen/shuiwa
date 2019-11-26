@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MonthlyCardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*" xmlns:w="http://ns.egret.com/wing"
+        width="878" height="586">
+	<e:Image scale9Grid="20,234,14,14" source="lb_huiyuan_bg_png" y="70" />
+	<e:Image source="reward_vip_json.lb_huiyuan_title_yueka"  x="242"/>
+	<e:Image  source="reward_vip_json.lb_yueka_dikuang" scale9Grid="15,16,2,2" width="824" height="243" y="211" horizontalCenter="0"/>
+	<eui:WxButton id="purchase_btn" label="" y="531" horizontalCenter="0">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="reward_vip_json.lb_huiyuan_buy" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="df_btn" label="" y="531" horizontalCenter="0" visible="false">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="reward_vip_json.daifu_button_haoyou"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="close_btn" label="" x="820" y="70">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="reward_vip_json.mjl_common_closebtn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:reward="reward.*"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:BitmapLabel id="price_blbl" x="139" y="20" font="firstRecharge_font_fnt" text="" letterSpacing="-10" textAlign="right" width="200"/>
+	<e:Scroller y="215" height="230" horizontalCenter="0">
+		<e:List id="reward_lst" itemRendererSkinName="RechargeItemSkin" y="-1">
+			<e:layout>
+				<e:HorizontalLayout gap="22" paddingTop="22" paddingRight="18"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="desc_lbl" text="" y="481" size="32"
+	         fontFamily="Microsoft YaHei" textColor="0xfee4ab"  horizontalCenter="0" stroke="2" strokeColor="0x800d0b"/>
+	<e:Label id="conti_lbl" text="" y="425" size="18" fontFamily="Microsoft YaHei" textColor="0xFEE4AB" horizontalCenter="0"/>
+	<e:Label id="im_lbl" text="" y="142" size="45" fontFamily="Microsoft YaHei" textColor="0xFEE4AB" horizontalCenter="0" stroke="2" strokeColor="0x800d0b" bold="true"/>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_SeatPlayer" width="88" height="99.33" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1646f1f4af4"/>
+	<e:Image id="_bg" source="seat_player_bg_png" y="0" x="0" height="88" anchorOffsetY="0"/>
+	<e:Image id="_headImg" left="7" top="7" right="7" bottom="18.33" anchorOffsetY="0" name="_headImg" source=""/>
+	<e:Image id="_nameBg" source="player_name_bg_png" anchorOffsetX="0" anchorOffsetY="0" height="39" right="0" y="61.5" left="0"/>
+	<e:Label id="_name" y="64" anchorOffsetX="0" anchorOffsetY="0" height="16.67" left="0" right="0" fontFamily="Microsoft YaHei" textAlign="center" size="15" name="_name" textColor="0xffffff" text="名字"/>
+	<e:Label id="_point" text="12345" anchorOffsetY="0" size="15" fontFamily="Microsoft YaHei" anchorOffsetX="0" right="0" left="0" y="81" textAlign="center" name="point" textColor="0xd6e32d"/>
+	<e:Image id="_banker_grab_bg" source="sw_bank_grab_bg_png" x="0" y="0" name="_banker_grab_bg_png" height="100"/>
+	<e:Image id="_banker_icon" source="sw_banker_icon_png" x="10" y="10" width="36" height="36" anchorOffsetX="18" anchorOffsetY="18" name="_banker_icon"/>
+</e:Skin>

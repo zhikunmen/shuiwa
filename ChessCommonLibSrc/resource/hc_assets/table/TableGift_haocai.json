@@ -1,0 +1,8 @@
+[
+{"giftId":1,"giftName":"黄瓜","giftCost":1000,"giftCharm":-1,"classifier":"根"},
+{"giftId":2,"giftName":"炸弹","giftCost":1000,"giftCharm":-1,"classifier":"颗"},
+{"giftId":3,"giftName":"砖头","giftCost":1000,"giftCharm":-1,"classifier":"块"},
+{"giftId":4,"giftName":"棒棒糖","giftCost":1000,"giftCharm":1,"classifier":"颗"},
+{"giftId":5,"giftName":"柠檬汁","giftCost":5000,"giftCharm":6,"classifier":"杯"},
+{"giftId":6,"giftName":"蓝色妖姬","giftCost":10000,"giftCharm":13,"classifier":"朵"}
+]

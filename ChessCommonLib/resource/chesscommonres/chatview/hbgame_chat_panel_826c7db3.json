@@ -1,0 +1,145 @@
+{
+    "frames": {
+        "hbgame_chatlogbg": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 60, 
+            "sourceW": 66, 
+            "w": 66, 
+            "h": 60, 
+            "y": 188, 
+            "x": 146
+        }, 
+        "hbgame_chatbottom": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 60, 
+            "sourceW": 60, 
+            "w": 60, 
+            "h": 60, 
+            "y": 188, 
+            "x": 214
+        }, 
+        "hbgame_face": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 39, 
+            "sourceW": 40, 
+            "w": 40, 
+            "h": 39, 
+            "y": 80, 
+            "x": 0
+        }, 
+        "hbgame_noseatuserclick": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 222, 
+            "sourceW": 50, 
+            "w": 50, 
+            "h": 222, 
+            "y": 122, 
+            "x": 418
+        }, 
+        "hbgame_chatlogbox": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 64, 
+            "sourceW": 312, 
+            "w": 312, 
+            "h": 64, 
+            "y": 122, 
+            "x": 0
+        }, 
+        "hbgame_facebottom": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 120, 
+            "sourceW": 171, 
+            "w": 171, 
+            "h": 120, 
+            "y": 0, 
+            "x": 300
+        }, 
+        "hbgame_noseatuser": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 222, 
+            "sourceW": 50, 
+            "w": 50, 
+            "h": 222, 
+            "y": 122, 
+            "x": 314
+        }, 
+        "hbgame_chatclick": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 222, 
+            "sourceW": 50, 
+            "w": 50, 
+            "h": 222, 
+            "y": 188, 
+            "x": 0
+        }, 
+        "hbgame_sendclick": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 48, 
+            "sourceW": 67, 
+            "w": 67, 
+            "h": 48, 
+            "y": 250, 
+            "x": 215
+        }, 
+        "hbgame_chat": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 222, 
+            "sourceW": 50, 
+            "w": 50, 
+            "h": 222, 
+            "y": 122, 
+            "x": 366
+        }, 
+        "hbgame_chatinputbottom": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 44, 
+            "sourceW": 45, 
+            "w": 45, 
+            "h": 44, 
+            "y": 282, 
+            "x": 52
+        }, 
+        "hbgame_bg": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 92, 
+            "sourceW": 92, 
+            "w": 92, 
+            "h": 92, 
+            "y": 188, 
+            "x": 52
+        }, 
+        "hbgame_send": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 48, 
+            "sourceW": 67, 
+            "w": 67, 
+            "h": 48, 
+            "y": 250, 
+            "x": 146
+        }, 
+        "hbgame_windowChatFrame": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 78, 
+            "sourceW": 298, 
+            "w": 298, 
+            "h": 78, 
+            "y": 0, 
+            "x": 0
+        }
+    }, 
+    "file": "hbgame_chat_panel_826c7db3.png"
+}

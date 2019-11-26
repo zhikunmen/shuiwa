@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PaoTaiUpgradeSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Group id="group" x="75" anchorOffsetX="0" anchorOffsetY="38" y="42">
+		<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="pao_upgrade_json.paotai_upgrade_bg"/>
+
+		<!--<e:Image id="pro_bg" source="game_in_task_json.game_task_progress_bg" x="102" y="60" scale9Grid="12,10,2,2" width="150" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" height="23"/>
+		<e:Image id="pro_bar" source="game_in_task_json.game_task_progress_bar" x="102" y="61" width="100" scaleX="1" scaleY="1" scale9Grid="10,10,7,3"/>-->
+		<e:Label id="unlock_gun" text="解锁30倍炮" y="9" size="20" fontFamily="Microsoft YaHei" textAlign="center" horizontalCenter="4.5" textColor="0x7c1400" bold="true"/>
+		<e:Label id="unlock_gold" text="3000金币" y="41" size="20" fontFamily="Microsoft YaHei" horizontalCenter="4" stroke="1" strokeColor="0x490000"/>
+		<e:Group id="progress_group" width="157" height="21" x="20" y="41" anchorOffsetY="0" anchorOffsetX="0" visible="false">
+			<e:ProgressBar id="pro_bar" width="130" x="26" y="1" skinName="ProgressSkin1" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" value="0"/>
+			<e:Label id="progress_txt" text="4/6" size="16" fontFamily="Microsoft YaHei" horizontalCenter="11.5" stroke="1" strokeColor="0x490000" y="4"/>
+			<e:Image x="3" y="-5" source="pao_upgrade_json.paotai_energy"/>
+		</e:Group>
+
+	</e:Group>
+
+	<eui:WxButton id="open_btn" label="" y="0" x="0" anchorOffsetX="0">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="pao_upgrade_json.paotai_upgrade_btn"/>
+			<e:Label id="labelDisplay" verticalCenter="0" fontFamily="Microsoft YaHei" size="20" textColor="0xffffff"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+</e:Skin>

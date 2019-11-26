@@ -1,0 +1,653 @@
+{
+	"groups": [
+		{
+			"keys": "sw_config_json,sw_roomCfg_json,sw_TableGift_json,sw_bg_2_jpg,sw_bg_1_jpg,seat_player_bg_png,player_name_bg_png,sw_chip_bg_png,sw_chip_bg_2_png,sw_chip_50_png,sw_chip_10_png,sw_chip_20_png,sw_chip_30_png,sw_chip_40_png,sw_chip_select_png,sw_continue_chip_btn_up_png,sw_continue_chip_btn_down_png,sw_betAreaBg_png,sw_chessBetIcon_12_png,sw_chess_bet_select_png,sw_chessBetIcon_1_png,sw_chessBetIcon_2_png,sw_chessBetIcon_3_png,sw_chessBetIcon_4_png,sw_chessBetIcon_5_png,sw_chessBetIcon_6_png,sw_chessBetIcon_7_png,sw_chessBetIcon_8_png,sw_chessBetIcon_9_png,sw_chessBetIcon_10_png,sw_chessBetIcon_11_png,sw_betTxtBg_png,sw_chip_2500_png,sw_chip_100_png,sw_chip_150_png,sw_chip_200_png,sw_chip_250_png,sw_chip_300_png,sw_chip_400_png,sw_chip_500_png,sw_chip_1000_png,sw_chip_1500_png,sw_chip_2000_png,sw_room_info_bg_png,sw_kantou_base_png,sw_prev_hide_chess_bg_png,sw_chess_1_png,sw_chess_2_png,sw_chess_3_png,sw_chess_4_png,sw_chess_5_png,sw_chess_6_png,sw_chess_7_png,sw_chess_8_png,sw_chess_9_png,sw_chess_10_png,sw_chess_11_png,sw_chess_12_png,sw_chess_back_png,sw_new_hide_chess_png,sw_TimerFnt_fnt,sw_timer_bg_png,sw_menu_sheet_json,sw_qiangzhuang_frame_png,sw_qingzhuang_no_down_png,sw_qingzhuang_no_up_png,sw_qingzhuang_yes_down_png,sw_qingzhuang_yes_up_png,sw_bank_grab_bg_png,sw_banker_icon_png,sw_panel_spot_png,sw_panel_bg_png,sw_panel_bg2_png,sw_panel_hide_select_png,sw_panel_hide_txt_png,sw_btn_ok_down_png,sw_btn_ok_up_png,sw_shaizhong_tex_json,sw_shaizhong_tex_png,sw_shaizhong_ske_json,sw_shaizhong_open_ske_json,sw_shaizhong_open_tex_json,sw_shaizhong_open_tex_png,sw_result_panel_item_bg_png,sw_result_panel_personal_score_separater_png,sw_result_panel_personal_score_title_png,sw_result_panel_rank_fnt,sw_result_panel_round_rank_title_png,sw_result_panel_total_icon_png,sw_diamond_png,sw_golden_icon_png,sw_result_panel_title_png,sw_panel_close_up_png,sw_panel_close_down_png,sw_notify_wait_next_round_png,sw_notify_fnt,sw_notify_begin_banker_png,sw_notify_begin_bet_png,sw_notify_bg_1_png,sw_notify_bg_2_png,sw_notify_end_bet_png,sw_notify_hide_chess_png,sw_notify_restart_banker_png,sw_btn_chat_png,sw_btn_voice_png,sw_short_chat_bg_png,help_4214_txt,sw_bet_mp3,sw_bet_begin_mp3,sw_bet_bg_mp3,sw_bet_stop_mp3,sw_bg_mp3,sw_kaizi_bg_mp3,sw_kaizi_open_mp3,sw_lose_mp3,sw_win_mp3,sw_twinkle_hide_chess_ske_json,sw_twinkle_hide_chess_tex_json,sw_twinkle_hide_chess_tex_png,sw_notify_free_png,sw_recharge_btn_down_png,sw_recharge_btn_up_png,sw_bet_panel_title_png,sw_have_beted_btn_down_png,sw_have_beted_btn_up_png,sw_tips_bg_png,sw_banker_animation_tex_png,sw_banker_animation_ske_dbmv",
+			"name": "zmshuiwa"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/sw_config.json",
+			"type": "json",
+			"name": "sw_config_json"
+		},
+		{
+			"url": "config/sw_roomCfg.json",
+			"type": "json",
+			"name": "sw_roomCfg_json"
+		},
+		{
+			"url": "assets/txt/sw_TableGift.json",
+			"type": "json",
+			"name": "sw_TableGift_json"
+		},
+		{
+			"url": "assets/selfGame/sw_bg_1.jpg",
+			"type": "image",
+			"name": "sw_bg_1_jpg"
+		},
+		{
+			"url": "assets/selfGame/sw_bg_2.jpg",
+			"type": "image",
+			"name": "sw_bg_2_jpg"
+		},
+		{
+			"url": "assets/selfGame/seat_player_bg.png",
+			"type": "image",
+			"name": "seat_player_bg_png"
+		},
+		{
+			"url": "assets/selfGame/player_name_bg.png",
+			"type": "image",
+			"name": "player_name_bg_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_bg.png",
+			"type": "image",
+			"name": "sw_chip_bg_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_bg_2.png",
+			"type": "image",
+			"name": "sw_chip_bg_2_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_50.png",
+			"type": "image",
+			"name": "sw_chip_50_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_10.png",
+			"type": "image",
+			"name": "sw_chip_10_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_20.png",
+			"type": "image",
+			"name": "sw_chip_20_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_30.png",
+			"type": "image",
+			"name": "sw_chip_30_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_40.png",
+			"type": "image",
+			"name": "sw_chip_40_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_select.png",
+			"type": "image",
+			"name": "sw_chip_select_png"
+		},
+		{
+			"url": "assets/selfGame/sw_continue_chip_btn_up.png",
+			"type": "image",
+			"name": "sw_continue_chip_btn_up_png"
+		},
+		{
+			"url": "assets/selfGame/sw_continue_chip_btn_down.png",
+			"type": "image",
+			"name": "sw_continue_chip_btn_down_png"
+		},
+		{
+			"url": "assets/selfGame/sw_betAreaBg.png",
+			"type": "image",
+			"name": "sw_betAreaBg_png",
+			"scale9grid": "11,11,35,35"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_12.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_12_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_bet_select.png",
+			"type": "image",
+			"name": "sw_chess_bet_select_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_1.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_1_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_2.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_2_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_3.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_3_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_4.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_4_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_5.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_5_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_6.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_6_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_7.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_7_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_8.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_8_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_9.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_9_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_10.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_10_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chessBetIcon_11.png",
+			"type": "image",
+			"name": "sw_chessBetIcon_11_png"
+		},
+		{
+			"url": "assets/selfGame/sw_betTxtBg.png",
+			"type": "image",
+			"name": "sw_betTxtBg_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_2500.png",
+			"type": "image",
+			"name": "sw_chip_2500_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_100.png",
+			"type": "image",
+			"name": "sw_chip_100_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_150.png",
+			"type": "image",
+			"name": "sw_chip_150_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_200.png",
+			"type": "image",
+			"name": "sw_chip_200_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_250.png",
+			"type": "image",
+			"name": "sw_chip_250_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_300.png",
+			"type": "image",
+			"name": "sw_chip_300_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_400.png",
+			"type": "image",
+			"name": "sw_chip_400_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_500.png",
+			"type": "image",
+			"name": "sw_chip_500_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_1000.png",
+			"type": "image",
+			"name": "sw_chip_1000_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_1500.png",
+			"type": "image",
+			"name": "sw_chip_1500_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chip_2000.png",
+			"type": "image",
+			"name": "sw_chip_2000_png"
+		},
+		{
+			"url": "assets/selfGame/sw_room_info_bg.png",
+			"type": "image",
+			"name": "sw_room_info_bg_png"
+		},
+		{
+			"url": "assets/selfGame/sw_kantou_base.png",
+			"type": "image",
+			"name": "sw_kantou_base_png"
+		},
+		{
+			"url": "assets/selfGame/sw_prev_hide_chess_bg.png",
+			"type": "image",
+			"name": "sw_prev_hide_chess_bg_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_1.png",
+			"type": "image",
+			"name": "sw_chess_1_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_2.png",
+			"type": "image",
+			"name": "sw_chess_2_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_3.png",
+			"type": "image",
+			"name": "sw_chess_3_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_4.png",
+			"type": "image",
+			"name": "sw_chess_4_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_5.png",
+			"type": "image",
+			"name": "sw_chess_5_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_6.png",
+			"type": "image",
+			"name": "sw_chess_6_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_7.png",
+			"type": "image",
+			"name": "sw_chess_7_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_8.png",
+			"type": "image",
+			"name": "sw_chess_8_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_9.png",
+			"type": "image",
+			"name": "sw_chess_9_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_10.png",
+			"type": "image",
+			"name": "sw_chess_10_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_11.png",
+			"type": "image",
+			"name": "sw_chess_11_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_12.png",
+			"type": "image",
+			"name": "sw_chess_12_png"
+		},
+		{
+			"url": "assets/selfGame/sw_chess_back.png",
+			"type": "image",
+			"name": "sw_chess_back_png"
+		},
+		{
+			"url": "assets/selfGame/sw_new_hide_chess.png",
+			"type": "image",
+			"name": "sw_new_hide_chess_png"
+		},
+		{
+			"url": "assets/selfGame/sw_TimerFnt.fnt",
+			"type": "font",
+			"name": "sw_TimerFnt_fnt"
+		},
+		{
+			"url": "assets/selfGame/sw_timer_bg.png",
+			"type": "image",
+			"name": "sw_timer_bg_png"
+		},
+		{
+			"url": "assets/selfGame/sw_menu_sheet.json",
+			"type": "sheet",
+			"name": "sw_menu_sheet_json",
+			"subkeys": "sw_btn_bg_png,sw_btn_fold_png,sw_btn_help_png,sw_btn_return_png,sw_btn_safe_png,sw_btn_set_png"
+		},
+		{
+			"url": "assets/selfGame/sw_qiangzhuang_frame.png",
+			"type": "image",
+			"name": "sw_qiangzhuang_frame_png"
+		},
+		{
+			"url": "assets/selfGame/sw_qingzhuang_no_down.png",
+			"type": "image",
+			"name": "sw_qingzhuang_no_down_png"
+		},
+		{
+			"url": "assets/selfGame/sw_qingzhuang_no_up.png",
+			"type": "image",
+			"name": "sw_qingzhuang_no_up_png"
+		},
+		{
+			"url": "assets/selfGame/sw_qingzhuang_yes_down.png",
+			"type": "image",
+			"name": "sw_qingzhuang_yes_down_png"
+		},
+		{
+			"url": "assets/selfGame/sw_qingzhuang_yes_up.png",
+			"type": "image",
+			"name": "sw_qingzhuang_yes_up_png"
+		},
+		{
+			"url": "assets/selfGame/sw_bank_grab_bg.png",
+			"type": "image",
+			"name": "sw_bank_grab_bg_png"
+		},
+		{
+			"url": "assets/selfGame/sw_banker_icon.png",
+			"type": "image",
+			"name": "sw_banker_icon_png"
+		},
+		{
+			"url": "assets/selfGame/sw_panel_spot.png",
+			"type": "image",
+			"name": "sw_panel_spot_png"
+		},
+		{
+			"url": "assets/selfGame/sw_panel_bg.png",
+			"type": "image",
+			"name": "sw_panel_bg_png"
+		},
+		{
+			"url": "assets/selfGame/sw_panel_bg2.png",
+			"type": "image",
+			"name": "sw_panel_bg2_png"
+		},
+		{
+			"url": "assets/selfGame/sw_panel_hide_select.png",
+			"type": "image",
+			"name": "sw_panel_hide_select_png"
+		},
+		{
+			"url": "assets/selfGame/sw_panel_hide_txt.png",
+			"type": "image",
+			"name": "sw_panel_hide_txt_png"
+		},
+		{
+			"url": "assets/selfGame/sw_btn_ok_down.png",
+			"type": "image",
+			"name": "sw_btn_ok_down_png"
+		},
+		{
+			"url": "assets/selfGame/sw_btn_ok_up.png",
+			"type": "image",
+			"name": "sw_btn_ok_up_png"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_shaizhong_tex.json",
+			"type": "json",
+			"name": "sw_shaizhong_tex_json"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_shaizhong_tex.png",
+			"type": "image",
+			"name": "sw_shaizhong_tex_png"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_shaizhong_ske.json",
+			"type": "json",
+			"name": "sw_shaizhong_ske_json"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_shaizhong_open_ske.json",
+			"type": "json",
+			"name": "sw_shaizhong_open_ske_json"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_shaizhong_open_tex.json",
+			"type": "json",
+			"name": "sw_shaizhong_open_tex_json"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_shaizhong_open_tex.png",
+			"type": "image",
+			"name": "sw_shaizhong_open_tex_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_result_panel_item_bg.png",
+			"type": "image",
+			"name": "sw_result_panel_item_bg_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_result_panel_personal_score_separater.png",
+			"type": "image",
+			"name": "sw_result_panel_personal_score_separater_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_result_panel_personal_score_title.png",
+			"type": "image",
+			"name": "sw_result_panel_personal_score_title_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_result_panel_rank.fnt",
+			"type": "font",
+			"name": "sw_result_panel_rank_fnt"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_result_panel_round_rank_title.png",
+			"type": "image",
+			"name": "sw_result_panel_round_rank_title_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_result_panel_total_icon.png",
+			"type": "image",
+			"name": "sw_result_panel_total_icon_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_diamond.png",
+			"type": "image",
+			"name": "sw_diamond_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_golden_icon.png",
+			"type": "image",
+			"name": "sw_golden_icon_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_result_panel_title.png",
+			"type": "image",
+			"name": "sw_result_panel_title_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_panel_close_up.png",
+			"type": "image",
+			"name": "sw_panel_close_up_png"
+		},
+		{
+			"url": "assets/selfGame/resultPanel/sw_panel_close_down.png",
+			"type": "image",
+			"name": "sw_panel_close_down_png"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify_wait_next_round.png",
+			"type": "image",
+			"name": "sw_notify_wait_next_round_png"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify.fnt",
+			"type": "font",
+			"name": "sw_notify_fnt"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify_begin_banker.png",
+			"type": "image",
+			"name": "sw_notify_begin_banker_png"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify_begin_bet.png",
+			"type": "image",
+			"name": "sw_notify_begin_bet_png"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify_bg_1.png",
+			"type": "image",
+			"name": "sw_notify_bg_1_png"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify_bg_2.png",
+			"type": "image",
+			"name": "sw_notify_bg_2_png"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify_end_bet.png",
+			"type": "image",
+			"name": "sw_notify_end_bet_png"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify_hide_chess.png",
+			"type": "image",
+			"name": "sw_notify_hide_chess_png"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify_restart_banker.png",
+			"type": "image",
+			"name": "sw_notify_restart_banker_png"
+		},
+		{
+			"url": "assets/selfGame/sw_btn_chat.png",
+			"type": "image",
+			"name": "sw_btn_chat_png"
+		},
+		{
+			"url": "assets/selfGame/sw_btn_voice.png",
+			"type": "image",
+			"name": "sw_btn_voice_png"
+		},
+		{
+			"url": "assets/selfGame/sw_short_chat_bg.png",
+			"type": "image",
+			"name": "sw_short_chat_bg_png",
+			"scale9grid": "8,9,44,15"
+		},
+		{
+			"url": "assets/txt/help_4214.txt",
+			"type": "text",
+			"name": "help_4214_txt"
+		},
+		{
+			"url": "assets/selfGame/sound/sw_bet.mp3",
+			"type": "sound",
+			"name": "sw_bet_mp3"
+		},
+		{
+			"url": "assets/selfGame/sound/sw_bet_begin.mp3",
+			"type": "sound",
+			"name": "sw_bet_begin_mp3"
+		},
+		{
+			"url": "assets/selfGame/sound/sw_bet_bg.mp3",
+			"type": "sound",
+			"name": "sw_bet_bg_mp3"
+		},
+		{
+			"url": "assets/selfGame/sound/sw_bet_stop.mp3",
+			"type": "sound",
+			"name": "sw_bet_stop_mp3"
+		},
+		{
+			"url": "assets/selfGame/sound/sw_bg.mp3",
+			"type": "sound",
+			"name": "sw_bg_mp3"
+		},
+		{
+			"url": "assets/selfGame/sound/sw_kaizi_bg.mp3",
+			"type": "sound",
+			"name": "sw_kaizi_bg_mp3"
+		},
+		{
+			"url": "assets/selfGame/sound/sw_kaizi_open.mp3",
+			"type": "sound",
+			"name": "sw_kaizi_open_mp3"
+		},
+		{
+			"url": "assets/selfGame/sound/sw_lose.mp3",
+			"type": "sound",
+			"name": "sw_lose_mp3"
+		},
+		{
+			"url": "assets/selfGame/sound/sw_win.mp3",
+			"type": "sound",
+			"name": "sw_win_mp3"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_twinkle_hide_chess_ske.json",
+			"type": "json",
+			"name": "sw_twinkle_hide_chess_ske_json"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_twinkle_hide_chess_tex.json",
+			"type": "json",
+			"name": "sw_twinkle_hide_chess_tex_json"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_twinkle_hide_chess_tex.png",
+			"type": "image",
+			"name": "sw_twinkle_hide_chess_tex_png"
+		},
+		{
+			"url": "assets/selfGame/notify/sw_notify_free.png",
+			"type": "image",
+			"name": "sw_notify_free_png"
+		},
+		{
+			"url": "assets/selfGame/sw_recharge_btn_down.png",
+			"type": "image",
+			"name": "sw_recharge_btn_down_png"
+		},
+		{
+			"url": "assets/selfGame/sw_recharge_btn_up.png",
+			"type": "image",
+			"name": "sw_recharge_btn_up_png"
+		},
+		{
+			"url": "assets/selfGame/betPanel/sw_bet_panel_title.png",
+			"type": "image",
+			"name": "sw_bet_panel_title_png"
+		},
+		{
+			"url": "assets/selfGame/betPanel/sw_have_beted_btn_down.png",
+			"type": "image",
+			"name": "sw_have_beted_btn_down_png"
+		},
+		{
+			"url": "assets/selfGame/betPanel/sw_have_beted_btn_up.png",
+			"type": "image",
+			"name": "sw_have_beted_btn_up_png"
+		},
+		{
+			"url": "assets/selfGame/sw_tips_bg.png",
+			"type": "image",
+			"name": "sw_tips_bg_png"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_banker_animation_tex.png",
+			"type": "image",
+			"name": "sw_banker_animation_tex_png"
+		},
+		{
+			"url": "assets/selfGame/dragonBones/sw_banker_animation_ske.dbmv",
+			"type": "bin",
+			"name": "sw_banker_animation_ske_dbmv"
+		}
+	]
+}

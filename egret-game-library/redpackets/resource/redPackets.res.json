@@ -1,0 +1,19 @@
+{
+	"groups":[{
+			"keys":"mjl_redpackets_bg1_png,mjl_redpackets_json",
+			"name":"pub_redpackets"
+		}],
+	"resources":[
+		{
+			"name":"mjl_redpackets_bg1_png",
+			"type":"image",
+			"url":"redpackets/mjl_redpackets_bg1.png"
+		},
+		{
+			"name":"mjl_redpackets_json",
+			"subkeys":"mjl_redpackets_award,mjl_redpackets_hongbao,mjl_redpackets_istrue,mjl_redpackets_jia,mjl_redpackets_lingqu,mjl_redpackets_mengban,mjl_redpackets_wancheng",
+			"type":"sheet",
+			"url":"redpackets/mjl_redpackets.json"
+		}
+	]
+}

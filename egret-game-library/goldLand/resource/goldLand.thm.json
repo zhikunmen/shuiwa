@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/GoldLandItemSkin.exml",
+		"resource/skin/GoldLandSkin.exml"
+	],
+	"path": "resource/goldLand.thm.json"
+}

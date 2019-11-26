@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThreeRMBSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*"
+        width="1048" height="687">
+	<e:Image  source="lb_three_bg_png" y="-22"/>
+	<e:Image source="lb_giftDaily_json.lb_three_coin" x="223.5" y="523.5"/>
+
+
+	<eui:WxButton id="purchase_btn" label="" y="552" horizontalCenter="353">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_giftDaily_json.lb_giftDaily_buy"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+
+	<eui:WxButton id="pay_btn" label="" y="552" horizontalCenter="353">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_giftDaily_json.daifu_button_haoyou"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+	<eui:WxButton id="close_btn" label="" x="1001" y="105">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_giftDaily_json.mjl_common_closebtn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:reward="reward.*"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+
+	<e:Scroller y="273" x="393" height="230" anchorOffsetX="0" width="653">
+		<e:List id="reward_lst" itemRendererSkinName="ThreeRMBItemSkin" y="1">
+			<e:layout>
+				<e:HorizontalLayout gap="45"  paddingRight="0" paddingTop="8"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+
+	<e:BitmapLabel id="coinNum_blbl" text="80万" textAlign="right"
+	                y="514" font="lb_three_font_fnt" anchorOffsetX="0" width="224" x="2"/>
+
+</e:Skin>

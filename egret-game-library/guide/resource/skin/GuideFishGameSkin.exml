@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideFishGameSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="826" height="486">
+	<e:Image source="lb_xrdlb_bg_png" width="826" height="486"/>
+
+	<e:Image source="game_prop_json.bag_daoju_353" x="601" y="214" width="100" height="100"/>
+	<e:Image source="game_prop_json.bag_daoju_352" x="429" y="214" width="100" height="100"/>
+	<e:Image x="260" y="214" width="100" height="100" source="guideGame_json.lb_xrdlb_hongbao"/>
+	<eui:WxButton id="click_btn" label="" x="336" y="384">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guideGame_json.lb_xrdlb_lingqu"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Label text="5元红包" fontFamily="Microsoft YaHei" size="18" textAlign="center" y="330" textColor="0xFF0000" x="279"/>
+	<e:Label text="锁定x5" fontFamily="Microsoft YaHei" size="18" textAlign="center" y="330" textColor="0xFF0000" x="451"/>
+	<e:Label text="狂暴x5" fontFamily="Microsoft YaHei" size="18" textAlign="center" y="330" textColor="0xFF0000" x="622"/>
+	<e:Image x="17" y="295" source="guideGame_json.lb_xrdlb_exchange"/>
+	<e:Group x="236" y="141" width="487" height="28">
+		<e:Label text="恭喜你获得" x="0" fontFamily="Microsoft YaHei" bold="true" size="20" textColor="0x6f4003" scaleX="1" scaleY="1" y="6"/>
+		<e:Label text="福卡红包" x="101" fontFamily="Microsoft YaHei" bold="true" size="28" scaleX="1" scaleY="1" textColor="0xff0000"/>
+		<e:Label text="奖励，开始游戏获得" fontFamily="Microsoft YaHei" bold="true" size="20" textColor="0x6F4003" scaleX="1" scaleY="1" right="94" y="6"/>
+		<e:Label text="更多" fontFamily="Microsoft YaHei" bold="true" size="28" scaleX="1" scaleY="1" textColor="0xff0000" right="39"/>
+		<e:Label text="哦！" fontFamily="Microsoft YaHei" bold="true" size="20" textColor="0x6F4003" scaleX="1" scaleY="1" y="6" right="0"/>
+		
+	</e:Group>
+</e:Skin>

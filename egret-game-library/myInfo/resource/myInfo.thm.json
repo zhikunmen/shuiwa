@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/BindPhoneVCSkin.exml",
+		"resource/skin/MyInfoVcSkin.exml"
+	],
+	"path": "resource/myInfo.thm.json"
+}

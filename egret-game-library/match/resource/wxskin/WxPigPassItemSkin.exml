@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxPigPassItemSkin" states="up,down,disabled" currentState="up" xmlns:e="http://ns.egret.com/eui"
+        xmlns:eui="eui.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:match="match.*" height="95">
+	<e:Image width="100%" source="match_pig_json.cg_weixuan" source.down="match_pig_json.cg_xuanzhong" y="2" />
+	<e:Image id="lock_img" source="match_pig_json.cg_lock" y="5" x="84" />
+	<e:Label id="pass_lbl" fontFamily="Microsoft YaHei" size="38" textColor="0x734331" bold="true" textAlign="center"
+			width="240" verticalCenter="0" x="5" />
+</e:Skin>

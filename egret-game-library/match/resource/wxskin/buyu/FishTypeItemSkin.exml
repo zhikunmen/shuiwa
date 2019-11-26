@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FishTypeItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="142" height="140" states="up,down,disabled">
+
+    <e:Image  source.down="buyu_reward_json.buyu_reward_select"/>
+    <e:Image source="buyu_reward_json.buyu_fish_bg" x="10" y="10"/>
+	<e:Image id="fish" x="71" y="58"/>
+	<e:Label id="nameTxt" text="Label"  y="116" fontFamily="Microsoft YaHei" size="24" textColor="0xff2200" textColor.down="0xffffff" horizontalCenter="0" stroke.down="2" strokeColor.down="0xfc00ff" y.down="115"/>
+</e:Skin>

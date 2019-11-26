@@ -1,0 +1,10 @@
+{
+    "default": {
+        "login_url": "http://server.login.bwgame.com.cn:7000/httplogin",
+        "gameid": 9026,
+        "zoneid": 134,
+        "lobbyId": 41,
+        "platid": 0,
+        "is_sandbox": 0
+    }
+}

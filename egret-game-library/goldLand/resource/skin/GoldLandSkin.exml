@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GoldLandSkin" width="1080" height="681" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" xmlns:commonConfirm="commonConfirm.*">
+
+	<e:Image source="goldLand_bg_png" x="0" y="0" locked="true"/>
+	<e:BitmapLabel id="total_label" font="goldLand_fnt" text="0" x="557.33" y="167.34"/>
+	<e:Label text="规则：\n打出指定牌型或牌局，获得对应奖励" x="217" y="217.01" textColor="0x821d0d" size="20" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="42.67" multiline="true" lineSpacing="5" textAlign="left"/>
+	<e:Label text="4炸弹" x="217" y="279" size="24" fontFamily="Microsoft YaHei" textColor="0xff0707"/>
+	<e:Label text="50%彩金" x="422" y="279" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="3炸弹并胜利" y="318" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707" x="217"/>
+	<e:Label text="10%彩金" x="422" y="318" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="6连胜" x="217" y="356" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="1%彩金" x="422" y="356" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="双关" x="217" y="395" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="0.1%彩金" x="422" y="395" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="12连顺并胜利" x="576" y="279" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="5%彩金" x="774" y="279" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="10连胜" x="576" y="318" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="10%彩金" x="774" y="318" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="累积胜利100局" x="576" y="356" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label text="0.5%彩金" x="774" y="356" size="24" fontFamily="Microsoft YaHei" textColor="0xFF0707"/>
+	<e:Label id="liansheng" text="当前连胜:0" x="576" y="395" size="24" fontFamily="Microsoft YaHei" textColor="0xbb03c2"/>
+	<e:Label id="leiji" text="累积胜利:0" x="774" y="395" size="24" fontFamily="Microsoft YaHei" textColor="0xbb03c2"/>
+	<e:Label text="每天18点，彩金恢复至初始值" y="597.33" size="18" fontFamily="Microsoft YaHei" horizontalCenter="0" textColor="0x5f1616"/>
+
+
+	<e:Scroller id="scroll" width="658" height="107" y="477" anchorOffsetY="0" x="235">
+		<e:List id="caijin_lst" y="0" x="1" itemRendererSkinName="GoldLandItemSkin">
+			<!--<e:ArrayCollection>
+				<e:Array>
+					<e:Object dsf="null"/>
+					<e:Object dsf="null"/>
+					<e:Object dsf="null"/>
+				</e:Array>
+			</e:ArrayCollection>-->
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<eui:WxButton id="close_btn" label="" y="102" x="964">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="goldLand_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+</e:Skin>

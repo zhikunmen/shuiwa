@@ -1,0 +1,11 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/FirstRechargeSkin.exml",
+		"resource/skin/ShopItemSkin.exml",
+		"resource/skin/ShopPanelSkin.exml",
+		"resource/skin/zhangzhou/ShopItemZZSkin.exml",
+		"resource/skin/zhangzhou/ShopPanelZZSkin.exml"
+	],
+	"path": "resource/shopZZ.thm.json"
+}

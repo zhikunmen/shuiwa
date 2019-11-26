@@ -1,0 +1,185 @@
+{
+  "file": "take_phonebill.png",
+  "frames": {
+    "take_btn_close": {
+      "x": 915,
+      "y": 0,
+      "w": 58,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 58
+    },
+    "take_phone_balloon": {
+      "x": 0,
+      "y": 597,
+      "w": 127,
+      "h": 130,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 127,
+      "sourceH": 130
+    },
+    "take_phone_bg": {
+      "x": 702,
+      "y": 314,
+      "w": 148,
+      "h": 575,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 148,
+      "sourceH": 575
+    },
+    "take_phone_fish1": {
+      "x": 169,
+      "y": 448,
+      "w": 188,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 188,
+      "sourceH": 69
+    },
+    "take_phone_fish2": {
+      "x": 169,
+      "y": 519,
+      "w": 188,
+      "h": 69,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 188,
+      "sourceH": 69
+    },
+    "take_phone_itembg": {
+      "x": 359,
+      "y": 448,
+      "w": 113,
+      "h": 75,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 113,
+      "sourceH": 75
+    },
+    "take_phone_jackbg": {
+      "x": 359,
+      "y": 525,
+      "w": 64,
+      "h": 72,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 64,
+      "sourceH": 72
+    },
+    "take_phone_jackpot": {
+      "x": 190,
+      "y": 727,
+      "w": 71,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 71,
+      "sourceH": 31
+    },
+    "take_phone_light": {
+      "x": 0,
+      "y": 0,
+      "w": 913,
+      "h": 312,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 913,
+      "sourceH": 312
+    },
+    "take_phone_lighting": {
+      "x": 0,
+      "y": 448,
+      "w": 167,
+      "h": 147,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 167,
+      "sourceH": 147
+    },
+    "take_phone_luck1": {
+      "x": 129,
+      "y": 597,
+      "w": 188,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 188,
+      "sourceH": 69
+    },
+    "take_phone_luck2": {
+      "x": 0,
+      "y": 729,
+      "w": 188,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 188,
+      "sourceH": 69
+    },
+    "take_phone_luck3": {
+      "x": 0,
+      "y": 799,
+      "w": 188,
+      "h": 68,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 188,
+      "sourceH": 69
+    },
+    "take_phone_probar": {
+      "x": 474,
+      "y": 448,
+      "w": 30,
+      "h": 18,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 30,
+      "sourceH": 18
+    },
+    "take_phone_probg": {
+      "x": 319,
+      "y": 590,
+      "w": 38,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 20
+    },
+    "take_phone_tab1": {
+      "x": 0,
+      "y": 869,
+      "w": 132,
+      "h": 52,
+      "offX": 0,
+      "offY": 6,
+      "sourceW": 132,
+      "sourceH": 58
+    },
+    "take_phone_tab2": {
+      "x": 129,
+      "y": 667,
+      "w": 139,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 139,
+      "sourceH": 58
+    },
+    "take_phone_title": {
+      "x": 0,
+      "y": 314,
+      "w": 700,
+      "h": 132,
+      "offX": 0,
+      "offY": 2,
+      "sourceW": 700,
+      "sourceH": 135
+    }
+  }
+}

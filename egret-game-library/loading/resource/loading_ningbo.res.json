@@ -1,0 +1,24 @@
+{
+	"groups":[{
+			"keys":"wx_loading_res_json,mjf_loadingbg_jpg,mjl_tipsBg_png",
+			"name":"pub_loading"
+		}],
+	"resources":[
+		{
+			"name":"wx_loading_res_json",
+			"subkeys":"download_png,lb_loading_darkLine_png,lb_loading_lightLine_png,lb_login_png,loadingCircle_png",
+			"type":"sheet",
+			"url":"loading/res_ningbo/wx_loading_res.json"
+		},
+		{
+			"name":"mjf_loadingbg_jpg",
+			"type":"image",
+			"url":"loading/res_ningbo/mjf_loadingbg.jpg"
+		},
+		{
+			"name":"mjl_tipsBg_png",
+			"type":"image",
+			"url":"loading/res_ningbo/mjl_tipsBg.png"
+		}
+	]
+}

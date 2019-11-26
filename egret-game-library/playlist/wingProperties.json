@@ -1,0 +1,19 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/playlist.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/playlist/zhangzhou/lobby/lobby.res.json",
+                "relativePath": "resource/playlist/zhangzhou/lobby/"
+            },
+            {
+                "configPath": "resource/playlist-laoyou.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/loading/playlist.thm.json"
+}

@@ -1,0 +1,26 @@
+{
+	"resources": [
+		{
+			"name": "poker_face_json",
+			"type": "sheet",
+			"url": "pokerchat/res/poker_face.json",
+			"subkeys": "chat_record,face1,face2,face3,face4,face5,face6,face7,face8,face9,face10,face11,face12,face13,face14,face15,face16,face17,face18,chat_pop"
+		},
+		{
+			"name": "poker_chat_json",
+			"type": "sheet",
+			"url": "pokerchat/res/poker_chat.json",
+			"subkeys": "pdk_chat_title,pdk_face_line,pdk_send,pdk_chat_bg,pdk_chat_input,pdk_chat_line"
+		}
+	],
+	"groups": [
+		{
+			"name": "poker_chat",
+			"keys": "poker_chat_json"
+		},
+		{
+			"name": "poker_face",
+			"keys": "poker_face_json"
+		}
+	]
+}

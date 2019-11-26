@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPartnerMemberDetailSkin" width="1000" height="569" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" width="958" height="547" y="26.73" horizontalCenter="0" locked="true"/>
+	<e:Image source="mjl_common_title_png" horizontalCenter="0" y="0" locked="true"/>
+	<e:Image source="mjl_common_bg1_png" y="99.58" scale9Grid="7,10,22,23" anchorOffsetX="0" width="895.27" anchorOffsetY="0" height="438.52" horizontalCenter="0" locked="true"/>
+	<e:Image source="club_new_menage_json.club_memberdetail_title" y="10.4" horizontalCenter="0.5"/>
+	<e:Button id="_closeBtn" label="" x="0" y="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="871.21" height="384.12" y="141.71" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5">
+		<e:List id="_list" itemRendererSkinName="ClubPartnerMemberDetailItemSkin" useVirtualLayout="false" y="-2">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="成员" x="193.76" fontFamily="Microsoft YaHei" textColor="0xb56b5d" verticalCenter="-163.5" size="22"/>
+	<e:Label text="房间数" x="408.91" fontFamily="Microsoft YaHei" textColor="0xB56B5D" verticalCenter="-163.5" size="22"/>
+	<e:Label text="大赢家" x="574.06" fontFamily="Microsoft YaHei" textColor="0xB56B5D" size="22" y="110"/>
+	<e:Label text="详情" x="760.45" fontFamily="Microsoft YaHei" textColor="0xB56B5D" size="22" y="110"/>
+</e:Skin>

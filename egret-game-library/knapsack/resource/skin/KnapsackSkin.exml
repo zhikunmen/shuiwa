@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KnapsackSkin" width="1150" height="670" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:eui="eui.*">
+    <e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" y="27" anchorOffsetX="0" width="1137.15"
+             anchorOffsetY="0" height="640.33" x="0" locked="true" />
+    <e:Image source="mjl_common_title_png" top="0" horizontalCenter="0" locked="true" />
+    <e:Image source="mjl_knapsack_json.mjl_knapsack_title" y="10.71" x="482" locked="true" />
+    <e:Image source="mjl_common_bg1_png" x="32.01" y="102.84" width="680" scale9Grid="5,5,30,30" anchorOffsetY="0"
+             height="530" locked="true" />
+    <e:Image source="mjl_common_bg1_png" x="725.92" y="102.84" width="382" height="530" scale9Grid="5,5,30,30"
+             locked="true" />
+    <e:Button id="_closeBtn" label="" x="1078.81" y="-2.7">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="mjl_common_closebtn1_png"
+                         source.down="mjl_common_closebtn2_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:Group id="_detailGroup" x="746.18" y="121.46">
+		<e:Image source="mjl_knapsack_json.mjl_knapsack_itembg" x="30.61" y="0" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="_couponImg" x="33.78" y="20.44" scaleX="0.8" scaleY="0.8" source="mjl_knapsack_json.mjl_knapsack_341"/>
+		<e:Label id="_couponText" text="新版斗地主" x="181.82" y="42.19" textColor="0xc70e0e" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="31" anchorOffsetX="0" size="26"/>
+		<e:Label text="代金券" x="181.82" y="84.25" textColor="0xC70E0E" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="31" anchorOffsetX="0" size="26"/>
+		<e:Label id="_explainText" text="代金券" x="0" y="166.05" fontFamily="Microsoft YaHei" anchorOffsetY="0" anchorOffsetX="0" size="18" textColor="0x925b45" width="341.88" height="248.3" lineSpacing="10"/>
+		<eui:WxButton id="_exchangeBtn" label="兑换金币" x="51.26" y="422.83">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x91481f" size="34"/>
+		</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+	</e:Group>
+	<e:Scroller id="_couponGroup" width="656.85" height="497.03" x="42.48" y="122.85" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="_couponList" itemRendererSkinName="KnapsackItemSkin" anchorOffsetY="0" height="480.36">
+			<e:layout>
+				<e:TileLayout horizontalGap="26"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="_couponTips" text="没有可以使用的代金券哦~" x="124" fontFamily="Microsoft YaHei" textColor="0x5d1400" size="40" y="315"/>
+	<e:Label id="_detailTips" text="暂无详情" x="833.67" fontFamily="Microsoft YaHei" textColor="0x5D1400" size="40" y="315"/>
+</e:Skin>

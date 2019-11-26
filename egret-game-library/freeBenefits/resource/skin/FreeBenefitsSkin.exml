@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FreeBenefitsSkin" width="775" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Image x="0" y="0" scale9Grid="34,148,46,186" width="775" height="600"  source="freeBenefits_json.free_bg_1"/>
+	<e:Image x="195" y="-5"  source="freeBenefits_json.free_common_bg"/>
+	<e:Image scaleX="-1" x="592" y="-5"  source="freeBenefits_json.free_common_bg"/>
+	<e:Image y="13" horizontalCenter="0" source="freeBenefits_json.free_fuli_title"/>
+	<e:Image y="85" horizontalCenter="0" source="freeBenefits_json.free_bg_2" scale9Grid="13,32,4,115" anchorOffsetX="0" width="710" anchorOffsetY="0" height="486"/>
+
+	<eui:WxButton id="_closeBtn" label="" x="709" y="8" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="freeBenefits_json.free_btn_close" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+
+	<e:Group y="87" horizontalCenter="0">
+		<e:Group id="itme1" x="0" y="0" scaleX="1" scaleY="1">
+			<eui:WxButton  horizontalCenter="0" label="每日签到" verticalCenter="0">
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="freeBenefits_json.free_item_bg"/>
+					<e:Image source="freeBenefits_json.free_sign" horizontalCenter="0" verticalCenter="-30"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="77" fontFamily="Microsoft YaHei" size="28" textColor="0x740303"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+			<e:Image id="red1" width="24" height="24" x="168" y="168" source="lb_red_png" visible="false"/>
+
+		</e:Group>
+		<e:Group id="itme2" x="182" y="0" scaleX="1" scaleY="1">
+			<eui:WxButton  horizontalCenter="0" label="邀请好礼" verticalCenter="0">
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="freeBenefits_json.free_item_bg"/>
+					<e:Image source="freeBenefits_json.free_invitation" horizontalCenter="0" verticalCenter="-30"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="77" fontFamily="Microsoft YaHei" size="28" textColor="0x740303"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+
+			<e:Image id="red2" width="24" height="24" x="168" y="168" source="lb_red_png" visible="false"/>
+
+
+		</e:Group>
+
+		<e:Group id="itme3" x="554" y="0" scaleX="1" scaleY="1">
+			<eui:WxButton  horizontalCenter="0" label="收藏有礼" verticalCenter="0">
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="freeBenefits_json.free_item_bg"/>
+					<e:Image source="freeBenefits_json.free_collection" horizontalCenter="0" verticalCenter="-30"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="77" fontFamily="Microsoft YaHei" size="28" textColor="0x740303"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+			<e:Image source="freeBenefits_json.free_tips" x="95" y="-11" scale9Grid="36,17,2,2" anchorOffsetX="0" width="101"/>
+			<e:Label text="送记牌器" x="106" y="-7" fontFamily="Microsoft YaHei" size="20"/>
+			<e:Image id="red4" width="24" height="24" x="168" y="168" source="lb_red_png" visible="false"/>
+
+		</e:Group>
+		<e:Group id="itme4" x="554" y="0" scaleX="1" scaleY="1">
+			<eui:WxButton  horizontalCenter="0" label="桌面收藏" verticalCenter="0">
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="freeBenefits_json.free_item_bg"/>
+					<e:Image source="freeBenefits_json.free_desktop_collection" horizontalCenter="0" verticalCenter="-30"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="77" fontFamily="Microsoft YaHei" size="28" textColor="0x740303"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+			<e:Image source="freeBenefits_json.free_tips" x="95" y="-11" scale9Grid="36,17,2,2" anchorOffsetX="0" width="101"/>
+			<e:Label text="每日领钻" x="106" y="-7" fontFamily="Microsoft YaHei" size="20"/>
+			<e:Image id="red5" width="24" height="24" x="168" y="168" source="lb_red_png" visible="false"/>
+		</e:Group>
+		<e:layout>
+			<e:TileLayout requestedColumnCount="3" columnWidth="230" rowHeight="236"/>
+		</e:layout>
+
+	</e:Group>
+
+
+</e:Skin>

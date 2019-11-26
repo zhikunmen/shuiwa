@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwGameRecordSkin" xmlns:e="http://ns.egret.com/eui" xmlns:match="match.*" xmlns:w="http://ns.egret.com/wing" width="1128" height="613">
+    <e:Image source="BSXQ-db_png" width="1128"  height="613" scale9Grid="24,382,15,27" locked="true"/>
+	<e:Image source="HPW-zj-bt_png" y="-13" horizontalCenter="0.5" locked="true"/>
+    <e:Image y="89" anchorOffsetX="0" width="1096" anchorOffsetY="0" height="509" source="BSXQ-jgg_png" scale9Grid="116,107,7,7" horizontalCenter="0" locked="true"/>
+	<e:RadioButton id="gameRecord_rbtn" label="" x="31" y="117" selected="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HPW-zj-bsjl_png" source.down="HPW-zj-bsjl-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="winRecord_rbtn" label="" x="31" y="198">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HPW-zj-hjjl_png" source.down="HPW-zj-hdjl-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<match:BaseButton id="close_btn" label="" y="-20" x="1060">
+		<match:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="BSXQ-gb_png" source.down="BSXQ-gb-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<e:Image x="217" y="100" source="HPW-hbjl-jgg_png" anchorOffsetX="0" width="879" scale9Grid="61,64,5,8" anchorOffsetY="0" height="481" locked="true"/>
+	<e:Image source="HPW-hbjl-xh_png" x="235.5" y="114" width="843" scale9Grid="5,6,31,36"/>
+	<e:Label text="比赛名称" x="271" y="126" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label text="比赛时间" x="597" y="126" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label text="场次" x="442" y="126" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label text="排名" x="788" y="126" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label text="积分" x="890" y="126" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label text="红包" x="991" y="126" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Scroller width="843" height="413" x="235" y="162" anchorOffsetY="0">
+		<e:List id="record_lst" itemRendererSkinName="HpwGameRecordItemSkin" anchorOffsetY="0" height="413" x="0" y="-10">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

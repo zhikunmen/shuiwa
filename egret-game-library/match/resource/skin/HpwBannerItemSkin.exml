@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwBannerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="456" height="178">
+	<e:Button id="ticket_btn" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSLB-ticket_png" source.down="BSLB-ticket-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</e:Button>
+	<e:Button id="package_btn" label="">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSLB-package_png" source.down="BSLB-package-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="banner_img" source="BSLB_banner_1_png" x="31" y="29" touchEnabled="false"/>
+	<e:Label id="type_lbl" text="" x="41" y="146" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label id="time_lbl" text="" y="146" fontFamily="Microsoft YaHei" size="22" right="18"/>
+</e:Skin>

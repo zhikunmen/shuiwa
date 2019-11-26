@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="540" height="80">
+        <e:Image source="rank_game_res_1_json.paihang_bg" scale9Grid="8,8,1,1" width="100%" height="100%"/>
+	<e:Image id="type_img" source="rank_game_res_1_json.paihang_jinzhu" x="373" verticalCenter="0"/>
+
+	<e:Image id="head_img" source="" width="60" height="60" x="100" verticalCenter="0"/>
+        <e:BitmapLabel id="_rankTxt" text="9" verticalAlign="middle" textAlign="center" verticalCenter="0.5" x="6" font="rank_big_num_fnt" anchorOffsetX="0" width="84" height="60"/>
+
+        <e:Label id="nickName_lbl" text="----" size="24" x="178" fontFamily="Microsoft YaHei" textColor="0xaa2000" verticalCenter="0"/>
+
+        <e:Label id="num_lbl" text="0" size="24" textColor="0xaa2000" x="445" fontFamily="Microsoft YaHei" verticalCenter="0"/>
+        <!--<eui:WxButton id="_sendBtn" label="" x="470" y="31">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="rank_btn_send" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </eui:WxButton>-->
+</e:Skin>

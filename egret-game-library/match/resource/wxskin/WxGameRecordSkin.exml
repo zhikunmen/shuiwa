@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxGameRecordSkin" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*" xmlns:w="http://ns.egret.com/wing"
+        width="1031" height="532">
+    <e:Image source="bs_baoming_bg_png" scale9Grid="23,390,13,14" anchorOffsetX="0" width="1031" x="-1" />
+
+	<e:Image y="0" scaleX="-1" source="bs_unlock_title_png" horizontalCenter="0.5"/>
+	<e:Image y="12" horizontalCenter="0" source="bs_jilu_huojiang_png"/>
+
+	<e:Image source="bs_jilu_line_png" y="135" width="922" horizontalCenter="0"/>
+	<e:Image source="bs_jilu_1_png" x="268.5" y="81.5"/>
+	<e:Image source="bs_jilu_2_png" x="458.5" y="81"/>
+	<e:Image source="bs_jilu_3_png" x="644" y="81"/>
+	<eui:WxButton id="close_btn" label="" x="959" y="7">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="nextPage_btn" label="" x="646" y="430">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bs_jilu_PgDn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="prePage_btn" label="" x="148.5" y="430">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bs_jilu_PgUp_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Label text="比赛时间" x="87" y="87" size="26" fontFamily="Microsoft YaHei" textColor="0x8e2a0c"/>
+	<e:Label text="第一名" x="299.5" y="87" size="26" fontFamily="Microsoft YaHei" textColor="0x8E2A0C"/>
+	<e:Label text="第二名" x="489.5" y="87" size="26" fontFamily="Microsoft YaHei" textColor="0x8E2A0C"/>
+	<e:Label text="第三名" x="674" y="87" size="26" fontFamily="Microsoft YaHei" textColor="0x8E2A0C"/>
+	<e:Label text="我的名次" x="822" y="87" size="26" fontFamily="Microsoft YaHei" textColor="0x8E2A0C"/>
+	<e:List id="record_lst" y="135" itemRendererSkinName="WxGameRecordItemSkin" horizontalCenter="0.5" anchorOffsetY="0" height="274">
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+		<e:layout>
+			<e:VerticalLayout gap="8"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

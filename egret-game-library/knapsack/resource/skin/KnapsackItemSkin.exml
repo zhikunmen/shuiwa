@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KnapsackItemSkin" width="201" height="260.5" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mjl_knapsack_json.mjl_knapsack_itembg" x="9" y="10.4"/>
+	<e:Image id="_couponImg" x="13" y="35" source="mjl_knapsack_json.mjl_knapsack_341"/>
+	<e:Image id="_selectImg" source="mjl_knapsack_json.mjl_knapsack_select" anchorOffsetX="0" width="201" anchorOffsetY="0" height="204" scale9Grid="22,21,8,8"/>
+	<e:Label id="_numText" text="x123" y="162.5" size="26" textColor="0xc70e0e" horizontalCenter="0" fontFamily="Microsoft YaHei"/>
+	<e:Label id="_gameText" text="新版斗地主" y="201.5" size="26" horizontalCenter="1.5" fontFamily="Microsoft YaHei" textColor="0x5d1400"/>
+	<e:Label text="代金券" y="230.5" size="26" textColor="0x5D1400" horizontalCenter="1.5" fontFamily="Microsoft YaHei"/>
+</e:Skin>

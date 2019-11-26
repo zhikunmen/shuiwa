@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/VipItemSkin.exml",
+		"resource/skin/VipPanelSkin.exml"
+	],
+	"path": "resource/vip.thm.json"
+}

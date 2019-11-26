@@ -1,0 +1,9 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/SetPlanel_noBg.exml",
+		"resource/skin/SetPlanel.exml",
+		"resource/skin/YunXiaoSetPlanel.exml"
+	],
+	"path": "resource/gameset.thm.json"
+}

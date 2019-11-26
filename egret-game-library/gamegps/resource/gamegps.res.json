@@ -1,0 +1,12 @@
+{
+	"groups":[{
+			"keys":"chaguan_gps_panel_json",
+			"name":"game_gps"
+		}],
+	"resources":[{
+			"name":"chaguan_gps_panel_json",
+			"subkeys":"chaguan_gps_btn_continue_down_png,chaguan_gps_btn_leave_down_png,chaguan_gps_distance_bg_green_png,chaguan_gps_distance_bg_red_png,chaguan_gps_head_bg_png,chaguan_gps_head_frame_png,chaguan_gps_line2_png,chaguan_gps_line3_png,chaguan_gps_line4_png,chaguan_gps_title_png,chaguan_gps_txt_bg_green_png,chaguan_gps_txt_bg_red_png",
+			"type":"sheet",
+			"url":"gamegps/chaguan_gps_panel.json"
+		}]
+}

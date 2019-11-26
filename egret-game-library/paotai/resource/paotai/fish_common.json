@@ -1,0 +1,375 @@
+{
+  "file": "fish_common.png",
+  "frames": {
+    "fish_0": {
+      "x": 682,
+      "y": 0,
+      "w": 93,
+      "h": 57,
+      "offX": 7,
+      "offY": 19,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_1": {
+      "x": 682,
+      "y": 0,
+      "w": 93,
+      "h": 57,
+      "offX": 7,
+      "offY": 19,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_2": {
+      "x": 209,
+      "y": 265,
+      "w": 105,
+      "h": 71,
+      "offX": 1,
+      "offY": 12,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_3": {
+      "x": 312,
+      "y": 189,
+      "w": 105,
+      "h": 70,
+      "offX": 1,
+      "offY": 13,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_4": {
+      "x": 212,
+      "y": 435,
+      "w": 106,
+      "h": 55,
+      "offX": 0,
+      "offY": 20,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_5": {
+      "x": 101,
+      "y": 194,
+      "w": 106,
+      "h": 74,
+      "offX": 0,
+      "offY": 11,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_6": {
+      "x": 0,
+      "y": 370,
+      "w": 106,
+      "h": 74,
+      "offX": 0,
+      "offY": 11,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_7": {
+      "x": 0,
+      "y": 194,
+      "w": 99,
+      "h": 85,
+      "offX": 4,
+      "offY": 5,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_8": {
+      "x": 320,
+      "y": 435,
+      "w": 106,
+      "h": 55,
+      "offX": 0,
+      "offY": 20,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_9": {
+      "x": 316,
+      "y": 261,
+      "w": 106,
+      "h": 66,
+      "offX": 0,
+      "offY": 15,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_10": {
+      "x": 574,
+      "y": 0,
+      "w": 106,
+      "h": 54,
+      "offX": 0,
+      "offY": 21,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_11": {
+      "x": 108,
+      "y": 349,
+      "w": 104,
+      "h": 71,
+      "offX": 1,
+      "offY": 12,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_12": {
+      "x": 291,
+      "y": 96,
+      "w": 95,
+      "h": 90,
+      "offX": 6,
+      "offY": 3,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_13": {
+      "x": 321,
+      "y": 0,
+      "w": 92,
+      "h": 94,
+      "offX": 7,
+      "offY": 1,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_14": {
+      "x": 108,
+      "y": 0,
+      "w": 103,
+      "h": 89,
+      "offX": 2,
+      "offY": 3,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_15": {
+      "x": 500,
+      "y": 150,
+      "w": 106,
+      "h": 48,
+      "offX": 0,
+      "offY": 24,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_16": {
+      "x": 213,
+      "y": 0,
+      "w": 106,
+      "h": 83,
+      "offX": 0,
+      "offY": 6,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_17": {
+      "x": 424,
+      "y": 189,
+      "w": 74,
+      "h": 90,
+      "offX": 16,
+      "offY": 3,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_18": {
+      "x": 209,
+      "y": 188,
+      "w": 101,
+      "h": 75,
+      "offX": 3,
+      "offY": 10,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_19": {
+      "x": 373,
+      "y": 329,
+      "w": 99,
+      "h": 67,
+      "offX": 7,
+      "offY": 14,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_20": {
+      "x": 591,
+      "y": 59,
+      "w": 101,
+      "h": 52,
+      "offX": 0,
+      "offY": 28,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_21": {
+      "x": 483,
+      "y": 95,
+      "w": 106,
+      "h": 53,
+      "offX": 0,
+      "offY": 21,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_22": {
+      "x": 424,
+      "y": 281,
+      "w": 100,
+      "h": 36,
+      "offX": 2,
+      "offY": 34,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_23": {
+      "x": 500,
+      "y": 200,
+      "w": 92,
+      "h": 43,
+      "offX": 10,
+      "offY": 19,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_24": {
+      "x": 101,
+      "y": 270,
+      "w": 101,
+      "h": 77,
+      "offX": 3,
+      "offY": 9,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_25": {
+      "x": 0,
+      "y": 446,
+      "w": 101,
+      "h": 59,
+      "offX": 3,
+      "offY": 18,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_26": {
+      "x": 0,
+      "y": 281,
+      "w": 94,
+      "h": 87,
+      "offX": 6,
+      "offY": 4,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_27": {
+      "x": 108,
+      "y": 422,
+      "w": 102,
+      "h": 70,
+      "offX": 2,
+      "offY": 13,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_28": {
+      "x": 98,
+      "y": 97,
+      "w": 93,
+      "h": 95,
+      "offX": 7,
+      "offY": 0,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_29": {
+      "x": 0,
+      "y": 97,
+      "w": 96,
+      "h": 94,
+      "offX": 5,
+      "offY": 1,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_30": {
+      "x": 0,
+      "y": 0,
+      "w": 106,
+      "h": 95,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_31": {
+      "x": 193,
+      "y": 91,
+      "w": 96,
+      "h": 91,
+      "offX": 5,
+      "offY": 2,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_32": {
+      "x": 388,
+      "y": 96,
+      "w": 93,
+      "h": 91,
+      "offX": 7,
+      "offY": 2,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_33": {
+      "x": 298,
+      "y": 338,
+      "w": 73,
+      "h": 95,
+      "offX": 17,
+      "offY": 0,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_34": {
+      "x": 510,
+      "y": 0,
+      "w": 62,
+      "h": 93,
+      "offX": 22,
+      "offY": 1,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_35": {
+      "x": 214,
+      "y": 338,
+      "w": 82,
+      "h": 90,
+      "offX": 12,
+      "offY": 3,
+      "sourceW": 106,
+      "sourceH": 95
+    },
+    "fish_36": {
+      "x": 415,
+      "y": 0,
+      "w": 93,
+      "h": 92,
+      "offX": 7,
+      "offY": 2,
+      "sourceW": 106,
+      "sourceH": 95
+    }
+  }
+}

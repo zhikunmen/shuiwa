@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFuliPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*"
+        xmlns:reward="reward.*" width="1065" height="593">
+	<e:Image width="100%" source="lb_fuli_json.fuli_bg" scale9Grid="26,311,6,44"  height="593" locked="true"/>
+	<e:Image scaleX="-1" source="lb_fuli_json.mjl_common_title" horizontalCenter="0"  locked="true"/>
+	<e:Image horizontalCenter="0" y="11"  source="lb_fuli_json.task_new_reward" locked="true"/>
+	<e:Image source="lb_fuli_json.fuli_daohang" x="25" y="78" locked="true"/>
+	<e:RadioButton id="men_rbtn1" label="送福卡" groupName="fuligroup" x="25" y="126" value="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_fuli_json.fuli_weixuan" source.down="lb_fuli_json.fuli_xuanzhong"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" bold="true" fontFamily="Microsoft YaHei" size="28" textColor.down="0xbf450e"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:RadioButton>
+	<e:RadioButton id="men_rbtn2" label="送升级水晶" groupName="fuligroup" selected="false" x="25" y="209.5" value="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_fuli_json.fuli_weixuan" source.down="lb_fuli_json.fuli_xuanzhong"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" bold="true" fontFamily="Microsoft YaHei" size="28" textColor.down="0xbf450e"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="men_rbtn3" label="送钻石" groupName="fuligroup" x="25" y="292.5" value="2">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_fuli_json.fuli_weixuan" source.down="lb_fuli_json.fuli_xuanzhong"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" bold="true" fontFamily="Microsoft YaHei" size="28" textColor.down="0xbf450e"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+
+
+
+	<eui:WxButton id="close_btn" label="" x="994" y="7">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lb_fuli_json.mjl_common_closebtn1" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+
+
+	<reward:TaskView2 id="task_view1" x="256" y="81" skinName="TaskView2Skin" visible="false"/>
+	<reward:TaskView2 id="task_view2" x="256" y="81" skinName="TaskView2Skin" visible="false"/>
+	<reward:TaskView2 id="task_view3" x="256" y="81" skinName="TaskView2Skin" visible="false"/>
+	<e:Image id="red1" width="24" height="24" x="213" y="129" source="lb_red_png" visible="false"/>
+	<e:Image id="red2" width="24" height="24" x="213" y="212.5" source="lb_red_png" visible="false"/>
+
+	</e:Skin>

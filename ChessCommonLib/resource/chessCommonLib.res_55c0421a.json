@@ -1,0 +1,1745 @@
+{
+    "resources": [
+        {
+            "url": "hc_assets/head/default_avar_fae6eb8c.png", 
+            "type": "image", 
+            "name": "default_avar_png"
+        }, 
+        {
+            "url": "hc_assets/head/default_avar_man_b3ab46c1.png", 
+            "type": "image", 
+            "name": "default_avar_man_png"
+        }, 
+        {
+            "url": "hc_assets/head/default_avar_woman_8903bd42.png", 
+            "type": "image", 
+            "name": "default_avar_woman_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon0_7fa14463.png", 
+            "type": "image", 
+            "name": "vip_icon0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon1_78c4028e.png", 
+            "type": "image", 
+            "name": "vip_icon1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon2_7b99a647.png", 
+            "type": "image", 
+            "name": "vip_icon2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon3_82e5e593.png", 
+            "type": "image", 
+            "name": "vip_icon3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon4_e6a58335.png", 
+            "type": "image", 
+            "name": "vip_icon4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon5_cca3ea93.png", 
+            "type": "image", 
+            "name": "vip_icon5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon6_7b6609b1.png", 
+            "type": "image", 
+            "name": "vip_icon6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon7_73b15d1.png", 
+            "type": "image", 
+            "name": "vip_icon7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon8_621dd8a3.png", 
+            "type": "image", 
+            "name": "vip_icon8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon9_c0365b38.png", 
+            "type": "image", 
+            "name": "vip_icon9_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big0_36373c85.png", 
+            "type": "image", 
+            "name": "vip_big0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big1_fb0544ff.png", 
+            "type": "image", 
+            "name": "vip_big1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big2_30072571.png", 
+            "type": "image", 
+            "name": "vip_big2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big3_e7067e51.png", 
+            "type": "image", 
+            "name": "vip_big3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big4_bffd8d1a.png", 
+            "type": "image", 
+            "name": "vip_big4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big5_cb54f92f.png", 
+            "type": "image", 
+            "name": "vip_big5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big6_f01c6266.png", 
+            "type": "image", 
+            "name": "vip_big6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big7_29ecc30e.png", 
+            "type": "image", 
+            "name": "vip_big7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big8_9efaab27.png", 
+            "type": "image", 
+            "name": "vip_big8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_big/vip_big9_bb3f4af9.png", 
+            "type": "image", 
+            "name": "vip_big9_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small0_ee061e.png", 
+            "type": "image", 
+            "name": "vip_small0_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small1_257eabb4.png", 
+            "type": "image", 
+            "name": "vip_small1_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small2_6295d9f2.png", 
+            "type": "image", 
+            "name": "vip_small2_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small3_74dfec2b.png", 
+            "type": "image", 
+            "name": "vip_small3_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small4_b58c4126.png", 
+            "type": "image", 
+            "name": "vip_small4_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small5_56666b9a.png", 
+            "type": "image", 
+            "name": "vip_small5_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small6_21015c84.png", 
+            "type": "image", 
+            "name": "vip_small6_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small7_cc4eb516.png", 
+            "type": "image", 
+            "name": "vip_small7_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small8_3c1a764e.png", 
+            "type": "image", 
+            "name": "vip_small8_png"
+        }, 
+        {
+            "url": "hc_assets/vip/icon_small/vip_small9_494202b7.png", 
+            "type": "image", 
+            "name": "vip_small9_png"
+        }, 
+        {
+            "url": "hc_assets/head/name_bg_mask_4d1fee66.png", 
+            "type": "image", 
+            "name": "name_bg_mask_png"
+        }, 
+        {
+            "url": "hc_assets/head/br_seatHead_4bc9b0d9.png", 
+            "type": "image", 
+            "name": "br_seatHead_png"
+        }, 
+        {
+            "url": "chesscommonres/chatview/hbgame_chat_imoj_3c11394d.json", 
+            "type": "sheet", 
+            "name": "hbgame_chat_imoj_json", 
+            "subkeys": "hbgame_face1,hbgame_face10,hbgame_face11,hbgame_face12,hbgame_face13,hbgame_face14,hbgame_face15,hbgame_face16,hbgame_face17,hbgame_face18,hbgame_face2,hbgame_face3,hbgame_face4,hbgame_face5,hbgame_face6,hbgame_face7,hbgame_face8,hbgame_face9"
+        }, 
+        {
+            "url": "chesscommonres/chatview/hbgame_chat_panel_826c7db3.json", 
+            "type": "sheet", 
+            "name": "hbgame_chat_panel_json", 
+            "subkeys": "hbgame_bg,hbgame_chat,hbgame_chatbottom,hbgame_chatclick,hbgame_chatinputbottom,hbgame_chatlogbg,hbgame_chatlogbox,hbgame_face,hbgame_facebottom,hbgame_noseatuser,hbgame_noseatuserclick,hbgame_send,hbgame_sendclick,hbgame_windowChatFrame"
+        }, 
+        {
+            "url": "chesscommonres/chatview/hbgame_headDefault_ae21f109.png", 
+            "type": "image", 
+            "name": "hbgame_headDefault_png"
+        }, 
+        {
+            "url": "chesscommonres/chatview/showTips_12ec7ee8.png", 
+            "type": "image", 
+            "name": "showTips_png"
+        }, 
+        {
+            "url": "chesscommonres/mjl_lobby_systembg_3e55ffdb.png", 
+            "type": "image", 
+            "name": "mjl_lobby_systembg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/char_emoj_selected_1254c531.png", 
+            "type": "image", 
+            "name": "char_emoj_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_chat_bg_d05bfb31.png", 
+            "type": "image", 
+            "name": "chat_chat_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_chat_normal_2e522da2.png", 
+            "type": "image", 
+            "name": "chat_chat_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_chat_selected_2107a552.png", 
+            "type": "image", 
+            "name": "chat_chat_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_coin_71271658.png", 
+            "type": "image", 
+            "name": "chat_coin_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_emoj_normal_5faa7cd9.png", 
+            "type": "image", 
+            "name": "chat_emoj_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_input_262efb47.png", 
+            "type": "image", 
+            "name": "chat_input_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_input_bg_f4a3f469.png", 
+            "type": "image", 
+            "name": "chat_input_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_btn_normal_67b7352.png", 
+            "type": "image", 
+            "name": "chat_laba_btn_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_btn_selected_d1e18a0a.png", 
+            "type": "image", 
+            "name": "chat_laba_btn_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_drop_normal_8ce202a7.png", 
+            "type": "image", 
+            "name": "chat_laba_drop_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_drop_selected_1ede414c.png", 
+            "type": "image", 
+            "name": "chat_laba_drop_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_laba_icon_66cc10cd.png", 
+            "type": "image", 
+            "name": "chat_laba_icon_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_loading_47a33d27.png", 
+            "type": "image", 
+            "name": "chat_loading_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_noset_bg_ea4bbbcd.png", 
+            "type": "image", 
+            "name": "chat_noset_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_noset_normal_3ee79528.png", 
+            "type": "image", 
+            "name": "chat_noset_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_noset_selected_98894529.png", 
+            "type": "image", 
+            "name": "chat_noset_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_room_btn_normal_8ffd26d1.png", 
+            "type": "image", 
+            "name": "chat_room_btn_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_room_btn_selected_9805fee0.png", 
+            "type": "image", 
+            "name": "chat_room_btn_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_room_drop_normal_7121c888.png", 
+            "type": "image", 
+            "name": "chat_room_drop_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_room_drop_selected_bfb4d917.png", 
+            "type": "image", 
+            "name": "chat_room_drop_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_send_normal_69b25a2b.png", 
+            "type": "image", 
+            "name": "chat_send_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_send_selected_65362f59.png", 
+            "type": "image", 
+            "name": "chat_send_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_userlist_bg_63de99ef.png", 
+            "type": "image", 
+            "name": "chat_userlist_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_vip_icon_fbba0538.png", 
+            "type": "image", 
+            "name": "chat_vip_icon_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_voice_normal_9b50f2f9.png", 
+            "type": "image", 
+            "name": "chat_voice_normal_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_voice_selected_9d291c67.png", 
+            "type": "image", 
+            "name": "chat_voice_selected_png"
+        }, 
+        {
+            "url": "chesscommonres/chat2/chat2_bg_54658e4c.png", 
+            "type": "image", 
+            "name": "chat2_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/chat2/chat2_btn_538baa3b.png", 
+            "type": "image", 
+            "name": "chat2_btn_png"
+        }, 
+        {
+            "url": "chesscommonres/chat2/chat2_noseat_btn_6a7f7a26.png", 
+            "type": "image", 
+            "name": "chat2_noseat_btn_png"
+        }, 
+        {
+            "url": "sound/gift/GiftSound1_1dd8eb4b.mp3", 
+            "type": "sound", 
+            "name": "GiftSound1_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound2_d736cf57.mp3", 
+            "type": "sound", 
+            "name": "GiftSound2_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound3_e6c2d93c.mp3", 
+            "type": "sound", 
+            "name": "GiftSound3_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound4_b6d2683d.mp3", 
+            "type": "sound", 
+            "name": "GiftSound4_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound5_8344397e.mp3", 
+            "type": "sound", 
+            "name": "GiftSound5_mp3"
+        }, 
+        {
+            "url": "sound/gift/GiftSound6_1e4622c9.mp3", 
+            "type": "sound", 
+            "name": "GiftSound6_mp3"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame3_tex_8386fa9f.png", 
+            "type": "image", 
+            "name": "vip_frame3_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame9_ske_bf9f4f8.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame9_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame9_tex_1de34520.png", 
+            "type": "image", 
+            "name": "vip_frame9_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame0_ske_da3511be.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame0_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame0_tex_b7ea347.png", 
+            "type": "image", 
+            "name": "vip_frame0_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame1_ske_241f2aa3.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame1_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame1_tex_5480030a.png", 
+            "type": "image", 
+            "name": "vip_frame1_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame2_ske_4d9e7dd.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame2_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame2_tex_65099598.png", 
+            "type": "image", 
+            "name": "vip_frame2_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame3_ske_55062ea0.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame3_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/other/task_5bc3689e.png", 
+            "type": "image", 
+            "name": "task_png"
+        }, 
+        {
+            "url": "hc_assets/other/guang01_d22ad1f7.png", 
+            "type": "image", 
+            "name": "guang01_png"
+        }, 
+        {
+            "url": "hc_assets/other/sys_msg_click_a6558835.png", 
+            "type": "image", 
+            "name": "sys_msg_click_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_mess_tex_cf2ddc5c.png", 
+            "type": "image", 
+            "name": "chat_mess_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/chat/chat_mess_ske_759a41e.dbmv", 
+            "type": "bin", 
+            "name": "chat_mess_ske_dbmv"
+        }, 
+        {
+            "url": "chesscommonres/room_num_5e37ed80.fnt", 
+            "type": "font", 
+            "name": "room_num_fnt"
+        }, 
+        {
+            "url": "hc_assets/other/jinbi_num_3937423f.fnt", 
+            "type": "font", 
+            "name": "jinbi_num_fnt"
+        }, 
+        {
+            "url": "chesscommonres/EmjoChat/sz_common_Chat_f1393551.json", 
+            "type": "sheet", 
+            "name": "sz_common_Chat_json", 
+            "subkeys": "face_Big_1,face_Big_10,face_Big_11,face_Big_12,face_Big_13,face_Big_14,face_Big_15,face_Big_16,face_Big_17,face_Big_18,face_Big_19,face_Big_2,face_Big_20,face_Big_21,face_Big_22,face_Big_23,face_Big_24,face_Big_25,face_Big_26,face_Big_27,face_Big_28,face_Big_29,face_Big_3,face_Big_30,face_Big_31,face_Big_32,face_Big_33,face_Big_34,face_Big_35,face_Big_36,face_Big_37,face_Big_38,face_Big_39,face_Big_4,face_Big_40,face_Big_41,face_Big_42,face_Big_43,face_Big_44,face_Big_45,face_Big_46,face_Big_47,face_Big_48,face_Big_5,face_Big_6,face_Big_7,face_Big_8,face_Big_9,face_Small_1,face_Small_10,face_Small_11,face_Small_12,face_Small_13,face_Small_14,face_Small_15,face_Small_16,face_Small_17,face_Small_18,face_Small_19,face_Small_2,face_Small_20,face_Small_21,face_Small_22,face_Small_23,face_Small_24,face_Small_25,face_Small_26,face_Small_27,face_Small_28,face_Small_29,face_Small_3,face_Small_30,face_Small_31,face_Small_32,face_Small_33,face_Small_34,face_Small_35,face_Small_36,face_Small_37,face_Small_38,face_Small_39,face_Small_4,face_Small_40,face_Small_41,face_Small_42,face_Small_43,face_Small_44,face_Small_45,face_Small_46,face_Small_47,face_Small_48,face_Small_49,face_Small_5,face_Small_6,face_Small_7,face_Small_8,face_Small_9,sz_common_chat_bg,sz_common_chat_bg2,sz_common_chat_facebg,sz_common_chat_horn,sz_common_chat_icon,sz_common_chat_line,sz_common_chat_mask,sz_common_chat_point1,sz_common_chat_point2,sz_common_chat_send,sz_common_chat_send2,sz_common_chat_sendBtn1,sz_common_chat_sendBtn2"
+        }, 
+        {
+            "url": "chesscommonres/EmjoChat/Emojchat_loading_71f9d67e.png", 
+            "type": "image", 
+            "name": "Emojchat_loading_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon20_463a9556.png", 
+            "type": "image", 
+            "name": "vip_icon20_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon22_7f3fa192.png", 
+            "type": "image", 
+            "name": "vip_icon22_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon23_3d288f8b.png", 
+            "type": "image", 
+            "name": "vip_icon23_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon24_e0d337bd.png", 
+            "type": "image", 
+            "name": "vip_icon24_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon25_959dcc2d.png", 
+            "type": "image", 
+            "name": "vip_icon25_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon26_c9dfcb1b.png", 
+            "type": "image", 
+            "name": "vip_icon26_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon27_9dc3a9eb.png", 
+            "type": "image", 
+            "name": "vip_icon27_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon21_21f263e5.png", 
+            "type": "image", 
+            "name": "vip_icon21_png"
+        }, 
+        {
+            "url": "hc_assets/vip/frame/vip_icon28_8bebb444.png", 
+            "type": "image", 
+            "name": "vip_icon28_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame29_tex_d7610e0d.png", 
+            "type": "image", 
+            "name": "vip_frame29_tex_png"
+        }, 
+        {
+            "url": "hc_assets/vip/anim_vip/vip_frame29_ske_e368a20d.dbmv", 
+            "type": "bin", 
+            "name": "vip_frame29_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/other/ssc_btn2_ed2e063b.png", 
+            "type": "image", 
+            "name": "ssc_btn2_png"
+        }, 
+        {
+            "url": "hc_assets/other/ssc_btn1_83eeab1e.png", 
+            "type": "image", 
+            "name": "ssc_btn1_png"
+        }, 
+        {
+            "url": "hc_assets/head/head_gift_icon_2ce73fe.png", 
+            "type": "image", 
+            "name": "head_gift_icon_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip1_d4d6d899.png", 
+            "type": "image", 
+            "name": "zm_Chip1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip10_3226317b.png", 
+            "type": "image", 
+            "name": "zm_Chip10_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip100_928918a4.png", 
+            "type": "image", 
+            "name": "zm_Chip100_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip1000_a63a6c9e.png", 
+            "type": "image", 
+            "name": "zm_Chip1000_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip10000_630f10dc.png", 
+            "type": "image", 
+            "name": "zm_Chip10000_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip2_e144babc.png", 
+            "type": "image", 
+            "name": "zm_Chip2_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip20_88a3d987.png", 
+            "type": "image", 
+            "name": "zm_Chip20_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip200_fcb2e705.png", 
+            "type": "image", 
+            "name": "zm_Chip200_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip2000_7d5818f0.png", 
+            "type": "image", 
+            "name": "zm_Chip2000_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip200000_2ecc8d52.png", 
+            "type": "image", 
+            "name": "zm_Chip200000_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip5_d8a54c1c.png", 
+            "type": "image", 
+            "name": "zm_Chip5_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip50_f20bb2f4.png", 
+            "type": "image", 
+            "name": "zm_Chip50_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip500_b88ab5ba.png", 
+            "type": "image", 
+            "name": "zm_Chip500_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip5000_e83a6eb7.png", 
+            "type": "image", 
+            "name": "zm_Chip5000_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chips/zm_Chip500000_7cf57528.png", 
+            "type": "image", 
+            "name": "zm_Chip500000_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_bean_d80d26fd.png", 
+            "type": "image", 
+            "name": "zm_bean_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_diamond_7b80134.png", 
+            "type": "image", 
+            "name": "zm_diamond_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/BackCard_5e9a9604.png", 
+            "type": "image", 
+            "name": "BackCard_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_11_996951e8.png", 
+            "type": "image", 
+            "name": "Poker_11_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_110_3c0899f9.png", 
+            "type": "image", 
+            "name": "Poker_110_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_111_303bc303.png", 
+            "type": "image", 
+            "name": "Poker_111_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_112_221d7cec.png", 
+            "type": "image", 
+            "name": "Poker_112_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_113_4dadd030.png", 
+            "type": "image", 
+            "name": "Poker_113_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_12_a842bfb6.png", 
+            "type": "image", 
+            "name": "Poker_12_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_13_853a469e.png", 
+            "type": "image", 
+            "name": "Poker_13_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_14_2c8bdb3f.png", 
+            "type": "image", 
+            "name": "Poker_14_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_15_2a2190c1.png", 
+            "type": "image", 
+            "name": "Poker_15_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_16_31beebfa.png", 
+            "type": "image", 
+            "name": "Poker_16_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_17_473ca726.png", 
+            "type": "image", 
+            "name": "Poker_17_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_18_d6324d9a.png", 
+            "type": "image", 
+            "name": "Poker_18_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_19_804fdf72.png", 
+            "type": "image", 
+            "name": "Poker_19_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_21_e0a5af78.png", 
+            "type": "image", 
+            "name": "Poker_21_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_210_b5666e22.png", 
+            "type": "image", 
+            "name": "Poker_210_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_211_5fc127e2.png", 
+            "type": "image", 
+            "name": "Poker_211_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_212_77c16d03.png", 
+            "type": "image", 
+            "name": "Poker_212_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_213_cac24781.png", 
+            "type": "image", 
+            "name": "Poker_213_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_22_ea57a1a9.png", 
+            "type": "image", 
+            "name": "Poker_22_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_23_e092bb5.png", 
+            "type": "image", 
+            "name": "Poker_23_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_24_aeed9789.png", 
+            "type": "image", 
+            "name": "Poker_24_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_25_de935f52.png", 
+            "type": "image", 
+            "name": "Poker_25_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_26_4fc7e85c.png", 
+            "type": "image", 
+            "name": "Poker_26_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_27_81509652.png", 
+            "type": "image", 
+            "name": "Poker_27_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_28_dd36743b.png", 
+            "type": "image", 
+            "name": "Poker_28_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_29_5b41bef9.png", 
+            "type": "image", 
+            "name": "Poker_29_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_31_4a45e561.png", 
+            "type": "image", 
+            "name": "Poker_31_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_310_adfabe.png", 
+            "type": "image", 
+            "name": "Poker_310_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_311_1f684693.png", 
+            "type": "image", 
+            "name": "Poker_311_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_312_f594f28c.png", 
+            "type": "image", 
+            "name": "Poker_312_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_313_754cd86e.png", 
+            "type": "image", 
+            "name": "Poker_313_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_32_c9c7b5f9.png", 
+            "type": "image", 
+            "name": "Poker_32_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_33_b3495b6f.png", 
+            "type": "image", 
+            "name": "Poker_33_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_34_388221c8.png", 
+            "type": "image", 
+            "name": "Poker_34_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_35_3e73b84b.png", 
+            "type": "image", 
+            "name": "Poker_35_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_36_26c290af.png", 
+            "type": "image", 
+            "name": "Poker_36_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_37_d5c673c1.png", 
+            "type": "image", 
+            "name": "Poker_37_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_38_58657952.png", 
+            "type": "image", 
+            "name": "Poker_38_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_39_20dfbcaf.png", 
+            "type": "image", 
+            "name": "Poker_39_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_41_aecd8355.png", 
+            "type": "image", 
+            "name": "Poker_41_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_410_b4aae9a1.png", 
+            "type": "image", 
+            "name": "Poker_410_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_411_70595bb3.png", 
+            "type": "image", 
+            "name": "Poker_411_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_412_a76cb192.png", 
+            "type": "image", 
+            "name": "Poker_412_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_413_3c4f4f4e.png", 
+            "type": "image", 
+            "name": "Poker_413_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_42_e976bb39.png", 
+            "type": "image", 
+            "name": "Poker_42_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_43_2dfc1e85.png", 
+            "type": "image", 
+            "name": "Poker_43_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_44_2d06ac.png", 
+            "type": "image", 
+            "name": "Poker_44_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_45_1ee6fd5c.png", 
+            "type": "image", 
+            "name": "Poker_45_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_46_4b118cce.png", 
+            "type": "image", 
+            "name": "Poker_46_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_47_f8f041e.png", 
+            "type": "image", 
+            "name": "Poker_47_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_48_ed3af4ee.png", 
+            "type": "image", 
+            "name": "Poker_48_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_49_74a71487.png", 
+            "type": "image", 
+            "name": "Poker_49_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_514_31723fc6.png", 
+            "type": "image", 
+            "name": "Poker_514_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/poker/Poker_515_91d5b7e8.png", 
+            "type": "image", 
+            "name": "Poker_515_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_change_btn_2549aa8.png", 
+            "type": "image", 
+            "name": "zm_change_btn_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_common_bg_361cd201.png", 
+            "type": "image", 
+            "name": "zm_common_bg_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_Icon_a5805d25.png", 
+            "type": "image", 
+            "name": "zmMahjong_Icon_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_recomand_58719347.png", 
+            "type": "image", 
+            "name": "zmMahjong_recomand_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_result1hu_637e2336.png", 
+            "type": "image", 
+            "name": "zmMahjong_result1hu_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_result2hu_878c5a37.png", 
+            "type": "image", 
+            "name": "zmMahjong_result2hu_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_result3hu_619d1338.png", 
+            "type": "image", 
+            "name": "zmMahjong_result3hu_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultBg_b36d9df.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultBg_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultContinue_normal_da891120.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultContinue_normal_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultContinue_press_25c55a81.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultContinue_press_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultExit_normal_52b8aaf3.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultExit_normal_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultExit_press_c9c892e1.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultExit_press_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultHu_539b9172.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultHu_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultLine_3401194f.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultLine_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultShare_normal_e1f2ecab.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultShare_normal_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultShare_press_d3bdbdc5.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultShare_press_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/mahjong_result/zmMahjong_resultTittle_c53807ce.png", 
+            "type": "image", 
+            "name": "zmMahjong_resultTittle_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_title_a87cb4.png", 
+            "type": "image", 
+            "name": "zm_userinfo_title_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_bg1_9a3e6c26.png", 
+            "type": "image", 
+            "name": "zm_userinfo_bg1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_bg2_75ccb524.png", 
+            "type": "image", 
+            "name": "zm_userinfo_bg2_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_famale_f992bd91.png", 
+            "type": "image", 
+            "name": "zm_userinfo_famale_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_gift1_cff2f751.png", 
+            "type": "image", 
+            "name": "zm_userinfo_gift1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_gift2_d69862c9.png", 
+            "type": "image", 
+            "name": "zm_userinfo_gift2_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_gift3_f13d109.png", 
+            "type": "image", 
+            "name": "zm_userinfo_gift3_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_gift4_99967150.png", 
+            "type": "image", 
+            "name": "zm_userinfo_gift4_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_gift5_b4112344.png", 
+            "type": "image", 
+            "name": "zm_userinfo_gift5_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_gift6_cf165990.png", 
+            "type": "image", 
+            "name": "zm_userinfo_gift6_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_gps_4088fd07.png", 
+            "type": "image", 
+            "name": "zm_userinfo_gps_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_head_f279fb29.png", 
+            "type": "image", 
+            "name": "zm_userinfo_head_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/userInfo/zm_userinfo_male_56cbb122.png", 
+            "type": "image", 
+            "name": "zm_userinfo_male_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_common_bg1_71a4101d.png", 
+            "type": "image", 
+            "name": "zm_common_bg1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_common_close1_33efb5b7.png", 
+            "type": "image", 
+            "name": "zm_common_close1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_common_close2_b57db0c2.png", 
+            "type": "image", 
+            "name": "zm_common_close2_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_common_spot_6e6d2d73.png", 
+            "type": "image", 
+            "name": "zm_common_spot_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more_bg1_cd0f286b.png", 
+            "type": "image", 
+            "name": "zm_more_bg1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more_bg2_ce1d4423.jpg", 
+            "type": "image", 
+            "name": "zm_more_bg2_jpg"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more_safebox_normal_c63737f1.png", 
+            "type": "image", 
+            "name": "zm_more_safebox_normal_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more_safebox_press_31d16b79.png", 
+            "type": "image", 
+            "name": "zm_more_safebox_press_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more_back_normal_479f8f5b.png", 
+            "type": "image", 
+            "name": "zm_more_back_normal_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more_back_press_4b6192bd.png", 
+            "type": "image", 
+            "name": "zm_more_back_press_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more_rule_normal_bb1ed82b.png", 
+            "type": "image", 
+            "name": "zm_more_rule_normal_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more_rule_press_e88b819b.png", 
+            "type": "image", 
+            "name": "zm_more_rule_press_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more_set_normal_82e29ae7.png", 
+            "type": "image", 
+            "name": "zm_more_set_normal_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/more/zm_more4_set_press_fe4fe535.png", 
+            "type": "image", 
+            "name": "zm_more4_set_press_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/game_sp_arrow_left_627b68a4.png", 
+            "type": "image", 
+            "name": "game_sp_arrow_left_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/game_sp_arrow_right_6d2ee14a.png", 
+            "type": "image", 
+            "name": "game_sp_arrow_right_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/game_sp_title_676b451d.png", 
+            "type": "image", 
+            "name": "game_sp_title_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/game_sp_voice_off_3a7dafef.png", 
+            "type": "image", 
+            "name": "game_sp_voice_off_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/game_sp_voice_on_15b1e96c.png", 
+            "type": "image", 
+            "name": "game_sp_voice_on_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/small_bg_1_green_3f93e9f.png", 
+            "type": "image", 
+            "name": "small_bg_1_green_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/small_bg_2_green_3d102f5d.png", 
+            "type": "image", 
+            "name": "small_bg_2_green_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chat/zm_chat_title_40e9ed29.png", 
+            "type": "image", 
+            "name": "zm_chat_title_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chat/zm_game_face_186c7192.json", 
+            "type": "sheet", 
+            "name": "zm_game_face_json", 
+            "subkeys": "zmgame_face1,zmgame_face10,zmgame_face11,zmgame_face12,zmgame_face13,zmgame_face14,zmgame_face15,zmgame_face16,zmgame_face17,zmgame_face18,zmgame_face2,zmgame_face3,zmgame_face4,zmgame_face5,zmgame_face6,zmgame_face7,zmgame_face8,zmgame_face9"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chat/zm_horn_9fc3945b.png", 
+            "type": "image", 
+            "name": "zm_horn_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chat/zm_send1_e4437720.png", 
+            "type": "image", 
+            "name": "zm_send1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/chat/zm_send2_a6030a09.png", 
+            "type": "image", 
+            "name": "zm_send2_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/help/zm_help_bg_71a4101d.png", 
+            "type": "image", 
+            "name": "zm_help_bg_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/help/zm_help_title_8baa139b.png", 
+            "type": "image", 
+            "name": "zm_help_title_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/tips/zm_cancel1_7725c983.png", 
+            "type": "image", 
+            "name": "zm_cancel1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/tips/zm_cancel2_ba479d28.png", 
+            "type": "image", 
+            "name": "zm_cancel2_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/tips/zm_prompt_title_551e1264.png", 
+            "type": "image", 
+            "name": "zm_prompt_title_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/tips/zm_sure1_45cfa4f5.png", 
+            "type": "image", 
+            "name": "zm_sure1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/tips/zm_sure2_28891b3d.png", 
+            "type": "image", 
+            "name": "zm_sure2_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_notice_bg_583a8c3b.png", 
+            "type": "image", 
+            "name": "zm_notice_bg_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_effect/gift_effect_drag_ske_db477d64.json", 
+            "type": "json", 
+            "name": "gift_effect_drag_ske_json"
+        }, 
+        {
+            "url": "zimadoupai/zm_effect/gift_effect_drag_tex_c9a88cf1.json", 
+            "type": "json", 
+            "name": "gift_effect_drag_tex_json"
+        }, 
+        {
+            "url": "zimadoupai/zm_effect/gift_effect_drag_tex_f1ab0ccb.png", 
+            "type": "image", 
+            "name": "gift_effect_drag_tex_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_sound/zm_GiftSound1_1e4622c9.mp3", 
+            "type": "sound", 
+            "name": "zm_GiftSound1_mp3"
+        }, 
+        {
+            "url": "zimadoupai/zm_sound/zm_GiftSound2_8344397e.mp3", 
+            "type": "sound", 
+            "name": "zm_GiftSound2_mp3"
+        }, 
+        {
+            "url": "zimadoupai/zm_sound/zm_GiftSound3_e6c2d93c.mp3", 
+            "type": "sound", 
+            "name": "zm_GiftSound3_mp3"
+        }, 
+        {
+            "url": "zimadoupai/zm_sound/zm_GiftSound4_d736cf57.mp3", 
+            "type": "sound", 
+            "name": "zm_GiftSound4_mp3"
+        }, 
+        {
+            "url": "zimadoupai/zm_sound/zm_GiftSound5_a07bba6d.mp3", 
+            "type": "sound", 
+            "name": "zm_GiftSound5_mp3"
+        }, 
+        {
+            "url": "zimadoupai/zm_sound/zm_GiftSound6_b6d2683d.mp3", 
+            "type": "sound", 
+            "name": "zm_GiftSound6_mp3"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_bg_type1_blue_af957986.png", 
+            "type": "image", 
+            "name": "zm_bg_type1_blue_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_bg_type1_green_87453182.png", 
+            "type": "image", 
+            "name": "zm_bg_type1_green_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_btn_chat_down_9f3eb7.png", 
+            "type": "image", 
+            "name": "zm_btn_chat_down_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_btn_chat_up_1a0fb3c6.png", 
+            "type": "image", 
+            "name": "zm_btn_chat_up_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_btn_voice_down_20900073.png", 
+            "type": "image", 
+            "name": "zm_btn_voice_down_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/common/zm_btn_voice_up_276a4884.png", 
+            "type": "image", 
+            "name": "zm_btn_voice_up_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/game_sp_bg_361cd201.png", 
+            "type": "image", 
+            "name": "game_sp_bg_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/game_sp_bg_decoration_66c14982.png", 
+            "type": "image", 
+            "name": "game_sp_bg_decoration_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/game_sp_close_1_b57db0c2.png", 
+            "type": "image", 
+            "name": "game_sp_close_1_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/set/game_sp_close_2_33efb5b7.png", 
+            "type": "image", 
+            "name": "game_sp_close_2_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/voice/zm_voiceloading_1b801271.png", 
+            "type": "image", 
+            "name": "zm_voiceloading_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/voice/zm_voice_icon_4120060.png", 
+            "type": "image", 
+            "name": "zm_voice_icon_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/voice/zm_voice_paopao_c2b311dc.png", 
+            "type": "image", 
+            "name": "zm_voice_paopao_png"
+        }, 
+        {
+            "url": "zimadoupai/zm_assets/voice/zm_voice_recording_3c7d3b48.png", 
+            "type": "image", 
+            "name": "zm_voice_recording_png"
+        }, 
+        {
+            "url": "hc_assets/head/info_img_bg_3e50a42.png", 
+            "type": "image", 
+            "name": "info_img_bg_png"
+        }, 
+        {
+            "url": "hc_assets/other/jinbi_num_2_b9e44cbe.fnt", 
+            "type": "font", 
+            "name": "jinbi_num_2_fnt"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_3_ske_dff6450a.dbmv", 
+            "type": "bin", 
+            "name": "gift_effect_3_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_3_tex_42c73f9a.png", 
+            "type": "image", 
+            "name": "gift_effect_3_tex_png"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_4_ske_6f0050a4.dbmv", 
+            "type": "bin", 
+            "name": "gift_effect_4_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_4_tex_569b9dd.png", 
+            "type": "image", 
+            "name": "gift_effect_4_tex_png"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_6_ske_a867608.dbmv", 
+            "type": "bin", 
+            "name": "gift_effect_6_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_6_tex_5ddf48c1.png", 
+            "type": "image", 
+            "name": "gift_effect_6_tex_png"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_1_ske_4abff5b.dbmv", 
+            "type": "bin", 
+            "name": "gift_effect_1_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_1_tex_bcb1812c.png", 
+            "type": "image", 
+            "name": "gift_effect_1_tex_png"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_2_ske_55b0b7a8.dbmv", 
+            "type": "bin", 
+            "name": "gift_effect_2_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_2_tex_4edfa5a6.png", 
+            "type": "image", 
+            "name": "gift_effect_2_tex_png"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_5_ske_d894525d.dbmv", 
+            "type": "bin", 
+            "name": "gift_effect_5_ske_dbmv"
+        }, 
+        {
+            "url": "hc_assets/gift/gift_effect_5_tex_a6c7dfa7.png", 
+            "type": "image", 
+            "name": "gift_effect_5_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/mission/sz_duiju_effect_tex_a4ee8005.png", 
+            "type": "image", 
+            "name": "sz_duiju_effect_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/mission/sz_duiju_effect_ske_c9081dec.dbmv", 
+            "type": "bin", 
+            "name": "sz_duiju_effect_ske_dbmv"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/ssc/ssc_autoCall_font_e1d18a1.fnt", 
+            "type": "font", 
+            "name": "ssc_autoCall_font_fnt"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/ssc/ssc_bg_b8e5d584.png", 
+            "type": "image", 
+            "name": "ssc_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/ssc/ssc_font_loseChip_1fdbab95.fnt", 
+            "type": "font", 
+            "name": "ssc_font_loseChip_fnt"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/ssc/ssc_font_winChip_c9ec3e43.fnt", 
+            "type": "font", 
+            "name": "ssc_font_winChip_fnt"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/ssc/ssc_kaijiang_effect_tex_7bf56519.png", 
+            "type": "image", 
+            "name": "ssc_kaijiang_effect_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/ssc/ssc_kaijiang_effect_ske_86d6aad6.dbmv", 
+            "type": "bin", 
+            "name": "ssc_kaijiang_effect_ske_dbmv"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/ssc/ssc_res_d9c8215c.json", 
+            "type": "sheet", 
+            "name": "ssc_res_json", 
+            "subkeys": "ssc_ChipSelect_btn,ssc_autoCall_10,ssc_autoCall_100,ssc_autoCall_100_dis,ssc_autoCall_10_dis,ssc_autoCall_20,ssc_autoCall_20_dis,ssc_autoCall_50,ssc_autoCall_50_dis,ssc_autoCall_Icon,ssc_autoCall_btn,ssc_balance_Icon,ssc_callIcon_10000000,ssc_callIcon_2000,ssc_callIcon_20000,ssc_callIcon_200000,ssc_callIcon_2000000,ssc_call_1000w,ssc_call_1000w_dis,ssc_call_200w,ssc_call_200w_dis,ssc_call_20w,ssc_call_20w_dis,ssc_call_2k,ssc_call_2k_dis,ssc_call_2w,ssc_call_2w_dis,ssc_chipBg_lose,ssc_chipBg_win,ssc_chipIn_Icon,ssc_help_btn,ssc_help_title,ssc_kaijiang_bg,ssc_over_bg,ssc_rank_1,ssc_rank_2,ssc_rank_3,ssc_rank_btn,ssc_rank_title,ssc_record_btn,ssc_record_newIcon,ssc_record_title,ssc_record_type_1,ssc_record_type_2,ssc_record_type_3,ssc_record_type_4,ssc_record_type_5,ssc_record_type_6,ssc_record_type_7,ssc_record_type_8,ssc_secondCommonTitle,ssc_secondMyTitle,ssc_secondOtherTitle,ssc_select_bg,ssc_select_btn_dis,ssc_tyep1_btn,ssc_tyep1_btn_dis,ssc_tyep2_btn,ssc_tyep2_btn_dis,ssc_tyep3_btn,ssc_tyep3_btn_dis,ssc_tyep4_btn,ssc_tyep4_btn_dis,ssc_tyep5_btn,ssc_tyep5_btn_dis,ssc_tyep6_btn,ssc_tyep6_btn_dis,ssc_tyep7_btn,ssc_tyep7_btn_dis,ssc_tyep8_btn,ssc_tyep8_btn_dis,ssc_type_1,ssc_type_2,ssc_type_3,ssc_type_4,ssc_type_5,ssc_type_6,ssc_type_7,ssc_type_8,sz_Lobby_top_XJSSC,sz_Lobby_top_XJSSCNew,sz_Lobby_top_XJSSCNew_press"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/ssc/ssc_second_bg_1704a00c.png", 
+            "type": "image", 
+            "name": "ssc_second_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/common_1c6e95b3.json", 
+            "type": "sheet", 
+            "name": "common_json", 
+            "subkeys": "sz_Lobby_help_close"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/game_top_chat_bg_defe54cc.png", 
+            "type": "image", 
+            "name": "game_top_chat_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/loseFloat_bdc1cd88.fnt", 
+            "type": "font", 
+            "name": "loseFloat_fnt"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/PokerCard_1a9a92a4.json", 
+            "type": "sheet", 
+            "name": "PokerCard_json", 
+            "subkeys": "Poker0_1,Poker0_10,Poker0_11,Poker0_12,Poker0_13,Poker0_2,Poker0_3,Poker0_4,Poker0_5,Poker0_6,Poker0_7,Poker0_8,Poker0_9,Poker1_1,Poker1_10,Poker1_11,Poker1_12,Poker1_13,Poker1_2,Poker1_3,Poker1_4,Poker1_5,Poker1_6,Poker1_7,Poker1_8,Poker1_9,PokerBack_1,PokerBack_2,PokerBg_1,PokerBg_2,PokerBg_3,PokerBg_4,poker_mask"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/PokerCardNew_ba08f156.json", 
+            "type": "sheet", 
+            "name": "PokerCardNew_json", 
+            "subkeys": "Poker0_1,Poker0_10,Poker0_11,Poker0_12,Poker0_13,Poker0_2,Poker0_3,Poker0_4,Poker0_5,Poker0_6,Poker0_7,Poker0_8,Poker0_9,Poker1_1,Poker1_10,Poker1_11,Poker1_12,Poker1_13,Poker1_2,Poker1_3,Poker1_4,Poker1_5,Poker1_6,Poker1_7,Poker1_8,Poker1_9,PokerBack_1,PokerBack_2,PokerBg_1,PokerBg_2,PokerBg_3,PokerBg_4"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sound_clickBtn_5074c4a6.mp3", 
+            "type": "sound", 
+            "name": "sound_clickBtn_mp3"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sound_flyChip_e2786111.mp3", 
+            "type": "sound", 
+            "name": "sound_flyChip_mp3"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sound_get_prize_5368b7f0.mp3", 
+            "type": "sound", 
+            "name": "sound_get_prize_mp3"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sound_kaishixiazhu_6fbfe41e.mp3", 
+            "type": "sound", 
+            "name": "sound_kaishixiazhu_mp3"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sound_Treasureturn_4a303629.mp3", 
+            "type": "sound", 
+            "name": "sound_Treasureturn_mp3"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sound_turn_4a303629.mp3", 
+            "type": "sound", 
+            "name": "sound_turn_mp3"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sound_winlSound_5368b7f0.mp3", 
+            "type": "sound", 
+            "name": "sound_winlSound_mp3"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_bindAccount_d9636686.png", 
+            "type": "image", 
+            "name": "sz_bindAccount_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_charge_6af9650d.png", 
+            "type": "image", 
+            "name": "sz_charge_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_chip_res_703ba704.json", 
+            "type": "sheet", 
+            "name": "sz_chip_res_json", 
+            "subkeys": "sz_Chip100,sz_Chip1000,sz_Chip10000,sz_Chip100000,sz_Chip1000000,sz_Chip10000000,sz_Chip200,sz_Chip2000,sz_Chip20000,sz_Chip500,sz_Chip5000,sz_Chip50000,sz_Chip500000,sz_Chip5000000"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_clock_3f8a66e7.fnt", 
+            "type": "font", 
+            "name": "sz_clock_fnt"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_cancel_ef20ee8c.png", 
+            "type": "image", 
+            "name": "sz_common_cancel_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_head0_dd37753a.png", 
+            "type": "image", 
+            "name": "sz_common_head0_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_smallclose_265acca4.png", 
+            "type": "image", 
+            "name": "sz_common_smallclose_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_sure_62bfdf00.png", 
+            "type": "image", 
+            "name": "sz_common_sure_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_common_tips1_3bcf8ecb.png", 
+            "type": "image", 
+            "name": "sz_common_tips1_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_gold_b0f4144b.png", 
+            "type": "image", 
+            "name": "sz_gold_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_jisuduobao_ske_7e9f95c9.json", 
+            "type": "json", 
+            "name": "sz_jisuduobao_ske_json"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_jisuduobao_tex_579c7341.json", 
+            "type": "json", 
+            "name": "sz_jisuduobao_tex_json"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_jisuduobao_tex_5e1aa5d2.png", 
+            "type": "image", 
+            "name": "sz_jisuduobao_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_Lobby_Bottom_treasure_8a613d9d.png", 
+            "type": "image", 
+            "name": "sz_Lobby_Bottom_treasure_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_Lobby_Bottom_treasure_press_71374ae7.png", 
+            "type": "image", 
+            "name": "sz_Lobby_Bottom_treasure_press_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_lobby_rank1_tex_f79798e8.png", 
+            "type": "image", 
+            "name": "sz_lobby_rank1_tex_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_lobby_rank1_ske_d5676038.dbmv", 
+            "type": "bin", 
+            "name": "sz_lobby_rank1_ske_dbmv"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_lobbyChatBgNew_3eed7b25.png", 
+            "type": "image", 
+            "name": "sz_lobbyChatBgNew_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_lobbyCommonUi_a8aad071.json", 
+            "type": "sheet", 
+            "name": "sz_lobbyCommonUi_json", 
+            "subkeys": "sz_lobbyRankToday1,sz_lobbyRankToday2,sz_lobbyRankToday3,sz_lobbyRankToday4"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_LobbyTreasure_34a9687d.mp3", 
+            "type": "sound", 
+            "name": "sz_LobbyTreasure_mp3"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_sys_bg_338f70f7.png", 
+            "type": "image", 
+            "name": "sz_sys_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_time_bg_904e5612.png", 
+            "type": "image", 
+            "name": "sz_time_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_Toast_b530f27.png", 
+            "type": "image", 
+            "name": "sz_Toast_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_userinfo_bg_112e74fb.png", 
+            "type": "image", 
+            "name": "sz_userinfo_bg_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_userinfo_female_839ae149.png", 
+            "type": "image", 
+            "name": "sz_userinfo_female_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_userinfo_head_3aaebb19.png", 
+            "type": "image", 
+            "name": "sz_userinfo_head_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_userinfo_male_962460cd.png", 
+            "type": "image", 
+            "name": "sz_userinfo_male_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_vip_res_8521767d.json", 
+            "type": "sheet", 
+            "name": "sz_vip_res_json", 
+            "subkeys": "big_vip0,big_vip1,big_vip10,big_vip11,big_vip12,big_vip13,big_vip2,big_vip3,big_vip4,big_vip5,big_vip6,big_vip7,big_vip8,big_vip9,mid_vip1,mid_vip10,mid_vip11,mid_vip12,mid_vip13,mid_vip2,mid_vip3,mid_vip4,mid_vip5,mid_vip6,mid_vip7,mid_vip8,mid_vip9,min_vip1,min_vip10,min_vip11,min_vip12,min_vip13,min_vip2,min_vip3,min_vip4,min_vip5,min_vip6,min_vip7,min_vip8,min_vip9"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/sz_weixinLogin_b2dfec05.png", 
+            "type": "image", 
+            "name": "sz_weixinLogin_png"
+        }, 
+        {
+            "url": "chesscommonres/sanzhang/winFloat_ff48d5fb.fnt", 
+            "type": "font", 
+            "name": "winFloat_fnt"
+        }, 
+        {
+            "url": "chesscommonres/chat3/3chat_chesscommon_sheet_df675410.json", 
+            "type": "sheet", 
+            "name": "3chat_chesscommon_sheet_json", 
+            "subkeys": "3chat_chat_bg_png,3chat_chat_normal_png,3chat_chat_selected_png,3chat_coin_png,3chat_laba_icon_png,3chat_laba_png,3chat_noset_bg_png,3chat_noset_normal2_png,3chat_noset_selected_png,3chat_room_png,3chat_send_png,3chat_share_png,3chat_userlist_bg_png,chat_mess3_tex_png,mjl_common_button1_png,mjl_common_button2_png,wuzuo_user_bg_png,wuzuo_user_list_png"
+        }
+    ], 
+    "groups": [
+        {
+            "keys": "default_avar_png,default_avar_man_png,default_avar_woman_png,name_bg_mask_png,br_seatHead_png,info_img_bg_png", 
+            "name": "chess_common_head"
+        }, 
+        {
+            "keys": "vip_icon0_png,vip_icon1_png,vip_icon2_png,vip_icon3_png,vip_icon4_png,vip_icon5_png,vip_icon6_png,vip_icon7_png,vip_icon8_png,vip_icon9_png,vip_big0_png,vip_big1_png,vip_big2_png,vip_big3_png,vip_big4_png,vip_big5_png,vip_big6_png,vip_big7_png,vip_big8_png,vip_big9_png,vip_small0_png,vip_small1_png,vip_small2_png,vip_small3_png,vip_small4_png,vip_small5_png,vip_small6_png,vip_small7_png,vip_small8_png,vip_small9_png,vip_icon20_png,vip_icon22_png,vip_icon23_png,vip_icon24_png,vip_icon25_png,vip_icon26_png,vip_icon27_png,vip_icon21_png,vip_icon28_png", 
+            "name": "chess_common_vip"
+        }, 
+        {
+            "keys": "chat_laba_btn_selected_png,chat_laba_drop_normal_png,chat_laba_drop_selected_png,chat_laba_icon_png,chat_loading_png,chat_noset_bg_png,chat_noset_normal_png,chat_noset_selected_png,chat_room_btn_normal_png,chat_room_btn_selected_png,chat_room_drop_normal_png,chat_room_drop_selected_png,chat_send_normal_png,chat_send_selected_png,chat_userlist_bg_png,chat_vip_icon_png,chat_voice_normal_png,chat_voice_selected_png,char_emoj_selected_png,chat_chat_bg_png,chat_chat_normal_png,chat_chat_selected_png,chat_coin_png,chat_emoj_normal_png,chat_input_png,chat_input_bg_png,chat_laba_btn_normal_png,chat2_noseat_btn_png,chat2_bg_png,chat2_btn_png,hbgame_headDefault_png,showTips_png,hbgame_chat_imoj_json,hbgame_chat_panel_json,chat_mess_tex_png,chat_mess_ske_dbmv", 
+            "name": "chess_common_chat"
+        }, 
+        {
+            "keys": "GiftSound1_mp3,GiftSound2_mp3,GiftSound3_mp3,GiftSound4_mp3,GiftSound5_mp3,GiftSound6_mp3", 
+            "name": "chess_common_gift_sound"
+        }, 
+        {
+            "keys": "3chat_chesscommon_sheet_json", 
+            "name": "chess_common_chat3"
+        }, 
+        {
+            "keys": "vip_frame3_tex_png,vip_frame9_ske_dbmv,vip_frame9_tex_png,vip_frame0_ske_dbmv,vip_frame0_tex_png,vip_frame1_ske_dbmv,vip_frame1_tex_png,vip_frame2_ske_dbmv,vip_frame2_tex_png,vip_frame3_ske_dbmv,vip_frame29_tex_png,vip_frame29_ske_dbmv", 
+            "name": "chess_common_anim_vip"
+        }, 
+        {
+            "keys": "task_png,guang01_png,sys_msg_click_png,mjl_lobby_systembg_png,room_num_fnt,jinbi_num_fnt,ssc_btn2_png,ssc_btn1_png,jinbi_num_2_fnt", 
+            "name": "chess_common_other"
+        }, 
+        {
+            "keys": "sz_duiju_effect_tex_png,sz_duiju_effect_ske_dbmv,ssc_autoCall_font_fnt,ssc_bg_png,ssc_font_loseChip_fnt,ssc_font_winChip_fnt,ssc_kaijiang_effect_tex_png,ssc_kaijiang_effect_ske_dbmv,ssc_res_json,ssc_second_bg_png,common_json,game_top_chat_bg_png,loseFloat_fnt,loseFloat_png,PokerCard_json,sound_clickBtn_mp3,sound_flyChip_mp3,sound_get_prize_mp3,sound_kaishixiazhu_mp3,sound_Treasureturn_mp3,sound_turn_mp3,sound_winlSound_mp3,sz_bindAccount_png,sz_charge_png,sz_chip_res_json,sz_clock_fnt,sz_common_cancel_png,sz_common_head0_png,sz_common_smallclose_png,sz_common_sure_png,sz_common_tips1_png,sz_gold_png,sz_jisuduobao_ske_json,sz_jisuduobao_tex_json,sz_jisuduobao_tex_png,sz_Lobby_Bottom_treasure_png,sz_Lobby_Bottom_treasure_press_png,sz_lobby_rank1_tex_png,sz_lobby_rank1_ske_dbmv,sz_lobbyChatBgNew_png,sz_lobbyCommonUi_json,sz_LobbyTreasure_mp3,sz_sys_bg_png,sz_time_bg_png,sz_Toast_png,sz_userinfo_bg_png,sz_userinfo_female_png,sz_userinfo_head_png,sz_userinfo_male_png,sz_vip_res_json,sz_weixinLogin_png,winFloat_fnt", 
+            "name": "chess_common_sanzhang"
+        }, 
+        {
+            "keys": "sz_common_Chat_json,Emojchat_loading_png", 
+            "name": "chess_common_emojchat"
+        }, 
+        {
+            "keys": "zmMahjong_Icon_png,zmMahjong_recomand_png,zmMahjong_result1hu_png,zmMahjong_result2hu_png,zmMahjong_result3hu_png,zmMahjong_resultBg_png,zmMahjong_resultContinue_normal_png,zmMahjong_resultContinue_press_png,zmMahjong_resultExit_normal_png,zmMahjong_resultExit_press_png,zmMahjong_resultHu_png,zmMahjong_resultLine_png,zmMahjong_resultShare_normal_png,zmMahjong_resultShare_press_png,zmMahjong_resultTittle_png", 
+            "name": "chess_common_zhima_mahjong_result"
+        }, 
+        {
+            "keys": "zm_Chip1_png,zm_Chip10_png,zm_Chip100_png,zm_Chip1000_png,zm_Chip10000_png,zm_Chip2_png,zm_Chip20_png,zm_Chip200_png,zm_Chip2000_png,zm_Chip200000_png,zm_Chip5_png,zm_Chip50_png,zm_Chip500_png,zm_Chip5000_png,zm_Chip500000_png,zm_bean_png,zm_diamond_png,BackCard_png,Poker_11_png,Poker_110_png,Poker_111_png,Poker_112_png,Poker_113_png,Poker_12_png,Poker_13_png,Poker_14_png,Poker_15_png,Poker_16_png,Poker_17_png,Poker_18_png,Poker_19_png,Poker_21_png,Poker_210_png,Poker_211_png,Poker_212_png,Poker_213_png,Poker_22_png,Poker_23_png,Poker_24_png,Poker_25_png,Poker_26_png,Poker_27_png,Poker_28_png,Poker_29_png,Poker_31_png,Poker_310_png,Poker_311_png,Poker_312_png,Poker_313_png,Poker_32_png,Poker_33_png,Poker_34_png,Poker_35_png,Poker_36_png,Poker_37_png,Poker_38_png,Poker_39_png,Poker_41_png,Poker_410_png,Poker_411_png,Poker_412_png,Poker_413_png,Poker_42_png,Poker_43_png,Poker_44_png,Poker_45_png,Poker_46_png,Poker_47_png,Poker_48_png,Poker_49_png,Poker_514_png,Poker_515_png,zm_change_btn_png,zm_common_bg_png,zm_userinfo_title_png,zm_userinfo_bg1_png,zm_userinfo_bg2_png,zm_userinfo_famale_png,zm_userinfo_gift1_png,zm_userinfo_gift2_png,zm_userinfo_gift3_png,zm_userinfo_gift4_png,zm_userinfo_gift5_png,zm_userinfo_gift6_png,zm_userinfo_gps_png,zm_userinfo_head_png,zm_userinfo_male_png,zm_common_bg1_png,zm_common_close1_png,zm_common_close2_png,zm_common_spot_png,zm_more_bg1_png,zm_more_bg2_jpg,zm_more_safebox_normal_png,zm_more_safebox_press_png,zm_more_back_normal_png,zm_more_back_press_png,zm_more_rule_normal_png,zm_more_rule_press_png,zm_more_set_normal_png,zm_more4_set_press_png,small_bg_2_green_png,small_bg_1_green_png,game_sp_voice_on_png,game_sp_voice_off_png,game_sp_title_png,game_sp_arrow_right_png,game_sp_arrow_left_png,zm_chat_title_png,zm_game_face_json,zm_horn_png,zm_send1_png,zm_send2_png,zm_help_bg_png,zm_help_title_png,zm_cancel1_png,zm_cancel2_png,zm_prompt_title_png,zm_sure1_png,zm_sure2_png,zm_notice_bg_png,gift_effect_drag_ske_json,gift_effect_drag_tex_json,gift_effect_drag_tex_png,zm_GiftSound1_mp3,zm_GiftSound2_mp3,zm_GiftSound3_mp3,zm_GiftSound4_mp3,zm_GiftSound5_mp3,zm_GiftSound6_mp3,zm_bg_type1_blue_png,zm_bg_type1_green_png,zm_btn_chat_down_png,zm_btn_chat_up_png,zm_btn_voice_down_png,zm_btn_voice_up_png,zm_voiceloading_png,zm_voice_icon_png,zm_voice_paopao_png,zm_voice_recording_png", 
+            "name": "chess_common_zhima"
+        }, 
+        {
+            "keys": "gift_effect_3_ske_dbmv,gift_effect_3_tex_png,gift_effect_4_ske_dbmv,gift_effect_4_tex_png,gift_effect_6_ske_dbmv,gift_effect_6_tex_png,gift_effect_1_ske_dbmv,gift_effect_1_tex_png,gift_effect_2_ske_dbmv,gift_effect_2_tex_png,gift_effect_5_ske_dbmv,gift_effect_5_tex_png", 
+            "name": "chess_common_gift_effect"
+        }, 
+        {
+            "keys": "", 
+            "name": "preload"
+        }
+    ]
+}

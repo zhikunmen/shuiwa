@@ -1,0 +1,145 @@
+{
+    "frames": {
+        "\u4e07": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 35, 
+            "w": 35, 
+            "h": 35, 
+            "y": 0, 
+            "x": 37
+        }, 
+        "+": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 29, 
+            "w": 29, 
+            "h": 33, 
+            "y": 0, 
+            "x": 74
+        }, 
+        ".": {
+            "offY": 19, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 11, 
+            "w": 11, 
+            "h": 16, 
+            "y": 37, 
+            "x": 52
+        }, 
+        "1": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 109, 
+            "x": 52
+        }, 
+        "0": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 37, 
+            "x": 26
+        }, 
+        "3": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 35, 
+            "x": 74
+        }, 
+        "2": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 109, 
+            "x": 78
+        }, 
+        "5": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 37, 
+            "x": 0
+        }, 
+        "4": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 74, 
+            "x": 0
+        }, 
+        "7": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 35, 
+            "x": 100
+        }, 
+        "6": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 72, 
+            "x": 52
+        }, 
+        "9": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 72, 
+            "x": 78
+        }, 
+        "8": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 24, 
+            "w": 24, 
+            "h": 35, 
+            "y": 74, 
+            "x": 26
+        }, 
+        "\u4ebf": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 35, 
+            "sourceW": 35, 
+            "w": 35, 
+            "h": 35, 
+            "y": 0, 
+            "x": 0
+        }
+    }, 
+    "file": "winFloat_ff48d5fb.png"
+}

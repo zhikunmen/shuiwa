@@ -1,0 +1,5 @@
+{"file":"wx_loading_res.png","frames":{
+"loadingCircle_png":{"x":0,"y":0,"w":90,"h":90,"offX":0,"offY":0,"sourceW":90,"sourceH":90},
+"download_png":{"x":92,"y":0,"w":94,"h":41,"offX":1,"offY":0,"sourceW":95,"sourceH":41},
+"lb_loading_darkLine_png":{"x":92,"y":43,"w":90,"h":39,"offX":0,"offY":0,"sourceW":90,"sourceH":39},
+"lb_loading_lightLine_png":{"x":188,"y":0,"w":53,"h":37,"offX":1,"offY":0,"sourceW":54,"sourceH":37}}}

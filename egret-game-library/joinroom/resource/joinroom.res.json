@@ -1,0 +1,24 @@
+{
+	"groups":[{
+			"keys":"mjl_joinPanel_json,mjl_input_fn1_fnt,mjl_input_fn2_fnt",
+			"name":"pub_joinroom"
+		}],
+	"resources":[
+		{
+			"name":"mjl_joinPanel_json",
+			"subkeys":"lobby_detailsBtn_down,lobby_joinBtn_down,mjl_impute_title,mjl_input_bg,mjl_join_down,mjl_join_input_up,mjl_join_numbg,mjl_join_title,mjl_joined_list_title",
+			"type":"sheet",
+			"url":"joinroom/zhangzhou/mjl_joinPanel.json"
+		},
+		{
+			"name":"mjl_input_fn1_fnt",
+			"type":"font",
+			"url":"joinroom/zhangzhou/mjl_input_fn1.fnt"
+		},
+		{
+			"name":"mjl_input_fn2_fnt",
+			"type":"font",
+			"url":"joinroom/zhangzhou/mjl_input_fn2.fnt"
+		}
+	]
+}

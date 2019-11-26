@@ -1,0 +1,125 @@
+{
+    "frames": {
+        "\u5143": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 33, 
+            "sourceW": 36, 
+            "w": 32, 
+            "h": 29, 
+            "y": 0, 
+            "x": 0
+        }, 
+        ".": {
+            "offY": 19, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 13, 
+            "w": 9, 
+            "h": 8, 
+            "y": 0, 
+            "x": 118
+        }, 
+        "1": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 16, 
+            "w": 12, 
+            "h": 24, 
+            "y": 25, 
+            "x": 99
+        }, 
+        "0": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 20, 
+            "h": 25, 
+            "y": 29, 
+            "x": 20
+        }, 
+        "3": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 23, 
+            "w": 19, 
+            "h": 25, 
+            "y": 0, 
+            "x": 99
+        }, 
+        "2": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 20, 
+            "h": 25, 
+            "y": 25, 
+            "x": 40
+        }, 
+        "5": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 20, 
+            "h": 24, 
+            "y": 0, 
+            "x": 79
+        }, 
+        "4": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 20, 
+            "h": 25, 
+            "y": 0, 
+            "x": 32
+        }, 
+        "7": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 20, 
+            "h": 24, 
+            "y": 26, 
+            "x": 60
+        }, 
+        "6": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 23, 
+            "w": 19, 
+            "h": 25, 
+            "y": 24, 
+            "x": 80
+        }, 
+        "9": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 23, 
+            "w": 19, 
+            "h": 26, 
+            "y": 0, 
+            "x": 60
+        }, 
+        "8": {
+            "offY": 2, 
+            "offX": 2, 
+            "sourceH": 29, 
+            "sourceW": 24, 
+            "w": 20, 
+            "h": 25, 
+            "y": 29, 
+            "x": 0
+        }
+    }, 
+    "file": "jinbi_num_2_dbcfd6da.png"
+}

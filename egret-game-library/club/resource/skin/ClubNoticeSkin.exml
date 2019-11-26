@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubNoticeSkin" width="700" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image  width="613.33"  height="279.33" horizontalCenter="1.5" y="86" source="mjl_common_bg1_png" scale9Grid="5,5,30,30"/>
+	<eui:WxButton id="modifyBtn" label="确  认" y="368.33" horizontalCenter="0.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:EditableText id="noticeTxt" width="550" height="212" text="" x="74.67" y="119.66"   textAlign="left" multiline="true" prompt="暂无公告" promptColor="0x796e65" textColor="0x773210" fontFamily="Microsoft YaHei"/>
+	<e:Label id="notice" text="" x="74.67" y="119.66" width="550" height="212" textColor="0x773210" fontFamily="Microsoft YaHei"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+{"file":"shop_daifu.png","frames":{
+"daifu_daigouquan":{"x":238,"y":69,"w":71,"h":54,"offX":0,"offY":0,"sourceW":72,"sourceH":54},
+"daifu_hydf":{"x":0,"y":288,"w":144,"h":38,"offX":0,"offY":0,"sourceW":144,"sourceH":38},
+"daifu_title_tishi":{"x":216,"y":180,"w":88,"h":36,"offX":0,"offY":0,"sourceW":88,"sourceH":36},
+"daifu_title_xinxi":{"x":216,"y":142,"w":136,"h":36,"offX":0,"offY":0,"sourceW":136,"sourceH":36},
+"daifu_touxiang":{"x":146,"y":288,"w":74,"h":74,"offX":0,"offY":0,"sourceW":74,"sourceH":74},
+"daifu_bg":{"x":388,"y":0,"w":50,"h":450,"offX":0,"offY":0,"sourceW":50,"sourceH":450},
+"daifu_button_fasong":{"x":0,"y":69,"w":236,"h":71,"offX":0,"offY":0,"sourceW":236,"sourceH":71},
+"daifu_button_jujue":{"x":0,"y":215,"w":214,"h":71,"offX":0,"offY":0,"sourceW":214,"sourceH":71},
+"daifu_button_zhifu":{"x":0,"y":142,"w":214,"h":71,"offX":0,"offY":0,"sourceW":214,"sourceH":71},
+"mjl_common_closebtn1":{"x":311,"y":69,"w":58,"h":58,"offX":0,"offY":0,"sourceW":58,"sourceH":58},
+"mjl_common_title":{"x":0,"y":0,"w":386,"h":67,"offX":0,"offY":0,"sourceW":386,"sourceH":67}}}

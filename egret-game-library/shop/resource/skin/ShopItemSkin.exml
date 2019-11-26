@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopItemSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="250" height="334">
+	<eui:WxButton id="touch_btn" label="">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shop_item_bg_png"/>
+			<e:Image id="icon_img" source="shop_icon4_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="ios_img" source="shop_json.daifu_hydf_png" y="269" x="53"/>
+			<e:Label id="get_lbl" text="1钻石" y="29" fontFamily="Microsoft YaHei" bold="true" textColor="0x5CB16D" size="34" horizontalCenter="0"/>
+			<e:BitmapLabel id="price_lbl" y="268.33" font="shop_font_fnt" text="12元" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+
+</e:Skin>

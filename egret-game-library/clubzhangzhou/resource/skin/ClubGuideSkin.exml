@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubGuideSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="group1">
+			<tween:TweenItem target="{image}">
+				<tween:Set/>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{0.9}" scaleY="{0.9}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect id="_rectBg" fillAlpha="0.1" left="0" top="0" right="0" bottom="0" locked="true"/>
+	<e:Group id="_guideGroup1" horizontalCenter="-464" verticalCenter="15">
+		<e:Image source="club_new_menage_json.club_switch" y="0" x="0"/>
+		<e:Image source="club_new_menage_json.club_switch_on" x="18" y="270"/>
+		<e:Image id="image" source="club_guide_json.club_guide_click"  horizontalCenter="-121" verticalCenter="21"/>
+		<e:Image source="club_guide_json.club_guide_bg" x="99.99" y="283.99" width="251.64" height="125.55" scale9Grid="10,10,66,62" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image source="club_guide_json.club_guide_finger1" x="42" y="232"/>
+		<e:Label text="点击此处可随意切换您的老友圈" x="117.08" y="310.36" size="24" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x753e29" anchorOffsetY="0" height="81.34" anchorOffsetX="0" width="217.33" lineSpacing="20"/>
+		<e:Label text="点击任意位置继续" x="127.28" y="415.43" size="24" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="_guideGroup2" horizontalCenter="438" y="113">
+		<e:Image source="club_new_menage_json.club_btn_manage" x="283.21" y="0"/>
+		<e:Image source="club_guide_json.club_guide_bg" x="0" y="76.46" width="247.09" height="125.55" scale9Grid="10,10,66,62" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="点击这里可以对群进行管理" x="16.59" y="104.5" size="24" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x753E29" anchorOffsetY="0" height="81.34" anchorOffsetX="0" width="217.33" lineSpacing="20"/>
+		<e:Image source="club_guide_json.club_guide_click" x="247.31" y="0.41"/>
+		<e:Image source="club_guide_json.club_guide_finger" x="212.28" y="22.88"/>
+		<e:Label text="点击任意位置继续" x="24.63" y="205.46" size="24" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="_guideGroup3" horizontalCenter="411.5" y="220">
+		<e:Image source="club_new_menage_json.club_btn_clubrecored" x="336.65" y="0"/>
+		<e:Image source="club_guide_json.club_guide_bg" x="0" y="84.28" width="296.09" height="122.52" scale9Grid="10,10,66,62" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="新增群战绩，可直接查看群成员战绩及回放" x="18.57" y="112.2" size="24" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x753E29" anchorOffsetY="0" height="81.34" anchorOffsetX="0" width="270.36" lineSpacing="20"/>
+		<e:Image source="club_guide_json.club_guide_click" x="300.46" y="6.53"/>
+		<e:Image source="club_guide_json.club_guide_finger" x="265.62" y="27.13"/>
+		<e:Label text="点击任意位置继续" x="60.93" y="213.12" size="24" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="_guideGroup4" horizontalCenter="256" verticalCenter="220">
+		<e:Image source="club_new_menage_json.club_online_bg" x="305.68" y="195.09"/>
+		<e:Label text="99" x="352.68" y="202.09" size="25" fontFamily="Microsoft YaHei" textColor="0xfff1dc"/>
+		<e:Image source="club_guide_json.club_guide_click" x="297.26" y="160.8"/>
+		<e:Image source="club_guide_json.club_guide_bg" x="0" y="0" width="287" height="150" scale9Grid="10,10,66,62"/>
+		<e:Image source="club_guide_json.club_guide_finger3" x="261.01" y="114.6"/>
+		<e:Label text="点击在线可查看具体在线情况，开可以对群成员进行操作" x="20.12" y="18.83" size="24" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x753E29" anchorOffsetY="0" height="117.7" anchorOffsetX="0" width="253.69" lineSpacing="20"/>
+		<e:Label text="点击任意位置继续" x="41.69" y="155.01" size="24" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+</e:Skin>

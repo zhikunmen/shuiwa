@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="poker_ChatSkin" width="937" height="653" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image x="0" y="68" source="pdk_set_bg1"/>
+	<e:Image x="0" y="68" width="918" height="585" anchorOffsetX="0" source="pdk_set_bg_png" scale9Grid="28,152,13,87"/>
+	<e:Group id="fangka_group" visible="false">
+	<e:Image source="pdk_chat_input" x="396" y="539.98" scale9Grid="137,24,223,19" anchorOffsetX="0" width="487" anchorOffsetY="0" height="64" locked="true"/>
+	<e:Image source="pdk_chat_bg" x="396" y="175" scale9Grid="38,31,17,24" anchorOffsetX="0" width="487" anchorOffsetY="0" height="340" locked="true"/>
+	<e:Group width="484" height="341" x="398" y="178" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		<e:List id="fangka_chat_list" width="483" height="341" x="-2" y="4" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="poker_fangka_ChatItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="5" horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	<eui:WxButton id="chat_send" label="" x="724" y="534.48"  locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_send"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="26" fontFamily="funderFont" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:EditableText id="chat_input" width="315" height="40" text="请输入聊天内容" x="405" y="552" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" fontFamily="Microsoft YaHei" size="20" locked="true"/>
+	</e:Group>
+	<e:Group id="jinbi_group">
+	<e:Image source="pdk_chat_bg" x="396" y="175" scale9Grid="38,31,17,24" anchorOffsetX="0" width="487" anchorOffsetY="0" height="425"/>
+	<e:Group width="484" height="425" x="398" y="178" anchorOffsetX="0" anchorOffsetY="0">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		<e:List id="jinbi_chat_list" width="483" height="425" x="-2" y="4" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="poker_jinbi_ChatItemSkin">
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+					<e:Object null=""/>
+				</e:Array>
+			</e:ArrayCollection>
+			<e:layout>
+				<e:VerticalLayout gap="5" horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+	</e:Group>
+	<eui:WxButton id="close_btn" label="" x="846" y="41.5" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pdk_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="26" fontFamily="funderFont" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Image source="pdk_face_bg" x="35" y="122" scale9Grid="35,35,23,21" anchorOffsetX="0" width="346" anchorOffsetY="0" height="485" locked="true"/>
+	<e:Image source="pdk_chat_title" x="409" y="125" locked="true"/>
+	<e:Image source="pdk_face_line" x="35" y="221" anchorOffsetY="0" height="-25" locked="true"/>
+	<e:Image source="pdk_face_line" x="35" y="316.5" anchorOffsetY="0" height="-25" locked="true"/>
+	<e:Image source="pdk_face_line" x="35" y="413.5" anchorOffsetY="0" height="-25" locked="true"/>
+	<e:Image source="pdk_face_line" x="35" y="509.5" anchorOffsetY="0" height="-25" locked="true"/>
+	<e:Image source="pdk_face_line" x="151" y="123" anchorOffsetY="0" height="-25" rotation="90.22" width="483" locked="true"/>
+	<e:Image source="pdk_face_line" x="266" y="123" anchorOffsetY="0" height="-25" rotation="90.22" width="483" locked="true"/>
+	
+	<e:List id="face_list" width="347" height="483" x="34.5" y="121.5" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="poker_FaceItemSkin" locked="true">
+		<e:layout>
+			<e:TileLayout orientation="rows" verticalGap="3" horizontalGap="25"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object/>
+				<e:Object/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+				<e:Object null=""/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	
+</e:Skin>

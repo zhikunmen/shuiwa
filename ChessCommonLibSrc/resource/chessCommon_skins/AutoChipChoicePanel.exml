@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AutoChipChoicePanel" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:SZLobby="SZLobby.*">
+	<e:Image y="121" width="654" height="526" x="310" source="sz_chip_choice_bg" scale9Grid="31,31,12,12"/>
+	<e:Image y="131" width="180" height="65" x="559" scale9Grid="31,31,12,12" source="sz_chip_choice_title"/>
+	<e:Button id="chipClose"  label="" x="930" y="154" anchorOffsetX="16.5" anchorOffsetY="17">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sz_chip_close0" source.down="sz_chip_close1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image width="92" height="95" x="330" y="206" source="chip_choice_1"/>
+	<e:CheckBox id="chip_1" label="" x="440" y="234" width="30" enabled="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="490" y="206" source="chip_choice_2"/>
+	<e:CheckBox id="chip_2" label="" x="600" y="234">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="650" y="206" source="chip_choice_5"/>
+	<e:CheckBox id="chip_5" label="" x="760" y="232">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="805" y="206" source="chip_choice_10"/>
+	<e:CheckBox id="chip_10" label="" x="910" y="232">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="330" y="320" source="chip_choice_50"/>
+	<e:CheckBox id="chip_50" label="" x="440" y="350">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="490" y="320" source="chip_choice_100"/>
+	<e:CheckBox id="chip_100" label="" x="600" y="350">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="650" y="320" source="chip_choice_250"/>
+	<e:CheckBox id="chip_250" label="" x="760" y="350">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="805" y="320" source="chip_choice_500"/>
+	<e:CheckBox id="chip_500" label="" x="910" y="350">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="330" y="440" source="chip_choice_1000"/>
+	<e:CheckBox id="chip_1000" label="" x="440" y="470">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="490" y="440" source="chip_choice_2000"/>
+	<e:CheckBox id="chip_2000" label="" x="600" y="470">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="650" y="440" source="chip_choice_5000"/>
+	<e:CheckBox id="chip_5000" label="" x="760" y="470">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Image width="92" height="95" x="805" y="440" source="chip_choice_10000"/>
+	<e:CheckBox id="chip_10000" label="" x="910" y="470">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_uncheck" source.down="chip_choice_check"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Button id="confirmBtn" label="" x="552" y="540" width="142" height="72" enabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chip_choice_confirm0" source.down="chip_choice_confirm1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label text="备注：选择5个筹码才能进行替换" x="490" y="613.92" fontFamily="Microsoft YaHei" size="20" textColor="0xffffff"/>
+
+
+</e:Skin>

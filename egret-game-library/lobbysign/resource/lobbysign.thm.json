@@ -1,0 +1,9 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/LobbySignSkin.exml",
+		"resource/skin/SignDayOfWeekItemSkin.exml",
+		"resource/skin/SignRewardItemSkin.exml"
+	],
+	"path": "resource/lobbysign.thm.json"
+}

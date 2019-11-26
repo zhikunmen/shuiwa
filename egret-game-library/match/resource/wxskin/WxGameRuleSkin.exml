@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxGameRuleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="835" height="588">
+	<e:Image scale9Grid="18,190,10,13" width="100%" height="100%" source="mjl_common_bg_png"/>
+	<e:Image source="wx_lb_res_json.bs_unlock_title_png" horizontalCenter="0"/>
+	<e:Image source="wx_lb_res_json.ruler_line_png" y="148" horizontalCenter="0.5" width="770" scale9Grid="6,0,1,1"/>
+	<e:Image id="title_img" y="13" horizontalCenter="0" source="wx_lb_res_json.lb_gonggao_title_png"/>
+	<eui:WxButton id="close_btn" label="" x="757" y="7">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="wx_lb_res_json.lb_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Label id="title_lbl" text="经典场玩法" y="95" fontFamily="Microsoft YaHei" size="26" bold="true" textColor="0xa46359" horizontalCenter="0.5"/>
+	<e:Label id="rule_lbl" text="16张牌、显示牌、黑桃三先出   能管必管、炸弹可拆、可四带二、最后三带、飞机少带不能出完、炸弹没有额外分" y="171" fontFamily="Microsoft YaHei" size="24" width="770" lineSpacing="10" textColor="0xa46359" horizontalCenter="-1.5"/>
+</e:Skin>

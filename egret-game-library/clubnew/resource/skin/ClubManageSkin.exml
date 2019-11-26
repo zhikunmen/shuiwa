@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubManageSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:eui="eui.*">
+	<w:Config id="16541667d0e"/>
+	<e:Rect id="rectbg" x="0" y="0" width="1280" height="720" fillAlpha="0.5"/>
+	<e:Group id="_rightGroup" y="0" x="908">
+		<e:Image x="0" y="0" width="372" height="720" source="club_scale9_json.club_bg1" scale9Grid="1,1,4,4"/>
+		<e:Image x="1" y="0" width="371" height="80" source="club_scale9_json.club_btnbg6" scale9Grid="2,9,2,61"/>
+		<e:Image source="club_json.club_manage_title" x="77" y="19.5"/>
+		<e:Group x="52" y="132.5">
+			<e:RadioButton id="detailsButton" label="房间详情" x="0" y="0" height="67" width="270">
+				<e:skinName>
+					<e:Skin states="up,down,disabled" width="270">
+					<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg5" source.down="club_scale9_json.club_btnbg4" scale9Grid="15,8,4,50"/>
+					<e:Label id="labelDisplay" horizontalCenter="15" verticalCenter="0" textColor="0xfffefe" textColor.down="0x894215" fontFamily="Microsoft YaHei" size="28" bold="true" text="房间详情"/>
+	<e:Image source="club_json.club_manage_fangjian1" x="48.67" verticalCenter="0" source.down="club_json.club_manage_fangjian2"/>
+					</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="memberButton" label="成员列表" x="10" y="10" height="67" width="270">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="270">
+					<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg5" source.down="club_scale9_json.club_btnbg4" scale9Grid="15,8,4,50"/>
+					<e:Label id="labelDisplay" horizontalCenter="15" verticalCenter="0" textColor="0xfffefe" textColor.down="0x894215" fontFamily="Microsoft YaHei" size="28" bold="true" text="房间详情"/>
+					<e:Image x="48.67" verticalCenter="0" source.down="club_json.club_manage_chengyuan2" source="club_json.club_manage_chengyuan1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="messageButton" label="申请列表" x="20" y="20" height="67" width="270">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="270">
+					<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg5" source.down="club_scale9_json.club_btnbg4" scale9Grid="15,8,4,50"/>
+					<e:Label id="labelDisplay" horizontalCenter="15" verticalCenter="0" textColor="0xfffefe" textColor.down="0x894215" fontFamily="Microsoft YaHei" size="28" bold="true" text="房间详情"/>
+					<e:Image x="48.67" verticalCenter="0" source.down="club_json.club_manage_shengqing2" source="club_json.club_manage_shengqing1"/>
+	<e:Image id="redPoint" source="club_json.club_redDot" width="20" height="20" right="-7" top="-5"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="fightingButton" label="战况查询" x="30" y="30" height="67" width="270">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="270">
+					<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg5" source.down="club_scale9_json.club_btnbg4" scale9Grid="15,8,4,50"/>
+					<e:Label id="labelDisplay" horizontalCenter="15" verticalCenter="0" textColor="0xfffefe" textColor.down="0x894215" fontFamily="Microsoft YaHei" size="28" bold="true" text="房间详情"/>
+					<e:Image x="48.67" verticalCenter="0" source.down="club_json.club_manage_zhankuang2" source="club_json.club_manage_zhankuang1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="blackwhiteBtn" label="黑白名单" x="40" y="40" height="67" width="270">
+				<e:skinName>
+				<e:Skin states="up,down,disabled" width="270">
+					<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg5" source.down="club_scale9_json.club_btnbg4" scale9Grid="15,8,4,50"/>
+					<e:Label id="labelDisplay" horizontalCenter="15" verticalCenter="0" textColor="0xfffefe" textColor.down="0x894215" fontFamily="Microsoft YaHei" size="28" bold="true" text="房间详情"/>
+					<e:Image x="48.67" verticalCenter="0" source.down="club_json.club_manage_heibai2" source="club_json.club_manage_heibai1"/>
+				</e:Skin>
+				</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+				<e:VerticalLayout gap="30"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="_leftGroup" y="0" x="0">
+		<e:Image x="0" y="0" height="720" width="734" source="club_scale9_json.club_bg1" scale9Grid="1,1,4,3"/>
+		<e:Group width="0" height="0" x="0" y="614">
+			<e:Image x="0" y="0" width="734" height="106" source="club_scale9_json.club_bg3" scale9Grid="1,13,3,80" scaleX="1" scaleY="1"/>
+			<e:Image source="club_scale9_json.club_line1" x="163.99" y="18.34"/>
+			<e:Image source="club_scale9_json.club_line1" x="357.99" y="18.34"/>
+			<e:Image source="club_scale9_json.club_line1" x="553.35" y="18.34"/>
+		</e:Group>
+		<e:Image x="0" y="0" width="734" height="70" source="club_scale9_json.club_btnbg6" scale9Grid="2,32,3,19"/>
+		<e:Image id="morelistImg" source="club_json.club_manage_chosenextbtn1" x="684.33" y="0"/>
+		<eui:WxButton id="_closeBtn" label="" x="0" y="0">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.club_manage_closebtn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<e:Group x="57" y="641">
+			<eui:WxButton id="_refreshbtn" label="刷新" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="club_json.club_manage_refreshbtn1"/>
+					<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" bold="true" y="7.7" x="44" text="刷新" size="22" textColor="0xfffefe"/>
+					</e:Skin>
+				</e:skinName>
+			</eui:WxButton>
+			<eui:WxButton id="_clubtypebtn" label="暂停开房" x="154" y="0" width="40">
+				<eui:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_json.club_manage_pauseclubbtn1" source.down="club_json.club_manage_recoveryclubbtn1"/>
+					<e:Label id="labelDisplay" size="22" fontFamily="Microsoft YaHei" textColor="0xfffefe" bold="true" x="44" y="7.7"/>
+					</e:Skin>
+				</eui:skinName>
+			</eui:WxButton>
+			<eui:WxButton id="_dissclubbtn" label="解散老友圈" x="333.34" y="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="club_json.club_manage_disclubbtn1"/>
+					<e:Label id="labelDisplay" textColor="0xfffefe" size="22" fontFamily="Microsoft YaHei" bold="true" x="44" y="7.7"/>
+					</e:Skin>
+				</e:skinName>
+			</eui:WxButton>
+			<eui:WxButton id="_setbtn" label="设置" x="531.34" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="club_json.club_manage_setbtn1"/>
+					<e:Label id="labelDisplay" size="22" fontFamily="Microsoft YaHei" textColor="0xfffefe" x="44" y="7.7" bold="true"/>
+					</e:Skin>
+				</e:skinName>
+			</eui:WxButton>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Scroller width="612" height="70" x="72.33" y="0" anchorOffsetY="0" anchorOffsetX="0">
+			<e:List id="_matchList" itemRendererSkinName="MatchRadioButtonSkin" anchorOffsetX="0" width="606.67" x="17.33" y="0">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object gf="null"/>
+						<e:Object gf="null"/>
+						<e:Object gf="null"/>
+						<e:Object gf="null"/>
+						<e:Object gf="null"/>
+						<e:Object gf="null"/>
+						<e:Object gf="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" gap="0"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group id="_detailsGroup" height="533" x="17" y="80.5" anchorOffsetX="0" anchorOffsetY="0" width="700" visible="false">
+			<e:Scroller height="533" width="700">
+				<e:List id="_matchTableList" itemRendererSkinName="MatchTableItemSkin">
+					<e:layout>
+						<e:TileLayout/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+			<e:Group id="roommsgImg" anchorOffsetX="0" width="394" anchorOffsetY="0" height="64" x="140" y="217">
+				<e:Image x="6" y="4" source="club_scale9_json.club_infobg1" scale9Grid="46,7,15,48" width="388" scaleX="1" scaleY="1"/>
+				<e:Label text="暂无房间信息~" x="112" y="17" fontFamily="Microsoft YaHei" bold="true" size="36"/>
+				<e:Image source="club_json.club_manage_msg1" x="59" y="19"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="_memberGroup" height="533" x="17" y="80.5" anchorOffsetX="0" anchorOffsetY="0" width="700" visible="false">
+			<e:Image source="club_scale9_json.club_titlebg1" y="6.65" scale9Grid="36,8,31,55" width="698" locked="true"/>
+			<e:Image source="club_scale9_json.club_line2" x="109.4" y="24" locked="true"/>
+			<e:Image source="club_scale9_json.club_line2" x="267.4" y="24" locked="true"/>
+			<e:Image source="club_scale9_json.club_line2" x="423.4" y="24" locked="true"/>
+			<e:Image source="club_scale9_json.club_line2" x="576.9" y="24" locked="true"/>
+			<e:Label text="头像" x="33" y="29" fontFamily="Microsoft YaHei" size="24" bold="true" locked="true"/>
+			<e:Label text="账号" x="159" y="29" fontFamily="Microsoft YaHei" size="24" bold="true" locked="true"/>
+			<e:Label text="姓名" x="326.5" y="29" fontFamily="Microsoft YaHei" size="24" bold="true" locked="true"/>
+			<e:Label text="身份" x="476.3" y="29" fontFamily="Microsoft YaHei" size="24" bold="true" locked="true"/>
+			<e:Label text="操作" x="619.33" y="29" fontFamily="Microsoft YaHei" size="24" bold="true" locked="true"/>
+			<e:Scroller width="700" height="457" y="77">
+				<e:List id="memeberList" itemRendererSkinName="MatchMemberItemSkin" useVirtualLayout="false" x="452.5" y="-48">
+					<e:layout>
+						<e:TileLayout verticalGap="2"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="_messageGroup" height="533" x="17.5" y="80.5" anchorOffsetX="0" anchorOffsetY="0" width="700" visible="false">
+			<e:Image source="club_scale9_json.club_titlebg1" x="1" y="4.3" scale9Grid="41,8,15,55" anchorOffsetY="0" height="63.4" width="699" locked="true"/>
+			<e:Image source="club_scale9_json.club_line2" x="111.8" y="18" locked="true"/>
+			<e:Image source="club_scale9_json.club_line2" x="269.5" y="18" locked="true"/>
+			<e:Image source="club_scale9_json.club_line2" x="425.99" y="18" locked="true"/>
+			<e:Label text="头像" x="33" y="24" size="24" fontFamily="Microsoft YaHei" bold="true" locked="true"/>
+			<e:Label text="玩家信息" x="138.5" y="24" size="24" fontFamily="Microsoft YaHei" bold="true" locked="true"/>
+			<e:Label text="备注" x="323" y="24" size="24" fontFamily="Microsoft YaHei" bold="true" locked="true"/>
+			<e:Label text="操作" x="534" y="24" size="24" fontFamily="Microsoft YaHei" bold="true" locked="true"/>
+			<e:Group id="msgImg" anchorOffsetX="0" width="394" anchorOffsetY="0" height="64" x="139" y="218">
+				<e:Image x="6" y="4" source="club_scale9_json.club_infobg1" scale9Grid="46,7,15,48" width="388" scaleX="1" scaleY="1"/>
+				<e:Label text="暂无申请信息~" x="112" y="17" fontFamily="Microsoft YaHei" bold="true" size="36"/>
+				<e:Image x="59" y="19" source="club_json.club_manage_msg2"/>
+			</e:Group>
+			<e:Scroller width="700" height="465" y="67">
+				<e:List id="_messageList" itemRendererSkinName="MatchMessageItemSkin" useVirtualLayout="false">
+					<e:layout>
+						<e:TileLayout verticalGap="2"/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="_fightingGroup" height="533" x="17" y="80.5" anchorOffsetX="0" anchorOffsetY="0" width="700">
+			<e:Image x="1" y="1.5" source="club_scale9_json.club_titlebg1" scale9Grid="12,8,74,55" width="697" height="100"/>
+			<e:Image x="206.6" y="16" source="club_scale9_json.club_line2" height="75" locked="true"/>
+			<e:Image x="415.93" y="16" source="club_scale9_json.club_line2" height="75" locked="true"/>
+			<e:Label text="开房总数" x="31" y="34" fontFamily="Microsoft YaHei" size="36" bold="true" locked="true"/>
+			<e:Label text="今日：" x="230" y="19" fontFamily="Microsoft YaHei" size="22" locked="true"/>
+			<e:Label text="昨日：" x="230" y="63.5" fontFamily="Microsoft YaHei" size="22" locked="true"/>
+			<e:Label text="七日：" x="467" y="19" fontFamily="Microsoft YaHei" size="22" locked="true"/>
+			<e:Label text="三十日：" x="446" y="63.5" fontFamily="Microsoft YaHei" size="22" locked="true"/>
+			<e:Image x="295" y="12.5" width="85" height="35" source="club_scale9_json.club_bg2" scale9Grid="3,2,2,2"/>
+			<e:Image x="534" y="12.5" width="85" height="35" source="club_scale9_json.club_bg2" scale9Grid="1,2,6,3"/>
+			<e:Image x="534" y="59" width="85" height="35" source="club_scale9_json.club_bg2"/>
+			<e:Image x="295" y="59" width="85" height="35" source="club_scale9_json.club_bg2"/>
+			<e:Label id="todaynum" text="222" x="303" y="19" size="22" fontFamily="Microsoft YaHei"/>
+			<e:Label id="sevendaynum" text="Label" x="543.5" y="19" size="22" fontFamily="Microsoft YaHei"/>
+			<e:Label id="thirtydaynum" text="Label" x="543.5" y="65.5" size="22" fontFamily="Microsoft YaHei"/>
+			<e:Label id="yesterdaynum" text="Labe" x="303" y="65.5" size="22" fontFamily="Microsoft YaHei"/>
+			<e:Scroller width="700" height="431" y="101">
+				<e:List id="fightingList" itemRendererSkinName="MatchFightingItemSkin">
+					<e:layout>
+						<e:TileLayout/>
+					</e:layout>
+				</e:List>
+			</e:Scroller>
+		</e:Group>
+		<e:Group id="_blackandwhiteGroup" height="533" x="17" y="82.5" anchorOffsetX="0" anchorOffsetY="0" width="700" visible="false">
+			<e:Rect width="515.15" height="58" x="88" y="86" fillColor="0x323672"/>
+			<e:EditableText id="uidEditableText" width="440" x="136" y="98.39" maxChars="8" size="28" prompt="输入玩家账号" promptColor="0xaeb4f2" textColor="0xFFFFFF" text="" anchorOffsetY="0" fontFamily="Microsoft YaHei" verticalAlign="middle"/>
+			<eui:WxButton id="addWhiteButton" label="添加白名单" x="380" y="210" anchorOffsetX="0" anchorOffsetY="0" width="195">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg2" scale9Grid="1,7,6,42"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" bold="true" textColor="0x894215"/>
+					</e:Skin>
+				</e:skinName>
+			</eui:WxButton>
+			<eui:WxButton id="addBlackButton" label="添加黑名单" x="127" y="210" anchorOffsetX="0" anchorOffsetY="0" width="195">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg2" scale9Grid="4,7,3,42"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" text="添加黑名单" textColor="0x894215" bold="true"/>
+					</e:Skin>
+				</e:skinName>
+			</eui:WxButton>
+		</e:Group>
+	</e:Group>
+</e:Skin>

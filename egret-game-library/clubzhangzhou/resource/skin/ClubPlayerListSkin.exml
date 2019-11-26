@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPlayerListSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="_rect" fillAlpha="0.3" left="3" right="-3" top="2" bottom="-2" locked="true"/>
+
+
+
+
+
+
+	<e:Group id="_UserGroup" x="0" y="2.56">
+		<e:Image y="7.44" anchorOffsetX="0" width="600" anchorOffsetY="0" height="710" source="mjl_common_bg_png" scale9Grid="28,46,10,161" x="0"/>
+		<e:Group anchorOffsetX="0" width="448.27" x="65.99" y="45.5" anchorOffsetY="0" height="55">
+			<e:RadioButton id="allUserButton" label="" x="-62.71" y="-38.06" groupName="menberList" anchorOffsetX="0" anchorOffsetY="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+				<e:Image source="club_new_menage_json.club_member_chose2" includeIn="up,down,disabled"/>
+				<e:Image source="club_new_menage_json.club_member_chose4" includeIn="upAndSelected,downAndSelected,disabledAndSeleced" width="172" height="49"/>
+				<e:Label id="alluserText" horizontalCenter="0" verticalCenter="0" text="全部(3人)" fontFamily="Microsoft YaHei" size="24"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:RadioButton id="onlineUserButton" label="" x="52.14" y="-13.34" groupName="menberList">
+			<e:skinName>
+				<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+				<e:Image source="club_new_menage_json.club_member_chose1" includeIn="up,down,disabled"/>
+				<e:Image source="club_new_menage_json.club_member_chose3" includeIn="upAndSelected,downAndSelected,disabledAndSeleced" width="172" height="49"/>
+				<e:Label id="onlineText" horizontalCenter="0" verticalCenter="0" size="24" fontFamily="Microsoft YaHei" text="在线(3人)"/>
+				</e:Skin>
+			</e:skinName>
+			</e:RadioButton>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Image y="106.08" anchorOffsetX="0" width="542.55" anchorOffsetY="0" height="576.85" source="mjl_common_bg1_png" scale9Grid="11,8,20,20" x="28"/>
+		<e:Button id="closeBtn" label="" skinName="MJ_CloseButton3Skin" x="538" y="0"/>
+		<e:Scroller id="allScroller" width="542.76" height="553.97" y="118" anchorOffsetX="0" anchorOffsetY="0" x="31">
+			<e:List id="allList" itemRendererSkinName="ClubPlayerListHeadSkin" width="526.82" anchorOffsetX="0" anchorOffsetY="0" height="555.49" x="-3.03" y="-31.7" useVirtualLayout="false">
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller id="onlineScroller" width="542.76" height="553.97" y="118" anchorOffsetX="0" anchorOffsetY="0" x="31">
+			<e:List id="onlineList" itemRendererSkinName="ClubPlayerListHeadSkin" width="526.82" anchorOffsetX="0" anchorOffsetY="0" height="555.49" x="-3.03" y="-31.7" useVirtualLayout="false">
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+
+
+
+	<e:Group id="_managerGroup" y="8.48" x="984">
+		<e:Image y="0" anchorOffsetX="0" width="295.49" anchorOffsetY="0" height="710" source="mjl_common_bg_png" scale9Grid="28,46,10,161" x="0" locked="true"/>
+		<e:Image y="115.58" x="78.75" source="club_new_menage_json.club_member_manage_title"/>
+		<e:Button id="_applyBtn" label="" horizontalCenter="-0.5" verticalCenter="-134">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_new_menage_json.club_member_apply" scaleX.down="0.95" scaleY.down="0.95" source.down="club_new_menage_json.club_member_apply"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_addBtn" label="" horizontalCenter="-0.5" verticalCenter="-45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_new_menage_json.club_member_add" scaleX.down="0.95" scaleY.down="0.95" source.down="club_new_menage_json.club_member_add"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_searchBtn" label="" verticalCenter="44" horizontalCenter="-0.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_new_menage_json.club_member_search" scaleX.down="0.95" scaleY.down="0.95" source.down="club_new_menage_json.club_member_search"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_kickBtn" label="" x="33.24" y="454.24">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_new_menage_json.club_member_kick1" source.down="club_new_menage_json.club_member_kick2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+</e:Skin>

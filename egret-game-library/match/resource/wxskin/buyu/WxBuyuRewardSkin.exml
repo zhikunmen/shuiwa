@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxBuyuRewardSkin" width="874" height="552" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Image x="-1" y="0" scale9Grid="34,148,46,186" width="874" height="552"  source="buyu_reward_json.vip_bg_1"/>
+	<e:Image x="230" y="-5"  source="buyu_reward_json.vip_common_bg"/>
+	<e:Image scaleX="-1" x="627" y="-5"  source="buyu_reward_json.vip_common_bg"/>
+	<e:Image y="13" horizontalCenter="0" source="buyu_reward_json.buyu_reward_title"/>
+
+	<eui:WxButton id="_closeBtn" label="" y="6" x="803">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="buyu_reward_json.vip_btn_close" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Group x="35" y="103">
+		<e:Image id="buyu_icon" y="14" source="buyu_reward_json.buyu_ryhw_icon" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image y="0" source="buyu_reward_json.buyu_select_bg" x="0" scaleX="1" scaleY="1"/>
+		<e:Image id="buyu_txt" y="183" source="buyu_reward_json.buyu_ryhw_txt" scaleX="1" scaleY="1" horizontalCenter="0.5"/>
+		<e:Label text="进入条件：" y="257" size="18" fontFamily="Microsoft YaHei" textAlign="center" horizontalCenter="0"/>
+		<e:Label id="unlock_level" text="解锁20倍炮" y="285" size="22" fontFamily="Microsoft YaHei" textAlign="center" horizontalCenter="0" textColor="0xffea00"/>
+		<eui:WxButton id="_enterBtn" label="" y="327" x="27">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image id="bg_img" width="100%" height="100%" source="buyu_reward_json.buyu_enter_game"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+	</e:Group>
+	<e:Label text="主要鱼类：" x="315" y="117" fontFamily="Microsoft YaHei" size="26" textColor="0x8e2a0c"/>
+	<e:Image y="148" source="buyu_reward_json.buyu_item_bg" scale9Grid="14,13,7,9" width="520" height="155" x="307" anchorOffsetY="0"/>
+	<e:Scroller id="type_scr1" width="505" height="141" x="315" y="155"  anchorOffsetY="0">
+		<e:List id="fishContain">
+			<e:layout>
+				<e:HorizontalLayout gap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label text="战利品：" x="315" y="320" fontFamily="Microsoft YaHei" size="26" textColor="0x8E2A0C"/>
+	<e:Image y="360" source="buyu_reward_json.buyu_item_bg" scale9Grid="14,13,7,9" width="520" height="146" x="307"/>
+	<e:Scroller id="type_scr2" width="505" height="127" x="314" y="368" >
+		<e:List id="rewardContain">
+			<e:layout>
+				<e:HorizontalLayout gap="10"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+
+
+
+</e:Skin>

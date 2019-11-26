@@ -1,0 +1,56 @@
+{
+	"groups": [
+		{
+			"keys": "wx_loading_res_json,mjf_loadingbg_jpg,config_json,mjf_loadinglogo_png,mjl_tipsBg_png,config_test_json,lb_login_png,zh_login_png,qq_login_png",
+			"name": "pub_loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "loading/res/wx_loading_res.json",
+			"type": "sheet",
+			"name": "wx_loading_res_json",
+			"subkeys": "download_png,lb_loading_darkLine_png,lb_loading_lightLine_png,loadingCircle_png,loading_tips_png"
+		},
+		{
+			"url": "loading/res/mjf_loadingbg.jpg",
+			"type": "image",
+			"name": "mjf_loadingbg_jpg"
+		},
+		{
+			"url": "loading/config/config.json",
+			"type": "json",
+			"name": "config_json"
+		},
+		{
+			"url": "loading/res/mjf_loadinglogo.png",
+			"type": "image",
+			"name": "mjf_loadinglogo_png"
+		},
+		{
+			"url": "loading/res/mjl_tipsBg.png",
+			"type": "image",
+			"name": "mjl_tipsBg_png"
+		},
+		{
+			"url": "loading/config/config_test.json",
+			"type": "json",
+			"name": "config_test_json"
+		},
+		{
+			"url": "loading/res/lb_login.png",
+			"type": "image",
+			"name": "lb_login_png"
+		},
+		{
+			"url": "loading/res/zh_login.png",
+			"type": "image",
+			"name": "zh_login_png"
+		},
+		{
+			"url": "loading/res/qq_login.png",
+			"type": "image",
+			"name": "qq_login_png"
+		}
+	]
+}

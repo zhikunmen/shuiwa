@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FingerlingSkin" width="874" height="543" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Image x="0" y="0" width="874" height="543"  source="fingerling_json.finger_all_bg" scale9Grid="38,195,42,197"/>
+
+
+	<e:Image y="-5" source="fingerling_json.fish_titlebg" x="241"/>
+	<e:Image y="-5" source="fingerling_json.fish_titlebg" x="638" scaleX="-1"/>
+	<e:Image y="13" horizontalCenter="0" source="fingerling_json.finger_title"/>
+
+	<eui:WxButton id="closeBtn" label="" y="7" x="793">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fingerling_json.finger_btn_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+	<e:Image source="fingerling_json.finger_in_bg" y="89" width="819" height="395" scale9Grid="10,10,14,14" horizontalCenter="0"/>
+	<e:Label text="“金边”的为黄金鱼，击杀黄金鱼会将10% 的金币进入奖池，用来抽奖" y="492" horizontalCenter="0" fontFamily="Microsoft YaHei" size="21" textColor="0xa55811" cacheAsBitmap="true"/>
+	<e:Scroller width="807" height="382" x="34" y="95" >
+		<e:Group>
+			<e:Group id="fishGroup" width="0" height="0" x="0" y="0"/>
+		</e:Group>
+	</e:Scroller>
+
+</e:Skin>

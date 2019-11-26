@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchRadioButtonSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <w:Config id="1645e31690b" />
+    <e:Image source.down="mjl_common_menu2_png" source.upAndSelected="mjl_common_menu2_png"
+             source.downAndSelected="mjl_common_menu2_png" source.disabledAndSelected="mjl_common_menu2_png"
+             horizontalCenter="0.5" verticalCenter="0" width="228" scale9Grid="33,12,186,56"
+             source="mjl_common_menu1_png" />
+    <e:Label id="label" text="" width="156" height="48" verticalAlign="middle" size="34" textAlign="center"
+             verticalCenter="0" horizontalCenter="0" textColor="0x773210" textColor.down="0xffffff" bold="true" />
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubRoomdetailsheadSkin" width="386" height="133" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="club_new_menage_json.club_deskitem_bg" width="386" height="133" scale9Grid="10,10,63,66" x="2" y="-1"/>
+
+	<e:Image source="club_new_menage_json.club_deskitem_bg1" x="152" y="7" width="227" scale9Grid="7,4,43,30" locked="true"/>
+	<e:Image source="club_new_menage_json.club_deskitem_bg1" x="152" y="48" width="227" scale9Grid="7,4,43,30" locked="true"/>
+	<e:Image source="club_new_menage_json.club_deskitem_bg1" x="152" y="89" width="227" scale9Grid="7,4,43,30" locked="true"/>
+	<e:Image id="_headImg" x="25" y="18" anchorOffsetX="0" anchorOffsetY="0" source="club_new_menage_json.club_deskitem_head" width="101" height="101"/>
+	<e:Image id="_typeImg" source="club_new_menage_json.club_deskitem_online" y="-5" x="-5"/>
+	<e:Label id="_nameText" text="发送到发送到" x="162" y="15" textColor="0x9f4949" fontFamily="Microsoft YaHei" size="24" anchorOffsetX="0" width="206" height="24"/>
+	<e:Label id="_idText" text="ID:56456565" x="162" y="56" textColor="0x9F4949" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label id="_timeText" text="进入时间:33:33:33" x="162" y="97" textColor="0x9F4949" fontFamily="Microsoft YaHei" size="24"/>
+
+</e:Skin>

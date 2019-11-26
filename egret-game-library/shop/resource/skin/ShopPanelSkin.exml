@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopPanelSkin" width="1101"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" height="551">
+	<e:Image width="1101" scale9Grid="33,99,11,402" source="shop_json.lb_shangcheng_bg_png" height="560" y="1"/>
+	<e:Image source="shop_title_png"  horizontalCenter="0" y="-5"/>
+	<e:Image y="-5.33" source="shop_light_zuoshang_png" x="1.33"/>
+	<e:Image y="562" source="shop_light_youxia_png" x="913"/>
+	<e:Scroller width="1014" height="340" x="46" y="146" anchorOffsetX="0" anchorOffsetY="0" id="scroller">
+		<e:List id="shop_lst" itemRendererSkinName="ShopItemSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Label id="desc_lbl" text="苹果用户充值，请前往公众号：haocaipdk（点击可复制）" y="496" fontFamily="Microsoft YaHei" size="26" textColor="0xcb9158" horizontalCenter="0" visible="false"/>
+	<eui:WxButton id="close_btn" label="" x="1031" y="3">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shop_close1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+
+	<e:Group y="83" horizontalCenter="0">
+		<e:RadioButton id="diamond_rbtn" label="购买钻石" x="-4" y="0" selected="true" value="4" groupName="shop" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" height="52">
+				<e:Image source="shop_json.lb_shangcheng_untab1" source.down="shop_json.lb_shangcheng_tab1" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="24" textColor="0xb18b43" textColor.down="0xffffff"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+		<e:RadioButton id="prop_rbtn" label="购买道具" x="6" y="10" value="2" groupName="shop">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" height="52">
+				<e:Image source="shop_json.lb_shangcheng_untab2" source.down="shop_json.lb_shangcheng_tab2" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="24" textColor="0xb18b43" textColor.down="0xffffff"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+
+		<e:RadioButton id="gold_rbtn" label="购买金币" x="163" y="0" value="1" groupName="shop" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" height="52">
+				<e:Image source="shop_json.lb_shangcheng_untab3" source.down="shop_json.lb_shangcheng_tab3" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="24" textColor="0xb18b43" textColor.down="0xffffff"/>
+			</e:Skin>
+			</e:skinName>
+		</e:RadioButton>
+
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

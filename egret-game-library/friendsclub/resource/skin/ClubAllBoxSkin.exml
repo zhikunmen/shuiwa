@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubAllBoxSkin" width="1150" height="650" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="16" anchorOffsetX="0" width="1139" anchorOffsetY="0" height="633" source="mjl_sec_commonBg_png" scale9Grid="38,164,23,80"/>
+	<e:Image source="mjl_msgBox_content_png" x="9" y="20" anchorOffsetX="0" width="1118.48" fillMode="repeat"/>
+	<e:Image y="0" horizontalCenter="-5" source="club_manage_json.mjl_club_title"/>
+	<e:Image source="mjl_common_content_bg_png" x="19" y="79" scale9Grid="25,22,35,31" anchorOffsetX="0" width="1103.64" anchorOffsetY="0" height="482.36"/>
+	<e:Image id="msgText" horizontalCenter="0" verticalCenter="0" source="club_alltishi"/>
+	<e:Button id="createBtn" label="" y="565" horizontalCenter="-195.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_manage_json.club_createjlb1" source.down="club_manage_json.club_createjlb2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="joinBtn" label="" y="564" horizontalCenter="181.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_manage_json.club_joinclub1" source.down="club_manage_json.club_joinclub2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Button id="closeBtn" label="" x="1075" y="-5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_closebtn1_png" source.down="mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="1098" height="460" x="19" y="92" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="boxList" itemRendererSkinName="ClubBoxItemSkin" x="1" y="-154" anchorOffsetX="0" width="1097" anchorOffsetY="0">
+			<e:layout>
+				<e:TileLayout horizontalGap="0" requestedColumnCount="1"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

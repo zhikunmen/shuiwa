@@ -1,0 +1,122 @@
+{
+	"resources": [
+		{
+			"name": "poker_frame_json",
+			"type": "sheet",
+			"url": "pokeruserinfo/res/poker_frame.json",
+			"subkeys": "pdk_close,pdk_face_bg,pdk_set_bg1"
+		},
+		{
+			"name": "pdk_set_bg_png",
+			"type": "image",
+			"url": "pokeruserinfo/res/pdk_set_bg.png"
+		},
+		{
+			"name": "game_userInfo_json",
+			"type": "sheet",
+			"url": "pokeruserinfo/res/game_userInfo.json",
+			"subkeys": "userInfo_gift6,userInfo_male,pdk_gift_item_bg,userInfo_female,userInfo_gift1,userInfo_gift2,userInfo_gift3,userInfo_gift4,userInfo_gift5"
+		},
+		{
+			"name": "gift_effect_png",
+			"type": "image",
+			"url": "pokeruserinfo/res/gift_effect.png"
+		},
+		{
+			"name": "gift_effect_drag_json",
+			"type": "json",
+			"url": "pokeruserinfo/res/gift_effect_drag.json"
+		},
+		{
+			"name": "gift_effect_json",
+			"type": "json",
+			"url": "pokeruserinfo/res/gift_effect.json"
+		},
+		{
+			"name": "bg2_jpg",
+			"type": "image",
+			"url": "pokeruserinfo/res/bg2.jpg"
+		},
+		{
+			"name": "bg3_jpg",
+			"type": "image",
+			"url": "pokeruserinfo/res/bg3.jpg"
+		},
+		{
+			"name": "bg0_jpg",
+			"type": "image",
+			"url": "pokeruserinfo/res/bg0.jpg"
+		},
+		{
+			"name": "bg1_jpg",
+			"type": "image",
+			"url": "pokeruserinfo/res/bg1.jpg"
+		},
+		{
+			"name":"poker_res_common_json",
+			"subkeys":"pdk_baojing1,pdk_baojing2,pdk_bettery,pdk_betteryPercent,pdk_buchu_1,pdk_buchu_2,pdk_buchu_3,pdk_chat1,pdk_chat2,pdk_clock,pdk_dissolve_01,pdk_dissolve_02,pdk_green_btn,pdk_handcard_icon,pdk_orange_btn,pdk_out_01,pdk_out_02,pdk_pass_1,pdk_pass_2,pdk_pass_tip,pdk_tishi_1,pdk_tishi_2,pdk_voice_btn1,pdk_voice_btn2",
+			"type":"sheet",
+			"url":"pokeruserinfo/res/poker_res_common.json"
+		},
+		{
+			"name": "paodekuai_zhadan_effect_tex_json",
+			"type": "json",
+			"url": "pokeruserinfo/res/paodekuai_zhadan_effect_tex.json"
+		},
+		{
+			"name": "paodekuai_zhadan_effect_tex_png",
+			"type": "image",
+			"url": "pokeruserinfo/res/paodekuai_zhadan_effect_tex.png"
+		},
+		{
+			"name": "paodekuai_jingbao_effect_ske_json",
+			"type": "json",
+			"url": "pokeruserinfo/res/paodekuai_jingbao_effect_ske.json"
+		},
+		{
+			"name": "paodekuai_jingbao_effect_tex_json",
+			"type": "json",
+			"url": "pokeruserinfo/res/paodekuai_jingbao_effect_tex.json"
+		},
+		{
+			"name": "paodekuai_jingbao_effect_tex_png",
+			"type": "image",
+			"url": "pokeruserinfo/res/paodekuai_jingbao_effect_tex.png"
+		},
+		{
+			"name": "paodekuai_zhadan_effect_ske_json",
+			"type": "json",
+			"url": "pokeruserinfo/res/paodekuai_zhadan_effect_ske.json"
+		},
+		{
+			"name": "pdk_poker_2_json",
+			"type": "sheet",
+			"url": "pokeruserinfo/res/pdk_poker_2.json",
+			"subkeys": "LucidMask,Poker_42,Poker_43,Poker_44,Poker_45,Poker_46,Poker_47,Poker_48,Poker_49,Poker_110,Poker_111,Poker_112,Poker_113,Poker_210,Poker_211,Poker_212,Poker_213,Poker_310,Poker_311,Poker_312,Poker_313,Poker_410,Poker_411,Poker_412,Poker_413"
+		},
+		{
+			"name": "pdk_poker_1_json",
+			"type": "sheet",
+			"url": "pokeruserinfo/res/pdk_poker_1.json",
+			"subkeys": "Poker_39,Poker_41,BackCard,BlackMask,Poker_11,Poker_12,Poker_13,Poker_14,Poker_15,Poker_16,Poker_17,Poker_18,Poker_19,Poker_21,Poker_22,Poker_23,Poker_24,Poker_25,Poker_26,Poker_27,Poker_28,Poker_29,Poker_31,Poker_32,Poker_33,Poker_34,Poker_35,Poker_36,Poker_37,Poker_38"
+		}
+	],
+	"groups": [
+		{
+			"name": "poker_userinfo",
+			"keys": "game_userInfo_json"
+		},
+		{
+			"name": "poker_gift",
+			"keys": "gift_effect_png,gift_effect_drag_json,gift_effect_json"
+		},
+		{
+			"name": "poker_frame",
+			"keys": "poker_frame_json,pdk_set_bg_png"
+		},
+		{
+			"name": "poker_common",
+			"keys": "poker_res_common_json,bg2_jpg,bg3_jpg,bg0_jpg,bg1_jpg,paodekuai_zhadan_effect_tex_json,paodekuai_zhadan_effect_tex_png,paodekuai_jingbao_effect_ske_json,paodekuai_jingbao_effect_tex_json,paodekuai_jingbao_effect_tex_png,paodekuai_zhadan_effect_ske_json,pdk_poker_2_json,pdk_poker_1_json"
+		}
+	]
+}

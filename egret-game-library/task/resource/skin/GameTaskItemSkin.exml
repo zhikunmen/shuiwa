@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameTaskItemSkin" width="266" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Label id="desc_text" text="111111" x="11" y="13" size="18" fontFamily="Microsoft YaHei"/>
+	<e:Label id="reward_text" text="111" x="154" y="13" size="18" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="progress_text" text="5/10" x="230" y="13" size="18" fontFamily="Microsoft YaHei" textAlign="right"/>
+	<e:Image id="reward_icon" source="game_task_json.renwu_jinbi" x="130" y="12"/>
+
+	
+</e:Skin>

@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/club_zhangzhou.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/loading/club.thm.json"
+}

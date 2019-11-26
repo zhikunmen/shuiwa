@@ -1,0 +1,17 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "resource/chessCommon_skins/BrSeatSkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"chessCommonLib.BrSeatSkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" xmlns:chessCommonLib=\"chessCommonLib.*\" minWidth=\"10\" minHeight=\"10\" width=\"90\" height=\"90\">\n\t<e:Image id=\"empty_bg\" left=\"-11\" right=\"-10\" top=\"-10\" bottom=\"-12\" source=\"br_seatHead_png\" anchorOffsetX=\"0\"/>\n\t<chessCommonLib:Head id=\"head\" left=\"0\" top=\"0\" bottom=\"0\" right=\"0\" visible=\"false\"/>\n\t<e:Image id=\"lb_bg_img\" source=\"name_bg_mask_png\" bottom=\"0\" left=\"0\" right=\"0\" visible=\"false\"/>\n\t<e:Label id=\"nickName_lbl\" text=\"aaaaa\" size=\"22\" left=\"0\" right=\"0\" textAlign=\"center\" multiline=\"false\" height=\"22\" bottom=\"25\" visible=\"false\"/>\n\t<e:Label id=\"chips_lbl\" text=\"aaaaa\" size=\"22\" left=\"0\" right=\"0\" textAlign=\"center\" bottom=\"0\" multiline=\"false\" wordWrap=\"false\" height=\"22\" visible=\"false\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/chessCommon_skins/HeadSkin.exml",
+      "content": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<e:Skin class=\"chessCommonLib.HeadSkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\"  minWidth=\"10\" minHeight=\"10\">\n\t<e:Image id=\"avar_img\" source=\"default_avar_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Image id=\"avarFrame_img\" horizontalCenter=\"0\" verticalCenter=\"0\" source=\"\"/>\n</e:Skin>"
+    }
+  ],
+  "skins": {
+    "chessCommonLib.HeadSkin": "resource/chessCommon_skins/HeadSkin.exml",
+    "chessCommonLib.BrSeatSkin": "resource/chessCommon_skins/BrSeatSkin.exml"
+  }
+}

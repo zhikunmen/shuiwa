@@ -1,0 +1,12 @@
+{
+	"groups":[{
+			"keys":"mjl_buy_json",
+			"name":"pub_shop"
+		}],
+	"resources":[{
+			"name":"mjl_buy_json",
+			"subkeys":"mjl_buy_btn,mjl_buy_btn2,mjl_buy_give,mjl_buy_good105,mjl_buy_good106,mjl_buy_good107,mjl_buy_good108,mjl_buy_title2",
+			"type":"sheet",
+			"url":"shop/res/zhangzhou/mjl_buy.json"
+		}]
+}

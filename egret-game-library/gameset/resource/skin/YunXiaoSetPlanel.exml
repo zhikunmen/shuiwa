@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="YunXiaoSetPlanel" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<e:Group id="_mainGroup" width="720.67" height="470" x="-1" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Image id="leftBtn" x="28" y="197" touchEnabled="true" scaleX="1" scaleY="1" source="game_sp_arrow_left"/>
+		<e:Image id="rightBtn" x="453" y="197" touchEnabled="true" scaleX="1" scaleY="1" source="game_sp_arrow_right"/>
+		<e:Label text="音乐:" x="507" y="92.02" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1" textColor="0x73491b"/>
+		<e:Image id="musicBtn" source="game_set_json.game_sp_on" x="581" y="85.5"/>
+		<e:Label text="音效:" x="508" y="165.68" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1" textColor="0x73491b"/>
+		<e:Image id="soundBtn" source="game_set_json.game_sp_on" x="581" y="158"/>
+		<e:Label text="方言:" x="509" y="235.35" fontFamily="Microsoft YaHei" size="25" scaleX="1" scaleY="1" textColor="0x73491b"/>
+		<e:Image id="localSoundBtn" source="game_set_json.game_sp_on" x="581" y="227.5"/>
+
+		<e:Group id="_imgGroup" width="367" height="201" x="70.5" y="116.5" scaleX="1" scaleY="1"/>
+		<e:Button id="voiceBtn" label="静音" x="511.33" y="283.67">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image y="4" source="game_set_json.game_sp_checkbg"/>
+				<e:Label id="labelDisplay" verticalCenter="0" text="静音" textColor="0x73491b" fontFamily="Microsoft YaHei" x="70"/>
+	<e:Image includeIn="down" y="4" source="game_set_json.game_sp_check"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="麻将牌型:" x="98" y="390" fontFamily="Microsoft YaHei" size="30" scaleX="1" scaleY="1" textColor="0x73491B"/>
+		<e:Group anchorOffsetX="0" anchorOffsetY="0" height="77" width="364" x="246" y="364">
+			<e:RadioButton id="smallButton" label="" x="263" y="-76.5" groupName="setgroup">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+	<e:Image source="game_set_json.game_sp_smallcard" y="-11"/>
+	<e:Image x="48.33" verticalCenter="0" source="game_set_json.game_sp_checkbg"/>
+	<e:Image x="48.33" includeIn="upAndSelected,downAndSelected,disabledAndSeleced" verticalCenter="0" source="game_set_json.game_sp_check"/>
+	<e:Label text="经典" x="99.5" textColor="0x73491b" fontFamily="Microsoft YaHei" verticalCenter="0"/>
+			</e:Skin>
+			</e:RadioButton>
+			<e:RadioButton id="bigButton" label="" x="168" y="6" groupName="setgroup">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+	<e:Image x="53" verticalCenter="2" source="game_set_json.game_sp_checkbg"/>
+	<e:Image x="53" verticalCenter="3" includeIn="upAndSelected,downAndSelected,disabledAndSeleced" source="game_set_json.game_sp_check"/>
+	<e:Image source="game_set_json.game_sp_bigcard" x="0.5" verticalCenter="0"/>
+	<e:Label text="大号" x="100" verticalCenter="0" fontFamily="Microsoft YaHei" textColor="0x73491b"/>
+			</e:Skin>
+			</e:RadioButton>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="35"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

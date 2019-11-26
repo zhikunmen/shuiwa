@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskView2Skin" width="772" height="490" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Scroller id="scroll" width="771" height="456" y="17" x="1" anchorOffsetY="0">
+		<e:List id="task_lst" y="-11" itemRendererSkinName="TaskItemlSkin">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

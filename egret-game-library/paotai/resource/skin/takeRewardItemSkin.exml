@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="takeRewardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*"
+        width="167" height="260">
+	<e:Image source="take_phonebill_json.take_phone_itembg" y="162" horizontalCenter="0"/>
+	<e:Image id="goodIcon" y="134" horizontalCenter="0"/>
+	<e:Image source="take_phonebill_json.take_phone_balloon" y="63" horizontalCenter="0"/>
+	<e:Image source="take_phonebill_json.take_phone_lighting" x="0" y="0"/>
+	<e:BitmapLabel id="goodNum" y="226" font="take_phone2_fnt" text="x30元" horizontalCenter="0"/>
+	
+</e:Skin>

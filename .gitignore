@@ -1,0 +1,16 @@
+/Egret/bin-debug
+/Egret/bin-release
+.idea/
+.wing/
+egret.cmd
+/release
+/release.ios
+/Lobby
+
+/Egret/wing/launch.json
+/Egret/.wing
+/Egret/resource/assets/common/
+/common
+/Egret/libs
+
+manifest.json

@@ -1,0 +1,11 @@
+/rankList/egretProperties.json
+/share/egretProperties.json
+/myOpenDataContext
+/gamechat/egretProperties.json
+/gamehelp/egretProperties.json
+/gameset/egretProperties.json
+/gameuserinfo/egretProperties.json
+bin-release
+/OpenDataContext/bin-debug
+
+gamedismiss/libs/

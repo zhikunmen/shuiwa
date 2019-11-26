@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxEliminateWaitSkin" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*" xmlns:w="http://ns.egret.com/wing" width="1280" height="720">
+	<e:Image id="bg_img" horizontalCenter="0" source="lb_bg_jpg"/>
+	<e:Rect width="100%" height="100%" alpha="0.1"/>
+	<e:Group id="eliminate_grp" width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="lb_pipei_jiantou_png" x="244" y="525"/>
+		<e:Image source="lb_pipei_renshu_png" y="595" x="238"/>
+		<e:Image source="lb_pipei_renshu1_png" x="239" y="597"/>
+		<e:Image source="lb_pipei_line_png" x="297" y="624" width="90" scale9Grid="2,1,4,1"/>
+		<e:Image source="lb_pipei_jindu2_png" y="209" horizontalCenter="0.5"/>
+		<e:Image id="pro_img" source="lb_pipei_jindu1_png" y="204" x="514"/>
+		<e:Group id="reward_grp" x="216" y="544" height="46" width="865">
+			<e:Button label="">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="wx_bs_res_json.pdk_tts_fuka_png"/>
+				<e:BitmapLabel id="labelDisplay" font="wx_bs_reward_fnt" verticalCenter="0" x="46"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button label="" x="149">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="wx_bs_res_json.pdk_tts_fuka_png"/>
+				<e:BitmapLabel id="labelDisplay" font="wx_bs_reward_fnt" verticalCenter="0" x="46"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button label="" x="296">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="wx_bs_res_json.pdk_tts_fuka_png"/>
+				<e:BitmapLabel id="labelDisplay" font="wx_bs_reward_fnt" verticalCenter="0" x="46"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button label="" x="445">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="wx_bs_res_json.pdk_tts_fuka_png"/>
+				<e:BitmapLabel id="labelDisplay" font="wx_bs_reward_fnt" verticalCenter="0" x="46"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button label="" x="594">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="wx_bs_res_json.pdk_tts_fuka_png"/>
+				<e:BitmapLabel id="labelDisplay" font="wx_bs_reward_fnt" verticalCenter="0" x="46"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button label="" x="742">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="wx_bs_res_json.pdk_tts_fuka_png"/>
+				<e:BitmapLabel id="labelDisplay" font="wx_bs_reward_fnt" verticalCenter="0" x="46"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Label text="请不要关闭界面，否则会取消报名" y="667" fontFamily="Microsoft YaHei" size="20" horizontalCenter="0"/>
+		<e:Label text="按牌算分，底分100，炸弹500" y="695" fontFamily="Microsoft YaHei" size="20" horizontalCenter="1.5"/>
+		<e:Label id="timer_lbl" text="正在防作弊匹配中..." y="471" fontFamily="Microsoft YaHei" size="20" horizontalCenter="0.5"/>
+		<e:Label id="num_lbl" text="0" y="611" fontFamily="Arial" size="30" textColor="0x892a09" bold="true" x="246" width="42" textAlign="center"/>
+		<e:Label id="num0" text="0" y="611" fontFamily="Arial" size="30" bold="true" x="396" textColor="0x735a4a" width="42" textAlign="center"/>
+		<e:Label id="num1" text="0" y="611" fontFamily="Arial" size="30" bold="true" x="544" textColor="0x735a4a" width="42" textAlign="center"/>
+		<e:Label id="num2" text="0" y="611" fontFamily="Arial" size="30" bold="true" x="694" textColor="0x735a4a" width="42" textAlign="center"/>
+		<e:Label id="num3" text="0" y="611" fontFamily="Arial" size="30" bold="true" x="843" textColor="0x735a4a" width="42" textAlign="center"/>
+		<e:Label id="num4" text="0" y="611" fontFamily="Arial" size="30" bold="true" x="991" textColor="0x735A4A" width="42" textAlign="center"/>
+		<e:Label id="title_lbl" text="满33人开赛" y="136" fontFamily="Microsoft YaHei" size="50" horizontalCenter="0"/>
+		<e:BitmapLabel id="num_blbl" y="288" font="match_eliminate_font_fnt" text="0" horizontalCenter="0"/>
+	</e:Group>
+	<eui:WxButton id="close_btn" label="" x="38" y="38">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="bs_ret_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+</e:Skin>

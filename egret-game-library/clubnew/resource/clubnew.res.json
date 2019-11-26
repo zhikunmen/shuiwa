@@ -1,0 +1,30 @@
+{
+	"groups":[{
+			"keys":"club_desk_bg_png,club_desk_upbg_png,club_scale9_json,club_json",
+			"name":"pub_clubnew"
+		}],
+	"resources":[
+		{
+			"name":"club_desk_bg_png",
+			"type":"image",
+			"url":"clubnew/club_desk_bg.png"
+		},
+		{
+			"name":"club_desk_upbg_png",
+			"type":"image",
+			"url":"clubnew/club_desk_upbg.png"
+		},
+		{
+			"name":"club_scale9_json",
+			"subkeys":"club_active_bg,club_allbox_bg,club_allbox_bg1,club_allbox_title,club_bg1,club_bg2,club_bg3,club_bigtitle,club_bluebg,club_btnbg1,club_btnbg2,club_btnbg3,club_btnbg4,club_btnbg5,club_btnbg6,club_infobg1,club_line1,club_line2,club_manage_applyitem1,club_manage_applyitem2,club_manage_frightitem,club_titlebg1,club_yellowbg,clubbox_arrowbg,clubbox_choice,clubbox_deskbg,clubbox_itembg,line4,mjl_club_txt,mjl_club_txt1",
+			"type":"sheet",
+			"url":"clubnew/club_scale9.json"
+		},
+		{
+			"name":"club_json",
+			"subkeys":"club_bottonBg1,club_close1,club_createjlb1,club_createroom1,club_desk,club_deskcreate1,club_deskseat_bg,club_deskseat_head,club_ingame,club_joinclub1,club_manage1,club_manage_chengyuan1,club_manage_chengyuan2,club_manage_chengyuan_change1,club_manage_chose1,club_manage_chose2,club_manage_chosenextbtn1,club_manage_closebtn1,club_manage_closebtn3,club_manage_disclubbtn1,club_manage_fangjian1,club_manage_fangjian2,club_manage_heibai1,club_manage_heibai2,club_manage_msg1,club_manage_msg2,club_manage_pauseclubbtn1,club_manage_recoveryclubbtn1,club_manage_refreshbtn1,club_manage_roombg,club_manage_roomper,club_manage_setbtn1,club_manage_shengqing1,club_manage_shengqing2,club_manage_title,club_manage_zhankuang1,club_manage_zhankuang2,club_msgBg,club_no_online,club_notice1,club_online,club_person_head,club_queryfighting1,club_redDot,club_roomdetail_headbg,club_share1,club_switch1,club_waiting,clubbox_arrow_down1,clubbox_arrow_up1,clubbox_close1,clubbox_switchplay1,clubbox_up_close1,mjl_club_rightarrow",
+			"type":"sheet",
+			"url":"clubnew/club.json"
+		}
+	]
+}

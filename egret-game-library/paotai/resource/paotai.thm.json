@@ -1,0 +1,13 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/FingerlingSkin.exml",
+		"resource/skin/fukaDescSkin.exml",
+		"resource/skin/PaoTaiItemSkin.exml",
+		"resource/skin/PaoTaiPanelSkin.exml",
+		"resource/skin/ProgressSkin3.exml",
+		"resource/skin/TakePhoneSkin.exml",
+		"resource/skin/takeRewardItemSkin.exml"
+	],
+	"path": "resource/paotai.thm.json"
+}

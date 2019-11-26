@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/message.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/message.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/message/message.thm.json"
+}

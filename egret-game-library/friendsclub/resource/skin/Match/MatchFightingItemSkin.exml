@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchFightingItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="700">
+	<e:Image y="0" x="0" source="club_new_manage_json.club_manage_frightitem"/>
+
+	<e:Label text="姓名" x="32" y="67.66" size="25"/>
+	<e:Label text="分数" x="32" y="113.66" size="25"/>
+	<e:Label id="tableIdLabel" text="桌号：" y="20" x="67.5" textAlign="center" size="24" textColor="0x042482" fontFamily="Microsoft YaHei"/>
+	<e:Label id="timeLabel" text="123456" y="20" size="24" x="351" textColor="0x424682"/>
+
+	<e:Scroller width="578" height="95" x="102" y="58.16" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="nameandscore" itemRendererSkinName="MatchFightingNSSkin">
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:List>
+	</e:Scroller>
+</e:Skin>

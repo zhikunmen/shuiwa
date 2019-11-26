@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="fukaDescSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*"
+        width="869" height="513">
+	<e:Image source="fuka_desc_json.fuka_desc_b g" y="0" x="0"/>
+	<eui:WxButton id="closeBtn" label="" y="58" x="816">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="paotai_panel_json.paotai_btn_close" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="rewardBtn" label="" y="369.5" x="616.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fuka_desc_json.fuka_desc_btn"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image source="fuka_desc_json.fuka_desc_itembg" x="350" y="215"/>
+	<e:Image id="gift1" x="414" y="282" source="game_prop_json.bag_daoju_361"/>
+	<e:Image source="fuka_desc_json.fuka_desc_itembg" x="511" y="215"/>
+	<e:Image id="gift2" x="577" y="282" source="game_prop_json.bag_daoju_364"/>
+	<e:Image source="fuka_desc_json.fuka_desc_itembg" x="671" y="215"/>
+	<e:Image id="gift3" x="737" y="282" source="game_prop_json.bag_daoju_32"/>
+	<e:Image source="fuka_desc_json.fuka_desc_grain" x="333" y="400"/>
+	<e:Image source="fuka_desc_json.fuka_desc_fuka" x="420" y="390"/>
+	<e:Label id="rewardNum" text="x99" x="461" y="404" fontFamily="Microsoft YaHei" size="27" stroke="2" strokeColor="0x1e54c3"/>
+
+
+
+	
+</e:Skin>

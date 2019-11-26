@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FlopMachineGuessSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" xmlns:tween="egret.tween.*" xmlns:match="match.*" width="1280" height="720">
+	<w:Declarations>
+		<tween:TweenGroup id="win_tween">
+			<tween:TweenItem target="{qufen_lbl}">
+				<tween:To duration="500" ease="sineOut">
+					<tween:props>
+						<e:Object alpha="{1}" y="{416}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="750" ease="sineOut">
+					<tween:props>
+						<e:Object alpha="{0}" y="{386}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="result_tween">
+			<tween:TweenItem target="{result_img}">
+				<tween:To duration="500" ease="quadOut">
+					<tween:props>
+						<e:Object y="{295}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="bg_img" source="lb_bg_jpg" horizontalCenter="0"/>
+	<match:WxTopOpBtn id="top_skin" x="256" y="30"/>
+	<eui:WxButton id="rule_btn" label="" x="888" y="13">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="flopMachine_json.fpj_ruler"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="close_btn" label="" x="38.5" y="26">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="flopMachine_json.lb_back"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image source="flopMachine_json.fpj_bg" width="1210" height="596" y="125" horizontalCenter="0" scale9Grid="40,40,4,5" locked="true"/>
+
+	<e:Group y="141" width="1159" height="550" horizontalCenter="-1.5" scrollEnabled="true">
+		<e:Image y="247" width="1159" height="213" source="flopMachine_json.fpj_bg_1" scale9Grid="6,6,1,2"/>
+		<e:Image width="445" height="121" x="95" anchorOffsetY="0" source="flopMachine_json.fpj_cdx_sekuai" scale9Grid="6,6,1,1"/>
+		<e:Image width="445" height="121" x="95" anchorOffsetY="0" source="flopMachine_json.fpj_cdx_sekuai" scale9Grid="6,6,1,1" y="123"/>
+		<e:Image source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,1,2" width="93" height="245"/>
+		<e:Image source="flopMachine_json.fpj_cdx_jushu" height="121" x="543" scale9Grid="302,2,1,1"/>
+		<e:Image source="flopMachine_json.fpj_cdx_jushu" scale9Grid="302,2,1,1" height="121" x="543" y="123"/>
+		<e:Image id="pass_img" source="flopMachine_json.fpj_cdx_gxtg" y="276" x="310" visible="false"/>
+		<eui:Button id="over_btn" label="" y="467" x="917">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="flopMachine_json.fpj_start" source.down="flopMachine_json.fpj_start_1" source.disabled="flopMachine_json.fpj_start_2"/>
+				<e:Image source="flopMachine_json.fpj_word_qufen" horizontalCenter="0" verticalCenter="-2" verticalCenter.down="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:Button>
+		<eui:Button id="big_btn" label="" y="277" x="333">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="flopMachine_json.fpj_cdx_big" source.down="flopMachine_json.fpj_cdx_big_1" source.disabled="flopMachine_json.fpj_cdx_big_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:Button>
+		<eui:Button id="small_btn" label="" y="277" x="683">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="flopMachine_json.fpj_cdx_small" source.down="flopMachine_json.fpj_cdx_small_1" source.disabled="flopMachine_json.fpj_cdx_small_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:Button>
+		<e:Image id="poker_img" source="flopMachine_json.fpj_card_back" y="270" height="178" width="130" x="515"/>
+		<e:Image id="card1" source="flopMachine_json.fpj_card_back" y="131" height="178" width="130" x="99" scaleX="0.6" scaleY="0.6" visible="false"/>
+		<e:Image id="card2" source="flopMachine_json.fpj_card_back" y="131" height="178" width="130" x="159" scaleX="0.6" scaleY="0.6" visible="false"/>
+		<e:Image id="card3" source="flopMachine_json.fpj_card_back" y="131" height="178" width="130" x="219" scaleX="0.6" scaleY="0.6" visible="false"/>
+		<e:Image id="card4" source="flopMachine_json.fpj_card_back" y="131" height="178" width="130" x="271" scaleX="0.6" scaleY="0.6" visible="false"/>
+		<e:Image id="card5" source="flopMachine_json.fpj_card_back" y="131" height="178" width="130" x="339" scaleX="0.6" scaleY="0.6" visible="false"/>
+		<e:Image id="card6" source="flopMachine_json.fpj_card_back" y="131" height="178" width="130" x="399" scaleX="0.6" scaleY="0.6" visible="false"/>
+		<e:Image id="card7" source="flopMachine_json.fpj_card_back" y="131" height="178" width="130" x="459" scaleX="0.6" scaleY="0.6" visible="false"/>
+		<e:Group id="rush_grp" x="543" locked="true">
+			<e:Image source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="86" height="121" visible="false"/>
+			<e:Image source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="86" height="121" y="124" visible="false"/>
+			<e:Image x="90" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="85" height="121" y="0" visible="false"/>
+			<e:Image x="90" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="85" height="121" y="124" visible="false"/>
+			<e:Image x="177" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="85" height="121" visible="false"/>
+			<e:Image x="177" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="85" height="121" y="124" visible="false"/>
+			<e:Image x="265" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="85" height="121" visible="false"/>
+			<e:Image x="265" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="85" height="121" y="124" visible="false"/>
+			<e:Image x="353" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="85" height="121" visible="false"/>
+			<e:Image x="353" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="85" height="121" y="124" visible="false"/>
+			<e:Image x="441" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="86" height="121" visible="false"/>
+			<e:Image x="441" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="86" height="121" y="124" visible="false"/>
+			<e:Image x="530" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="88" height="121" visible="false"/>
+			<e:Image x="529" source="flopMachine_json.fpj_sekuai_xuanzhong" scale9Grid="6,6,2,2" width="88" height="121" y="123" visible="false"/>
+		</e:Group>
+
+		<e:Image id="curRush_img" source="flopMachine_json.fpj_cdx_xuanzhong" includeInLayout="false" x="543" visible="false"/>
+		<e:Image id="result_img" source="flopMachine_json.fpj_cdx_ping" y="-132" x="509"/>
+		<e:Label text="第六关    第七关" fontFamily="Microsoft YaHei" size="22" textAlign="center" textColor="0xffff00" x="993.5" y="50"/>
+		<e:Label text="第一关   第二关   第三关    第四关   第五关" fontFamily="Microsoft YaHei" size="22" textAlign="center" x="555" y="50"/>
+		<e:Label text="2倍        4倍        8倍        16倍      32倍" fontFamily="Microsoft YaHei" size="22" textAlign="center" x="568" y="171"/>
+		<e:Label text="64倍     200倍" fontFamily="Microsoft YaHei" size="22" textAlign="center" x="1004" y="171" textColor="0xffff00"/>
+		<e:Label text="获得金币" x="240.5" y="15" fontFamily="Microsoft YaHei" size="38" anchorOffsetX="0" textColor="0xfff6d5"/>
+
+		<e:Label id="round_lbl" text="开始闯关" x="20.5" y="7" fontFamily="Microsoft YaHei" size="50" bold="true" textColor="0xfff6d5" anchorOffsetX="0" width="50" height="230" textAlign="center" verticalAlign="middle"/>
+
+		<e:Label id="win_lbl" text="0000" x="137.5" y="61" fontFamily="Microsoft YaHei" size="50" anchorOffsetX="0" textColor="0xffd025" width="357" textAlign="center"/>
+		<e:Label id="qufen_lbl" text="0" x="918" y="446" fontFamily="Microsoft YaHei" size="30" bold="true" textColor="0x000000" alpha="0" width="209" textAlign="center"/>
+	</e:Group>
+</e:Skin>

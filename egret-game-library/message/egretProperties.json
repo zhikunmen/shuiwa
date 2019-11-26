@@ -1,0 +1,62 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.2.8",
+	"template": {},
+	"eui": {
+		"exmlRoot": "resource/skin",
+		"autoGenerateExmlsList": true,
+		"themes": [
+			"resource/message.thm.json"
+		],
+		"exmlPublishPolicy": "commonjs2"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "assetsmanager"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "promise"
+		},
+		{
+			"name": "uniLib",
+			"path": "E:/libsrc/uniLib"
+		},
+		{
+			"name": "protoandtable",
+			"path":"E:/Egret/egret-game-library/protoandtable"
+		},
+		{
+			"name": "loading",
+			"path":"E:/Egret/egret-game-library/loading"
+		},
+		{
+			"name": "shop",
+			"path":"E:/Egret/egret-game-library/shop"
+		}
+	]
+}

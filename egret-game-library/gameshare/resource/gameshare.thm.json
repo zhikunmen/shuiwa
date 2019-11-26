@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/shareItemSkin.exml",
+		"resource/skin/shareSkin.exml"
+	],
+	"path": "resource/gameshare.thm.json"
+}

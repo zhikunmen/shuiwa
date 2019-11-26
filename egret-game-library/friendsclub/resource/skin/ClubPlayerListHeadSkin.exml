@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPlayerListHeadSkin" width="175.5" height="131.5" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="25.73" horizontalCenter="-31.25" source="club_manage_json.club_deskseat_bg" width="63" height="63"/>
+
+	<e:Label id="nameTxt" text="玩家昵称..." y="97.5" horizontalCenter="-31.25" size="20" fontFamily="Microsoft YaHei"/>
+	<e:Image id="headImg" source="club_manage_json.club_deskseat_head" y="28.23" anchorOffsetX="0" anchorOffsetY="0" width="55" height="55" x="27"/>
+	<e:Group id="ownerGroup" x="89.5" y="36.73">
+		<e:Image id="ownerImg" x="0" y="0" source="mjl_club_newbox_json.clubbox_deskdetails"/>
+		<e:Label id="ownerTxt" text="管理员" y="9" size="20" fontFamily="Microsoft YaHei" textColor="0xbcc0ff" horizontalCenter="0.5"/>
+	</e:Group>
+	<e:Image id="onlinestate" x="70.5" y="69.73" source="club_manage_json.club_online"/>
+
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoviceRedPackageBtnSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*"  width="92" height="103">
+	<eui:ArmatureComponent y="40" horizontalCenter="0" resName="fuka"/>
+	<e:ProgressBar id="novice_bar" width="88"  y="80"  skinName="ProgressSkin1" x="1"/>
+	<e:Label id="pro_lbl" text="0/500" y="83" fontFamily="Microsoft YaHei" size="16" horizontalCenter="0" stroke="1" strokeColor="0x003f48"/>
+</e:Skin>

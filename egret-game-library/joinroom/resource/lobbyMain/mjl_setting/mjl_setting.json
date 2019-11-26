@@ -1,0 +1,9 @@
+{"file":"mjl_setting.png","frames":{
+"mjl_voice_bg_png":{"x":0,"y":0,"w":527,"h":48,"offX":0,"offY":0,"sourceW":527,"sourceH":48},
+"mjl_voice_thumb_png":{"x":0,"y":50,"w":85,"h":45,"offX":0,"offY":0,"sourceW":85,"sourceH":45},
+"mjl_voice_track_press_png":{"x":950,"y":0,"w":56,"h":62,"offX":1,"offY":0,"sourceW":57,"sourceH":63},
+"mjl_music_close_png":{"x":800,"y":0,"w":73,"h":74,"offX":0,"offY":0,"sourceW":73,"sourceH":74},
+"mjl_music_open_png":{"x":725,"y":0,"w":73,"h":74,"offX":0,"offY":0,"sourceW":73,"sourceH":74},
+"mjl_set_title_png":{"x":529,"y":0,"w":119,"h":48,"offX":0,"offY":0,"sourceW":119,"sourceH":48},
+"mjl_sound_close_png":{"x":875,"y":0,"w":73,"h":74,"offX":0,"offY":0,"sourceW":73,"sourceH":74},
+"mjl_sound_open_png":{"x":650,"y":0,"w":73,"h":74,"offX":0,"offY":0,"sourceW":73,"sourceH":74}}}

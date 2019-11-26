@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwMatchWaitSkin" xmlns:e="http://ns.egret.com/eui" xmlns:match="match.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="BSPP-db_png" scale9Grid="72,247,15,29" width="733"/>
+	<e:Label id="gameType_lbl" text="10元红包赛" y="21" fontFamily="Microsoft YaHei" size="32" horizontalCenter="0" bold="true"/>
+	<e:Label id="condition_lbl" text="满6人开赛" y="112" fontFamily="Microsoft YaHei" size="28" bold="true" horizontalCenter="0.5"/>
+	<e:Label text="当前人数:" y="163" fontFamily="Microsoft YaHei" size="24" x="302"/>
+	<e:Label text="倒计时:" y="206" fontFamily="Microsoft YaHei" size="24" x="304"/>
+	<match:BaseButton id="exit_btn" label="" y="2.5" horizontalCenter="-311.5">
+		<match:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSPP-fh_png" source.down="BSPP-fh-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<e:Group id="num_grp" y="284" horizontalCenter="0.5">
+		<e:Image source="position_seat_png"/>
+		<e:Image source="position_seat_png"/>
+		<e:Image source="position_seat_png"/>
+		<e:Image source="position_seat_png"/>
+		<e:Image source="position_seat_png"/>
+		<e:Image source="position_seat_png"/>
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="小提示：请耐心等待不要关闭此界面，否则会取消匹配" y="435" fontFamily="Microsoft YaHei" size="24" textColor="0x6f9bf5" horizontalCenter="0"/>
+	<e:Label id="num_lbl" text="0/6" x="410" y="163" fontFamily="Microsoft YaHei" size="24" textColor="0x60a9f2"/>
+	<e:Label id="time_lbl" text="" x="387" y="206" fontFamily="Microsoft YaHei" size="24" textColor="0x60A9F2" width="50" textAlign="center"/>
+</e:Skin>

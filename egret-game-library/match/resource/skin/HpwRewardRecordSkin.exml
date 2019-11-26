@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwRewardRecordSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:match="match.*" width="1008" height="595">
+	<e:Image width="1008" x="0" y="0" scale9Grid="29,245,10,14" height="595" source="BSXQ-db_png"/>
+	<e:Image source="BSXQ2-bj_png" y="89" scale9Grid="27,265,13,12" anchorOffsetX="0" width="966" anchorOffsetY="0" height="496" horizontalCenter="0"/>
+	<e:Image source="HJJL-bt_png" y="-16" horizontalCenter="0" locked="true"/>
+	<e:Image source="HJJL-bsjgg_png" y="164" scale9Grid="97,92,11,12" width="944" height="406" anchorOffsetY="0" horizontalCenter="0"/>
+	<match:BaseButton id="prePage_btn" label="" y="504" x="290">
+		<match:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="prePage_png" source.down="prePage_ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="nextPage_btn" label="" y="501" x="510">
+		<match:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nextPage_png" source.down="nextPage_ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="close_btn" label="" y="-20" horizontalCenter="484.5">
+		<match:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BSXQ-gb_png" source.down="BSXQ-gb-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<e:Label text="比赛时间" x="66" y="107" fontFamily="Microsoft YaHei" textColor="0xb1cdfe"/>
+	<e:Label text="第一名" x="252" y="107" fontFamily="Microsoft YaHei" textColor="0xB1CDFE"/>
+	<e:Label text="第二名" x="457" y="107" fontFamily="Microsoft YaHei" textColor="0xB1CDFE"/>
+	<e:Label text="第三名" x="648" y="107" fontFamily="Microsoft YaHei" textColor="0xB1CDFE"/>
+	<e:Label text="我的名次" x="812" y="107" fontFamily="Microsoft YaHei" textColor="0xB1CDFE"/>
+    <e:List id="record_lst" itemRendererSkinName="HpwRewardRecordItemSkin"  width="940" height="340" y="163" horizontalCenter="0" anchorOffsetY="0">
+        <e:layout>
+            <e:VerticalLayout/>
+        </e:layout>
+    </e:List>
+</e:Skin>

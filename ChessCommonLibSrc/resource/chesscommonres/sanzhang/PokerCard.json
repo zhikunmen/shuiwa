@@ -1,0 +1,335 @@
+{
+  "file": "PokerCard.png",
+  "frames": {
+    "Poker0_1": {
+      "x": 74,
+      "y": 218,
+      "w": 30,
+      "h": 28,
+      "offX": 3,
+      "offY": 5,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_2": {
+      "x": 344,
+      "y": 34,
+      "w": 22,
+      "h": 29,
+      "offX": 6,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_3": {
+      "x": 367,
+      "y": 65,
+      "w": 19,
+      "h": 29,
+      "offX": 8,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_4": {
+      "x": 303,
+      "y": 109,
+      "w": 20,
+      "h": 29,
+      "offX": 6,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_5": {
+      "x": 325,
+      "y": 109,
+      "w": 19,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_6": {
+      "x": 274,
+      "y": 140,
+      "w": 20,
+      "h": 29,
+      "offX": 6,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_7": {
+      "x": 251,
+      "y": 170,
+      "w": 20,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_8": {
+      "x": 251,
+      "y": 139,
+      "w": 21,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_9": {
+      "x": 400,
+      "y": 0,
+      "w": 21,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_10": {
+      "x": 0,
+      "y": 218,
+      "w": 35,
+      "h": 27,
+      "offX": 3,
+      "offY": 5,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_11": {
+      "x": 280,
+      "y": 109,
+      "w": 21,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_12": {
+      "x": 344,
+      "y": 0,
+      "w": 25,
+      "h": 32,
+      "offX": 4,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker0_13": {
+      "x": 251,
+      "y": 109,
+      "w": 27,
+      "h": 28,
+      "offX": 4,
+      "offY": 5,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_1": {
+      "x": 106,
+      "y": 218,
+      "w": 30,
+      "h": 28,
+      "offX": 3,
+      "offY": 5,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_2": {
+      "x": 165,
+      "y": 218,
+      "w": 22,
+      "h": 29,
+      "offX": 6,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_3": {
+      "x": 296,
+      "y": 140,
+      "w": 19,
+      "h": 29,
+      "offX": 8,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_4": {
+      "x": 212,
+      "y": 211,
+      "w": 20,
+      "h": 29,
+      "offX": 6,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_5": {
+      "x": 445,
+      "y": 0,
+      "w": 19,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_6": {
+      "x": 423,
+      "y": 0,
+      "w": 20,
+      "h": 29,
+      "offX": 6,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_7": {
+      "x": 394,
+      "y": 31,
+      "w": 20,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_8": {
+      "x": 189,
+      "y": 211,
+      "w": 21,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_9": {
+      "x": 344,
+      "y": 65,
+      "w": 21,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_10": {
+      "x": 37,
+      "y": 218,
+      "w": 35,
+      "h": 27,
+      "offX": 3,
+      "offY": 5,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_11": {
+      "x": 371,
+      "y": 30,
+      "w": 21,
+      "h": 29,
+      "offX": 7,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_12": {
+      "x": 138,
+      "y": 218,
+      "w": 25,
+      "h": 32,
+      "offX": 4,
+      "offY": 3,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "Poker1_13": {
+      "x": 371,
+      "y": 0,
+      "w": 27,
+      "h": 28,
+      "offX": 4,
+      "offY": 5,
+      "sourceW": 40,
+      "sourceH": 35
+    },
+    "poker_mask": {
+      "x": 172,
+      "y": 109,
+      "w": 77,
+      "h": 100,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 77,
+      "sourceH": 100
+    },
+    "PokerBack_1": {
+      "x": 0,
+      "y": 0,
+      "w": 84,
+      "h": 107,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 107
+    },
+    "PokerBack_2": {
+      "x": 86,
+      "y": 0,
+      "w": 84,
+      "h": 107,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 107
+    },
+    "PokerBg_1": {
+      "x": 0,
+      "y": 109,
+      "w": 84,
+      "h": 107,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 107
+    },
+    "PokerBg_2": {
+      "x": 86,
+      "y": 109,
+      "w": 84,
+      "h": 107,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 107
+    },
+    "PokerBg_3": {
+      "x": 172,
+      "y": 0,
+      "w": 84,
+      "h": 107,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 107
+    },
+    "PokerBg_4": {
+      "x": 258,
+      "y": 0,
+      "w": 84,
+      "h": 107,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 107
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+    "old": {
+        "res": "chessCommonLib.res_ba558eab.json", 
+        "thm": "chessCommonLib.thm_9cd8e12f.json", 
+        "versions": {
+            "14e68e20": {
+                "res": "chessCommonLib.res_ba558eab.json", 
+                "thm": "chessCommonLib.thm_9cd8e12f.json"
+            }, 
+            "42c5e07f": {
+                "res": "chessCommonLib.res_ba558eab.json", 
+                "thm": "chessCommonLib.thm_9cd8e12f.json"
+            }, 
+            "0": {
+                "res": "chessCommonLib.res_3f69894e.json", 
+                "thm": "chessCommonLib.thm_27f9fc26.json"
+            }
+        }, 
+        "last": {
+            "res": "chessCommonLib.res_3f69894e.json", 
+            "thm": "chessCommonLib.thm_27f9fc26.json"
+        }, 
+        "new": {
+            "last": {
+                "res": "chessCommonLib.res_dfc12b2f.json", 
+                "thm": "chessCommonLib.thm_4da425c3.json", 
+                "gameEui.json": "chessCommonEui_4bd16de8.json"
+            }, 
+            "versions": {
+                "0": {
+                    "res": "chessCommonLib.res_dfc12b2f.json", 
+                    "thm": "chessCommonLib.thm_4da425c3.json", 
+                    "gameEui.json": "chessCommonEui_4bd16de8.json"
+                }
+            }
+        }
+    }, 
+    "versions": {
+        "14e68e20": {
+            "res": "chessCommonLib.res_ba558eab.json", 
+            "thm": "chessCommonLib.thm_9cd8e12f.json"
+        }, 
+        "42c5e07f": {
+            "res": "chessCommonLib.res_ba558eab.json", 
+            "thm": "chessCommonLib.thm_9cd8e12f.json"
+        }, 
+        "0": {
+            "res": "chessCommonLib.res_26102bdd.json", 
+            "thm": "chessCommonLib.thm_3351ee00.json"
+        }
+    }, 
+    "res": "chessCommonLib.res_ba558eab.json", 
+    "thm": "chessCommonLib.thm_9cd8e12f.json", 
+    "new": {
+        "last": {
+            "res": "chessCommonLib.res_26102bdd.json", 
+            "thm": "chessCommonLib.thm_21a39df3.json", 
+            "gameEui.json": "chessCommonEui_58586d01.json"
+        }, 
+        "versions": {
+            "0": {
+                "res": "chessCommonLib.res_26102bdd.json", 
+                "thm": "chessCommonLib.thm_21a39df3.json", 
+                "gameEui.json": "chessCommonEui_58586d01.json"
+            }
+        }
+    }, 
+    "last": {
+        "res": "chessCommonLib.res_26102bdd.json", 
+        "thm": "chessCommonLib.thm_3351ee00.json"
+    }
+}

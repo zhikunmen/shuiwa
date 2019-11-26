@@ -1,0 +1,11 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/gamechat.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/gamechat.thm.json"
+}

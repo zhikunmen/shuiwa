@@ -1,0 +1,195 @@
+{
+  "file": "paobei.png",
+  "frames": {
+    "lb_diamond_png": {
+      "x": 141,
+      "y": 404,
+      "w": 51,
+      "h": 43,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 54,
+      "sourceH": 44
+    },
+    "pao_energy_big": {
+      "x": 472,
+      "y": 0,
+      "w": 35,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 35,
+      "sourceH": 53
+    },
+    "pao_energy_small": {
+      "x": 223,
+      "y": 264,
+      "w": 20,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 20,
+      "sourceH": 30
+    },
+    "paobei_bg": {
+      "x": 251,
+      "y": 0,
+      "w": 117,
+      "h": 450,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 118,
+      "sourceH": 450
+    },
+    "paobei_bottom_bg": {
+      "x": 163,
+      "y": 331,
+      "w": 28,
+      "h": 25,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 28,
+      "sourceH": 25
+    },
+    "paobei_btn_close": {
+      "x": 81,
+      "y": 404,
+      "w": 58,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 58
+    },
+    "paobei_common_bg": {
+      "x": 0,
+      "y": 264,
+      "w": 192,
+      "h": 65,
+      "offX": 7,
+      "offY": 5,
+      "sourceW": 199,
+      "sourceH": 74
+    },
+    "paobei_dialog_bg": {
+      "x": 0,
+      "y": 404,
+      "w": 79,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 79,
+      "sourceH": 65
+    },
+    "paobei_girl": {
+      "x": 0,
+      "y": 0,
+      "w": 249,
+      "h": 262,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 252,
+      "sourceH": 263
+    },
+    "paobei_gun": {
+      "x": 370,
+      "y": 0,
+      "w": 100,
+      "h": 97,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 102,
+      "sourceH": 98
+    },
+    "paobei_in_bg": {
+      "x": 0,
+      "y": 487,
+      "w": 22,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 22
+    },
+    "paobei_item_bg": {
+      "x": 194,
+      "y": 264,
+      "w": 27,
+      "h": 136,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 27,
+      "sourceH": 136
+    },
+    "paobei_item_fu": {
+      "x": 0,
+      "y": 471,
+      "w": 197,
+      "h": 14,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 197,
+      "sourceH": 14
+    },
+    "paobei_out_bg": {
+      "x": 472,
+      "y": 55,
+      "w": 34,
+      "h": 34,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 34
+    },
+    "paobei_progress_bar": {
+      "x": 370,
+      "y": 192,
+      "w": 42,
+      "h": 27,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 46,
+      "sourceH": 31
+    },
+    "paobei_progress_bg": {
+      "x": 424,
+      "y": 137,
+      "w": 46,
+      "h": 31,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 46,
+      "sourceH": 31
+    },
+    "paobei_send": {
+      "x": 370,
+      "y": 137,
+      "w": 52,
+      "h": 53,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 53,
+      "sourceH": 53
+    },
+    "paobei_title": {
+      "x": 370,
+      "y": 99,
+      "w": 135,
+      "h": 36,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 135,
+      "sourceH": 36
+    },
+    "paobei_upgrade": {
+      "x": 0,
+      "y": 331,
+      "w": 161,
+      "h": 71,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 162,
+      "sourceH": 71
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"groups":[{
+			"keys":"gameshare_json,gameshare_bg_jpg",
+			"name":"game_share"
+		}],
+	"resources":[
+		{
+			"name":"gameshare_json",
+			"subkeys":"gameshare_1,gameshare_2,gameshare_3,gameshare_headbg,gameshare_itembg",
+			"type":"sheet",
+			"url":"gameshare/gameshare.json"
+		},
+		{
+			"name":"gameshare_bg_jpg",
+			"type":"image",
+			"url":"gameshare/gameshare_bg.jpg"
+		}
+	]
+}

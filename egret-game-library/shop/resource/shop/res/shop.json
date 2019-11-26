@@ -1,0 +1,215 @@
+{
+  "file": "shop.png",
+  "frames": {
+    "daifu_hydf_png": {
+      "x": 678,
+      "y": 121,
+      "w": 144,
+      "h": 38,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 144,
+      "sourceH": 38
+    },
+    "lb_shangcheng_bg_png": {
+      "x": 247,
+      "y": 0,
+      "w": 72,
+      "h": 580,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 74,
+      "sourceH": 585
+    },
+    "lb_shangcheng_jinbi1_png": {
+      "x": 321,
+      "y": 347,
+      "w": 152,
+      "h": 125,
+      "offX": 29,
+      "offY": 30,
+      "sourceW": 190,
+      "sourceH": 180
+    },
+    "lb_shangcheng_jinbi2_png": {
+      "x": 0,
+      "y": 661,
+      "w": 159,
+      "h": 151,
+      "offX": 17,
+      "offY": 19,
+      "sourceW": 190,
+      "sourceH": 180
+    },
+    "lb_shangcheng_jinbi3_png": {
+      "x": 321,
+      "y": 182,
+      "w": 168,
+      "h": 163,
+      "offX": 7,
+      "offY": 17,
+      "sourceW": 190,
+      "sourceH": 180
+    },
+    "lb_shangcheng_jinbi4_png": {
+      "x": 0,
+      "y": 332,
+      "w": 183,
+      "h": 174,
+      "offX": 6,
+      "offY": 6,
+      "sourceW": 190,
+      "sourceH": 180
+    },
+    "lb_shangcheng_tab1": {
+      "x": 475,
+      "y": 347,
+      "w": 167,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 167,
+      "sourceH": 48
+    },
+    "lb_shangcheng_tab2": {
+      "x": 161,
+      "y": 661,
+      "w": 167,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 167,
+      "sourceH": 48
+    },
+    "lb_shangcheng_tab3": {
+      "x": 163,
+      "y": 582,
+      "w": 167,
+      "h": 48,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 167,
+      "sourceH": 48
+    },
+    "lb_shangcheng_untab1": {
+      "x": 678,
+      "y": 67,
+      "w": 167,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 167,
+      "sourceH": 52
+    },
+    "lb_shangcheng_untab2": {
+      "x": 321,
+      "y": 474,
+      "w": 167,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 167,
+      "sourceH": 52
+    },
+    "lb_shangcheng_untab3": {
+      "x": 0,
+      "y": 814,
+      "w": 167,
+      "h": 52,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 167,
+      "sourceH": 52
+    },
+    "shop_close1_png": {
+      "x": 185,
+      "y": 332,
+      "w": 58,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 58,
+      "sourceH": 58
+    },
+    "shop_icon1_png": {
+      "x": 491,
+      "y": 231,
+      "w": 120,
+      "h": 107,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 125,
+      "sourceH": 110
+    },
+    "shop_icon2_png": {
+      "x": 0,
+      "y": 508,
+      "w": 161,
+      "h": 151,
+      "offX": 6,
+      "offY": 3,
+      "sourceW": 173,
+      "sourceH": 155
+    },
+    "shop_icon3_png": {
+      "x": 501,
+      "y": 0,
+      "w": 175,
+      "h": 161,
+      "offX": 4,
+      "offY": 3,
+      "sourceW": 184,
+      "sourceH": 165
+    },
+    "shop_icon4_png": {
+      "x": 321,
+      "y": 0,
+      "w": 178,
+      "h": 180,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 186,
+      "sourceH": 181
+    },
+    "shop_item_bg_png": {
+      "x": 0,
+      "y": 0,
+      "w": 245,
+      "h": 330,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 250,
+      "sourceH": 334
+    },
+    "shop_light_youxia_png": {
+      "x": 163,
+      "y": 632,
+      "w": 180,
+      "h": 14,
+      "offX": 4,
+      "offY": 1,
+      "sourceW": 189,
+      "sourceH": 16
+    },
+    "shop_light_zuoshang_png": {
+      "x": 678,
+      "y": 0,
+      "w": 212,
+      "h": 65,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 217,
+      "sourceH": 72
+    },
+    "shop_title_png": {
+      "x": 501,
+      "y": 163,
+      "w": 398,
+      "h": 66,
+      "offX": 7,
+      "offY": 5,
+      "sourceW": 411,
+      "sourceH": 74
+    }
+  }
+}

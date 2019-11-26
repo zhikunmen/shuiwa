@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubApplyListSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+    <e:Image source="mjl_common_bg_png" scale9Grid="30,162,12,71" y="36.85" anchorOffsetX="0" width="1244.72"
+             anchorOffsetY="0" height="683.15" horizontalCenter="0" locked="true" />
+    <e:Image source="mjl_common_title_png" y="9.11" horizontalCenter="0.5" locked="true" />
+	<e:Image x="50" y="103.04" scaleX="1" scaleY="1" anchorOffsetX="0" width="1178.12" anchorOffsetY="0" height="498.24" scale9Grid="8,7,13,14" source="mjl_common_bg1_png"/>
+	<e:Label id="_tipsText" text="暂时没有数据哦~" size="65" fontFamily="Microsoft YaHei" y="328" textColor="0xB56B5D" horizontalCenter="0"/>
+    <e:Button id="_closeBtn" label="" x="0" y="3.03">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="mjl_common_closebtn1_png"
+                         source.down="mjl_common_closebtn2_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Image source="club_new_menage_json.club_apply_title" horizontalCenter="0.5" y="22.8" />
+	<e:Scroller height="426" y="169.16" x="69.86" width="1137">
+		<e:List id="messageList" itemRendererSkinName="MatchMessageItemSkin" x="40.91" y="10.61" anchorOffsetX="0" anchorOffsetY="0" useVirtualLayout="false">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+    <eui:WxButton id="_noBtn" label="全部拒绝" verticalCenter="290" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x7c0013"/>
+				</e:Skin>
+			</e:skinName>
+    </eui:WxButton>
+    <eui:WxButton id="_yesBtn" label="全部同意" verticalCenter="290" x="825">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="1" verticalCenter="-1" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x216300"/>
+				</e:Skin>
+			</e:skinName>
+    </eui:WxButton>
+	<eui:WxButton id="_recordBtn" label="审批记录" verticalCenter="290" x="225">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1" source.down="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="1" verticalCenter="-1" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x91481f"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Label text="申请时间" x="128.08" y="122" textColor="0xb56b5d" fontFamily="Microsoft YaHei"/>
+	<e:Label text="用户信息" x="396.45" y="122" textColor="0xB56B5D" fontFamily="Microsoft YaHei"/>
+	<e:Label text="备注信息" x="684.37" y="122" textColor="0xB56B5D" fontFamily="Microsoft YaHei"/>
+	<e:Label text="操作" x="1016.21" y="122" textColor="0xB56B5D" fontFamily="Microsoft YaHei"/>
+</e:Skin>

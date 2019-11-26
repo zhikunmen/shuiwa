@@ -1,0 +1,145 @@
+{
+    "frames": {
+        "\u4e07": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 64, 
+            "sourceW": 64, 
+            "w": 64, 
+            "h": 64, 
+            "y": 0, 
+            "x": 0
+        }, 
+        "-": {
+            "offY": 19, 
+            "offX": 0, 
+            "sourceH": 64, 
+            "sourceW": 53, 
+            "w": 53, 
+            "h": 26, 
+            "y": 125, 
+            "x": 184
+        }, 
+        ".": {
+            "offY": 34, 
+            "offX": 0, 
+            "sourceH": 64, 
+            "sourceW": 21, 
+            "w": 21, 
+            "h": 26, 
+            "y": 66, 
+            "x": 93
+        }, 
+        "1": {
+            "offY": 2, 
+            "offX": 6, 
+            "sourceH": 64, 
+            "sourceW": 46, 
+            "w": 30, 
+            "h": 60, 
+            "y": 63, 
+            "x": 177
+        }, 
+        "0": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 64, 
+            "sourceW": 45, 
+            "w": 45, 
+            "h": 61, 
+            "y": 0, 
+            "x": 130
+        }, 
+        "3": {
+            "offY": 1, 
+            "offX": 2, 
+            "sourceH": 64, 
+            "sourceW": 45, 
+            "w": 43, 
+            "h": 61, 
+            "y": 126, 
+            "x": 139
+        }, 
+        "2": {
+            "offY": 1, 
+            "offX": 1, 
+            "sourceH": 64, 
+            "sourceW": 45, 
+            "w": 42, 
+            "h": 61, 
+            "y": 0, 
+            "x": 177
+        }, 
+        "5": {
+            "offY": 2, 
+            "offX": 0, 
+            "sourceH": 64, 
+            "sourceW": 46, 
+            "w": 45, 
+            "h": 60, 
+            "y": 66, 
+            "x": 0
+        }, 
+        "4": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 64, 
+            "sourceW": 45, 
+            "w": 45, 
+            "h": 61, 
+            "y": 63, 
+            "x": 130
+        }, 
+        "7": {
+            "offY": 2, 
+            "offX": 1, 
+            "sourceH": 64, 
+            "sourceW": 45, 
+            "w": 44, 
+            "h": 60, 
+            "y": 129, 
+            "x": 46
+        }, 
+        "6": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 64, 
+            "sourceW": 45, 
+            "w": 44, 
+            "h": 61, 
+            "y": 126, 
+            "x": 93
+        }, 
+        "9": {
+            "offY": 1, 
+            "offX": 0, 
+            "sourceH": 64, 
+            "sourceW": 45, 
+            "w": 44, 
+            "h": 61, 
+            "y": 66, 
+            "x": 47
+        }, 
+        "8": {
+            "offY": 1, 
+            "offX": 1, 
+            "sourceH": 64, 
+            "sourceW": 46, 
+            "w": 44, 
+            "h": 61, 
+            "y": 128, 
+            "x": 0
+        }, 
+        "\u4ebf": {
+            "offY": 0, 
+            "offX": 1, 
+            "sourceH": 64, 
+            "sourceW": 64, 
+            "w": 62, 
+            "h": 64, 
+            "y": 0, 
+            "x": 66
+        }
+    }, 
+    "file": "ssc_font_loseChip_82f79463.png"
+}

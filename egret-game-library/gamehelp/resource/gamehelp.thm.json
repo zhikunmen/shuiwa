@@ -1,0 +1,7 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/HelpSkin.exml"
+	],
+	"path": "resource/gamehelp.thm.json"
+}

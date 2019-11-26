@@ -1,0 +1,7 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/poker_ScoreRecordPanelSkin.exml"
+	],
+	"path": "resource/pokerreward.thm.json"
+}

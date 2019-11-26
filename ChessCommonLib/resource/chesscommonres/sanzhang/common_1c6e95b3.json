@@ -1,0 +1,15 @@
+{
+    "frames": {
+        "sz_Lobby_help_close": {
+            "offY": 0, 
+            "offX": 0, 
+            "sourceH": 99, 
+            "sourceW": 111, 
+            "w": 111, 
+            "h": 99, 
+            "y": 0, 
+            "x": 0
+        }
+    }, 
+    "file": "common_1c6e95b3.png"
+}

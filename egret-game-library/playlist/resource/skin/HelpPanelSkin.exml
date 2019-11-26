@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="playlist.HelpPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="639">
+	<e:Group x="0" anchorOffsetY="0" anchorOffsetX="0" height="611" width="1049" bottom="0" touchEnabled="false">
+		<e:Image x="294.48" y="91" width="747" height="486" source="mjl_panel_common_json.mjl_common_bg1_png" scale9Grid="11,29,15,10"/>
+		<e:Image x="24.48" y="91" width="256" height="486" source="mjl_panel_common_json.mjl_common_bg1_png" scale9Grid="11,29,15,10"/>
+		<e:Scroller x="16" y="94" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyV="auto" scrollPolicyH="off" height="480" horizontalScrollBar="false" verticalScrollBar="false">
+			<e:List id="_gameList" itemRendererSkinName="playlist.RadioButtonSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+						<e:Object null=""/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group x="361.46" y="39.54">
+			<e:Image id="_menu0" x="81" y="14" source="mjl_help_json.mjl_help_menu1_2_png"/>
+			<e:Image id="_menu1" x="80" y="9" source="mjl_help_json.mjl_help_menu2_2_png"/>
+			<e:Image id="_menu2" x="268" y="1" source="mjl_help_json.mjl_help_menu3_2_png"/>
+			<e:Image id="_menu3" x="381" source="mjl_help_json.mjl_help_menu4_2_png"/>
+			<e:layout>
+				<e:HorizontalLayout gap="-3"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="_scroll" width="710" height="451" x="310" y="143">
+		<e:Group>
+			<e:Label id="_sysMsgTxt" text="" scaleX="1" scaleY="1" multiline="true" textColor="0x73491b" fontFamily="Microsoft YaHei" size="24" lineSpacing="6" width="98%" y="4"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_BetChess" width="197" height="129" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_betChessBg" width="193" height="127" x="0" y="0"/>
+	<e:Group id="_betTxtGroup" width="193" height="127" x="0" y="0" name="_betTxtGroup">
+		<e:Image id="_betTxtBg_png" source="sw_betTxtBg_png" x="0" y="0" width="193" height="127" name="_betTxtBg_png" scaleX="1" scaleY="1"/>
+		<e:Label id="_betTotalTxt" text="1234" name="_betTotalTxt" scaleX="1" scaleY="1" top="3" left="0" right="0" textAlign="center" size="24" fontFamily="Microsoft YaHei"/>
+		<e:Label id="_betPlayerTxt" text="1234" name="_betPlayerTxt" scaleX="1" scaleY="1" left="0" right="0" bottom="3" textAlign="center" size="24" fontFamily="Microsoft YaHei" textColor="0xffe400"/>
+	</e:Group>
+	<e:Image id="_betChessSeleted" source="sw_chess_bet_select_png" x="-3" y="-2"/>
+</e:Skin>

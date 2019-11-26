@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchTableInfoItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="1140" height="160" y="2" x="1" anchorOffsetX="0" scale9Grid="32,71,748,41" source="club_new_menage_json.mjl_record_userbg_png"/>
+
+	<e:Label text="姓名" x="32.5" y="59.83" size="25" fontFamily="Microsoft YaHei" textColor="0x796e65"/>
+	<e:Label text="分数" x="32" y="108.33" size="25" fontFamily="Microsoft YaHei" textColor="0x796e65"/>
+	<e:Label id="_tableNoText" text="卓1" x="38" y="11" size="25" textColor="0x796e65" fontFamily="Microsoft YaHei"/>
+	<e:Label id="_tableIdText" text="桌号" y="11" x="137" textAlign="center" size="25" fontFamily="Microsoft YaHei" textColor="0x796e65"/>
+	<e:Label id="_timeText" text="123456" y="11" right="52" size="25" height="25" fontFamily="Microsoft YaHei" textColor="0x796e65"/>
+	<e:Label id="_tableNum" text="123456" y="11" size="25" height="25" fontFamily="Microsoft YaHei" textColor="0x796E65" x="384" textAlign="center" anchorOffsetX="0" width="180"/>
+
+	<e:Scroller width="878" height="95" x="95.69" y="49.83" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="nameandscore" itemRendererSkinName="MatchFightingNSSkin" y="1.52">
+			<e:layout>
+				<e:HorizontalLayout gap="39"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

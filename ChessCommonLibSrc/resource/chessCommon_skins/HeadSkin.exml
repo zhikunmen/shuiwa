@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.HeadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  minWidth="10" minHeight="10">
+	<e:Image id="avar_img" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="avarFrame_img" horizontalCenter="0" verticalCenter="2" source=""/>
+	<e:Image id="gift_icon" source="head_gift_icon_png" y="-20" x="-20"/>
+	<e:Image id="info_bg" source="info_img_bg_png" verticalCenter="2" visible="false" touchEnabled="false" horizontalCenter="0"/>
+</e:Skin>

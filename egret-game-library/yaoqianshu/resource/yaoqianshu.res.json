@@ -1,0 +1,34 @@
+{
+	"groups":[{
+			"keys":"yaoqianshu_tex_png,yao_level_fnt,yaoqianshu_ske_json,yaoqianshu_tex_json,yaoqian_json",
+			"name":"pub_yaoqianshu"
+		}],
+	"resources":[
+		{
+			"name":"yao_level_fnt",
+			"type":"font",
+			"url":"yaoqianshu/yao_level.fnt"
+		},
+		{
+			"name":"yaoqianshu_ske_json",
+			"type":"json",
+			"url":"yaoqianshu/yaoqianshu_ske.json"
+		},
+		{
+			"name":"yaoqianshu_tex_json",
+			"type":"json",
+			"url":"yaoqianshu/yaoqianshu_tex.json"
+		},
+		{
+			"name":"yaoqianshu_tex_png",
+			"type":"image",
+			"url":"yaoqianshu/yaoqianshu_tex.png"
+		},
+		{
+			"name":"yaoqian_json",
+			"subkeys":"shake_btn1,shake_btn3,shake_receive,shake_update1,yao_bg,yao_bg_1,yao_btn_close,yao_common_bg,yao_dialog_arrow,yao_dialog_bg,yao_jinzhu,yao_progress_bar,yao_progress_bg,yao_recharge,yao_title_qian,yao_yinzhu",
+			"type":"sheet",
+			"url":"yaoqianshu/yaoqian.json"
+		}
+	]
+}

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchManageSkin" width="1250" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="mjl_common_bg1_png" x="34.33" y="137.88"  width="237.33"  height="474" scale9Grid="10,9,18,23"/>
+
+
+	<e:Group  width="789.18" x="354.52" y="84.88"  height="55">
+		<e:RadioButton id="detailsButton" label="" x="16.67" y="0" groupName="matchUp"
+		                >
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+
+				<e:Image source="pph_fangjian1" includeIn="up,down,disabled"    x="0" y="0"/>
+				<e:Image source="pph_fangjian"
+				         includeIn="upAndSelected,downAndSelected,disabledAndSeleced"    x="0" y="0"/>
+
+			</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="memberButton" label="" x="0" y="0" groupName="matchUp">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+
+				<e:Image source="pph_chengyuan1" includeIn="up,down,disabled" />
+				<e:Image source="pph_chengyuan"
+			         includeIn="upAndSelected,downAndSelected,disabledAndSeleced" />
+
+			</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="messageButton" label="" x="354.15" y="10" groupName="matchUp"  >
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+
+				<e:Image source="pph_xiaoxi1" includeIn="up,down,disabled" />
+				<e:Image source="pph_xiaoxi"
+				         includeIn="upAndSelected,downAndSelected,disabledAndSeleced" />
+
+				<e:Image id="redPoint" height="20" source="redDot" right="0" visible="true"  y="-10" width="20"/>
+			</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="fightingButton" label="" x="522.15" y="10" groupName="matchUp">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+
+				<e:Image source="pph_zhankuang1" includeIn="up,down,disabled" />
+				<e:Image source="pph_zhankuang"
+				         includeIn="upAndSelected,downAndSelected,disabledAndSeleced" />
+
+			</e:Skin>
+		</e:RadioButton>
+		<e:RadioButton id="yelloListButton" label="" x="-88.02" y="-13.34" groupName="matchUp">
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+
+				<e:Image source="pph_yelloList1" horizontalCenter="0" verticalCenter="0" includeIn="up,down,disabled" />
+				<e:Image source="pph_yelloList" horizontalCenter="0" verticalCenter="0"
+				         includeIn="upAndSelected,downAndSelected,disabledAndSeleced" />
+
+			</e:Skin>
+		</e:RadioButton>
+
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0" />
+		</e:layout>
+	</e:Group>
+	<e:Scroller width="230" height="454" y="147.26"   x="59">
+		<e:List id="matchList" itemRendererSkinName="MatchRadioButtonSkin" x="0" y="41.33" width="230" >
+			<e:layout>
+				<e:VerticalLayout gap="0" />
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Group id="detailsGroup" x="299" y="138"   visible="false">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1"  width="916"  height="474" source="mjl_common_bg1_png" scale9Grid="14,12,7,9"/>
+		<e:Image width="891.45" height="169.21" x="12.28" y="12.47"  
+		         scale9Grid="8,8,12,16"  source="mjl_common_bg2_png"/>
+		<e:Label id="ownerLabel" text="房主名:" x="40" y="38"  size="26" fontFamily="Microsoft YaHei" textColor="0x73491b"/>
+		<e:Label id="matchIdLabel" text="老友圈:" x="40" y="80.45"  fontFamily="Microsoft YaHei" size="26" textColor="0x73491b"/>
+		<e:Label id="matchName" text="老友圈名:一二三四五六七八九" x="379" y="80.45"  fontFamily="Microsoft YaHei" size="26" textColor="0x73491b"/>
+		<e:Label id="waitMemberLabel" text="当前等待人数：" x="379" y="38"  fontFamily="Microsoft YaHei" size="26" textColor="0x73491b"/>
+		<e:Label id="stepLabel" text="di2轮" y="127" right="29"  size="26" textColor="0x73491b"/>
+		<e:Label id="gameMemberLabel" text="当前游戏人数：" x="38" y="127"  fontFamily="Microsoft YaHei" size="26" textColor="0x73491b"/>
+		<e:Scroller width="877.27" height="166.66" y="201.37"   horizontalCenter="-0.5">
+			<e:List id="matchTableList" itemRendererSkinName="MatchTableItemSkin"  x="0" y="29.33">
+				<e:layout>
+					<e:HorizontalLayout verticalAlign="middle" gap="30" />
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object/>
+						<e:Object/>
+						<e:Object a="null" />
+						<e:Object a="null" />
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<eui:WxButton id="terminationButton" label="暂停开房" x="29.67" y="389" width="198" height="71">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+
+		</eui:WxButton>
+		<eui:WxButton id="dissolutionButton" label="解散老友圈" x="648.67" y="389" width="198" height="71">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+
+		</eui:WxButton>
+		<eui:WxButton id="joinMatchButton" label="加入游戏" x="338.67" y="389" width="198" height="71">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+
+		</eui:WxButton>
+		<e:Label id="delTimeLabel" text="老友圈剩余时间：" y="127" horizontalCenter="129.5"   width="417.33" fontFamily="Microsoft YaHei" size="26" textColor="0x73491b"/>
+
+		<eui:WxButton id="shareButton" label="分享" x="756.15" y="24.27"
+		          touchEnabled="true" width="132" height="52">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+
+
+		</eui:WxButton>
+
+	</e:Group>
+	<e:Group id="messageGroup" width="916" height="474" x="299" y="138"   visible="false">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1"  width="916"
+		          height="474" scale9Grid="8,7,13,14"  source="mjl_common_bg1_png"/>
+		<e:Scroller height="451" y="13" x="22" width="877">
+			<e:List id="messageList" itemRendererSkinName="MatchMessageItemSkin" x="223.52" y="195.34">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object a="null" />
+						<e:Object a="null" />
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="memberGroup" x="299" y="138"   height="474">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1"  width="916"  height="474" scale9Grid="8,7,13,14" source="mjl_common_bg1_png" locked="true"/>
+		<e:Image x="192.02" y="20"  source="matchmemeber2" locked="true"/>
+		<e:Image id="playerId" x="53.02" y="20"  source="matchid" locked="true"/>
+		<e:Image x="717.15" y="20" source="matchmemeber6"/>
+
+
+
+		<e:Scroller id="scoller" height="407.19" y="56.81"   width="895" x="9">
+			<e:List id="memeberList"  itemRendererSkinName="MatchMemberItemSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object a="null" />
+						<e:Object a="null" />
+						<e:Object a="null" />
+						<e:Object a="null" />
+						<e:Object a="null" />
+						<e:Object a="null" />
+						<e:Object a="null" />
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:TileLayout/>
+				</e:layout>
+
+			</e:List>
+		</e:Scroller>
+
+
+
+		<e:Group id="refreshGroup" x="292" y="14.71">
+			<e:Image source="pph_bigwinner_word" x="176.58" y="4"/>
+			<e:Group id="_morewinloseGroup" width="127" height="109.33" x="0" y="31.63" visible="false">
+				<e:Rect id="winloseRect" width="1280" height="720" y="-186" x="-591" alpha="0"/>
+				<e:Image id="_winlosebg" source="pph_winlose_bg" x="0" y="0" scaleX="1" scaleY="1" width="127" height="106" scale9Grid="18,4,109,29"/>
+				<e:Group x="15" y="7">
+				<e:Image id="_todaywin" source="pph_winlose1" x="0" y="66"/>
+				<e:Image id="_yesterdaywin" source="pph_winlose2" x="0" y="0"/>
+				<e:Image id="_qianwin" source="pph_winlose3" x="0" y="33"/>
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Image id="_dayTypeBg" source="pph_winlose_bg" x="0" y="0"/>
+			<e:Image source="pph_winlose_pull" x="127.16" y="0"/>
+			<e:Image id="_dayTypeImg" source="pph_winlose1" x="15" y="5.29" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+
+
+	<e:Group id="yelloListGroup" x="299" y="138"   height="474" visible="false">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1"  width="916"  height="474" scale9Grid="8,7,13,14" source="mjl_common_bg1_png" locked="true"/>
+		<e:Image x="47" y="20"  source="matchmemeber2" width="70" height="35"/>
+		<e:Image x="201.33" y="20"  source="matchid" width="70" height="35"/>
+		<e:Image x="400" y="20"  source="matchmemeber2" width="70" height="35"/>
+		<e:Image x="600" y="20"  width="70" height="35" source="matchid"/>
+		<e:Image x="760" y="20"  source="matchmemeber6" width="70" height="35"/>
+		<e:Scroller height="392" y="75"   width="895" x="9">
+			<e:List id="yelloList"  itemRendererSkinName="MatchYelloItemSkin" x="-1.33" y="119.67">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="fightingGroup" width="916" height="474" x="299" y="138"  
+	         visible="false">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1"  width="916"  height="474" scale9Grid="8,7,13,14" source="mjl_common_bg1_png" locked="true"/>
+		<e:Scroller   height="381.42" y="116" x="9" width="895">
+			<e:List id="fightingList" itemRendererSkinName="MatchFightingItemSkin">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object a="null" />
+						<e:Object a="null" />
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout gap="0" />
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image x="9" y="10"  width="894.03"  height="95.67" scale9Grid="9,9,10,16" source="pph_fright_titilebg_png"/>
+		<e:Label text="开房总数：" x="41.17" y="37.64"   height="42" size="35" textColor="0x5b6e82" fontFamily="Microsoft YaHei"/>
+		<e:Label id="todaynum" text="今日：" x="287.67" y="21"   height="30" size="27" textColor="0x5B6E82" fontFamily="Microsoft YaHei"/>
+		<e:Label id="yesterdaynum" text="昨日：" x="287.67" y="64.64"   height="30" size="27" textColor="0x5B6E82" fontFamily="Microsoft YaHei"/>
+		<e:Label id="sevendaynum" text="七日：" x="579.89" y="22"   height="30" size="27" textColor="0x5B6E82" rotation="359.79" fontFamily="Microsoft YaHei"/>
+		<e:Label id="thirtydaynum" text="30日：" x="578" y="65.02"   height="30" size="27" textColor="0x5B6E82" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Image scale9Grid="20,5,126,30" x="416" y="621" width="381.82" source="mjl_common_inputBg_png" height="64"/>
+	<e:EditableText id="uidEditableText" width="332" height="58.78" x="443.52" y="623.26" maxChars="8" size="25" prompt="输入玩家账号 添加黑白名单" promptColor="0xcc9850" verticalAlign="middle" textColor="0x73491b" text="" fontFamily="Microsoft YaHei" restrict="0-9" inputType="tel"/>
+	<eui:WxButton id="addWhiteButton" label="添加至白名单" x="819.1" y="617" width="191" height="72">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+
+	</eui:WxButton>
+	<eui:WxButton id="addBlackButton" label="添加至黑名单" x="1032.9" y="617" width="189" height="72">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+
+	</eui:WxButton>
+
+	<eui:WxButton id="setting" label="设  置" x="55.43" y="617" width="159" height="72">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+	<eui:WxButton id="refrshBtn" label="刷  新" x="233.12" y="617" width="159" height="71">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+
+</e:Skin>

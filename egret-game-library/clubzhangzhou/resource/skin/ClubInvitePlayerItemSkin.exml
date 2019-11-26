@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubInvitePlayerItemSkin" width="800" height="66" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="club_new_menage_json.club_deskitem_bg" width="800" height="66" scale9Grid="10,10,63,66" locked="true" />
+	<e:Image id="_headImg" source="club_new_menage_json.club_deskseat_head" x="15" width="50" height="50"
+	         verticalCenter="0" />
+	<e:Label id="_nameText" text="对对对" x="76" fontFamily="Microsoft YaHei" textColor="0x9f4949" verticalCenter="0"
+	         anchorOffsetX="0" width="160" size="24" />
+	<e:Label id="_idText" text="ID:32323232" x="267" fontFamily="Microsoft YaHei" textColor="0x9F4949" verticalCenter="0"
+	         anchorOffsetX="0" width="160" size="24" />
+	<e:Label id="_typeText" text="空闲" x="467" fontFamily="Microsoft YaHei" textColor="0x9F4949" verticalCenter="0"
+	         anchorOffsetX="0" width="121" size="24" textAlign="center" />
+	<e:Button id="_inviteBtn" label="Button" horizontalCenter="329" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="132" height="100%" source="mjl_panel_common_json.mjl_btn4" source.down="mjl_panel_common_json.mjl_btn4" source.disabled="mjl_panel_common_json.mjl_btn8"/>
+			<e:Label id="_typeText" horizontalCenter="0" verticalCenter="0" stroke="2" strokeColor="0x135b17" text="邀 请"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

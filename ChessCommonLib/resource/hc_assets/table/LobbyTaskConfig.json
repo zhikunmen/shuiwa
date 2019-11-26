@@ -1,0 +1,16 @@
+[
+{"id":1,"taskTitle":"分享朋友圈","taskDesc":"每日首次分享朋友圈，免费领取%b！","taskType":5,"progressType":0,"gameId":[],"taskCondition":1,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":1000}],"isOnList":1},
+{"id":2,"taskTitle":"开房送金币","taskDesc":"每日开房进行游戏即可领取%b！","taskType":6,"progressType":0,"gameId":[],"taskCondition":1,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":1000}],"isOnList":1},
+{"id":3,"taskTitle":"火拼比大小","taskDesc":"每日在火拼比大小游戏%a局，即可领取%b！","taskType":1,"progressType":1,"gameId":[173],"taskCondition":3,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":1000}],"isOnList":1},
+{"id":4,"taskTitle":"救济金","taskDesc":"个人金币每日首次低于%a，可领取%b！","taskType":7,"progressType":0,"gameId":[],"taskCondition":500,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":2000}],"isOnList":1},
+{"id":5,"taskTitle":"牛牛大玩家","taskDesc":"在百人牛牛中玩%a局","taskType":1,"progressType":1,"gameId":[167],"taskCondition":10,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":2000}],"isOnList":1},
+{"id":6,"taskTitle":"将相争霸","taskDesc":"在将相和中玩%a局","taskType":1,"progressType":1,"gameId":[174],"taskCondition":10,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":2000}],"isOnList":1},
+{"id":7,"taskTitle":"大赢家","taskDesc":"在娱乐场所有游戏中各赢%a局","taskType":3,"progressType":1,"gameId":[167,174,178],"taskCondition":10,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":5000}],"isOnList":1},
+{"id":8,"taskTitle":"每日一充","taskDesc":"单次充值%a元以上","taskType":8,"progressType":1,"gameId":[],"taskCondition":6,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":5000}],"isOnList":1},
+{"id":9,"taskTitle":"大富翁","taskDesc":"每日累积充值达到%a元","taskType":9,"progressType":1,"gameId":[],"taskCondition":30,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":10000}],"isOnList":1},
+{"id":10,"taskTitle":"破产补助","taskDesc":"个人金币每日首次低于%a","taskType":7,"progressType":0,"gameId":[],"taskCondition":1000,"rewardNum":3,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":1000}],"isOnList":1},
+{"id":11,"taskTitle":"娱乐城","taskDesc":"每日在娱乐城游戏%a局，即可领取%b！","taskType":1,"progressType":1,"gameId":[167],"taskCondition":3,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":1000}],"isOnList":1},
+{"id":12,"taskTitle":"分享朋友圈","taskDesc":"每日首次分享朋友圈，免费领取%b！","taskType":5,"progressType":0,"gameId":[],"taskCondition":1,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":5000}],"isOnList":0},
+{"id":38,"taskTitle":"豪车漂移","taskDesc":"在豪车漂移中玩%a局","taskType":1,"progressType":1,"gameId":[178],"taskCondition":10,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":2000}],"isOnList":1,"noReset":0,"sceneidid":0},
+{"id":39,"taskTitle":"海王捕鱼","taskDesc":"在海王捕鱼中捕获%a条鱼","taskType":14,"progressType":1,"gameId":[150],"taskCondition":80,"rewardNum":1,"taskIcon":"","taskReward":[{"goodId":32,"goodNbr":2000}],"isOnList":1,"noReset":0,"sceneidid":0}
+]

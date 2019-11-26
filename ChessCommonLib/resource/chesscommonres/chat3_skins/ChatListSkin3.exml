@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.ChatListSkin3" width="408" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="60" x="0" y="653" anchorOffsetX="0" anchorOffsetY="0">
+
+		<e:Button id="roomType_btn" label="" x="5.5" verticalCenter="0.5" width="82" height="48">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_common_button1_png" source.down="mjl_common_button2_png"/>
+				<e:Image source="3chat_room_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="labaType_btn" label="" x="5" verticalCenter="0.5" width="82" height="48">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_common_button1_png" source.down="mjl_common_button2_png"/>
+				<e:Image source="3chat_laba_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Image anchorOffsetX="0" verticalCenter="0" height="48" left="91"
+		         right="89"  width="225" source="3chat_userlist_bg_png" scale9Grid="14,11,8,12"/>
+		<e:Button id="send_bt" label="" verticalCenter="1" x="322.68" anchorOffsetX="0" width="82" height="48">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_common_button1_png" source.down="mjl_common_button2_png"/>
+				<e:Image source="3chat_send_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:EditableText id="chat_etxt" height="31" text="" y="14" anchorOffsetX="0" left="99" right="99"
+		                fontFamily="Microsoft YaHei" textColor="0xffffff" size="24" verticalAlign="middle" prompt="请输入聊天内容"  promptColor="0x807adc"/>
+		<!--<e:Button id="voice_btn" label="" x="282" y="14" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="chat_voice_normal_png" source.down="chat_voice_selected_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>-->
+	</e:Group>
+	<e:Scroller id="chat_scr" width="386" x="10" y="10" height="630">
+		<e:Group width="100%" height="100%">
+			<e:List id="chat_lst" itemRendererSkinName="chessCommonLib.ChatListItemSkin3" x="0" y="0" width="386">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="justify" verticalAlign="top" gap="10" />
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="chat_select_grp" x="5" y="605">
+		<e:Button id="labaDrop_btn" label="" width="82" height="48">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_common_button1_png" source.down="mjl_common_button2_png"/>
+				<e:Image source="3chat_laba_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Button id="roomDrop_btn" label="" width="82" height="48" x="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_common_button1_png" source.down="mjl_common_button2_png"/>
+				<e:Image source="3chat_room_png" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+	</e:Group>
+</e:Skin>

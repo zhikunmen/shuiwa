@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ListItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+<e:Image id="_head" source="" width="88" height="88" x="14" y="14" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+<e:Image source="rank_head"  x="12" y="12" locked="true"/>
+<e:Image id="_rankImg" x="0" y="0" source="rank_num_4" locked="true"/>
+<e:Label id="_rankTxt" text="4" size="22" textColor="0xffff00" fontFamily="FZY4JW--GB1-0" x="0" y="4" width="29" textAlign="center" locked="true"/>
+</e:Skin>

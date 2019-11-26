@@ -1,0 +1,34 @@
+{
+	"groups":[
+		{
+			"keys":"",
+			"name":"mjl_tables"
+		},
+		{
+			"keys":"",
+			"name":"mjl_preload"
+		},
+		{
+			"keys":"",
+			"name":"mjl_lobby_main"
+		},
+		{
+			"keys":"",
+			"name":"mjl_sound"
+		},
+		{
+			"keys":"mjl_panel_common_json",
+			"name":"mjl_common_panel"
+		},
+		{
+			"keys":"",
+			"name":"mjl_setting"
+		}
+	],
+	"resources":[{
+			"name":"mjl_panel_common_json",
+			"subkeys":"club_tishi_bg_png,mjl_common_bg1_png,mjl_common_bg2_png,mjl_common_bg3_png,mjl_common_bg_png,mjl_common_bgline_png,mjl_common_cancel1_png,mjl_common_cancel2_png,mjl_common_closebtn1_png,mjl_common_closebtn2_png,mjl_common_content_bg_png,mjl_common_inputBg_png,mjl_common_menu1_png,mjl_common_menu2_png,mjl_common_menu3_png,mjl_common_newsure1_png,mjl_common_newsure2_png,mjl_common_sure1_png,mjl_common_sure2_png,mjl_common_tishi_png,mjl_common_title_png,mjl_dataLoading_png",
+			"type":"sheet",
+			"url":"lobbyMain/mjl_panel_common/mjl_panel_common.json"
+		}]
+}

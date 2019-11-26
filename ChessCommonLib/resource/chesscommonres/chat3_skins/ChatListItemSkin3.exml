@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.ChatListItemSkin3" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="386">
+	<e:Image id="avar_img" y="19" anchorOffsetX="0" width="49" anchorOffsetY="0" height="46" source="{data.data.headUrl}" x="20"/>
+	<e:Image id="vip_img" y="-1" anchorOffsetX="0" width="105" anchorOffsetY="0" height="90" x="-9" />
+	
+	<e:Label id="name_txt" text="{data.data.nickName}" x="88" y="9" size="20" fontFamily="Microsoft YaHei" textColor="0xffffff"/>
+
+
+	<e:Label id="time_txt" y="10" size="20" fontFamily="Microsoft YaHei" right="1" text="1231231" textColor="0xffffff"/>
+	<e:Image left="90" bottom="12" top="37" right="2" width="306" anchorOffsetX="0" source="3chat_chat_bg_png" height="30" anchorOffsetY="0" scale9Grid="23,25,11,9"/>
+	<e:Label id="chat_txt" anchorOffsetX="0" anchorOffsetY="0" right="4" left="109" top="43" bottom="22" size="23" fontFamily="Microsoft YaHei" lineSpacing="6" text="{data.data.words}"/>
+</e:Skin>

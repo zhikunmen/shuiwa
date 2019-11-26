@@ -1,0 +1,25 @@
+{
+  "file": "buyu_subscribe.png",
+  "frames": {
+    "buyu_shoucang_guanbi": {
+      "x": 0,
+      "y": 618,
+      "w": 70,
+      "h": 55,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 55
+    },
+    "buyu_shoucang_main": {
+      "x": 0,
+      "y": 0,
+      "w": 841,
+      "h": 616,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 841,
+      "sourceH": 616
+    }
+  }
+}

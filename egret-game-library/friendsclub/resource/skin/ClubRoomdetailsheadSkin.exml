@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubRoomdetailsheadSkin" width="60" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="head" width="50" height="50" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="club_manage_json.club_deskseat_bg"/>
+	<e:Image width="50" height="50" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="3,3,48,48" source="club_manage_json.club_roomdetail_headbg"/>
+</e:Skin>

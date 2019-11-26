@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PrizeItemSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="msg_icon_frame"  locked="true"/>
+	<e:Image id="_type" source="msg_icon_1" x="64" y="64" anchorOffsetX="56" anchorOffsetY="50.5" locked="true"/>
+	<e:Image source="msg_icon_bg" x="46" y="62" locked="true"/>
+	<e:BitmapLabel id="_numTxt" width="128" textAlign="right" font="message_number_fnt" text="x5" y="93" locked="true"/>
+</e:Skin>

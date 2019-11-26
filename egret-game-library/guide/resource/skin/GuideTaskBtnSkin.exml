@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideTaskBtnSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="101" height="59">
+	<e:Image id="bg_img" source="guide_task_json.lb_cz_day_2"/>
+
+
+
+
+
+	<e:Label id="day_lbl" text="已完成" fontFamily="Microsoft YaHei" size="18" textAlign="center" bold="true" y="34" textColor="0xbb6927" horizontalCenter="0"/>
+	<e:Label id="reward_lbl" text="已完成" fontFamily="Microsoft YaHei" size="20" textAlign="center" bold="true" y="6" textColor="0xd3067a" horizontalCenter="0.5"/>
+</e:Skin>

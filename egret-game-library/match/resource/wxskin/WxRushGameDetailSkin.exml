@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxRushGameDetailSkin" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*" xmlns:w="http://ns.egret.com/wing" xmlns:match="match.*" width="1280" height="720">
+	<e:Image id="bg_img" source="cg_js_bg_png"/>
+	<e:Image id="title_img" y="0" source="match_rush_json.cg_js_title_1" x="402"/>
+	<eui:WxButton id="close_btn" label="" x="38" y="38">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_rush_json.fanhui"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="begin_btn" label="x100万" y="515" x="248">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image id="img" source="match_rush_json.cg_js_btn_kscg"/>
+			<e:Image id="type" source="wx_lb_res_json.cg_baoming_BMfuka_png" x="208" verticalCenter="0"/>
+			<e:BitmapLabel id="labelDisplay" font="match_rush_reviveFont_fnt" x="254" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="continue_btn" label="" y="515" x="787">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="match_rush_json.cg_js_btn_jxcg"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Image id="zz0" source="match_rush_json.cg_js_zhuzi_1" x="108" scale9Grid="75,113,7,9" y="325"/>
+	<e:Image id="zz1" source="match_rush_json.cg_js_zhuzi_1" x="288" scale9Grid="75,113,7,9" height="194" y="303"/>
+	<e:Image id="zz2" source="match_rush_json.cg_js_zhuzi_1" scale9Grid="75,113,7,9" height="216" y="281" x="468"/>
+	<e:Image id="zz3" source="match_rush_json.cg_js_zhuzi_1" scale9Grid="75,113,7,9" height="238" y="259" x="648"/>
+	<e:Image id="zz4" source="match_rush_json.cg_js_zhuzi_1" x="828" scale9Grid="75,113,7,9" height="260" y="237"/>
+	<e:Image id="zz5" source="match_rush_json.cg_js_zhuzi_1" x="1008" scale9Grid="75,113,7,9" height="284" y="213"/>
+	<e:Image id="round0" source="match_rush_json.cg_js_jiangbei1" x="136" y="260"/>
+	<e:Image id="round1" source="match_rush_json.cg_js_jiangbei2" x="316" y="239"/>
+	<e:Image id="round2" source="match_rush_json.cg_js_jiangbei3" x="496" y="214"/>
+	<e:Image id="round3" source="match_rush_json.cg_js_jiangbei4" x="677" y="193"/>
+	<e:Image id="round4" source="match_rush_json.cg_js_jiangbei5" x="857" y="170"/>
+	<e:Image id="round5" source="match_rush_json.cg_js_jiangbei6" x="1037.5" y="145"/>
+	<e:Image id="cd2" source="match_rush_json.cg_js_egg" scaleX="1" scaleY="1" x="505.5" y="375" visible="false"/>
+	<e:Image id="cd3" source="match_rush_json.cg_js_egg" scaleX="1" scaleY="1" x="688" y="358" visible="false"/>
+	<e:Image id="cd4" source="match_rush_json.cg_js_egg" scaleX="1" scaleY="1" x="870.5" y="349" visible="false"/>
+	<e:Image id="cd5" source="match_rush_json.cg_js_egg" scaleX="1" scaleY="1" x="1053.5" y="336" visible="false"/>
+	<e:Image id="fk2" source="match_rush_json.cg_js_fuka" y="383" x="533.5" visible="false"/>
+	<e:Image id="fk3" source="match_rush_json.cg_js_fuka" y="365" x="714.5" visible="false"/>
+	<e:Image id="fk4" source="match_rush_json.cg_js_fuka" y="357" x="897" visible="false"/>
+	<e:Image id="fk5" source="match_rush_json.cg_js_fuka" y="344" x="1079.5" visible="false"/>
+	<e:Image id="tg0" source="match_rush_json.cg_js__tongguan" x="142" y="417"/>
+	<e:Image id="tg1" source="match_rush_json.cg_js__tongguan" x="321.5" y="410"/>
+	<e:Image id="tg2" source="match_rush_json.cg_js__tongguan" x="502" y="398.5"/>
+	<e:Image id="tg3" source="match_rush_json.cg_js__tongguan" x="682" y="387"/>
+	<e:Image id="tg4" source="match_rush_json.cg_js__tongguan" x="865" y="379"/>
+	<e:Image id="tg5" source="match_rush_json.cg_js__tongguan" x="1047.5" y="365.5"/>
+	<e:BitmapLabel x="145" y="232" font="match_rush_passFont_fnt" text="第一关"/>
+	<e:BitmapLabel x="325.5" y="211" font="match_rush_passFont_fnt" text="第二关"/>
+	<e:BitmapLabel x="505.5" y="181" font="match_rush_passFont_fnt" text="第三关"/>
+	<e:BitmapLabel x="685.5" y="160" font="match_rush_passFont_fnt" text="第四关"/>
+	<e:BitmapLabel x="865.5" y="137" font="match_rush_passFont_fnt" text="第五关"/>
+	<e:BitmapLabel x="1046.5" y="112" font="match_rush_passFont_fnt" text="第六关"/>
+	<e:BitmapLabel id="reward0" x="108" y="368" text="5钻石\n彩蛋" font="match_rush_rewardFont_fnt" width="165" textAlign="center" verticalAlign="middle" height="50"/>
+	<e:BitmapLabel id="reward1" x="288" y="344.5" text="5钻石\n彩蛋" font="match_rush_rewardFont_fnt" width="165" textAlign="center" verticalAlign="middle" height="50"/>
+	<e:BitmapLabel id="reward2" x="468" y="324" text="5钻石" font="match_rush_rewardFont_fnt" width="165" textAlign="center" verticalAlign="middle" height="50"/>
+	<e:BitmapLabel id="reward3" x="648" y="300" text="5钻石" font="match_rush_rewardFont_fnt" width="165" textAlign="center" verticalAlign="middle" height="50"/>
+	<e:BitmapLabel id="reward4" x="828" y="279" text="1000000钻石" font="match_rush_rewardFont_fnt" width="165" textAlign="center" verticalAlign="middle" height="50"/>
+	<e:BitmapLabel id="reward5" x="1008" y="255" text="5钻石" font="match_rush_rewardFont_fnt" width="165" textAlign="center" verticalAlign="middle" height="50"/>
+	
+	<e:BitmapLabel id="cg0" x="108" y="453" text="23500人闯关成功" font="match_rush_sucFont_fnt" width="165" textAlign="center"/>
+	<e:BitmapLabel id="cg1" x="288" y="453" text="23500人闯关成功" font="match_rush_sucFont_fnt" width="165" textAlign="center"/>
+	<e:BitmapLabel id="cg2" x="468" y="453" text="23500人闯关成功" font="match_rush_sucFont_fnt" width="165" textAlign="center"/>
+	<e:BitmapLabel id="cg3" x="648" y="453" text="23500人闯关成功" font="match_rush_sucFont_fnt" width="165" textAlign="center"/>
+	<e:BitmapLabel id="cg4" x="828" y="453" text="23500人闯关成功" font="match_rush_sucFont_fnt" width="165" textAlign="center"/>
+	<e:BitmapLabel id="cg5" x="1008" y="453" text="23500人闯关成功" font="match_rush_sucFont_fnt" width="165" textAlign="center"/>
+	<e:Label id="fkl2" text="1-5" y="433.5" fontFamily="Microsoft YaHei" size="22" textColor="0xb53e1d" bold="true" x="498" width="100" textAlign="center" visible="false"/>
+	<e:Label id="fkl3" text="1-5" y="419" fontFamily="Microsoft YaHei" size="22" textColor="0xB53E1D" bold="true" x="680" width="100" textAlign="center" visible="false"/>
+	<e:Label id="fkl4" text="1-5" y="411" fontFamily="Microsoft YaHei" size="22" textColor="0xB53E1D" bold="true" x="864" textAlign="center" width="100" visible="false"/>
+	<e:Label id="fkl5" text="1-5" y="397" fontFamily="Microsoft YaHei" size="22" textColor="0xB53E1D" bold="true" x="1047.5" width="100" textAlign="center" visible="false"/>
+	<e:Label id="condition_lbl" text="" y="611" horizontalCenter="0" fontFamily="Microsoft YaHei" textColor="0xffff00"/>
+</e:Skin>

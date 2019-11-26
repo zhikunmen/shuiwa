@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/lobbyaward.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/lobbyaward/lobby/lobby.res.json",
+                "relativePath": "resource/lobbyaward/lobby/"
+            }
+        ]
+    },
+    "theme": "resource/lobbyaward.thm.json"
+}

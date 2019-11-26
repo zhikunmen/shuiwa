@@ -1,0 +1,29 @@
+{
+	"groups":[{
+			"keys":"mjl_help_json,rule_4240_txt,rule_4243_txt,rule_4207_txt",
+			"name":"pub_playlist"
+		}],
+	"resources":[
+		{
+			"name":"mjl_help_json",
+			"subkeys":"mjl_help_ctbg_png,mjl_help_menu1_1_png,mjl_help_menu1_2_png,mjl_help_menu2_1_png,mjl_help_menu2_2_png,mjl_help_menu3_1_png,mjl_help_menu3_2_png,mjl_help_menu4_1_png,mjl_help_menu4_2_png,mjl_help_title_png",
+			"type":"sheet",
+			"url":"playlist/zhangzhou/mjl_help.json"
+		},
+		{
+			"name":"rule_4240_txt",
+			"type":"text",
+			"url":"playlist/laoyou-mahjong/rule_4240.txt"
+		},
+		{
+			"name":"rule_4243_txt",
+			"type":"text",
+			"url":"playlist/laoyou-mahjong/rule_4243.txt"
+		},
+		{
+			"name":"rule_4207_txt",
+			"type":"text",
+			"url":"playlist/laoyou-mahjong/rule_4207.txt"
+		}
+	]
+}

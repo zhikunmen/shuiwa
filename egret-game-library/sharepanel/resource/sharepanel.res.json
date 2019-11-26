@@ -1,0 +1,12 @@
+{
+	"groups":[{
+			"keys":"sharepanel_json",
+			"name":"pub_sharepanel"
+		}],
+	"resources":[{
+			"name":"sharepanel_json",
+			"subkeys":"mjl_share_plat1,mjl_share_plat2,mjl_share_title",
+			"type":"sheet",
+			"url":"sharepanel/res/sharepanel.json"
+		}]
+}

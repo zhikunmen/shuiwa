@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubNoticeSkin" width="700" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image x="0" y="0" anchorOffsetX="0" width="700" anchorOffsetY="0" height="450" source="club_scale9_json.club_bg1" scale9Grid="2,3,2,1"/>
+	<e:Image x="0" y="0" anchorOffsetX="0" width="689" height="69" source="club_scale9_json.club_btnbg6" scale9Grid="2,9,2,61"/>
+	<e:Label text="公  告" y="17" horizontalCenter="0.5" fontFamily="Microsoft YaHei" textColor="0xfffefe" size="38" bold="true"/>
+	<eui:WxButton id="closeBtn" label="" x="619" y="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_manage_closebtn3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="modifyBtn" label="确 定" y="380.33" width="191" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_scale9_json.club_btnbg2" scale9Grid="1,7,6,42"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="28" bold="true" fontFamily="Microsoft YaHei" textColor="0x894215"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Image source="mjl_common_content_bigbg_png" anchorOffsetX="0" width="613.33" anchorOffsetY="0" height="279.33" horizontalCenter="1.5" y="86"/>
+	<e:EditableText id="noticeTxt" width="550" height="212" text="" x="74.67" y="119.66" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" multiline="true" prompt="暂无公告" promptColor="0xf4f4f4" textColor="0xffffff"/>
+	<e:Label id="notice" text="" x="74.67" y="119.66" width="550" height="212"/>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubPlayerListSkin" width="1230" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image y="88.88"  width="1188"  height="516.24" source="mjl_common_bg1_png" scale9Grid="11,8,20,20" horizontalCenter="0"/>
+
+	<eui:WxButton id="breakBtn" label="脱离老友圈" y="612" horizontalCenter="0.5">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Scroller width="1193" height="499.42" y="100"   horizontalCenter="0" scrollPolicyH="off" scrollPolicyV="auto">
+		<e:List id="headList" itemRendererSkinName="ClubPlayerListHeadSkin" useVirtualLayout="false">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="7"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="sw_BetPanel" width="477" height="365" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="164da4a11c6" scale9Grid="15,13,93,79" top="47" left="0" right="0" bottom="0"/>
+	<e:Image source="sw_result_panel_item_bg_png" top="47" right="1" bottom="0" left="-1" scale9Grid="15,13,93,79"/>
+	<e:Image source="sw_bet_panel_title_png" horizontalCenter="0" top="1"/>
+	<e:Image source="sw_chess_1_png" y="71.7" scaleX="0.44" scaleY="0.44" left="30"/>
+	<e:Image y="71.7" scaleX="0.44" scaleY="0.44" left="172" source="sw_chess_2_png" x="10"/>
+	<e:Image y="71.7" scaleX="0.44" scaleY="0.44" left="315" source="sw_chess_3_png" x="10"/>
+	<e:Image y="142.35" scaleX="0.44" scaleY="0.44" left="28" source="sw_chess_4_png"/>
+	<e:Image y="141.07" scaleX="0.44" scaleY="0.44" left="172" x="10" source="sw_chess_5_png"/>
+	<e:Image y="141.07" scaleX="0.44" scaleY="0.44" left="315" x="20" source="sw_chess_6_png"/>
+	<e:Image y="211.64" scaleX="0.44" scaleY="0.44" left="27" source="sw_chess_7_png"/>
+	<e:Image y="211.64" scaleX="0.44" scaleY="0.44" left="172" x="20" source="sw_chess_8_png"/>
+	<e:Image y="213.47" scaleX="0.44" scaleY="0.44" left="315" x="30" source="sw_chess_9_png"/>
+	<e:Image y="283.52" scaleX="0.44" scaleY="0.44" left="27" source="sw_chess_10_png"/>
+	<e:Image y="284.51" scaleX="0.44" scaleY="0.44" left="172" x="30" source="sw_chess_11_png"/>
+	<e:Image y="284.51" scaleX="0.44" scaleY="0.44" left="315" x="40" source="sw_chess_12_png"/>
+	<e:Label id="_point_1" text="+1011" x="83.48" y="83.22" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_4" text="+1011" x="83.54" y="153.35" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_7" text="+1011" x="82.48" y="221.16" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_10" text="+1011" x="83.54" y="293.04" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_2" text="+1011" x="224.66" y="82.23" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_5" text="+1011" x="226.39" y="152.35" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_8" text="+1011" x="226.39" y="221.16" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_11" text="+1011" x="226.39" y="294.04" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_3" text="+1011" x="370.98" y="82.23" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_6" text="+1011" x="372.71" y="153.35" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_9" text="+1011" x="372.71" y="224.16" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+	<e:Label id="_point_12" text="+1011" x="372.71" y="295.04" size="22" fontFamily="Microsoft YaHei" textAlign="left"/>
+</e:Skin>

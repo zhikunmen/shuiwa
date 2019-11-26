@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PaoBeiPanelSkin" width="874" height="544" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Image x="0" y="0" scale9Grid="34,148,46,186" width="100%" height="100%"  source="paobei_json.paobei_bg"/>
+	<e:Image x="239" y="-5"  source="paobei_json.paobei_common_bg"/>
+	<e:Image scaleX="-1" x="636" y="-5"  source="paobei_json.paobei_common_bg"/>
+	<e:Image y="13" horizontalCenter="0" source="paobei_json.paobei_title"/>
+
+	<eui:WxButton id="_closeBtn" label="" y="6" right="10">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="paobei_json.paobei_btn_close"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</eui:skinName>
+
+	</eui:WxButton>
+	<e:Image x="32" y="94" anchorOffsetX="0" width="810" anchorOffsetY="0" height="324" source="paobei_json.paobei_out_bg" scale9Grid="13,11,9,11"/>
+
+	<e:Scroller width="523" height="290" y="114" anchorOffsetX="0" anchorOffsetY="0" x="317">
+		<e:List id="paobei_lst" itemRendererSkinName="PaoBeiItemSkin" anchorOffsetX="0" x="-18" y="0">
+			<e:layout>
+				<e:HorizontalLayout gap="20"/>
+			</e:layout>
+		</e:List>
+
+	</e:Scroller>
+	<e:Image source="paobei_json.paobei_girl" x="36" y="143"/>
+	<e:Image source="paobei_json.paobei_dialog_bg" x="114" y="107" scale9Grid="21,18,9,6" anchorOffsetX="0" width="174"/>
+	<e:Label text="点击升级炮台吧！" x="131" y="120" fontFamily="Microsoft YaHei" size="18" textColor="0x8e2a0c" cacheAsBitmap="true"/>
+	<e:Group width="851" height="93" x="11" y="436" anchorOffsetX="0">
+		<e:Image source="paobei_json.paobei_bottom_bg" x="0" y="0" scale9Grid="9,10,3,3" width="100%" height="100%"/>
+		<eui:WxButton id="_upBtn" label="" y="11" x="333">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="paobei_json.paobei_upgrade"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:WxButton>
+		<e:Image x="44" y="18" source="paobei_json.pao_energy_big"/>
+		<e:ProgressBar id="pao_bar"  x="84" y="31" width="241"  skinName="ProgressSkin2"/>
+		<!--<e:Image source="paobei_json.paobei_progress_bg" x="84" y="31" scale9Grid="18,14,10,3" width="241"/>
+		<e:Image id="pao_bar" source="paobei_json.paobei_progress_bar" x="84" y="30" scale9Grid="16,13,14,4"/>-->
+		<e:Image x="513" y="34" source="paobei_json.pao_energy_small"/>
+		<e:Label text="不足时可用" x="544" y="35" fontFamily="Microsoft YaHei" size="24" textColor="0x8e2a0c" cacheAsBitmap="true"/>
+		<e:Image width="30" height="25" x="677" y="38" source="paobei_json.lb_diamond_png"/>
+		<e:Label text="代替升级！" x="710" y="35" fontFamily="Microsoft YaHei" size="24" textColor="0x8E2A0C" cacheAsBitmap="true"/>
+		<e:Label id="progress_txt" text="20/30" x="204" fontFamily="Microsoft YaHei" size="22" stroke="1" strokeColor="0x333194" verticalCenter="0.5"/>
+	</e:Group>
+	<e:Rect width="2" height="311" x="300" y="100" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xe5bb74" strokeColor="0xe5bb74" cacheAsBitmap="true"/>
+
+</e:Skin>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMemberItemSkin" width="788" height="66" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="club_new_menage_json.club_deskitem_bg" width="788" height="66" scale9Grid="10,10,63,66" locked="true" />
+	<e:Image id="_headImg" source="club_new_menage_json.club_deskitem_head" x="21" width="55" height="55"
+	         verticalCenter="0" />
+	<e:Label id="_nameText" text="发送到发送到" x="93" fontFamily="Microsoft YaHei" size="24" textColor="0x9f4949"
+	         verticalCenter="0" />
+	<e:Label id="_idText" text="ID:888989898" x="335" fontFamily="Microsoft YaHei" size="24" textColor="0x9F4949"
+	         verticalCenter="0" />
+	<e:Button id="_addBtn" label="添加" horizontalCenter="310" verticalCenter="0" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="132" height="100%" source="mjl_panel_common_json.mjl_btn4"
+				         source.down="mjl_panel_common_json.mjl_btn4" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-2" fontFamily="Microsoft YaHei" size="28"
+				         stroke="2" strokeColor="0x135b17" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_searchBtn" label="" horizontalCenter="310" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="132" height="100%" source="mjl_panel_common_json.mjl_btn4"
+				         source.down="mjl_panel_common_json.mjl_btn4" source.disabled="mjl_panel_common_json.mjl_btn8" />
+				<e:Label id="_typeText" horizontalCenter="0" verticalCenter="-2" fontFamily="Microsoft YaHei" size="28" stroke="2"
+				         strokeColor="0x135b17" text="踢 出" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_tishiText" text="已添加" x="669" fontFamily="Microsoft YaHei" size="24" textColor="0x9F4949"
+	         verticalCenter="0"  visible="false"/>
+</e:Skin>

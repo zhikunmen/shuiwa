@@ -1,0 +1,18 @@
+{
+	"groups":[{
+			"keys":"help_bg_png,help_title_png",
+			"name":"game_help"
+		}],
+	"resources":[
+		{
+			"name":"help_bg_png",
+			"type":"image",
+			"url":"gamehelp/help_bg.png"
+		},
+		{
+			"name":"help_title_png",
+			"type":"image",
+			"url":"gamehelp/help_title.png"
+		}
+	]
+}

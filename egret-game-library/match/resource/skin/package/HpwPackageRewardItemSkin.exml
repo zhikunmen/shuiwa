@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwPackageRewardItemSkin" width="669" height="48" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="669" scale9Grid="19,21,4,5" source="HPW-hbjl-ytx_png"/>
+	<e:Label id="order_lbl" text="--" x="20" y="13" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" width="70" textAlign="center"/>
+	<e:Label id="sum_lbl" text="--" x="171" y="13" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" width="70" textAlign="center"/>
+	<e:Label id="time_lbl" text="--" y="13" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" x="279" width="200" textAlign="center"/>
+	<e:Label id="status_lbl" text="--" x="534" y="12" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" width="100" textAlign="center"/>
+	<e:Label id="detail_lbl" text="--" y="12" fontFamily="Microsoft YaHei" size="22" textColor="0x424682" width="100" textAlign="center" horizontalCenter="0" visible="false"/>
+</e:Skin>

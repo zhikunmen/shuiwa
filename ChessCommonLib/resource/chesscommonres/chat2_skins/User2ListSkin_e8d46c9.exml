@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.User2ListSkin" width="400" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="loadingTip">
+			<tween:TweenItem target="{loading_img}">
+				<tween:To duration="3000">
+					<tween:props>
+						<e:Object rotation="{360}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Scroller width="363" height="680" x="19" y="20">
+		<e:Group>
+			<e:List id="noseat_lst" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" right="0" left="0" itemRendererSkinName="chessCommonLib.User2ListItemSkin">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="justify" verticalAlign="top" paddingTop="0"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object id="null" headUrl="null" nickName="null" remainder="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="loading_img" source="chat_loading_png" anchorOffsetX="18" anchorOffsetY="18" x="202" y="361"/>
+</e:Skin>

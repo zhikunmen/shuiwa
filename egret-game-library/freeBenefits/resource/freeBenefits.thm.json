@@ -1,0 +1,11 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/AuthoItemSkin.exml",
+		"resource/skin/AuthoPanelSkin.exml",
+		"resource/skin/DeskCollectionSkin.exml",
+		"resource/skin/FreeBenefitsSkin.exml",
+		"resource/skin/PublicAddressSkin.exml"
+	],
+	"path": "resource/freeBenefits.thm.json"
+}

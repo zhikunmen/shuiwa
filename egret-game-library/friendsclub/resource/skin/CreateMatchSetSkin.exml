@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreateMatchSetSkin" width="920" height="580" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image x="0" y="0"  width="917"  height="575" source="mjl_sec_commonBg_png" scale9Grid="34,128,25,32" locked="true"/>
+	<e:Label text="亲友圈名称：" x="203.5" y="58.33" fontFamily="Microsoft YaHei" size="32" textColor="0xffffff"/>
+	<e:Label text="副房主账号：" x="203.5" y="231.34" fontFamily="Microsoft YaHei" size="32" textColor="0xffffff"/>
+	<e:Label text="玩法：" x="177" y="320" fontFamily="Microsoft YaHei" size="32" textColor="0xffffff"/>
+	<e:Label id="_permissionLabel" text="房主授权进入" x="415" y="396" fontFamily="Microsoft YaHei" size="28" textColor="0xffffff"/>
+	<e:Label id="_gameNameLabel" text="漳州麻将" y="320" fontFamily="Microsoft YaHei" size="32" horizontalCenter="1" textColor="0xff5401"/>
+	<e:Label text="(副房主拥有房主同样的权利，可以帮助房主管理亲友圈)" y="279.34" fontFamily="Microsoft YaHei" size="18" textColor="0xc36739" horizontalCenter="-1.5"/>
+	<e:Image x="414.5" y="46.33"  width="290" source="club_manage_json.club_samlltitle" anchorOffsetX="0" anchorOffsetY="0" height="62"/>
+	<e:Image x="414.5" y="217.34"  width="290" source="club_manage_json.club_samlltitle" anchorOffsetX="0" anchorOffsetY="0" height="62"/>
+	<e:EditableText id="_clubNameInput"  text="" x="439.5" y="59.33" prompt="输入亲友圈名称" promptColor="0x686cb4"  width="237" size="32" fontFamily="Microsoft YaHei" height="32" textAlign="center" textColor="0xffffff"/>
+	<e:Label text="   亲友圈号：" x="203.5" y="143" fontFamily="Microsoft YaHei" size="32" textColor="0xFFFFFF" anchorOffsetX="0" width="198.67" anchorOffsetY="0" height="45.33"/>
+	<e:Image id="_matchid" x="414.5" y="131" width="290" source="club_manage_json.club_samlltitle" anchorOffsetX="0" anchorOffsetY="0" height="62"/>
+	<e:EditableText id="_clubNameInput0" text="" x="439.5" y="144" prompt="输入6位数字" promptColor="0x686cb4" width="237" size="32" fontFamily="Microsoft YaHei" height="32" textAlign="center" maxChars="6" restrict="0-9" textColor="0xffffff"/>
+	<e:EditableText id="_userIdInput" text="" x="439.5" y="231.34" prompt="输入玩家账号" promptColor="0x686cb4"  width="237" size="32" fontFamily="Microsoft YaHei" height="32" textAlign="center" maxChars="9" restrict="0-9" textColor="0xffffff"/>
+
+
+
+
+
+
+	<e:RadioButton id="_permissionCheck" label="" x="365" y="394">
+		<e:skinName>
+			<e:Skin states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSeleced">
+			<e:Image width="100%" height="100%" source="club_manage_json.club_create_checkbg"/>
+	<e:Image source="club_manage_json.club_create_check" includeIn="upAndSelected,downAndSelected,disabledAndSeleced"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+</e:Skin>

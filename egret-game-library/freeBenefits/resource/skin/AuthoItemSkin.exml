@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AuthoItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="174" height="208">
+	<e:Image source="lb_autho_panel_json.lb_shc_jpd"/>
+	<e:Image id="icon_img" verticalCenter="-22" horizontalCenter="0" source="lb_autho_panel_json.mjl_match_fuka"/>
+	<e:Image id="add_img" source="lb_autho_panel_json.lb_shc_jia" x="178" y="69"/>
+	<e:Label id="desc_lbl" text="" y="180" fontFamily="Microsoft YaHei" size="28" textColor="0xa32e00" horizontalCenter="0"/>
+</e:Skin>

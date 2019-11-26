@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HpwBindPhoneSkin" xmlns:e="http://ns.egret.com/eui" xmlns:match="match.*" xmlns:w="http://ns.egret.com/wing" height="384" width="730">
+	<e:Image source="HPW-hbjl-qd-jgg_png" scale9Grid="93,80,9,10" width="100%" height="100%"/>
+	<e:Image source="HPW-hbjl-dbj_png" width="721" horizontalCenter="0.5" y="8"/>
+	<e:Label text="手机绑定" y="23" fontFamily="Microsoft YaHei" size="32" horizontalCenter="0" bold="true"/>
+	<match:BaseButton id="close_btn" label="" x="616" y="6.5">
+		<match:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HPW-hbjl-gb_png" source.down="HPW-hbjl-gb-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="commit_btn" label="" y="284.5" horizontalCenter="0">
+		<match:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HPW-hbjl-qd-ts_png" source.down="HPW-hbjl-qd-ts-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<match:BaseButton id="send_btn" label="发送" y="186" x="416">
+		<match:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="HPW-hbjl-qd-fs_png" source.down="HPW-hbjl-qd-fs-ax_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="26"/>
+			</e:Skin>
+		</match:skinName>
+	</match:BaseButton>
+	<e:Label text="手机号" x="171" y="135" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label text="验证码" x="176" y="196" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Image source="HPW-hbjl-qd-yzm_png" x="254" y="187.5"/>
+	<e:Image source="HPW-hbjl-qd-yzm_png" x="254" y="126.5" scale9Grid="70,12,10,12" anchorOffsetX="0" width="302"/>
+	<e:EditableText id="phone_etxt" text="" x="259" y="126.5" prompt="请输入手机号" promptColor="0xb1c2e9" size="22" fontFamily="Microsoft YaHei" height="41" anchorOffsetX="0" width="297" maxChars="11" restrict="0-9" verticalAlign="middle" textColor="0x999999"/>
+	<e:EditableText id="code_etxt" text="" x="259" y="189" prompt="请输入验证码" promptColor="0xB1C2E9" size="22" fontFamily="Microsoft YaHei" height="41" verticalAlign="middle" anchorOffsetX="0" width="146" restrict="0-9" maxChars="6" textColor="0x999999"/>
+</e:Skin>

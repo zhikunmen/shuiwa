@@ -1,0 +1,19 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/turntable/lobby/lobby.res.json",
+                "relativePath": "resource/turntable/lobby/"
+            },
+            {
+                "configPath": "resource/turntable.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/turntable/knapsack/knapsack.res.json",
+                "relativePath": "resource/turntable/knapsack/"
+            }
+        ]
+    },
+    "theme": "resource/turntable.thm.json"
+}

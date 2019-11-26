@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubDeskSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:eui="eui.*" xmlns:clubnew="clubnew.*">
+	<e:Group id="bg" x="0" y="0">
+		<e:Image fillMode="scale" anchorOffsetX="0" cacheAsBitmap="false" includeInLayout="true" x="-98" source="club_desk_upbg_png" scaleX="1" scaleY="1" top="0" bottom="0"/>
+		<e:Image fillMode="scale" anchorOffsetX="0" cacheAsBitmap="false" includeInLayout="true" x="2027.18" source="club_desk_upbg_png" scaleX="-1" scaleY="1" top="0" bottom="0"/>
+	</e:Group>
+	<e:Image id="_bg1" source="club_desk_bg_png" fillMode="scale" anchorOffsetX="0" cacheAsBitmap="false" includeInLayout="true" height="720" y="2" x="0"/>
+	<e:Image id="_bg2" source="club_desk_bg_png" fillMode="scale" anchorOffsetX="0" cacheAsBitmap="false" includeInLayout="true" height="720" y="2" scaleX="-1" right="0" width="641"/>
+	<e:Image left="0" top="-2" width="481" height="107" source="club_scale9_json.club_bigtitle" scale9Grid="128,13,2,81"/>
+	<e:Image x="112.67" y="57" width="205" source="club_scale9_json.club_bluebg" scale9Grid="17,4,4,26"/>
+	<e:Image source="club_json.club_bottonBg1" bottom="0" scale9Grid="3,11,6,66" right="0" left="0"/>
+	<e:Image width="493" height="89" source="club_scale9_json.clubbox_deskbg" scale9Grid="14,10,22,67" y="629"/>
+	<e:Image source="club_scale9_json.club_line2" x="708" y="655" height="53"/>
+	<e:Image source="club_scale9_json.club_line2" x="859" y="655" height="53"/>
+
+
+	<e:Label id="title" text="老友圈名称" anchorOffsetX="0" anchorOffsetY="0" height="35.67" size="32" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xbcc0ff" top="12" left="137"/>
+
+
+	<e:Label id="play" text="玩法" size="18" anchorOffsetX="0" anchorOffsetY="0" height="19.67" textAlign="left" fontFamily="Microsoft YaHei" textColor="0xbcc0ff" left="129" top="66" width="160" multiline="false"/>
+	<eui:WxButton id="closeBtn" label="" left="10" top="14">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_close1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+
+
+
+
+	<e:Group width="244.36" height="98.49" y="14.58" anchorOffsetX="0" anchorOffsetY="0" right="201">
+		<eui:WxButton id="noticeBtn" label="" x="0" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.club_notice1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="queryFightingBtn" label="" x="77.98" y="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.club_queryfighting1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="shareBtn" label="" x="155.3" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.club_share1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+	</e:Group>
+
+	<eui:WxButton id="fastEnterBtn" label="" right="0" bottom="6">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_createroom1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</eui:WxButton>
+	<e:Group anchorOffsetX="0" x="552" y="665">
+		<eui:WxButton id="boxManageBtn" label="" x="3.5" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.club_manage1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="createBtn" label="" x="162" y="0" anchorOffsetY="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.club_deskcreate1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="swtichBtn" label="" x="324" y="0" anchorOffsetY="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.club_switch1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller id="_scroll" anchorOffsetX="0" anchorOffsetY="0" left="0" right="1" verticalCenter="16.5" height="487">
+		<e:List id="deskList" itemRendererSkinName="ClubItemDeskSkin" x="1.21" y="-0.45" touchEnabled="true" anchorOffsetY="0" height="485" useVirtualLayout="true">
+			<e:layout>
+				<e:TileLayout orientation="columns" requestedRowCount="2" rowAlign="justifyUsingHeight" columnAlign="justifyUsingWidth" paddingLeft="140"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+					<e:Object d="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+
+		</e:List>
+	</e:Scroller>
+
+
+
+	<e:Image id="redPoint" anchorOffsetX="0" width="24" anchorOffsetY="0" height="26.67" right="574" bottom="42" source="club_json.club_redDot" visible="false"/>
+	<e:Group left="0" verticalCenter="17.5">
+		<e:Rect width="134.64" height="489" x="0" y="0" alpha="0" anchorOffsetX="0"/>
+		<e:Image x="49.5" y="128" width="73" height="216" source="club_scale9_json.clubbox_arrowbg" scale9Grid="7,46,48,15"/>
+		<eui:WxButton id="floorUpBtn" label="" x="55" y="135">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.clubbox_arrow_up1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<eui:WxButton id="floorDownBtn" label="" x="55" y="273.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.clubbox_arrow_down1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<e:Label id="floorNumTxt" text="1楼" x="74" y="212" fontFamily="Microsoft YaHei" width="24" textAlign="center" size="24"/>
+	</e:Group>
+
+
+
+
+	<e:Group left="291" top="58">
+		<e:Image id="memberListBtn" width="117" x="0" y="0" source="club_scale9_json.club_yellowbg" scale9Grid="19,4,3,24"/>
+		<e:Label id="zaixian" text="在线" x="15.68" y="5.75" textColor="0x2b3565" size="20" fontFamily="Microsoft YaHei" bold="true"/>
+		<e:Label id="personNum" text="1" x="53.68" y="5.74" size="20" fontFamily="Microsoft YaHei" bold="true" textColor="0xffffff" textAlign="center" width="60"/>
+	</e:Group>
+	<e:Group left="13" bottom="14">
+		<eui:WxButton id="switchFloorBtn" label="" x="320.04" y="30.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.clubbox_switchplay1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</eui:WxButton>
+		<e:Image id="gameIconImg" x="0" y="0" anchorOffsetX="0" width="72.89" anchorOffsetY="0" height="74" source=""/>
+		<e:Image source="club_scale9_json.club_line2" x="311" y="15" height="53"/>
+		<e:Label id="gameplay" text="老友圈玩法" x="84.89" y="17" anchorOffsetX="0" anchorOffsetY="0" size="24" fontFamily="Microsoft YaHei" textAlign="left" textColor="0xbcc0ff"/>
+		<e:Label id="gameTypeTxt" text="斗地主" x="84.89" y="48.5" fontFamily="Microsoft YaHei" size="20" textColor="0xfeffbc"/>
+		<e:Image id="detailsBtn" x="218.54" y="10" width="79" source="club_scale9_json.club_bluebg" scale9Grid="17,4,3,26"/>
+		<e:Label id="detailsBtn0" text="详情" x="238.04" y="17.16" size="20" fontFamily="Microsoft YaHei" textColor="0xbcc0ff"/>
+	</e:Group>
+	<e:Image right="27" verticalCenter="22" source="mjl_club_rightarrow"/>
+	<clubnew:ClubMsgMcPanel id="_clubMsgMcPanel" x="500.34" y="37.02" skinName="ClubMsgMcSkin"/>
+
+
+
+
+</e:Skin>

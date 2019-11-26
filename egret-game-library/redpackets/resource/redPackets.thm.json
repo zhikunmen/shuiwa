@@ -1,0 +1,7 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/redpacketsSkin.exml"
+	],
+	"path": "resource/redpackets.thm.json"
+}

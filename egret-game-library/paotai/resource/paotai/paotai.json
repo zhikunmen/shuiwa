@@ -1,0 +1,65 @@
+{
+  "file": "paotai.png",
+  "frames": {
+    "hw_bullet_3": {
+      "x": 398,
+      "y": 0,
+      "w": 85,
+      "h": 110,
+      "offX": 16,
+      "offY": 1,
+      "sourceW": 120,
+      "sourceH": 120
+    },
+    "pao_tai_1": {
+      "x": 0,
+      "y": 137,
+      "w": 153,
+      "h": 128,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 153,
+      "sourceH": 128
+    },
+    "pao_tai_2": {
+      "x": 0,
+      "y": 0,
+      "w": 194,
+      "h": 135,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 196,
+      "sourceH": 135
+    },
+    "pao_tai_3": {
+      "x": 196,
+      "y": 120,
+      "w": 178,
+      "h": 131,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 178,
+      "sourceH": 131
+    },
+    "pao_tai_4": {
+      "x": 196,
+      "y": 0,
+      "w": 200,
+      "h": 118,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 200,
+      "sourceH": 118
+    },
+    "pao_tai_5": {
+      "x": 0,
+      "y": 267,
+      "w": 143,
+      "h": 134,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 143,
+      "sourceH": 134
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{"file":"chaguan_gps_panel.png","frames":{
+"chaguan_gps_distance_bg_red_png":{"x":832,"y":201,"w":103,"h":26,"offX":0,"offY":0,"sourceW":103,"sourceH":26},
+"chaguan_gps_head_bg_png":{"x":876,"y":90,"w":77,"h":77,"offX":0,"offY":0,"sourceW":77,"sourceH":77},
+"chaguan_gps_head_frame_png":{"x":876,"y":0,"w":86,"h":86,"offX":0,"offY":0,"sourceW":86,"sourceH":86},
+"chaguan_gps_line2_png":{"x":0,"y":570,"w":588,"h":4,"offX":0,"offY":0,"sourceW":588,"sourceH":4},
+"chaguan_gps_line3_png":{"x":0,"y":0,"w":639,"h":261,"offX":0,"offY":0,"sourceW":639,"sourceH":261},
+"chaguan_gps_line4_png":{"x":0,"y":265,"w":680,"h":216,"offX":0,"offY":0,"sourceW":680,"sourceH":216},
+"chaguan_gps_title_png":{"x":643,"y":172,"w":185,"h":48,"offX":0,"offY":0,"sourceW":185,"sourceH":48},
+"chaguan_gps_txt_bg_green_png":{"x":438,"y":485,"w":430,"h":81,"offX":0,"offY":0,"sourceW":430,"sourceH":81},
+"chaguan_gps_txt_bg_red_png":{"x":0,"y":485,"w":434,"h":81,"offX":0,"offY":0,"sourceW":434,"sourceH":81},
+"chaguan_gps_btn_continue_down_png":{"x":643,"y":86,"w":229,"h":82,"offX":0,"offY":0,"sourceW":229,"sourceH":82},
+"chaguan_gps_btn_leave_down_png":{"x":643,"y":0,"w":229,"h":82,"offX":0,"offY":0,"sourceW":229,"sourceH":82},
+"chaguan_gps_distance_bg_green_png":{"x":876,"y":171,"w":103,"h":26,"offX":0,"offY":0,"sourceW":103,"sourceH":26}}}

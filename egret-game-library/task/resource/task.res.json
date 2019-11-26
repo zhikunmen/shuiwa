@@ -1,0 +1,29 @@
+{
+	"groups":[{
+			"keys":"game_task_json,rwdb_tex_png,rwdb_ske_json,rwdb_tex_json",
+			"name":"pub_game_task"
+		}],
+	"resources":[
+		{
+			"name":"game_task_json",
+			"subkeys":"renwu_bg,renwu_jinbi,renwu_line,renwu_zuanshi",
+			"type":"sheet",
+			"url":"task/game_task.json"
+		},
+		{
+			"name":"rwdb_tex_png",
+			"type":"image",
+			"url":"task/rwdb_tex.png"
+		},
+		{
+			"name":"rwdb_ske_json",
+			"type":"json",
+			"url":"task/rwdb_ske.json"
+		},
+		{
+			"name":"rwdb_tex_json",
+			"type":"json",
+			"url":"task/rwdb_tex.json"
+		}
+	]
+}

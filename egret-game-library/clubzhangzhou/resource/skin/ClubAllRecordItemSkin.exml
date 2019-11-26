@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubAllRecordItemSkin" width="1135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image width="1135" source="club_new_menage_json.mjl_club_txt" scale9Grid="108,46,25,2"/>
+	<e:Label id="_indextText" text="1" x="21.45" size="40" fontFamily="Arial" textColor="0x8b5500" verticalCenter="0"/>
+	<e:Label id="_timeText" text="2012-22-22\n12:12:12" size="18" fontFamily="Microsoft YaHei" textColor="0x796e65" x="104.94" verticalCenter="0"/>
+	<e:Label id="_roomIdText" text="32323232" x="233" size="24" textColor="0x773210" verticalCenter="0" width="135" textAlign="center" height="24"/>
+	<e:Label id="_nameText" text="大大大大的" x="448.57" y="18.33" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" width="130" height="24"/>
+	<e:Label id="_uidText" text="ID:55555555" x="448.32" y="53.84" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" width="150" height="24"/>
+	<e:Label id="_recordText" text="2222" x="643.64" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" verticalCenter="0" width="73" height="24" textAlign="center"/>
+	<e:Label id="_gameNameText" text="上游趴地了" x="753.27" size="24" textColor="0x773210" fontFamily="Microsoft YaHei" verticalCenter="0" width="130" textAlign="center" height="24"/>
+	<e:Label id="_gameNumText" text="8" x="921.24" size="24" textColor="0x773210" verticalCenter="0" fontFamily="Microsoft YaHei" width="43" textAlign="center"/>
+	<eui:WxButton id="_detailBtn" label="详 情" horizontalCenter="488.5" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="132" height="52" source="mjl_panel_common_json.mjl_btn4" scale9Grid="27,24,100,5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x135b17"/>
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+	<e:Image id="_headImg" source="club_new_menage_json.club_deskitem_head" x="369.29" width="73" height="73" verticalCenter="-0.5"/>
+</e:Skin>

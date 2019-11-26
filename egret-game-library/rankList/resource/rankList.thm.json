@@ -1,0 +1,12 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/ListItemSkin.exml",
+		"resource/skin/ListVCSkin.exml",
+		"resource/skin/RankItemSkin.exml",
+		"resource/skin/RankVCSkin.exml",
+		"resource/skin/WxBuyuSubscribeSkin.exml",
+		"resource/skin/WxSubscribeSkin.exml"
+	],
+	"path": "resource/rankList.thm.json"
+}

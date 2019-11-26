@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="poker_ScoreRecordPanel" width="518" height="560" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="pdk_record_bg" scale9Grid="20,18,20,16" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" right="6" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Image id="_arrowR" source="pdk_record_arrow" y="50" right="0" x="507" scaleX="1" scaleY="1" anchorOffsetY="11"/>
+	<e:Image source="pdk_socre_txt" x="28" y="34.5" scaleX="1" scaleY="1"/>
+	<e:Image id="_profile0" x="135" y="23" scale9Grid="1,1,10,10" width="60" height="60" source="" scaleX="1" scaleY="1"/>
+	<e:Image source="pdk_record_bg_profile" x="135" y="23" scale9Grid="1,1,10,10" width="60" height="60" scaleX="1" scaleY="1"/>
+	<e:Image id="_profile1" x="266" y="23" scale9Grid="1,1,10,10" width="60" height="60" source="" scaleX="1" scaleY="1"/>
+	<e:Image source="pdk_record_bg_profile" x="266" y="23" scale9Grid="1,1,10,10" width="60" height="60" scaleX="1" scaleY="1"/>
+	<e:Image id="_profile2" x="394" y="23" scale9Grid="1,1,10,10" width="60" height="60" source="" scaleX="1" scaleY="1"/>
+	<e:Image source="pdk_record_bg_profile" x="394" y="23" scale9Grid="1,1,10,10" width="60" height="60" scaleX="1" scaleY="1"/>
+	<e:Image source="pdk_record_bg_tableHead" scale9Grid="1,5,9,42" right="20" left="14" top="96" x="14" y="96" scaleX="1" scaleY="1"/>
+	<e:Label text="总分" x="33" y="108" size="28" scaleX="1" scaleY="1" textColor="0x7a523f" fontFamily="Microsoft YaHei" bold="true"/>
+	<e:Label text="0" y="109" size="28" id="_totalScore0" horizontalCenter="-96" textColor="0xb30000"/>
+	<e:Label id="_totalScore1" text="0" y="109" size="28" horizontalCenter="36" textColor="0xb30000"/>
+	<e:Label text="0" y="109" size="28" id="_totalScore2" horizontalCenter="162" textColor="0xb30000"/>
+	<e:Scroller width="484" x="14" anchorOffsetX="0" anchorOffsetY="0" top="149" bottom="23">
+		<e:Group id="_detailScroller" anchorOffsetX="0" width="484" anchorOffsetY="0" height="397">
+			<e:Label id="_lblNoData" text="战绩空空如也" textColor="0xce8a42" horizontalCenter="0" verticalCenter="0"/>
+			
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

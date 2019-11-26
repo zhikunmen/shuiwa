@@ -1,0 +1,20 @@
+{
+	"groups":[{
+			"keys":"zhangzhou_userinfo_json,pingbi_gift_json",
+			"name":"game_userinfo"
+		}],
+	"resources":[
+		{
+			"name":"zhangzhou_userinfo_json",
+			"subkeys":"userinfo_bean,userinfo_bg1,userinfo_bg3,userinfo_diamond,userinfo_famale,userinfo_gift1,userinfo_gift2,userinfo_gift3,userinfo_gift4,userinfo_gift5,userinfo_gift6,userinfo_gps,userinfo_head,userinfo_male,userinfo_title",
+			"type":"sheet",
+			"url":"gameuserinfo/zhangzhou_userinfo.json"
+		},
+		{
+			"name":"pingbi_gift_json",
+			"subkeys":"cancel_pingbi1,cancel_pingbi2,pinbi_gift1,pinbi_gift2",
+			"type":"sheet",
+			"url":"gameuserinfo/pingbi_gift.json"
+		}
+	]
+}

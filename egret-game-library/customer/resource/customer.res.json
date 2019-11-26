@@ -1,0 +1,18 @@
+{
+	"groups":[{
+			"keys":"mjl_customer_point_png,mjl_customer_bg_png",
+			"name":"pub_customer"
+		}],
+	"resources":[
+		{
+			"name":"mjl_customer_point_png",
+			"type":"image",
+			"url":"customer/res/mjl_customer_point.png"
+		},
+		{
+			"name":"mjl_customer_bg_png",
+			"type":"image",
+			"url":"customer/res/mjl_customer_bg.png"
+		}
+	]
+}

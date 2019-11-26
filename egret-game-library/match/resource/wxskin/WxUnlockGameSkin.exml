@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxUnlockGameSkin" width="646" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*"
+        xmlns:w="http://ns.egret.com/wing" height="510">
+	<e:Image source="mjl_panel_common_json.mjl_common_bg_png" scale9Grid="18,190,10,13" width="100%" height="100%" />
+	<e:Image y="0" source="bs_unlock_title_png" horizontalCenter="0" />
+	<e:Image y="14" source="bs_unlock_jiesuo_png" horizontalCenter="0.5" />
+	<eui:WxButton id="unlock_btn" label="x20" y="405" horizontalCenter="0">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bs_unlock_quick_png" />
+				<e:Label id="labelDisplay" fontFamily="Microsoft YaHei" bold="true" size="24" x="208" y="26" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="share_btn" label="" y="318" horizontalCenter="0">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bs_unlock_friends_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<eui:WxButton id="close_btn" label="" x="577" y="10">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:Group id="head_grp" y="173" horizontalCenter="0">
+		<e:Image source="bs_unlock_jia_png" x="42" y="58" scaleX="1" scaleY="1" width="100" height="100" />
+		<e:Image source="bs_unlock_jia_png" x="52" y="68" scaleX="1" scaleY="1" width="100" height="100" />
+		<e:Image source="bs_unlock_jia_png" x="62" y="78" scaleX="1" scaleY="1" width="100" height="100" />
+		<e:Image source="bs_unlock_jia_png" x="72" y="88" scaleX="1" scaleY="1" width="100" height="100" />
+		<e:Image source="bs_unlock_jia_png" x="82" y="98" scaleX="1" scaleY="1" width="100" height="100" />
+		<e:layout>
+			<e:HorizontalLayout gap="12" />
+		</e:layout>
+	</e:Group>
+	<e:Label id="tips_lbl" text="成功邀请好友登录游戏即可解锁" y="101" horizontalCenter="0" fontFamily="Microsoft YaHei" size="35" textColor="0xa46359"/>
+</e:Skin>

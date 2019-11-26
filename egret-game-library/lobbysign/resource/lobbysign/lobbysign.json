@@ -1,0 +1,8 @@
+{"file":"lobbysign.png","frames":{
+"mjl_sign_bg2":{"x":135,"y":37,"w":50,"h":55,"offX":0,"offY":0,"sourceW":50,"sourceH":55},
+"mjl_sign_bg3":{"x":74,"y":0,"w":57,"h":54,"offX":0,"offY":0,"sourceW":57,"sourceH":54},
+"mjl_sign_EXP":{"x":0,"y":70,"w":33,"h":21,"offX":2,"offY":2,"sourceW":35,"sourceH":25},
+"mjl_sign_EXP_bg":{"x":74,"y":58,"w":28,"h":25,"offX":0,"offY":0,"sourceW":28,"sourceH":25},
+"mjl_sign_ok":{"x":0,"y":0,"w":70,"h":66,"offX":1,"offY":0,"sourceW":71,"sourceH":66},
+"mjl_sign_received_btn":{"x":135,"y":0,"w":85,"h":33,"offX":0,"offY":0,"sourceW":85,"sourceH":33},
+"mjl_sign_bg1":{"x":37,"y":70,"w":20,"h":26,"offX":0,"offY":0,"sourceW":20,"sourceH":26}}}

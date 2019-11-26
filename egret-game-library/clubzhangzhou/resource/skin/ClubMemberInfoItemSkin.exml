@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubMemberInfoItemSkin" width="867" height="80" xmlns:e="http://ns.egret.com/eui"  xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image source="club_new_menage_json.club_list_bg" height="80" width="867" scale9Grid="13,18,85,29"/>
+	<e:Label id="_timeText" text="2999:22:22\n22:22:32" x="22.71" textColor="0x77310f" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" width="151" anchorOffsetY="0" height="48" lineSpacing="3" verticalCenter="0"/>
+	<e:Label id="_roomTxt" text="房间号:3232323\n云霄麻将 19局 2人参与" x="264.07" textColor="0x77310F" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" width="277.33" anchorOffsetY="0" height="48" lineSpacing="3" verticalCenter="0"/>
+	<e:Label id="_gradeText" text="+222" x="586.71" textColor="0x77310F" fontFamily="Microsoft YaHei" size="28" anchorOffsetX="0" width="124" anchorOffsetY="0" height="28" lineSpacing="3" verticalCenter="0" textAlign="center"/>
+	<eui:WxButton id="_detailBtn" label="详 情" x="718.32" verticalCenter="0">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="132" height="52" source="mjl_panel_common_json.mjl_btn4"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"  fontFamily="Microsoft YaHei"  stroke="2" strokeColor="0x135b17"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+</e:Skin>

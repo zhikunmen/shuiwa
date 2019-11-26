@@ -1,0 +1,10 @@
+{"file":"game_userInfo.png","frames":{
+"userInfo_gift6":{"x":168,"y":82,"w":77,"h":77,"offX":0,"offY":17,"sourceW":77,"sourceH":94},
+"userInfo_male":{"x":230,"y":161,"w":22,"h":24,"offX":0,"offY":0,"sourceW":22,"sourceH":24},
+"pdk_gift_item_bg":{"x":0,"y":0,"w":87,"h":85,"offX":0,"offY":0,"sourceW":87,"sourceH":85},
+"userInfo_female":{"x":230,"y":187,"w":18,"h":28,"offX":2,"offY":0,"sourceW":22,"sourceH":28},
+"userInfo_gift1":{"x":168,"y":0,"w":76,"h":80,"offX":1,"offY":14,"sourceW":77,"sourceH":94},
+"userInfo_gift2":{"x":89,"y":0,"w":77,"h":82,"offX":0,"offY":12,"sourceW":77,"sourceH":94},
+"userInfo_gift3":{"x":89,"y":84,"w":73,"h":80,"offX":2,"offY":12,"sourceW":77,"sourceH":94},
+"userInfo_gift4":{"x":164,"y":161,"w":64,"h":80,"offX":7,"offY":14,"sourceW":77,"sourceH":94},
+"userInfo_gift5":{"x":0,"y":166,"w":58,"h":84,"offX":4,"offY":0,"sourceW":77,"sourceH":94}}}

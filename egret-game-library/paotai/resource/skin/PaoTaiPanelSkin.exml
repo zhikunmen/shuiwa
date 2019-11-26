@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PaoTaiPanelSkin" width="1020" height="526" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+
+	<e:Image x="-1" y="0" scale9Grid="34,148,46,186" width="1020" height="526"  source="paotai_panel_json.paotai_bg"/>
+	<e:Image x="312" y="-5"  source="paotai_panel_json.paotai_common_bg"/>
+	<e:Image scaleX="-1" x="709" y="-5"  source="paotai_panel_json.paotai_common_bg"/>
+	<e:Image y="13" horizontalCenter="0" source="paotai_panel_json.paotai_title"/>
+
+	<eui:WxButton id="_closeBtn" label="" y="6" right="10">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="paotai_panel_json.paotai_btn_close" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</eui:WxButton>
+
+	<e:Scroller width="920" height="375" y="104" anchorOffsetX="0" anchorOffsetY="0" id="scroller" horizontalCenter="0">
+		<e:Group id="paotia_lst">
+			<e:layout>
+				<e:HorizontalLayout gap="20"/>
+			</e:layout>
+		</e:Group>
+
+	</e:Scroller>
+
+</e:Skin>

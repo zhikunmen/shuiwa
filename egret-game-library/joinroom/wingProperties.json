@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/joinroom.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/lobby.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/loading/joinroom.thm.json"
+}

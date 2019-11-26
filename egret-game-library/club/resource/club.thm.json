@@ -1,0 +1,32 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/ActiveRoomInformationSkin.exml",
+		"resource/skin/ActiveRoomListItemSkin.exml",
+		"resource/skin/ClubAllBoxSkin.exml",
+		"resource/skin/ClubBoxItemSkin.exml",
+		"resource/skin/ClubCloseSkin.exml",
+		"resource/skin/ClubDeskSkin.exml",
+		"resource/skin/ClubEnterRemarksSkin.exml",
+		"resource/skin/ClubItemDeskSkin.exml",
+		"resource/skin/ClubNoticeSkin.exml",
+		"resource/skin/ClubPlayerListHeadSkin.exml",
+		"resource/skin/ClubPlayerListSkin.exml",
+		"resource/skin/ClubRoomdetailsheadSkin.exml",
+		"resource/skin/ClubRoomdetailsSkin.exml",
+		"resource/skin/ClubUserInfoSkin.exml",
+		"resource/skin/CreateMatchSetSkin.exml",
+		"resource/skin/guangdong/gd_ClubDeskSkin.exml",
+		"resource/skin/guangdong/gd_ClubItemDeskSkin.exml",
+		"resource/skin/Match/MatchAddYelloPanelSkin.exml",
+		"resource/skin/Match/MatchFightingItemSkin.exml",
+		"resource/skin/Match/MatchFightingNSSkin.exml",
+		"resource/skin/Match/MatchManageSkin.exml",
+		"resource/skin/Match/MatchMemberItemSkin.exml",
+		"resource/skin/Match/MatchMessageItemSkin.exml",
+		"resource/skin/Match/MatchRadioButtonSkin.exml",
+		"resource/skin/Match/MatchTableItemSkin.exml",
+		"resource/skin/Match/MatchYelloItemSkin.exml"
+	],
+	"path": "resource/club.thm.json"
+}

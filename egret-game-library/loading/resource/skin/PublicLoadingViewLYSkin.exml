@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PublicLoadingViewLYSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="loading">
+			<tween:TweenItem target="{_explain_txf}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1500">
+					<tween:props>
+						<e:Object alpha="{0.2}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1500">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image source="mjf_loadingbg_jpg" left="0" right="0"/>
+	<e:Group height="96.97" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" bottom="171">
+		<e:Image id="_darkLine_bmp" width="358" y="33" source="lb_loading_darkLine_png" scale9Grid="21,10,4,3"/>
+		<e:Image id="_lightLine_bmp" width="344" y="37.5" source="lb_loading_lightLine_png" scale9Grid="9,6,5,1" x="8"/>
+		<e:Label id="_explain_txf" text="111" size="22" fontFamily="Microsoft YaHei" horizontalCenter="0.5" textColor="0xffffff"/>
+	</e:Group>
+	<e:Label id="_versionTxt" text="" fontFamily="Microsoft YaHei" size="22" right="0" bottom="0" textColor="0x999999"/>
+</e:Skin>

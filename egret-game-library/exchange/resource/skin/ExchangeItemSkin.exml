@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeItemSkin" width="251" xmlns:e="http://ns.egret.com/eui" xmlns:eui="eui.*" xmlns:w="http://ns.egret.com/wing" height="350">
+    <eui:WxButton id="click_btn" label="" name="423" x="0" y="-1">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image source="exchange_fare_bg" y="2" />
+                <e:Image source="exchange_icon_3" />
+                <e:Image id="icon_img"  horizontalCenter="0" verticalCenter="0" source="exchange_game_res_1_json.dh_jinbi_466_png"/>
+                <e:Image x="65" y="225"  source="mjl_match_huafei_png" scaleX="0.45" scaleY="0.45"/>
+	<e:Label id="des_lbl" width="251" text="5话费" textAlign="center" size="30" textColor="0x5cb16d" y="40" fontFamily="Microsoft YaHei" horizontalCenter="0"/>
+                <e:BitmapLabel id="cost_blbl" font="exchange_number_fnt" text="5" x="127" y="233" />
+            </e:Skin>
+        </e:skinName>
+    </eui:WxButton>
+	<e:Image id="tpsBg_img" source="exchange_tips_bg_png" y="308" x="-6"/>
+	<e:Label id="tip_lbl" text="今日可兑换次数：--" textColor="0x1450A7" textAlign="center" size="22" width="263" y="319" x="-6"/>
+</e:Skin>

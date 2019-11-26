@@ -1,0 +1,16 @@
+{"file":"match_rush_sucFont.png","frames":{
+"2":{"x":36,"y":68,"w":10,"h":14,"offX":0,"offY":6,"sourceW":10,"sourceH":26},
+"3":{"x":12,"y":60,"w":10,"h":14,"offX":0,"offY":6,"sourceW":10,"sourceH":26},
+"4":{"x":18,"y":28,"w":11,"h":14,"offX":0,"offY":6,"sourceW":11,"sourceH":26},
+"5":{"x":18,"y":44,"w":10,"h":14,"offX":0,"offY":6,"sourceW":10,"sourceH":26},
+"6":{"x":24,"y":68,"w":10,"h":14,"offX":0,"offY":6,"sourceW":10,"sourceH":26},
+"7":{"x":48,"y":68,"w":10,"h":14,"offX":0,"offY":6,"sourceW":10,"sourceH":26},
+"8":{"x":30,"y":52,"w":10,"h":14,"offX":0,"offY":6,"sourceW":10,"sourceH":26},
+"9":{"x":42,"y":52,"w":10,"h":14,"offX":0,"offY":6,"sourceW":10,"sourceH":26},
+"0":{"x":0,"y":54,"w":10,"h":14,"offX":0,"offY":6,"sourceW":10,"sourceH":26},
+"1":{"x":54,"y":0,"w":6,"h":14,"offX":0,"offY":6,"sourceW":6,"sourceH":26},
+"成":{"x":0,"y":28,"w":16,"h":24,"offX":0,"offY":1,"sourceW":16,"sourceH":26},
+"闯":{"x":0,"y":0,"w":16,"h":26,"offX":0,"offY":0,"sourceW":16,"sourceH":26},
+"功":{"x":18,"y":0,"w":16,"h":26,"offX":0,"offY":0,"sourceW":16,"sourceH":26},
+"关":{"x":36,"y":26,"w":16,"h":24,"offX":0,"offY":0,"sourceW":16,"sourceH":26},
+"人":{"x":36,"y":0,"w":16,"h":24,"offX":0,"offY":1,"sourceW":16,"sourceH":26}}}

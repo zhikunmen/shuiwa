@@ -1,0 +1,8 @@
+{
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/skin/HelpPanelSkin.exml",
+		"resource/skin/RadioButtonSkin.exml"
+	],
+	"path": "resource/playlist.thm.json"
+}

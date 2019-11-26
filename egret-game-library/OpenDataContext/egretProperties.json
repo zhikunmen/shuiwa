@@ -1,0 +1,16 @@
+{
+	"engineVersion": "5.2.8",
+	"compilerVersion": "5.2.8",
+	"template": {},
+	"target": {
+		"current": "wxgame"
+	},
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "eui"
+		}
+	]
+}

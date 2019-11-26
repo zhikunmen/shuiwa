@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchTableItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="0" scale9Grid="34,72,180,28" source="club_json.club_manage_roombg"/>
+	<e:Label id="_gamename" text="包厢3(5-6人十三水)" verticalCenter="-66" textColor="0xFFFFFF" stroke="0" height="44" verticalAlign="middle" textAlign="center" horizontalCenter="0" size="24" fontFamily="Microsoft YaHei" backgroundColor="0xffffff"/>
+	<e:Label id="contentLabel" text="7123542" horizontalCenter="0.5" verticalCenter="-15" textColor="0xffffff" stroke="0" height="30" verticalAlign="middle" textAlign="center" anchorOffsetY="0" fontFamily="Microsoft YaHei" bold="true"/>
+	<e:Label id="_gametype" text="等待中" horizontalCenter="0.5" verticalCenter="26.5" verticalAlign="middle" textAlign="center" anchorOffsetY="0" size="24" fontFamily="Microsoft YaHei" textColor="0x47db74"/>
+	<e:Label id="_gamenum" text="4/4" verticalCenter="71" textColor="0xFFFFFF" stroke="0" textAlign="left" size="24" fontFamily="Microsoft YaHei" backgroundColor="0xFFFFFF" x="173"/>
+	<e:Image source="club_json.club_manage_roomper" x="144" y="160"/>
+</e:Skin>

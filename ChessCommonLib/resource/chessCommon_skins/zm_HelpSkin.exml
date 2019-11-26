@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="chessCommonLib.zm_HelpSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:chessCommonLib="chessCommonLib.*">
+	<e:Group width="825" height="554" x="-1" y="1.52" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Image source="zm_help_bg_png" y="143.74" anchorOffsetX="0" width="729.57" anchorOffsetY="0" height="370.49" scale9Grid="17,15,17,21" x="38"/>
+		<e:Label id="_titleTxt" text="我是标题" y="167.79" textColor="0xe6c347" fontFamily="Microsoft YaHei" horizontalCenter="-9.5" textAlign="center"/>
+		<e:Label id="_typeTxt" text="经典模式  底注:100  入场:2000  离场:1000" y="107.18" fontFamily="Microsoft YaHei" textAlign="center" rotation="359.91" anchorOffsetX="0" width="724.96" textColor="0xffffff" size="24" horizontalCenter="0"/>
+		<e:Scroller width="693" height="255" x="58.99" y="208.73" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group anchorOffsetX="0" width="688">
+				<e:Label id="_contentTxt" text="暂无" x="29.85" y="21.15" anchorOffsetX="0" width="641" size="18"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

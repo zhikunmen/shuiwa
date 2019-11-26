@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideTaskPanelSkin"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="1175" height="720">
+	<e:Image scale9Grid="31,202,21,26" width="1056" y="101" source="lb_xinshou_bg_png" locked="true"/>
+	<e:Image x="861" y="121" source="guide_task_json.lb_cz_hongbao"/>
+	<e:Image x="6" y="548" scale9Grid="71,53,6,6" width="838" source="lb_xinshou_dibu_png"/>
+	<e:Image source="guide_task_json.lb_cz_title" x="276" y="14"/>
+
+
+	<e:Image source="guide_task_json.lb_cz_day_bg" x="78" y="156" scale9Grid="14,12,1,1" width="753" height="76" anchorOffsetY="0"/>
+	<e:Image x="38" y="255" source="guide_task_json.lb_cz_fuka"/>
+	<e:Image id="proBg_img" source="guide_task_json.lb_cz_jz_1" x="898" y="303.9" scale9Grid="10,9,1,1" width="240" visible="false"/>
+	<e:Image id="pro_img" source="guide_task_json.lb_cz_jz_2" x="898" y="303.9" scale9Grid="10,10,1,1" width="240" visible="false"/>
+	<e:Image id="light_img" source="guide_task_json.lb_cz_fuka_light" x="142" y="333" anchorOffsetX="65" anchorOffsetY="65"/>
+	<eui:WxButton id="exchange_btn" label="" x="887.5" y="386">
+		<eui:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lb_xinshou_duihuan_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+	<e:List id="task_lst" x="271" y="247" itemRendererSkinName="GuideTaskItemSkin">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:List>
+	<e:List id="day_lst" x="86.5" y="165" itemRendererSkinName="GuideTaskBtnSkin">
+		<e:layout>
+			<e:HorizontalLayout gap="5"/>
+		</e:layout>
+	</e:List>
+	<e:Label id="giftCount_lbl" text="1奖券" x="887" y="199" fontFamily="Microsoft YaHei" size="55" textAlign="center" textColor="0xff0000" bold="true" anchorOffsetX="0" width="266"/>
+	<e:Label id="reward_lbl" text="1奖券" x="42" y="391.5" fontFamily="Microsoft YaHei" size="34" textAlign="center" bold="true" anchorOffsetX="0" width="200" textColor="0xfffc00"/>
+	<e:Label id="pro_lbl" text="进度:0/0" x="53" y="447" fontFamily="Microsoft YaHei" size="30" textAlign="center" anchorOffsetX="0" width="180" textColor="0xffffff"/>
+</e:Skin>

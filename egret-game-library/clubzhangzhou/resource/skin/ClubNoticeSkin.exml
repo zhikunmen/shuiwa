@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubNoticeSkin" width="700" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="2.08" y="26.67" anchorOffsetX="0" width="695.85" anchorOffsetY="0" height="468.39" source="mjl_common_bg_png" scale9Grid="28,46,21,166" locked="true"/>
+	<e:Image source="mjl_common_title_png" horizontalCenter="0" top="0" locked="true"/>
+	<e:Image y="13" horizontalCenter="0" source="club_new_menage_json.club_notice_title" locked="true"/>
+	<e:Image anchorOffsetX="0" width="613.33" anchorOffsetY="0" height="279.33" horizontalCenter="1.5" y="86" source="mjl_common_bg1_png" scale9Grid="5,5,30,30"/>
+	<e:Button id="modifyBtn" label="" y="380.33" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_common_newsure1_png" source.down="mjl_common_newsure2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="" x="-13.8" y="0" scaleX="0.7" scaleY="0.7">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_common_closebtn1_png" source.down="mjl_panel_common_json.mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:EditableText id="noticeTxt" width="550" height="212" text="" x="74.67" y="119.66" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" multiline="true" prompt="暂无公告" promptColor="0x796e65" textColor="0x773210" fontFamily="Microsoft YaHei"/>
+	<e:Label id="notice" text="" x="74.67" y="119.66" width="550" height="212" textColor="0x773210" fontFamily="Microsoft YaHei"/>
+</e:Skin>

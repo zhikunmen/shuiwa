@@ -1,0 +1,16 @@
+{
+	"resources": [
+		{
+			"name": "pdk_set_json",
+			"type": "sheet",
+			"url": "pokerset/res/pdk_set.json",
+			"subkeys": "pdk_small_bg3,pdk_small_bg4,pdk_set_arrow_left1,pdk_set_arrow_left2,pdk_set_arrow_right1,pdk_set_arrow_right2,pdk_set_check1,pdk_set_check2,pdk_set_checkbtn1,pdk_set_checkbtn2,pdk_set_language,pdk_set_line,pdk_set_music,pdk_set_poker,pdk_set_poker1,pdk_set_sond,pdk_set_spot1,pdk_set_spot2,pdk_set_title,pdk_small_bg1,pdk_small_bg2"
+		}
+	],
+	"groups": [
+		{
+			"name": "poker_set",
+			"keys": "pdk_set_json"
+		}
+	]
+}

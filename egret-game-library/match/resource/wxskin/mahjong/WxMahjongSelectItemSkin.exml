@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WxMahjongSelectItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" width="292" height="410">
+	<eui:WxButton id="touch_btn" label="">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image id="bg_img" source="lb_jinbi_grade1_png" x="0" y="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="num_lbl" text="--" y="299" fontFamily="Microsoft YaHei" size="24" textColor="0xFFFFFF" x="112" anchorOffsetX="0" width="89" textAlign="center"/>
+	<e:Label text="底分" y="162" fontFamily="Microsoft YaHei" size="24" textColor="0xFFFFFF" horizontalCenter="0"/>
+	<e:Label id="point_lbl" text="2万" y="195" fontFamily="Microsoft YaHei" size="45" textColor="0xFFFFFF" horizontalCenter="0.5" bold="true"/>
+	<e:Label id="lowestCarry_lbl" text="2000准入" y="348" fontFamily="Microsoft YaHei" size="20" textColor="0xFFFFFF" x="105.5"/>
+	<e:Label id="desc_lbl" text="" y="96" fontFamily="Microsoft YaHei" size="22" width="160" textAlign="center" x="64.5"/>
+	<e:Image x="56" y="335" source="wx_lb_res_json.lb_jinbi_jinbi_png"/>
+	<eui:ArmatureComponent id="type_ac" horizontalCenter="0" verticalCenter="0" resName="biankuang"/>
+			</e:Skin>
+		</eui:skinName>
+	</eui:WxButton>
+</e:Skin>

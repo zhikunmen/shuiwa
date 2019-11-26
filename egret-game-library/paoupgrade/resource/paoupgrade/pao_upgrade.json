@@ -1,0 +1,65 @@
+{
+  "file": "pao_upgrade.png",
+  "frames": {
+    "paotai_energy": {
+      "x": 0,
+      "y": 162,
+      "w": 20,
+      "h": 30,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 20,
+      "sourceH": 30
+    },
+    "paotai_upgrade_bar": {
+      "x": 188,
+      "y": 0,
+      "w": 19,
+      "h": 16,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 23,
+      "sourceH": 20
+    },
+    "paotai_upgrade_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 186,
+      "h": 75,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 187,
+      "sourceH": 76
+    },
+    "paotai_upgrade_btn": {
+      "x": 77,
+      "y": 77,
+      "w": 71,
+      "h": 81,
+      "offX": 2,
+      "offY": 1,
+      "sourceW": 75,
+      "sourceH": 83
+    },
+    "paotai_upgrade_pbg": {
+      "x": 22,
+      "y": 162,
+      "w": 23,
+      "h": 20,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 23,
+      "sourceH": 20
+    },
+    "take_redpack_btn": {
+      "x": 0,
+      "y": 77,
+      "w": 75,
+      "h": 83,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 75,
+      "sourceH": 83
+    }
+  }
+}

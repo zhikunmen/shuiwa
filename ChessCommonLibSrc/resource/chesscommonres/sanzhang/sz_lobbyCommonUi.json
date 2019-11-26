@@ -1,0 +1,45 @@
+{
+  "file": "sz_lobbyCommonUi.png",
+  "frames": {
+    "sz_lobbyRankToday1": {
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 240,
+      "sourceH": 88
+    },
+    "sz_lobbyRankToday2": {
+      "x": 0,
+      "y": 90,
+      "w": 239,
+      "h": 88,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 240,
+      "sourceH": 88
+    },
+    "sz_lobbyRankToday3": {
+      "x": 242,
+      "y": 0,
+      "w": 239,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 240,
+      "sourceH": 88
+    },
+    "sz_lobbyRankToday4": {
+      "x": 241,
+      "y": 90,
+      "w": 239,
+      "h": 88,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 240,
+      "sourceH": 88
+    }
+  }
+}

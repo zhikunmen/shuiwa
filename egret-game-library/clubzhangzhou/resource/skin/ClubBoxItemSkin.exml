@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubBoxItemSkin" width="1090" height="118.67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<w:Config id="160921ce7e5"/>
+	<e:Image id="bg" x="6" y="3.34" anchorOffsetX="0" width="1080" anchorOffsetY="0" height="110" source="club_new_menage_json.mjl_club_txt" scale9Grid="108,46,25,2" locked="true"/>
+	<e:Image id="head" width="65" height="65" x="103.16" y="25.84" anchorOffsetX="0" anchorOffsetY="0" source="club_new_menage_json.club_deskseat_head"/>
+	<e:Image width="65" height="65" x="103.16" y="25.84" anchorOffsetX="0" anchorOffsetY="0" source="club_new_menage_json.club_deskseat_bg"/>
+
+
+	<e:Label id="boxNameText" text="老友圈名称部名称" x="177.65" y="21.68" fontFamily="Microsoft YaHei" size="26" rotation="359.93" bold="true" anchorOffsetX="0" width="211" anchorOffsetY="0" height="27" textColor="0x796e65"/>
+	<e:Label id="roomNameText" text="十十十十十十十十" x="177.65" y="66.51" size="22" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="187" anchorOffsetY="0" height="24" textColor="0x796e65"/>
+	<e:Label text="老友圈号:" x="418.65" y="63.85" fontFamily="Microsoft YaHei" size="24" textColor="0x796e65"/>
+	<e:Label id="idText" text="123456" x="524.81" y="63.85" fontFamily="Microsoft YaHei" size="24" anchorOffsetX="0" width="95" anchorOffsetY="0" height="24" textColor="0x796e65"/>
+	<e:Label text="群主:" x="419.98" y="24.02" fontFamily="Microsoft YaHei" size="24" anchorOffsetY="0" height="26" textColor="0x796e65"/>
+	<e:Label id="nameText" text="群主群主群主" x="480.01" y="24.02" fontFamily="Microsoft YaHei" size="24" maxChars="6" anchorOffsetX="0" width="147" anchorOffsetY="0" height="25" textColor="0x796e65"/>
+	<e:Label id="startRoomText" text="五桌开始" x="672.15" y="63.17" anchorOffsetX="0" width="120" anchorOffsetY="0" height="24" size="24" fontFamily="Microsoft YaHei" textColor="0xb56004"/>
+	<e:Label id="waitRoomText" text="10桌等待中" x="672.15" y="24.51" size="24" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="21.33" textColor="0xce3c35"/>
+	<e:Label id="numberText" text="1" x="32.14" size="50" textAlign="center" textColor="0x8d450c" verticalCenter="-1"/>
+
+	<e:Image id="redPoint" x="1063" y="-1.16" anchorOffsetX="0" width="27" anchorOffsetY="0" height="27" source="club_new_menage_json.redDot"/>
+	<eui:WxButton  id="inBtn" label="进入" x="822.8" y="32.84" anchorOffsetX="0" anchorOffsetY="0">
+		<eui:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="122" height="52" source="mjl_panel_common_json.mjl_btn3"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x793f20"/>
+			</e:Skin>
+		</eui:skinName>
+
+
+	</eui:WxButton >
+	<eui:WxButton  id="outBtn" label="退出" x="954.32" y="32.84" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="122" height="52" source="mjl_panel_common_json.mjl_btn4" scale9Grid="42,28,87,1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x135b17"/>
+			</e:Skin>
+		</e:skinName>
+
+	</eui:WxButton >
+
+</e:Skin>

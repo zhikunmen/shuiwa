@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubBoxSkin" width="1150" height="650" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*">
+	<e:Image x="0" y="22.43" anchorOffsetX="0" width="1139" anchorOffsetY="0" height="626.57" source="mjl_common_bg_png" scale9Grid="29,67,15,177" locked="true"/>
+	<e:Image source="mjl_common_title_png" horizontalCenter="0" top="0" locked="true"/>
+	<e:Image y="9" horizontalCenter="-2.5" source="club_new_menage_json.mjl_club_title"/>
+
+	<e:Image source="club_tishi_title_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="mjl_common_bgline_png" anchorOffsetX="0" anchorOffsetY="0" height="-28.33" right="50" left="36" bottom="105"/>
+	<e:Button id="_closeBtn" label="" y="2" horizontalCenter="-539">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_common_closebtn1_png" source.down="mjl_panel_common_json.mjl_common_closebtn2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+<eui:WxButton id="_createBtn" label="创建老友圈" y="546.06" x="265.03">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei"  stroke="2" strokeColor="0x91481f"/>
+				</e:Skin>
+			</e:skinName>
+
+		</eui:WxButton>
+		<eui:WxButton id="_joinBtn" label="加入老友圈" y="546.06" x="668.03">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="mjl_panel_common_json.mjl_btn2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" stroke="2" strokeColor="0x216300"/>
+				</e:Skin>
+			</e:skinName>
+
+		</eui:WxButton>
+
+
+
+
+</e:Skin>
